@@ -8,9 +8,9 @@ In other words, the request never made it to the application. IIS looked at the 
 
 If you want *ALL* static files to be served from MVC (rather than IIS) you add this to your web.config
 
-    <modules runAllManagedModulesForAllRequests="true">
+    &lt;modules runAllManagedModulesForAllRequests="true">
 
-...under <system.WebServer>
+...under &lt;system.WebServer>
 
 aka -- [THE  DREADED RAMMFAR!!](http://www.hanselman.com/blog/BackToBasicsDynamicImageGenerationASPNETControllersRoutingIHttpHandlersAndRunAllManagedModulesForAllRequests.aspx)
 
@@ -19,12 +19,12 @@ But that means *every* request will be sent to Asp.net, which could create a who
 If you only want a subset -- a folder for example -- to be routed through Asp.net (and MVC) -- then you can use this approach:
 
 Under this node:
-  <system.webServer>
-    <handlers>
+  &lt;system.webServer>
+    &lt;handlers>
     
 Add, for example:    
 
-      <add name="MyImageHandler" path="HelpImg/*" verb="GET" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0"/>
+      &lt;add name="MyImageHandler" path="HelpImg/*" verb="GET" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0"/>
 
 name is unimportant, just a name.
 verb is GET, because we're only interested in getting the images.
@@ -32,7 +32,7 @@ path is important... it's the folder which we are allowing. For me it was HelpIm
 
 The rest of the rule is the same as this existing rule, which you should find in that handlers section already:
 
-<add name="ExtensionlessUrlHandler-Integrated-4.0" path="*." verb="GET,HEAD,POST,DEBUG,PUT,DELETE,PATCH,OPTIONS" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0"/>
+&lt;add name="ExtensionlessUrlHandler-Integrated-4.0" path="*." verb="GET,HEAD,POST,DEBUG,PUT,DELETE,PATCH,OPTIONS" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0"/>
 
 ...and by the time you're reusing this technique, that other rule may have moved on a bit... so make it match with it.
 

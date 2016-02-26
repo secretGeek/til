@@ -1,3 +1,5 @@
 get.ps1
+get_summarize_build.ps1
 give.ps1
 *.pre
+_book/
