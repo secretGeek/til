@@ -1,0 +1,1 @@
+# Format-Table with Expressions.This is a custom Get-ChildItem command, for use with the TIL folder.But it also demonstrates use of Format-Table with expressions.    dir . *.md -recurse | format-table @{Expression={$_.Name};Label="Name";width=50},@{Expression={$_.DirectoryName.Split("\")[-1]};Label="Topic";width=25}        I've added it to my profile as function ls1.
