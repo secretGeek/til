@@ -3,18 +3,53 @@
 * [Read me](readme.md)
 
 
-[asp.netmvc](/asp.netmvc/index.md)
-[aspnetcore](/aspnetcore/index.md)
-[chocolatey](/chocolatey/index.md)
-[console](/console/index.md)
-[excel](/excel/index.md)
-[google](/google/index.md)
-[graphics](/graphics/index.md)
-[mercurial](/mercurial/index.md)
-[music](/music/index.md)
-[paypal](/paypal/index.md)
-[powershell](/powershell/index.md)
-[security_virus_spam_etc](/security_virus_spam_etc/index.md)
-[sql_server](/sql_server/index.md)
-[sql_spatial](/sql_spatial/index.md)
-[visual_studio](/visual_studio/index.md)
+ * asp.netmvc
+   * [404](/asp.netmvc/404.md)
+   * [helpful_error_page](/asp.netmvc/helpful_error_page.md)
+   * [serve_some_static_files_from_mvc_but_not_all](/asp.netmvc/serve_some_static_files_from_mvc_but_not_all.md)
+ * aspnetcore
+ * chocolatey
+   * [list_localonly](/chocolatey/list_localonly.md)
+ * console
+   * [consolez](/console/consolez.md)
+   * [settings](/console/settings.md)
+ * excel
+   * [extract_year_and_month_from_date_for_grouping_purposes](/excel/extract_year_and_month_from_date_for_grouping_purposes.md)
+ * google
+   * [search_by_file_extension](/google/search_by_file_extension.md)
+ * graphics
+   * [flowcharts](/graphics/flowcharts.md)
+ * mercurial
+   * [orig_files](/mercurial/orig_files.md)
+ * music
+   * [drum_beats](/music/drum_beats.md)
+ * paypal
+   * [download_custom_daterange](/paypal/download_custom_daterange.md)
+ * powershell
+   * [alias](/powershell/alias.md)
+   * [format_table_with_expressions](/powershell/format_table_with_expressions.md)
+   * [get-member](/powershell/get-member.md)
+   * [histogram](/powershell/histogram.md)
+   * [interactive_remote_script](/powershell/interactive_remote_script.md)
+   * [multi-line_comments](/powershell/multi-line_comments.md)
+   * [prompt](/powershell/prompt.md)
+   * [runas](/powershell/runas.md)
+   * [see_function_definition](/powershell/see_function_definition.md)
+   * [sort](/powershell/sort.md)
+   * [tree](/powershell/tree.md)
+ * security_virus_spam_etc
+   * [google_search_console](/security_virus_spam_etc/google_search_console.md)
+   * [virus_total](/security_virus_spam_etc/virus_total.md)
+ * sql_server
+   * [datetime_trim_hours_milliseconds](/sql_server/datetime_trim_hours_milliseconds.md)
+   * [find_view_function_or_sproc](/sql_server/find_view_function_or_sproc.md)
+   * [histogram](/sql_server/histogram.md)
+   * [scalar_function_AfterChar](/sql_server/scalar_function_AfterChar.md)
+   * [slow_and_long_running_queries](/sql_server/slow_and_long_running_queries.md)
+   * [sp_heltpext](/sql_server/sp_heltpext.md)
+ * sql_spatial
+   * [construct_line_geo_from_two_points](/sql_spatial/construct_line_geo_from_two_points.md)
+ * visual_studio
+   * [ctor](/visual_studio/ctor.md)
+   * [html_auto_close_tags](/visual_studio/html_auto_close_tags.md)
+   * [html_surround_with](/visual_studio/html_surround_with.md)
