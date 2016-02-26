@@ -36,6 +36,7 @@
 
  # mercurial
 
+   * [git versus hg console output](/mercurial/git_versus_hg_console_output.md)
    * [orig files](/mercurial/orig_files.md)
 
  # music
