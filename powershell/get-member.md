@@ -23,10 +23,6 @@ etc.
 
 Sometimes I think you use get-member like this:
 
-  alias | % {get-member $_ }  
+    alias | % {get-member $_ }  
 
 BUT NO -- that's not needed and it doesn't work.
-
-  
-  
-  

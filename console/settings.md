@@ -10,7 +10,7 @@ Settings dialog is under the edit menu. (Or hit Ctrl S) (As opposed to Tools -> 
 
 Okay I'm just going to record all of the non-standard settings I use.
 
-In theory I could use [cogs](https://bitbucket.org/rhysparry/cogs) to manage this, but i guess i don't.
+In theory I could use [cogs](https://bitbucket.org/rhysparry/cogs) to manage all my settings for all my apps, but currently I don't.
 
 
 * Appearance -> Styles

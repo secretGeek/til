@@ -2,7 +2,7 @@
 
 An example of a selection bias.
 
-You don't get the opportunity to gather evidence from the "non-survivors". Hence the evidence you do see is widly tained.
+You don't get the opportunity to gather evidence from the "non-survivors". Hence the evidence you do see is wildly tainted.
 
 e.g
 

@@ -3,10 +3,18 @@
 
     sort -unique
 
-# To Sort by a member
+e.g.
 
-use sort -property "propertyName}
+    1..100 | % { $_ % 5} | sort -unique
+    
+    
+# To Sort by a Property
+
+use:
+
+    sort -property "propertyName"
 
 e.g. 
-    gal -def "get*" | sort -property definition
+
+    get-alias -def "get*" | sort -property definition | ft -property Name, Definition
     

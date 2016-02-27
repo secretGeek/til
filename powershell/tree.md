@@ -4,20 +4,10 @@ tree command is great
 
     > tree
     C:.
-    +---aspnetcore
+    +---asp.net_MVC
     +---powershell
     +---visual_studio
     
 and to see files:
 
-
-    > tree /f
-    C:.
-    +---aspnetcore
-    +---powershell
-    ¦       runas.md
-    ¦       tree.md
-    ¦
-    +---visual_studio
-            ctor.md
-            
+    tree /f
