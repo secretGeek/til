@@ -1,10 +1,10 @@
-# to have my gitbook be updated whenever I push to the repo
+# To have your gitbook updated whenever I push to the repo
 
 in gitbook, tell it which repository to use:
 
 e.g. in
 
-    https://www.gitbook.com/book/{yourUsername}/{yourBookName}/settings/github
+> https://www.gitbook.com/book/{yourUsername}/{yourBookName}/settings/github
 
 
 Tell it:
@@ -39,6 +39,7 @@ Once that is working... when you push your repo... your book will update.
 
 It might take a minute. If you go to your book while it is building, they show you a "building" page.
 
+> Your book is currently being updated, this can take up to a few minutes.
 
 
 

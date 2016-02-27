@@ -1,5 +1,5 @@
 ﻿
-# Chapter &mdash; visual_studio
+# Chapter &mdash; visual studio
 ## Contents
  
 * [ctor](ctor.md)

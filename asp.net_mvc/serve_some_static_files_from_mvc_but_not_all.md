@@ -8,7 +8,7 @@ In other words, the request never made it to the application. IIS looked at the 
 
 If you want *ALL* static files to be served from MVC (rather than IIS) you add this to your web.config
 
-    &lt;modules runAllManagedModulesForAllRequests="true">
+    <modules runAllManagedModulesForAllRequests="true">
 
 ...under &lt;system.WebServer>
 
@@ -19,26 +19,27 @@ But that means *every* request will be sent to Asp.net, which could create a who
 If you only want a subset -- a folder for example -- to be routed through Asp.net (and MVC) -- then you can use this approach:
 
 Under this node:
-  &lt;system.webServer>
-    &lt;handlers>
+
+    <system.webServer>
+        <handlers>
     
 Add, for example:    
 
-      &lt;add name="MyImageHandler" path="HelpImg/*" verb="GET" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0"/>
+    <add name="MyImageHandler" path="HelpImg/*" verb="GET" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0"/>
 
-name is unimportant, just a name.
-verb is GET, because we're only interested in getting the images.
-path is important... it's the folder which we are allowing. For me it was HelpImg/*
+`name` is unimportant, just a name.
+`verb` is `GET`, because we're only interested in getting the images.
+`path` is important... it's the folder which we are allowing. For me it was `HelpImg/*`
 
 The rest of the rule is the same as this existing rule, which you should find in that handlers section already:
 
-&lt;add name="ExtensionlessUrlHandler-Integrated-4.0" path="*." verb="GET,HEAD,POST,DEBUG,PUT,DELETE,PATCH,OPTIONS" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0"/>
+    <add name="ExtensionlessUrlHandler-Integrated-4.0" path="*." verb="GET,HEAD,POST,DEBUG,PUT,DELETE,PATCH,OPTIONS" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0"/>
 
 ...and by the time you're reusing this technique, that other rule may have moved on a bit... so make it match with it.
 
 
-Thanks to Darren Dimitrov's answers here.
+Thanks to Darin Dimitrov's answers here.
 
-http://stackoverflow.com/questions/14327476/prevent-static-file-handler-from-intercepting-filename-like-url
-http://stackoverflow.com/questions/16997963/asp-net-mvc-4-filepathresult-and-staticfile-handlers
+ * http://stackoverflow.com/questions/14327476/prevent-static-file-handler-from-intercepting-filename-like-url
+ * http://stackoverflow.com/questions/16997963/asp-net-mvc-4-filepathresult-and-staticfile-handlers
 

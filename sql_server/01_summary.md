@@ -1,5 +1,5 @@
 ﻿
-# Chapter &mdash; sql_server
+# Chapter &mdash; sql server
 ## Contents
  
 * [datetime trim hours milliseconds](datetime_trim_hours_milliseconds.md)

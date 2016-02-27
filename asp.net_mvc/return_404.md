@@ -1,6 +1,6 @@
 # Want to return 404 from a method...
 
-it's as easy as 
+It's as easy as 
 
     return HttpNotFound();
 
@@ -19,7 +19,7 @@ Or for 403 -- try this:
     return new HttpUnauthorizedResult(message);
 
     
-And there's this as well....
+And there's this as well...
 
+    return new HttpStatusCodeResult((int)HttpStatusCode.OK);
 
-    return new HttpStatusCodeResult((int)HttpStatusCode.OK);    
