@@ -1,0 +1,24 @@
+{powershell:
+
+$currentFolder = ($file -split '\\')[-2]
+$currentPath = ((pwd).path -split '\\')[-1]
+
+if ($currentPath -ne $currentfolder) 
+{ 
+    pushd $currentFolder; 
+    $doPop = $true 
+}
+
+""
+"# Chapter &mdash; $currentFolder"
+"## Contents"
+" "
+#" * [$currentFolder](01_summary.md)"
+
+Get-ChildItem . *.md |    
+    ? { $_.Name -ne "01_summary.md" } |
+    % { "* [" + ($_.Name.replace(".md","").replace("_"," ")) + "]($_)"}
+
+if ($doPop) { popd; $doPop = $false; }
+
+:}
