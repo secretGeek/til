@@ -1,15 +1,16 @@
-When you want to download a custom daterange from paypal
+#How to download a custom daterange from paypal
 
-you might think that the "reports" tab is what you're after... but you would be wrong!
+When you want to download a custom daterange from paypal, you might think that the "reports" tab is what you're after... but you would be wrong!
 
-what you're after is the activity tab. 
+What you're after is the activity tab. 
+
 And hit "download" straight away
 
-(Don't even bother entering the date range before you press download because it won't be remembered by the download page)\
+(Don't even bother entering the date range before you press download because it won't be remembered by the download page)
 
-for format:
+For "format"
 
-you'll want CSV not TSV, by the way. Because excel.
+You'll want CSV not TSV, by the way. Because Excel.
 
 
 

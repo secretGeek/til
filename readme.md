@@ -1,4 +1,11 @@
-#Today I learned
+#Today I Learned
+
+This is a place where I've started storing short descriptions of things I learn.
+
+
+Available as a gitbook here: http://TIL.secretGeek.net/
+
+Repository here: https://github.com/secretGeek/til
 
  
 ## Guidelines
@@ -11,7 +18,7 @@
  
  
  
-Inspired by 
+## Inspired by 
 
  * https://news.ycombinator.com/item?id=11068902
  * https://github.com/jbranchaud/til
