@@ -1,4 +1,4 @@
-# regression to the mean?
+# Regression to the mean?
 
 Had a fantastic start to the day? 
 

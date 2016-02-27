@@ -1,5 +1,5 @@
 ﻿
-# Chapter &mdash; graphics
-## Contents
+# graphics
+### chapter contents
  
 * [flowcharts](flowcharts.md)

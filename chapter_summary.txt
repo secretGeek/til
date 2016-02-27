@@ -10,8 +10,8 @@ if ($currentPath -ne $currentfolder)
 }
 
 ""
-("# Chapter &mdash; " + $currentFolder.replace("_"," "))
-"## Contents"
+("# " + $currentFolder.replace("_"," "))
+"### chapter contents"
 " "
 #" * [$currentFolder](01_summary.md)"
 

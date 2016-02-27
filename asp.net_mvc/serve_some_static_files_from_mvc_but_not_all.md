@@ -1,12 +1,12 @@
 # Serving some images from MVC but not all
 
-I want some .png requests to be served by asp.net MVC, and most of them to just be served as  static images.
+I want *some* `.png` requests to be served by asp.net MVC, and most of them to just be served as  static images.
 
-I got it working with the iis express, but it returned IIS level 404's when shipped to production (which uses real IIS).
+I got it working with the IIS express, but it returned IIS level 404's when shipped to production (which uses real IIS).
 
-In other words, the request never made it to the application. IIS looked at the url, assumed it referred to a static file, checked for the existance of the static file on disk, didn't find it, and thus quit.
+In other words, the request never made it to the application. IIS looked at the url, assumed it referred to a static file, checked for the existence of the static file on disk, didn't find it, and thus quit.
 
-If you want *ALL* static files to be served from MVC (rather than IIS) you add this to your web.config
+If you want *ALL* static files to be served from MVC (rather than IIS) you add this to your `web.config`
 
     <modules runAllManagedModulesForAllRequests="true">
 

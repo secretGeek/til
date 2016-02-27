@@ -1,6 +1,9 @@
 #Today I Learned
 
+
+
 This is a place where I've started storing short descriptions of things I learn.
+<br />&mdash;Leon Bambrick.
 
 
 Available as a gitbook here: http://TIL.secretGeek.net/
@@ -26,3 +29,7 @@ Repository here: https://github.com/secretGeek/til
  * https://github.com/thoughtbot/til
  * https://github.com/jwworth/til
  
+## See Also
+
+ * http://wiki.secretGeek.net
+ * http://www.secretGeek.net

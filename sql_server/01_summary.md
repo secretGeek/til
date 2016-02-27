@@ -1,6 +1,6 @@
 ﻿
-# Chapter &mdash; sql server
-## Contents
+# sql server
+### chapter contents
  
 * [datetime trim hours milliseconds](datetime_trim_hours_milliseconds.md)
 * [find view function or sproc](find_view_function_or_sproc.md)

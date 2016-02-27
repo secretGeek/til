@@ -6,7 +6,7 @@ To test if your profile exists, use this command...
 
 To create your profile file (and create a folder to stick it in), use this command:
 
-    New-Item -path $profile -type file –force
+    New-Item -path $profile -type file -force
 
 > `-path $profile` We pass in the full path of the item we want to create, (from the $profile variable).
 > `-type file` We tell New-Item that we want to create a file.

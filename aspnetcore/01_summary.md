@@ -1,4 +1,0 @@
-﻿
-# Chapter &mdash; aspnetcore
-## Contents
- 

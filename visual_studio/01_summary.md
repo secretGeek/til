@@ -1,6 +1,6 @@
 ﻿
-# Chapter &mdash; visual studio
-## Contents
+# visual studio
+### chapter contents
  
 * [ctor](ctor.md)
 * [html auto close tags](html_auto_close_tags.md)

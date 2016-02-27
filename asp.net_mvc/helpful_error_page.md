@@ -2,7 +2,8 @@
 
 
 
-Sometimes (for apps on an intranet), on the custom error page (such as `Shared\Error.cshtml`) I put something like this:
+Sometimes (for apps on an intranet), on the custom error page 
+ I put something like this:
 
 
     @model System.Web.Mvc.HandleErrorInfo
@@ -16,7 +17,7 @@ Sometimes (for apps on an intranet), on the custom error page (such as `Shared\E
     }
 
 
-I need to research this some more. Seems like you're leaking details to the outside world, so I don't recommend it for all sites.
+Since you're leaking details to the outside world I don't recommend it for all sites. Can also make sure it's only shown to some users.
 
 
     <customErrors defaultRedirect="~/Error/HttpError" mode="On">
@@ -24,6 +25,5 @@ I need to research this some more. Seems like you're leaking details to the outs
     </customErrors>
 
 
-I use Elmah.axd to log errors. **Always make sure Elmah.axd access is restricted.**
+I use Elmah.axd to log errors. See [elmah](/elmah.md) -- make sure it's secure.
 
-//TODO: tip re Elmah and security.

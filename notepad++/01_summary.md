@@ -1,5 +1,5 @@
 ﻿
-# Chapter &mdash; notepad++
-## Contents
+# notepad++
+### chapter contents
  
 * [todays date](todays_date.md)

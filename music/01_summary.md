@@ -1,5 +1,5 @@
 ﻿
-# Chapter &mdash; music
-## Contents
+# music
+### chapter contents
  
 * [drum beats](drum_beats.md)

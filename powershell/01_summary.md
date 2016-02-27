@@ -1,8 +1,9 @@
 ﻿
-# Chapter &mdash; powershell
-## Contents
+# powershell
+### chapter contents
  
 * [alias](alias.md)
+* [create profile](create_profile.md)
 * [format table with expressions](format_table_with_expressions.md)
 * [get-member](get-member.md)
 * [histogram](histogram.md)
