@@ -12,6 +12,7 @@
 	* [list localonly](/chocolatey/list_localonly.md)
 * [concepts](/concepts/01_summary.md)
 	* [mere exposure](/concepts/mere_exposure.md)
+	* [opportunity cost](/concepts/opportunity_cost.md)
 	* [regression to the mean](/concepts/regression_to_the_mean.md)
 	* [survivorship bias](/concepts/survivorship_bias.md)
 * [console](/console/01_summary.md)
