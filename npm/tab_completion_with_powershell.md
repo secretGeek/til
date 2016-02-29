@@ -12,7 +12,7 @@ From a freshly opened prompt (that does not need to be elevated)
     Import-Module TabExpansionPlusPlus
     Import-Module NPMTabCompletion    
 
-**You will also need to either add those commands either to your [profile](../powershell/create_profile.md), or run them in ever powershell session where you want `npm` tab completion to work.**
+You will also need to either add those commands to your [profile](../powershell/create_profile.md), or run them in every powershell session where you want `npm` tab completion to work.
 
 This not only gives you intellisense-style completion for `npm` commands, it also looks in a local package.json file to see if there are any commands you've specified locally.
 
