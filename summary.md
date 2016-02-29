@@ -60,7 +60,6 @@
 	* [Get All Available Modules](/powershell/Get_All_Available_Modules.md)
 	* [histogram](/powershell/histogram.md)
 	* [how to completely remove a module](/powershell/how_to_completely_remove_a_module.md)
-	* [install psget allow import module](/powershell/install_psget_allow_import_module.md)
 	* [interactive remote script](/powershell/interactive_remote_script.md)
 	* [module commands](/powershell/module_commands.md)
 	* [multi-line comments](/powershell/multi-line_comments.md)
