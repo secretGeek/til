@@ -53,4 +53,10 @@ Expect to see:
     
     
     
-See: http://superuser.com/questions/996417/what-is-install-module-command-in-powershell
+## Source
+
+ * http://superuser.com/questions/996417/what-is-install-module-command-in-powershell
+
+## See Also
+
+ * More about [package/module commands](../powershell/module_commands.md)

@@ -26,5 +26,6 @@
  * [Use Get-Module to list all available modules (packages)](Get_All_Available_Modules.md)
  * [How To Completely Remove a Module](how_to_completely_remove_a_module.md)
  * [How to remove a package provider](remove_package_provider.md)
+ * [PsGet Conflicts with PowershellGet](psget_conflicts_with_PowerShellGet.md)
  * [npm tab completion with powershell (module example)](../npm/tab_completion_with_powershell.html)
  
