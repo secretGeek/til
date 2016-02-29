@@ -45,6 +45,10 @@ I may have used a -ForceBootstrap parameter in there too, just for fun.
 
 
 
-# Source:
+## Source:
 
-    * http://stackoverflow.com/questions/32508133/powershell-packagemanagement-how-to-uninstall-a-package-provider
+ * http://stackoverflow.com/questions/32508133/powershell-packagemanagement-how-to-uninstall-a-package-provider
+
+## See Also
+
+ * More about [package/module commands](../powershell/module_commands.md)

@@ -31,3 +31,8 @@ e.g.
 And the results you see from get-module will depend upon where you are running a 32-bit or 64-bit version of Powershell. And which user.
 
 (A module is a "package" -- a specific type of package which exports a bunch of cmdlets.)
+
+
+## See also
+
+ * More about [package/module commands](../powershell/module_commands.md)

@@ -1,4 +1,4 @@
-# Use Get Module to list all available modules (packages)
+# Use Get-Module to list all available modules (packages)
 
 You might think that
 
@@ -12,3 +12,8 @@ This command lists all that are installed (i.e. available)
 
     
 To search outside your machine, use Find-Module. 
+
+
+## See also
+
+ * More about [package/module commands](../powershell/module_commands.md)
