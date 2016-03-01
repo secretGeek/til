@@ -69,6 +69,7 @@
 	* [interactive remote script](/powershell/interactive_remote_script.md)
 	* [module commands](/powershell/module_commands.md)
 	* [multi-line comments](/powershell/multi-line_comments.md)
+	* [pass argument to script](/powershell/pass_argument_to_script.md)
 	* [profile 4 different ones](/powershell/profile_4_different_ones.md)
 	* [prompt](/powershell/prompt.md)
 	* [psget conflicts with PowerShellGet](/powershell/psget_conflicts_with_PowerShellGet.md)
