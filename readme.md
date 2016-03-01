@@ -6,7 +6,11 @@ This is a place where I've started storing short descriptions of things I learn.
 <br />&mdash;Leon Bambrick.
 
 
-Available as a gitbook here: http://TIL.secretGeek.net/
+
+
+Available to read as an online gitbook here: http://TIL.secretGeek.net/
+
+As : [pdf](https://www.gitbook.com/download/pdf/book/secretgeek/til) |  [epub](https://www.gitbook.com/download/epub/book/secretgeek/til) | [mobi](https://www.gitbook.com/download/mobi/book/secretgeek/til)
 
 Repository here: https://github.com/secretGeek/til
 

@@ -1,1 +1,0 @@
-sgdm.exe "C:\users\leon\dropbox\secretGeek\util\til" "C:\users\leon\dropbox\secretgeek\all_someday_projects\git_playground\til"

@@ -13,6 +13,7 @@
 * [interactive remote script](interactive_remote_script.md)
 * [module commands](module_commands.md)
 * [multi-line comments](multi-line_comments.md)
+* [profile 4 different ones](profile_4_different_ones.md)
 * [prompt](prompt.md)
 * [psget conflicts with PowerShellGet](psget_conflicts_with_PowerShellGet.md)
 * [remove package provider](remove_package_provider.md)

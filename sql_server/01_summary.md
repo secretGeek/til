@@ -2,6 +2,7 @@
 # sql server
 ### chapter contents
  
+* [backup restore script](backup_restore_script.md)
 * [datetime trim hours milliseconds](datetime_trim_hours_milliseconds.md)
 * [find view function or sproc](find_view_function_or_sproc.md)
 * [histogram](histogram.md)
