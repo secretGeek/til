@@ -9,3 +9,4 @@
 * [scalar function AfterChar](scalar_function_AfterChar.md)
 * [slow and long running queries](slow_and_long_running_queries.md)
 * [sp heltpext](sp_heltpext.md)
+* [trailing cr lf](trailing_cr_lf.md)
