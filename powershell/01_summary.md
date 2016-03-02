@@ -14,6 +14,7 @@
 * [module commands](module_commands.md)
 * [multi-line comments](multi-line_comments.md)
 * [pass argument to script](pass_argument_to_script.md)
+* [PATH](PATH.md)
 * [profile 4 different ones](profile_4_different_ones.md)
 * [prompt](prompt.md)
 * [psget conflicts with PowerShellGet](psget_conflicts_with_PowerShellGet.md)

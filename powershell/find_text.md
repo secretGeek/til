@@ -22,3 +22,4 @@ If the pattern is not a regex, and just a simple string, use "-SimpleMatch"  (al
 
     sls *.md -patt "](" -SimpleMatch
 
+//TODO: create findtext 
