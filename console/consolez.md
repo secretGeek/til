@@ -12,5 +12,5 @@ Here's where choco installed ConsoleZ
 
     C:\ProgramData\chocolatey\lib\ConsoleZ\tools\console.exe
 
-//TODO: How can I put consoleZ into my path? i need it for when i "runas" 
+//TODO: How can I put consoleZ into my path (across all machines)? i need it for when i "runas" 
  
