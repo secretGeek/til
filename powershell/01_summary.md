@@ -14,6 +14,7 @@
 * [interactive remote script](interactive_remote_script.md)
 * [module commands](module_commands.md)
 * [multi-line comments](multi-line_comments.md)
+* [parse comment block](parse_comment_block.md)
 * [pass argument to script](pass_argument_to_script.md)
 * [PATH](PATH.md)
 * [profile 4 different ones](profile_4_different_ones.md)
