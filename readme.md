@@ -17,9 +17,7 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 
 ## Inspired by
 
- * https://news.ycombinator.com/item?id=11068902
- * https://github.com/jbranchaud/til
- * https://til.hashrocket.com/
+ * https://github.com/jbranchaud/til -- as seen on https://news.ycombinator.com/item?id=11068902
  * https://github.com/thoughtbot/til
  * https://github.com/jwworth/til
 
@@ -27,33 +25,35 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 
  * http://wiki.secretGeek.net (wiki for things I find fascinating)
  * http://www.secretGeek.net (blog)
+ * http://YourFirstProduct.com (the real book I'm writing)
+
 
 
 
 ## Topics
 
- * [asp.net mvc](asp.net_mvc/01_summary.md)
- * [chocolatey](chocolatey/01_summary.md)
- * [concepts](concepts/01_summary.md)
- * [console](console/01_summary.md)
- * [excel](excel/01_summary.md)
- * [git](git/01_summary.md)
- * [gitbook](gitbook/01_summary.md)
- * [gmail](gmail/01_summary.md)
- * [google](google/01_summary.md)
- * [graphics](graphics/01_summary.md)
- * [javascript](javascript/01_summary.md)
- * [linqpad](linqpad/01_summary.md)
- * [mercurial](mercurial/01_summary.md)
- * [music](music/01_summary.md)
- * [notepad++](notepad++/01_summary.md)
- * [npm](npm/01_summary.md)
- * [paypal](paypal/01_summary.md)
- * [powershell](powershell/01_summary.md)
- * [security virus spam etc](security_virus_spam_etc/01_summary.md)
- * [sql server](sql_server/01_summary.md)
- * [sql spatial](sql_spatial/01_summary.md)
- * [tools](tools/01_summary.md)
- * [visual studio](visual_studio/01_summary.md)
- * [vs code](vs_code/01_summary.md)
- * [windows](windows/01_summary.md)
+ * [asp.net mvc](asp.net_mvc/01_summary.md) -- 6 articles
+ * [chocolatey](chocolatey/01_summary.md) -- 3 articles
+ * [concepts](concepts/01_summary.md) -- 5 articles
+ * [console](console/01_summary.md) -- 3 articles
+ * [excel](excel/01_summary.md) -- 2 articles
+ * [git](git/01_summary.md) -- 2 articles
+ * [gitbook](gitbook/01_summary.md) -- 5 articles
+ * [gmail](gmail/01_summary.md) -- 1 article
+ * [google](google/01_summary.md) -- 3 articles
+ * [graphics](graphics/01_summary.md) -- 3 articles
+ * [javascript](javascript/01_summary.md) -- 2 articles
+ * [linqpad](linqpad/01_summary.md) -- 1 article
+ * [mercurial](mercurial/01_summary.md) -- 5 articles
+ * [music](music/01_summary.md) -- 1 article
+ * [notepad++](notepad++/01_summary.md) -- 2 articles
+ * [npm](npm/01_summary.md) -- 3 articles
+ * [paypal](paypal/01_summary.md) -- 1 article
+ * [powershell](powershell/01_summary.md) -- 24 articles
+ * [security virus spam etc](security_virus_spam_etc/01_summary.md) -- 2 articles
+ * [sql server](sql_server/01_summary.md) -- 9 articles
+ * [sql spatial](sql_spatial/01_summary.md) -- 1 article
+ * [tools](tools/01_summary.md) -- 2 articles
+ * [visual studio](visual_studio/01_summary.md) -- 3 articles
+ * [vs code](vs_code/01_summary.md) -- 2 articles
+ * [windows](windows/01_summary.md) -- 2 articles
