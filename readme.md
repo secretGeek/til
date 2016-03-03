@@ -47,14 +47,17 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [mercurial](mercurial/01_summary.md) -- 5 articles
  * [music](music/01_summary.md) -- 1 article
  * [notepad++](notepad++/01_summary.md) -- 2 articles
- * [npm](npm/01_summary.md) -- 4 articles
+ * [npm](npm/01_summary.md) -- 5 articles
  * [paypal](paypal/01_summary.md) -- 1 article
  * [powershell](powershell/01_summary.md) -- 25 articles
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) -- 2 articles
  * [sql server](sql_server/01_summary.md) -- 9 articles
+ * [sql server reporting services](sql_server_reporting_services/01_summary.md) -- 1 article
  * [sql spatial](sql_spatial/01_summary.md) -- 1 article
  * [tools](tools/01_summary.md) -- 2 articles
  * [virtual box](virtual_box/01_summary.md) -- 1 article
  * [visual studio](visual_studio/01_summary.md) -- 3 articles
  * [vs code](vs_code/01_summary.md) -- 2 articles
  * [windows](windows/01_summary.md) -- 2 articles
+
+99 articles
