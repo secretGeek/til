@@ -4,3 +4,4 @@
  
 * [cheatsheet](cheatsheet.md)
 * [remove from git but keep locally](remove_from_git_but_keep_locally.md)
+* [see git folder](see_git_folder.md)

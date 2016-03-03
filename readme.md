@@ -37,7 +37,7 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [concepts](concepts/01_summary.md) -- 5 articles
  * [console](console/01_summary.md) -- 3 articles
  * [excel](excel/01_summary.md) -- 2 articles
- * [git](git/01_summary.md) -- 2 articles
+ * [git](git/01_summary.md) -- 3 articles
  * [gitbook](gitbook/01_summary.md) -- 5 articles
  * [gmail](gmail/01_summary.md) -- 1 article
  * [google](google/01_summary.md) -- 3 articles
@@ -47,13 +47,14 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [mercurial](mercurial/01_summary.md) -- 5 articles
  * [music](music/01_summary.md) -- 1 article
  * [notepad++](notepad++/01_summary.md) -- 2 articles
- * [npm](npm/01_summary.md) -- 3 articles
+ * [npm](npm/01_summary.md) -- 4 articles
  * [paypal](paypal/01_summary.md) -- 1 article
  * [powershell](powershell/01_summary.md) -- 25 articles
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) -- 2 articles
  * [sql server](sql_server/01_summary.md) -- 9 articles
  * [sql spatial](sql_spatial/01_summary.md) -- 1 article
  * [tools](tools/01_summary.md) -- 2 articles
+ * [virtual box](virtual_box/01_summary.md) -- 1 article
  * [visual studio](visual_studio/01_summary.md) -- 3 articles
  * [vs code](vs_code/01_summary.md) -- 2 articles
  * [windows](windows/01_summary.md) -- 2 articles
