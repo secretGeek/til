@@ -3,6 +3,7 @@
 ### chapter contents
  
 * [alias](alias.md)
+* [console colors](console_colors.md)
 * [create profile](create_profile.md)
 * [find text](find_text.md)
 * [format table with expressions](format_table_with_expressions.md)
