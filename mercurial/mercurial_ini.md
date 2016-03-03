@@ -1,4 +1,4 @@
-# mercurial.ini
+# mercurial.ini -- home of mercurial's config.
 
 (or on non-windows machines, your '.hgrc' file.)
 
@@ -13,5 +13,4 @@ In powershell, you would edit:
     $env:userprofile\mercurial.ini
 
 
-
-    
+To edit the config of a single repo, look for the `.hg\hgrc` file

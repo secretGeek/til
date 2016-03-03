@@ -102,6 +102,7 @@
 	* [slow and long running queries](/sql_server/slow_and_long_running_queries.md)
 	* [sp heltpext](/sql_server/sp_heltpext.md)
 	* [trailing cr lf](/sql_server/trailing_cr_lf.md)
+	* [with common table expression](/sql_server/with_common_table_expression.md)
 * [sql spatial](/sql_spatial/01_summary.md)
 	* [construct line geo from two points](/sql_spatial/construct_line_geo_from_two_points.md)
 * [tools](/tools/01_summary.md)
