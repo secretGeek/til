@@ -46,6 +46,8 @@
 * [javascript](/javascript/01_summary.md)
 	* [eval](/javascript/eval.md)
 	* [poor mans jquery](/javascript/poor_mans_jquery.md)
+* [linqpad](/linqpad/01_summary.md)
+	* [offline registration](/linqpad/offline_registration.md)
 * [mercurial](/mercurial/01_summary.md)
 	* [current extensions](/mercurial/current_extensions.md)
 	* [ensure all files added](/mercurial/ensure_all_files_added.md)
