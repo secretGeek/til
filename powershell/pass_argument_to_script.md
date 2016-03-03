@@ -11,14 +11,17 @@ or to declare multiple named parameters
         [int32]$LicenseID
     )
 
-Then you can do validation and exit, for example     
+Then you can do validation and handle gracefully, for example     
     
     if ($comment -eq "") {
         write-host "you must give a comment"
         exit
     }
     
+A simple if brutal way to bail if a required argument was not specified
 
+    param ( [string]$comment = $(throw "Please specify a comment" ))
+    
     
 Can also use a type of boolean parameter called a `switch`
 

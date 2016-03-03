@@ -49,7 +49,7 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [notepad++](notepad++/01_summary.md) -- 2 articles
  * [npm](npm/01_summary.md) -- 3 articles
  * [paypal](paypal/01_summary.md) -- 1 article
- * [powershell](powershell/01_summary.md) -- 24 articles
+ * [powershell](powershell/01_summary.md) -- 25 articles
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) -- 2 articles
  * [sql server](sql_server/01_summary.md) -- 9 articles
  * [sql spatial](sql_spatial/01_summary.md) -- 1 article

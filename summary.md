@@ -76,6 +76,7 @@
 	* [histogram](/powershell/histogram.md)
 	* [how to completely remove a module](/powershell/how_to_completely_remove_a_module.md)
 	* [interactive remote script](/powershell/interactive_remote_script.md)
+	* [is this 64 or 32 bit powershell today](/powershell/is_this_64_or_32_bit_powershell_today.md)
 	* [module commands](/powershell/module_commands.md)
 	* [multi-line comments](/powershell/multi-line_comments.md)
 	* [parse comment block](/powershell/parse_comment_block.md)
