@@ -44,10 +44,10 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [graphics](graphics/01_summary.md) -- 3 articles
  * [javascript](javascript/01_summary.md) -- 2 articles
  * [linqpad](linqpad/01_summary.md) -- 1 article
- * [mercurial](mercurial/01_summary.md) -- 5 articles
+ * [mercurial](mercurial/01_summary.md) -- 6 articles
  * [music](music/01_summary.md) -- 1 article
  * [notepad++](notepad++/01_summary.md) -- 2 articles
- * [npm](npm/01_summary.md) -- 5 articles
+ * [npm](npm/01_summary.md) -- 4 articles
  * [paypal](paypal/01_summary.md) -- 1 article
  * [powershell](powershell/01_summary.md) -- 25 articles
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) -- 2 articles
