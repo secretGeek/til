@@ -54,7 +54,7 @@ Also, I've got a Get-LinqPadScript commandlet for quickly listing the available 
         }
     }
 
-The recommended alias for that is `linqs`, so if you try, `linqs sql` you'll see any script with 'sql' in the [BaseName](..\powershell\parts_of_a_fileSystemInfo_object.md).
+The recommended alias for that is `linqs`, so if you try, `linqs sql` you'll see any script with 'sql' in the [BaseName](../powershell/parts_of_a_fileSystemInfo_object.md).
     
     
     
