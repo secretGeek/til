@@ -8,7 +8,7 @@ Date and shortdate here are a keyword (date) that is piped to a filter (shortdat
 
 Author usually contains name followed by email. So the person filter gets just the name. The email filter would get the email.
 
-i used this function, `hgl`
+i use this function, `hgl`, a lot
 
     function hgl() {
         hg log --template "{date|shortdate},{desc}\n"  -l 30

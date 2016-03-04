@@ -1,4 +1,6 @@
-{
+{   
+    "title": "Today I Learned",
+    "author": "Leon Bambrick",
     "plugins": ["ga"],
     "pluginsConfig": {
         "ga": {

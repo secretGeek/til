@@ -23,4 +23,4 @@ You can set the Google Analytics tracking ID using the plugins configuration in 
 
 ## See Also
  * [npm](../npm/01_summary.md)
- * [Add a new site to track in Google Analytics](../google/google_analytics_add_new_site.md) 
+ * [Add a new site to track in Google Analytics](../google/google_analytics_add_new_site.md)
