@@ -14,6 +14,7 @@ In the utils repo I keep:
 
  1. All the "[little tools](list_of_tools.md)" I expect to be available and in the PATH on each machine
  2. My powershell profile and powershell scripts
+ 3. Handy LinqPad scripts
  3. My 'Today I learned' notes -- it's where they are originally written, in a folder called TIL.
     (I also have a git repo which grabs that TIL folder, and publishes it as a gitbook at http://TIL.secretGeek.net)
 
