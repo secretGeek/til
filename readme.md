@@ -32,12 +32,12 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 
 ## Topics
 
- * [asp.net mvc](asp.net_mvc/01_summary.md) &mdash; 6 articles
+ * [asp.net mvc](asp.net_mvc/01_summary.md) &mdash; 7 articles
  * [chocolatey](chocolatey/01_summary.md) &mdash; 3 articles
  * [concepts](concepts/01_summary.md) &mdash; 5 articles
  * [console](console/01_summary.md) &mdash; 3 articles
  * [excel](excel/01_summary.md) &mdash; 2 articles
- * [git](git/01_summary.md) &mdash; 3 articles
+ * [git](git/01_summary.md) &mdash; 4 articles
  * [gitbook](gitbook/01_summary.md) &mdash; 6 articles
  * [gmail](gmail/01_summary.md) &mdash; 1 article
  * [google](google/01_summary.md) &mdash; 3 articles
@@ -49,7 +49,7 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [notepad++](notepad++/01_summary.md) &mdash; 2 articles
  * [npm](npm/01_summary.md) &mdash; 5 articles
  * [paypal](paypal/01_summary.md) &mdash; 1 article
- * [powershell](powershell/01_summary.md) &mdash; 26 articles
+ * [powershell](powershell/01_summary.md) &mdash; 27 articles
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) &mdash; 2 articles
  * [sql server](sql_server/01_summary.md) &mdash; 9 articles
  * [sql server reporting services](sql_server_reporting_services/01_summary.md) &mdash; 1 article
@@ -60,4 +60,4 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 2 articles
 
-104 articles
+107 articles

@@ -2,6 +2,7 @@
 # asp.net mvc
 ### chapter contents
  
+* [asp net mvc 3 patch](asp_net_mvc_3_patch.md)
 * [clear caches](clear_caches.md)
 * [elmah](elmah.md)
 * [from memory](from_memory.md)

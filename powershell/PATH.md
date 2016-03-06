@@ -8,7 +8,7 @@ To get the current PATH environment variable:
 
     $env:path
 
-(or in `cmd.exe` just %path%, or in Windows, see [Environment variables -- view/edit them on windows](../windows/environment_variables.md))
+(or in `cmd.exe` just `%path%`, or in Windows, see [Environment variables -- view/edit them on windows](../windows/environment_variables.md))
 
 
 To split the path into its constituents:

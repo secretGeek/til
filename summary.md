@@ -1,6 +1,7 @@
 ﻿# Summary
 
 * [asp.net mvc](/asp.net_mvc/01_summary.md)
+	* [asp net mvc 3 patch](/asp.net_mvc/asp_net_mvc_3_patch.md)
 	* [clear caches](/asp.net_mvc/clear_caches.md)
 	* [elmah](/asp.net_mvc/elmah.md)
 	* [from memory](/asp.net_mvc/from_memory.md)
@@ -26,6 +27,7 @@
 	* [VLOOKUP](/excel/VLOOKUP.md)
 * [git](/git/01_summary.md)
 	* [cheatsheet](/git/cheatsheet.md)
+	* [git bitbucket](/git/git_bitbucket.md)
 	* [remove from git but keep locally](/git/remove_from_git_but_keep_locally.md)
 	* [see git folder](/git/see_git_folder.md)
 * [gitbook](/gitbook/01_summary.md)
@@ -83,6 +85,7 @@
 	* [histogram](/powershell/histogram.md)
 	* [how to completely remove a module](/powershell/how_to_completely_remove_a_module.md)
 	* [interactive remote script](/powershell/interactive_remote_script.md)
+	* [is current user admin](/powershell/is_current_user_admin.md)
 	* [is this 64 or 32 bit powershell today](/powershell/is_this_64_or_32_bit_powershell_today.md)
 	* [module commands](/powershell/module_commands.md)
 	* [multi-line comments](/powershell/multi-line_comments.md)
