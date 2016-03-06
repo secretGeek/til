@@ -7,4 +7,5 @@
     git remote add origin https://secretgeek@bitbucket.org/secretgeek/test_appharbor.git
     "# Hello" > readme.md
     git add *
+    git commit . -m "funny comment" 
     git push --set-upstream origin master

@@ -37,12 +37,12 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [concepts](concepts/01_summary.md) &mdash; 5 articles
  * [console](console/01_summary.md) &mdash; 3 articles
  * [excel](excel/01_summary.md) &mdash; 2 articles
- * [git](git/01_summary.md) &mdash; 4 articles
+ * [git](git/01_summary.md) &mdash; 5 articles
  * [gitbook](gitbook/01_summary.md) &mdash; 6 articles
  * [gmail](gmail/01_summary.md) &mdash; 1 article
  * [google](google/01_summary.md) &mdash; 3 articles
  * [graphics](graphics/01_summary.md) &mdash; 3 articles
- * [javascript](javascript/01_summary.md) &mdash; 2 articles
+ * [javascript](javascript/01_summary.md) &mdash; 3 articles
  * [linqpad](linqpad/01_summary.md) &mdash; 3 articles
  * [mercurial](mercurial/01_summary.md) &mdash; 6 articles
  * [music](music/01_summary.md) &mdash; 1 article
@@ -60,4 +60,4 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 2 articles
 
-107 articles
+109 articles
