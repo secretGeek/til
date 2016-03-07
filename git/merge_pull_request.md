@@ -1,7 +1,6 @@
+# Merge pull request via command line
 
-Merging via command line
-
-If you do not want to use the merge button or an automatic merge cannot be performed, you can perform a manual merge on the command line.
+If you do not want to use the merge button (or an automatic merge cannot be performed) you can perform a manual merge on the command line.
 
 
 Step 1: From your project repository, check out a new branch and test the changes.

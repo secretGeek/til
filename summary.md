@@ -28,6 +28,7 @@
 * [git](/git/01_summary.md)
 	* [cheatsheet](/git/cheatsheet.md)
 	* [git bitbucket](/git/git_bitbucket.md)
+	* [git config](/git/git_config.md)
 	* [merge pull request](/git/merge_pull_request.md)
 	* [remove from git but keep locally](/git/remove_from_git_but_keep_locally.md)
 	* [see git folder](/git/see_git_folder.md)

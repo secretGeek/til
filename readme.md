@@ -1,11 +1,12 @@
-#Today I Learned
+![Today I Learned](today_i_learned.png)
 
-This is a place where I've started storing short descriptions of things I learn.
+
+# Today I Learned
+
+This is a place where I've started storing short descriptions of things I learn each day.
 <br />&mdash;Leon Bambrick.
 
-Available to read as an online gitbook here: http://TIL.secretGeek.net/
-
-As : [pdf](https://www.gitbook.com/download/pdf/book/secretgeek/til) |  [epub](https://www.gitbook.com/download/epub/book/secretgeek/til) | [mobi](https://www.gitbook.com/download/mobi/book/secretgeek/til)
+Available as an online gitbook here: http://TIL.secretGeek.net/ and as : [pdf](https://www.gitbook.com/download/pdf/book/secretgeek/til), [epub](https://www.gitbook.com/download/epub/book/secretgeek/til) and [mobi](https://www.gitbook.com/download/mobi/book/secretgeek/til)
 
 Repository here: https://github.com/secretGeek/til
 
@@ -37,7 +38,7 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [concepts](concepts/01_summary.md) &mdash; 5 articles
  * [console](console/01_summary.md) &mdash; 3 articles
  * [excel](excel/01_summary.md) &mdash; 2 articles
- * [git](git/01_summary.md) &mdash; 5 articles
+ * [git](git/01_summary.md) &mdash; 6 articles
  * [gitbook](gitbook/01_summary.md) &mdash; 6 articles
  * [gmail](gmail/01_summary.md) &mdash; 1 article
  * [google](google/01_summary.md) &mdash; 3 articles
@@ -60,4 +61,4 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 2 articles
 
-109 articles
+110 articles

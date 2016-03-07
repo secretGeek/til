@@ -4,7 +4,7 @@ When I type &lt;p&gt; and it automatically inserts &lt;/p&gt; .... I find that s
 Probably because that is only helpful if you write in a linear manner, from beginnign to end... and I rarely do that.
 I spent more time editing any file than I do writing it the first time.
 
-So -- to turn off that behaviour:
+So -- to turn off that behavior:
 
 
 go to:
