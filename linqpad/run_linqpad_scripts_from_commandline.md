@@ -13,7 +13,7 @@ And indeed after installing and restarting powershell:
     > (Get-Command lprun).Source
     C:\Program Files (x86)\LINQPad4\LPRun.exe
 
-And...    
+And...
 
     > $env:PATH.split(";")
     ...
@@ -22,14 +22,18 @@ And...
 
 Thereafter if i run:
 
-    lprun .\calendar.linq    
+    lprun .\calendar.linq
 
-..it works as expected.
+...it works as expected.
 
-[_] so what i want is a function 'linq' that runs `lprun $env:util\linqPad\$args[0].linq $args[0+]`
+I've now wrapped this behavior up into the powershell commandlet [Invoke-PowershellScript](invoke_linqpad_commandlet.md)
 
-    
-    
+
+
 ## Source
 
  * https://www.linqpad.net/lprun.aspx
+
+## See Also
+
+ * [Invoke-PowershellScript](invoke_linqpad_commandlet.md)
