@@ -37,6 +37,7 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [chocolatey](chocolatey/01_summary.md) &mdash; 3 articles
  * [concepts](concepts/01_summary.md) &mdash; 5 articles
  * [console](console/01_summary.md) &mdash; 3 articles
+ * [electron](electron/01_summary.md) &mdash; 1 article
  * [excel](excel/01_summary.md) &mdash; 2 articles
  * [git](git/01_summary.md) &mdash; 6 articles
  * [gitbook](gitbook/01_summary.md) &mdash; 6 articles
@@ -61,4 +62,4 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 2 articles
 
-110 articles
+111 articles
