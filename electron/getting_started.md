@@ -17,9 +17,20 @@ Get started as easy as
 
 (This assumes you have [git](../git/01_summary.md) and [npm](../npm/01_summary.md).)
 
-Next, follow the quick start tutorial...
+Next, read the quick start tutorial...
 
-    http://electron.atom.io/docs/latest/tutorial/quick-start/
+ * http://electron.atom.io/docs/latest/tutorial/quick-start/
+
+[_] Wanted, examples of electron apps doing the following:
+
+ * [creating a menu](https://github.com/atom/electron/blob/master/docs/api/menu.md)
+ * saving to local file system
+ * reading from local file system
+ * self-updating
+ * crash reporting
+ * calling a webservice (of any sort at all)
+
+
 
 
 ## Source
