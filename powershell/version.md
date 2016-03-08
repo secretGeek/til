@@ -1,14 +1,17 @@
-# How can I tell which version of powershell i have?
+# How can I tell which version of powershell I have?
 
     $PSVersionTable.PSVersion
 
-(Compared to this DOS class: `ver`)
+(Compared to this DOS classic: `ver`)
 
 So I've added this to my profile:
 
     function ver() {
          $PSVersionTable.PSVersion
     }
+
+But you might also need to consider where the [currently running shell is 64 or 32 bit](is_this_64_or_32_bit_powershell_today.md), and [is powershell running as admin?](is_current_user_admin.md). 
+
     
 ## See also    
 
