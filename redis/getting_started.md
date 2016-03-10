@@ -2,7 +2,7 @@
 
 redis lets you perform simple operations on a fast in memory (and persisted) store.
 
-There are five basic types. Links below show you the functions you can apply to each type.
+It's basically a key value store, where the keys are strings, and the values can be any of five basic types. Links below show you the functions you can apply to each type.
 
 1. [string](http://redis.io/commands/#string). (Can be anything, redis don't care) (if it's an integer, it can be incremented (atomically) tho!)
 2. [lists](http://redis.io/commands#list) (queues, you can push and pop... actually you can left pop, right pop, left push, right push!)
