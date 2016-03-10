@@ -52,6 +52,7 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [npm](npm/01_summary.md) &mdash; 5 articles
  * [paypal](paypal/01_summary.md) &mdash; 1 article
  * [powershell](powershell/01_summary.md) &mdash; 27 articles
+ * [redis](redis/01_summary.md) &mdash; 1 article
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) &mdash; 2 articles
  * [sql server](sql_server/01_summary.md) &mdash; 9 articles
  * [sql server reporting services](sql_server_reporting_services/01_summary.md) &mdash; 1 article
@@ -62,4 +63,4 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 2 articles
 
-111 articles
+112 articles

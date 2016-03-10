@@ -107,6 +107,8 @@
 	* [sort](/powershell/sort.md)
 	* [tree](/powershell/tree.md)
 	* [version](/powershell/version.md)
+* [redis](/redis/01_summary.md)
+	* [getting started](/redis/getting_started.md)
 * [security virus spam etc](/security_virus_spam_etc/01_summary.md)
 	* [google search console](/security_virus_spam_etc/google_search_console.md)
 	* [virus total](/security_virus_spam_etc/virus_total.md)
