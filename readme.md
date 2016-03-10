@@ -58,9 +58,9 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [sql server reporting services](sql_server_reporting_services/01_summary.md) &mdash; 1 article
  * [sql spatial](sql_spatial/01_summary.md) &mdash; 1 article
  * [tools](tools/01_summary.md) &mdash; 2 articles
- * [virtual box](virtual_box/01_summary.md) &mdash; 1 article
+ * [virtual box](virtual_box/01_summary.md) &mdash; 2 articles
  * [visual studio](visual_studio/01_summary.md) &mdash; 3 articles
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 2 articles
 
-112 articles
+113 articles

@@ -131,6 +131,7 @@
 	* [utils repo](/tools/utils_repo.md)
 * [virtual box](/virtual_box/01_summary.md)
 	* [virtual box requires hyper v disabled](/virtual_box/virtual_box_requires_hyper_v_disabled.md)
+	* [virtual box warning](/virtual_box/virtual_box_warning.md)
 * [visual studio](/visual_studio/01_summary.md)
 	* [ctor](/visual_studio/ctor.md)
 	* [html auto close tags](/visual_studio/html_auto_close_tags.md)
