@@ -20,15 +20,16 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * .hlp (4 files)
  * .cnt (3 files)
  * .sys (3 files)
- * .htm (2 files)
  * .ini (2 files)
- * .ocx (2 files)
  * .msc (2 files)
- * .pdf (1 files)
- * .cfg (1 files)
+ * .ocx (2 files)
+ * .htm (2 files)
  * .md (1 files)
- * .com (1 files)
+ * .cfg (1 files)
  * .chk (1 files)
+ * .pdf (1 files)
+ * .html (1 files)
+ * .com (1 files)
 
 ## Executables
 

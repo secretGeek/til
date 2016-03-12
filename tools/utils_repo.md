@@ -8,7 +8,7 @@ It is on the [PATH](../powershell/PATH.md) of the machine, so its contents are a
 
 Why must it be a private repo? Because I don't have permission to redistribute all of the files.
 
-(Private repos are free at [bitbucket](https://bitbucket.org) but not at free at github.)
+(Private repos are **free** at [bitbucket](https://bitbucket.org) but not free at github.)
 
 In the utils repo I keep:
 
