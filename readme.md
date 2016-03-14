@@ -35,7 +35,7 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 
  * [asp.net mvc](asp.net_mvc/01_summary.md) &mdash; 7 articles
  * [chocolatey](chocolatey/01_summary.md) &mdash; 3 articles
- * [concepts](concepts/01_summary.md) &mdash; 5 articles
+ * [concepts](concepts/01_summary.md) &mdash; 6 articles
  * [console](console/01_summary.md) &mdash; 3 articles
  * [electron](electron/01_summary.md) &mdash; 1 article
  * [excel](excel/01_summary.md) &mdash; 2 articles
@@ -52,6 +52,7 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [npm](npm/01_summary.md) &mdash; 5 articles
  * [paypal](paypal/01_summary.md) &mdash; 1 article
  * [powershell](powershell/01_summary.md) &mdash; 27 articles
+ * [react](react/01_summary.md) &mdash; 2 articles
  * [redis](redis/01_summary.md) &mdash; 1 article
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) &mdash; 2 articles
  * [sql server](sql_server/01_summary.md) &mdash; 9 articles
@@ -63,4 +64,4 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 2 articles
 
-113 articles
+116 articles

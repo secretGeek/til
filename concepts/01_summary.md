@@ -2,6 +2,7 @@
 # concepts
 ### chapter contents
  
+* [coik](coik.md)
 * [mantras](mantras.md)
 * [mere exposure](mere_exposure.md)
 * [opportunity cost](opportunity_cost.md)
