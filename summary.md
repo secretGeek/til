@@ -90,6 +90,7 @@
 	* [format table with expressions](/powershell/format_table_with_expressions.md)
 	* [get-member](/powershell/get-member.md)
 	* [Get All Available Modules](/powershell/Get_All_Available_Modules.md)
+	* [here strings](/powershell/here_strings.md)
 	* [histogram](/powershell/histogram.md)
 	* [how to completely remove a module](/powershell/how_to_completely_remove_a_module.md)
 	* [interactive remote script](/powershell/interactive_remote_script.md)

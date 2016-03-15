@@ -9,6 +9,7 @@
 * [format table with expressions](format_table_with_expressions.md)
 * [get-member](get-member.md)
 * [Get All Available Modules](Get_All_Available_Modules.md)
+* [here strings](here_strings.md)
 * [histogram](histogram.md)
 * [how to completely remove a module](how_to_completely_remove_a_module.md)
 * [interactive remote script](interactive_remote_script.md)
