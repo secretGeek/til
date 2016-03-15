@@ -25,7 +25,7 @@ Start by getting the code.
     
     # Now browse to http://localhost:3000 ...
 
-This example runs a local webserver (using node). The part we're interested in examining is the front end app, not what happens on the server. But I've looking in the server (a file server.js) just long enough to see that 
+This example runs a local webserver (using node). (start, in this case, is an [npm script](../npm/npm_run_scripts.md) in the `package`.json file). The part we're interested in examining is the front end app, not what happens on the server. But I've looking in the server (a file `server.js`) just long enough to see that:
 
 1. it is a node app, 
 2. i don't speak node, 
