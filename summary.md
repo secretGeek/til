@@ -60,6 +60,8 @@
 	* [invoke linqpad commandlet](/linqpad/invoke_linqpad_commandlet.md)
 	* [offline registration](/linqpad/offline_registration.md)
 	* [run linqpad scripts from commandline](/linqpad/run_linqpad_scripts_from_commandline.md)
+* [markdown](/markdown/01_summary.md)
+	* [syntax](/markdown/syntax.md)
 * [mercurial](/mercurial/01_summary.md)
 	* [current extensions](/mercurial/current_extensions.md)
 	* [ensure all files added](/mercurial/ensure_all_files_added.md)
