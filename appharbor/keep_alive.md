@@ -2,6 +2,12 @@
 
 My sample app on AppHarbor is very slow to start up -- but lickety split when it's running.
 
-TODO: So I think I want to keep it alive all the time with some magic.
+You can use "background workers" at appHarbor to run console apps that perform actions such as keeping the site warm, rebuilding indexes etc. See for example http://www.jefclaes.be/2013/01/keeping-your-appharbor-application-pool.html and https://support.appharbor.com/kb/getting-started/background-workers -- but these are not available on the free plan, so you are loking at $49 a month minimum.
 
-http://www.jefclaes.be/2013/01/keeping-your-appharbor-application-pool.html
+So instead I'm using [StatusCake](https://www.statuscake.com/) -- free plan -- to ping a particular URL on the application every 5 minutes. This should keep the app pool alive and responsive.
+
+My experience so far is that the application is kept alive and remains very responsive.
+
+## Source
+
+ * https://coderwall.com/p/qqqxbg/workaround-for-appharbor-s-20-minute-app-pool-recycling
