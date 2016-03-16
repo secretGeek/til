@@ -33,6 +33,7 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 
 ## Topics
 
+ * [appharbor](appharbor/01_summary.md) &mdash; 1 article
  * [asp.net mvc](asp.net_mvc/01_summary.md) &mdash; 7 articles
  * [chocolatey](chocolatey/01_summary.md) &mdash; 3 articles
  * [concepts](concepts/01_summary.md) &mdash; 6 articles
@@ -65,4 +66,4 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 2 articles
 
-118 articles
+119 articles
