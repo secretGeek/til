@@ -1,5 +1,16 @@
 # Adding a cover image to a gitbook
 
+## To include a cover image (used in the pdf and epub outputs)
+
+Step 1: Create a file called "cover.jpg" with width 1800px and height 2360px, and place it in the root folder of your gitbook.
+
+Step 2: There is no step 2.
+
+
+(Assuming you are creating it with Paint.net, you'll no doubt make heavy use of [layers](../graphics/paint.net_layers.md), and keep the original .pdn file. Inkscape also a distinct possibility.)
+
+
+
 
 ## To auto generate a cover...
 
@@ -15,9 +26,9 @@ This failed with:
 Because:
 
 > Some npm plugins need node-gyp to be installed.
->However, node-gyp has it's own dependencies ([from the github page](https://github.com/TooTallNate/node-gyp))   
-><br />&mdash;http://stackoverflow.com/a/21366601/49    
-    
+>However, node-gyp has it's own dependencies ([from the github page](https://github.com/TooTallNate/node-gyp))
+><br />&mdash;http://stackoverflow.com/a/21366601/49
+
 in book.json, include `title`, `author`, `plugins` and `pluginsConfig', e.g.
 
     {
@@ -40,11 +51,13 @@ in book.json, include `title`, `author`, `plugins` and `pluginsConfig', e.g.
                 }
             }
         }
-    }    
+    }
 
 run `gitbook install`
 
+Anyway -- unless you're bulk creating 1000's of books, it is not burdensome to create the cover yourself manually (or pay a professional!)
 
+If you are bulk creating 1000's of books, I suggest writing your own program/script for generating the cover image, and not using auto cover.
 
 ## sources
 

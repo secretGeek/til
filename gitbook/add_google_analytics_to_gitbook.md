@@ -4,7 +4,7 @@
 
 In the file `book.json` (which you may need to create) --
 
-You can set the Google Analytics tracking ID using the plugins configuration in the book.json:
+You can set the Google Analytics tracking ID using the plugins configuration in the `book.json`:
 
     {
         "plugins": ["ga"],
@@ -15,7 +15,8 @@ You can set the Google Analytics tracking ID using the plugins configuration in 
         }
     }
 
-//TODO: confirm analytics working at gitbook
+There is also traffic reporting at gitbook (assuming you've published your book that way)
+
 
 ## Source
 
