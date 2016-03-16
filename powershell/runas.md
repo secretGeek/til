@@ -1,4 +1,4 @@
-##for a new process to runas a different (admin) user from powershell
+## For a new process to runas a different (admin) user from powershell
 
 
 
