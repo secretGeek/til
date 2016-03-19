@@ -74,6 +74,7 @@
 	* [orig files](/mercurial/orig_files.md)
 * [music](/music/01_summary.md)
 	* [drum beats](/music/drum_beats.md)
+	* [take it slow](/music/take_it_slow.md)
 * [notepad++](/notepad++/01_summary.md)
 	* [todays date](/notepad++/todays_date.md)
 	* [trim trailing and save](/notepad++/trim_trailing_and_save.md)

@@ -14,7 +14,7 @@ Reacts.js is: A javascript library, from facebook, for building user interfaces 
 Unlike other recent frameworks (e.g. Angular, Polymer) it doesn't do "two-way data binding with templates". Instead it works by having you develop "components". These components are rendered in a virtual DOM, which is then compared to the actual DOM, and only the things that are different are applied.
 
 
-Okay - the official getting started with react.js is utterly [COIK](../concepts/coik.md). So I've had to write my own, mostly by walking through the react-tutorial.
+Okay - the [official getting started](https://facebook.github.io/react/docs/getting-started.html) with react.js is utterly [COIK](../concepts/coik.md). So I've had to write my own, mostly by walking through the react-tutorial.
 
 Start by getting the code.
     
