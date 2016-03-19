@@ -88,6 +88,7 @@
 	* [download custom daterange](/paypal/download_custom_daterange.md)
 * [powershell](/powershell/01_summary.md)
 	* [alias](/powershell/alias.md)
+	* [call commandline apps](/powershell/call_commandline_apps.md)
 	* [console colors](/powershell/console_colors.md)
 	* [create profile](/powershell/create_profile.md)
 	* [find text](/powershell/find_text.md)

@@ -3,6 +3,7 @@
 ### chapter contents
  
 * [alias](alias.md)
+* [call commandline apps](call_commandline_apps.md)
 * [console colors](console_colors.md)
 * [create profile](create_profile.md)
 * [find text](find_text.md)
