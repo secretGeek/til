@@ -36,7 +36,7 @@ And in the Web.Config there is a `bindingRedirect` that redirects MVCs 1 & 2 to 
     </runtime>
 
 
-Also -- possibly required depending on where you're deploying to... change the Reference to Asp.net MVC so that "Copy Local"  is true.
+Also (depending on where you're deploying to) change the Reference to Asp.net MVC such that "Copy Local"  is true.
 
 That results in adding this `Private` tag to the `proj` file.
 

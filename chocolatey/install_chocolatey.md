@@ -14,7 +14,7 @@ after that, [choco commands](commands.md) should work.
 
 ##See Also
 
-To quickly launch cmd.exe or powershell with admin rights use [runas](../powershell/runas.md) -- (kv runas)
+To quickly launch cmd.exe or powershell with admin rights use [runas](../powershell/runas.md) &mdash; (kv runas)
 
 
 ##Links

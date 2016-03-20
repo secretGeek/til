@@ -11,6 +11,7 @@
 	* [return 404](/asp.net_mvc/return_404.md)
 	* [select dropdowns](/asp.net_mvc/select_dropdowns.md)
 	* [serve some static files from mvc but not all](/asp.net_mvc/serve_some_static_files_from_mvc_but_not_all.md)
+	* [troller](/asp.net_mvc/troller.md)
 * [chocolatey](/chocolatey/01_summary.md)
 	* [commands](/chocolatey/commands.md)
 	* [install chocolatey](/chocolatey/install_chocolatey.md)

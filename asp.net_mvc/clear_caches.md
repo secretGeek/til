@@ -6,8 +6,10 @@ It's not as simple as:
 
 Once you've done that, subsequently adding items to the cache will silently fail.
 
-A method that *does* work -- but is reportedly too drastic as it is 1. slow and 2. blocks access to the cache during that slow operation is:
+A method that *does* work &mdash; but is reportedly too drastic as it is:
 
+ 1. slow and
+ 2. blocks access to the cache during that slow operation is:
 
     public static void ClearCaches()
     {
@@ -16,9 +18,9 @@ A method that *does* work -- but is reportedly too drastic as it is 1. slow and 
             MemoryCache.Default.Remove(element.Key);
         }
     }
-    
+
 For the small-scale sites I'm used to, that is adequate.
-    
+
 An actually correct method, from http://stackoverflow.com/a/22388943/49
 
 
@@ -119,9 +121,9 @@ An actually correct method, from http://stackoverflow.com/a/22388943/49
     }
 
 
-I hate this, but haven't found anything better.    
-    
-    
+I hate this, but haven't found anything better.
+
+
 ## See Also
 
  * http://stackoverflow.com/questions/4183270/how-to-clear-the-net-4-memorycache

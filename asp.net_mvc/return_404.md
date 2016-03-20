@@ -14,7 +14,7 @@ For other errors, you can throw an exception, e.g.
     throw new HttpException(403, "Disallowed file extension. Only image files are permitted.");
 
     
-Or for 403 -- try this:
+Or for 403 &mdash; try this:
 
     return new HttpUnauthorizedResult(message);
 

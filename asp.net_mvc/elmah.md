@@ -11,7 +11,7 @@ One technique is:
         <security allowRemoteAccess="0" />
 
 
-But if you need to see the logs remotely, you have to set that to "1" -- and then limit the access via standard location settings.
+But if you need to see the logs remotely, you have to set that to "1" &mdash; and then limit the access via standard location settings.
 
 e.g. Here I'm only allowing access to a user called leon. It's also important to make sure the handlers are under the secured location.
 

@@ -12,6 +12,6 @@ We discount the role of luck.
 
 If enough scientists study a phenomenon, some will find statistically significant results by chance, and these are the experiments submitted for publication. Additionally, papers showing positive results may be more appealing to editors.
 
+## See Also
 
-
-Darius Kazemi ["How I made it"](https://www.youtube.com/watch?v=l_F9jxsfGCw) -- explains his technique for picking winning lottery numbers. (A satirical example of Survivorship Bias) 
+ * Darius Kazemi ["How I made it"](https://www.youtube.com/watch?v=l_F9jxsfGCw)  explains his technique for picking winning lottery numbers. (A satirical example of Survivorship Bias) 
