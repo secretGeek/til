@@ -14,15 +14,20 @@ So:
 
 ...and displayed as:
 
-    '[reciprocity])'
+    'reciprocity)'
 
+    
 Whereas:
 
     '[reciprocity](http://en.wikipedia.org/wiki/Reciprocity_%28social_psychology%29)'
 
-...worked and displayed correctly.
+...worked correctly *and* displayed correctly.
 
 Compare '[reciprocity](http://en.wikipedia.org/wiki/Reciprocity_(social_psychology))' to '[reciprocity](http://en.wikipedia.org/wiki/Reciprocity_%28social_psychology%29)'
+
+
+Lesson: consider encoding ( and ) as %28 and %29 in urls.
+
 
 ## Source
 
