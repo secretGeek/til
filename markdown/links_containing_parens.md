@@ -5,6 +5,7 @@ I'm writing [Your First Product](http://YourFirstProduct.com) (the book, not the
 The markdown parser in gitbook did not understand this (although the one in pandoc did). To make it work everywhere I had to encode the parens in %20 and %29 respectively.
 
 So:
+
     '[reciprocity](http://en.wikipedia.org/wiki/Reciprocity_(social_psychology))'
 
 ...linked to:
@@ -21,6 +22,7 @@ Whereas:
 
 ...worked and displayed correctly.
 
+Compare '[reciprocity](http://en.wikipedia.org/wiki/Reciprocity_(social_psychology))' to '[reciprocity](http://en.wikipedia.org/wiki/Reciprocity_%28social_psychology%29)'
 
 ## Source
 
