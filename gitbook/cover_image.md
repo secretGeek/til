@@ -7,12 +7,14 @@ Step 1: Create a file called "cover.jpg" with width 1800px and height 2360px, an
 Step 2: There is no step 2.
 
 
-(Assuming you are creating it with Paint.net, you'll no doubt make heavy use of [layers](../graphics/paint.net_layers.md), and keep the original .pdn file. Inkscape also a distinct possibility.)
+(Assuming you are creating it with Paint.net, you'll no doubt make heavy use of [layers](../graphics/paint.net_layers.md), and keep the original `.pdn` file. Inkscape also a distinct possibility.)
 
 
 
 
 ## To auto generate a cover...
+
+Tl;dr; Never do this.
 
 Add the autocover plugin
 
@@ -55,9 +57,9 @@ in book.json, include `title`, `author`, `plugins` and `pluginsConfig', e.g.
 
 run `gitbook install`
 
-Anyway -- unless you're bulk creating 1000's of books, it is not burdensome to create the cover yourself manually (or pay a professional!)
+Anyway if you're only doing 1 or 2 books, it is not burdensome to create the cover yourself manually (or pay a professional!)
 
-If you are bulk creating 1000's of books, I suggest writing your own program/script for generating the cover image, and not using auto cover.
+If you are bulk creating 1000's of books, I suggest writing your own program/script for generating the cover image, and never using auto cover.
 
 ## sources
 

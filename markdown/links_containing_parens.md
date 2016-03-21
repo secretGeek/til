@@ -16,7 +16,7 @@ So:
 
     'reciprocity)'
 
-    
+
 Whereas:
 
     '[reciprocity](http://en.wikipedia.org/wiki/Reciprocity_%28social_psychology%29)'

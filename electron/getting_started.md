@@ -21,15 +21,16 @@ Next, read the quick start tutorial...
 
  * http://electron.atom.io/docs/latest/tutorial/quick-start/
 
-[_] Wanted, examples of electron apps doing the following:
+[_] TODO: Wanted, examples of electron apps doing the following:
 
  * [creating a menu](https://github.com/atom/electron/blob/master/docs/api/menu.md)
- * saving to local file system
- * reading from local file system
+ * [saving to local file system](save_to_file.md)
+ * [reading from local file system](save_to_file.md)
  * self-updating
  * crash reporting
  * calling a webservice (of any sort at all)
-
+ * obfuscation/IP protection.
+ * save/load "settings" (other than explicitly using dialogs)
 
 
 
