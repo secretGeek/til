@@ -65,6 +65,7 @@
 	* [offline registration](/linqpad/offline_registration.md)
 	* [run linqpad scripts from commandline](/linqpad/run_linqpad_scripts_from_commandline.md)
 * [markdown](/markdown/01_summary.md)
+	* [links containing parens](/markdown/links_containing_parens.md)
 	* [syntax](/markdown/syntax.md)
 * [mercurial](/mercurial/01_summary.md)
 	* [current extensions](/mercurial/current_extensions.md)

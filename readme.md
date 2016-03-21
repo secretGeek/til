@@ -47,7 +47,7 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [graphics](graphics/01_summary.md) &mdash; 3 articles
  * [javascript](javascript/01_summary.md) &mdash; 3 articles
  * [linqpad](linqpad/01_summary.md) &mdash; 3 articles
- * [markdown](markdown/01_summary.md) &mdash; 1 article
+ * [markdown](markdown/01_summary.md) &mdash; 2 articles
  * [mercurial](mercurial/01_summary.md) &mdash; 6 articles
  * [music](music/01_summary.md) &mdash; 2 articles
  * [notepad++](notepad++/01_summary.md) &mdash; 2 articles
@@ -66,4 +66,4 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 2 articles
 
-123 articles
+124 articles
