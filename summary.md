@@ -117,6 +117,7 @@
 	* [runas](/powershell/runas.md)
 	* [see function definition](/powershell/see_function_definition.md)
 	* [sort](/powershell/sort.md)
+	* [Test Path](/powershell/Test_Path.md)
 	* [tree](/powershell/tree.md)
 	* [version](/powershell/version.md)
 * [react](/react/01_summary.md)
