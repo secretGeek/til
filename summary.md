@@ -120,6 +120,7 @@
 	* [Test Path](/powershell/Test_Path.md)
 	* [tree](/powershell/tree.md)
 	* [version](/powershell/version.md)
+	* [who is using each port](/powershell/who_is_using_each_port.md)
 * [react](/react/01_summary.md)
 	* [getting started](/react/getting_started.md)
 	* [javascript 1.7](/react/javascript_1.7.md)
