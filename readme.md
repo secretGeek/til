@@ -26,7 +26,15 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 
  * http://wiki.secretGeek.net (wiki for things I find fascinating)
  * http://www.secretGeek.net (blog)
- * http://YourFirstProduct.com (the real book I'm writing)
+ 
+## The real book I am writing...
+
+Though this site is published as a free book, there is another book, a real book, that I am working on.
+ 
+**[Your First Product](http://YourFirstProduct.com)** will help would-be product creators to realise their dream. If you are at all interested in building products, please sign up at [http://YourFirstProduct.com](http://YourFirstProduct.com). Thank you.
+
+
+
 
 
 
