@@ -65,6 +65,7 @@
 	* [invoke linqpad commandlet](/linqpad/invoke_linqpad_commandlet.md)
 	* [offline registration](/linqpad/offline_registration.md)
 	* [run linqpad scripts from commandline](/linqpad/run_linqpad_scripts_from_commandline.md)
+	* [set breakpoint](/linqpad/set_breakpoint.md)
 * [markdown](/markdown/01_summary.md)
 	* [links containing parens](/markdown/links_containing_parens.md)
 	* [syntax](/markdown/syntax.md)

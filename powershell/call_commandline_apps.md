@@ -1,7 +1,7 @@
 # How to call command line apps like a powershell pro....
 
+Call command line apps via powershell like this:
 
-    I usually prefer to call command line apps via powershell like this:
     $arguments = @("/i", $msiInstallPath, "/L* $msiInstallPath.log", "/qn", "/norestart")
     $process = Start-Process -FilePath "msiexec.exe" -ArgumentList $arguments -Wait -PassThru
 
