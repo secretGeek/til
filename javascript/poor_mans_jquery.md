@@ -18,6 +18,11 @@ And here's the slightly less-poor poor man's jquery, updated for browsers in the
     
 Note that this returns an array of elements.     
 
+# External links
+
+ * [You Might Not Need JQuery](http://youmightnotneedjquery.com/)
+ * [vanilla-js](http://vanilla-js.com/)
+
 # Source
 
  * https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll

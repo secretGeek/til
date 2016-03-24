@@ -143,6 +143,7 @@
 	* [with common table expression](/sql_server/with_common_table_expression.md)
 * [sql server reporting services](/sql_server_reporting_services/01_summary.md)
 	* [reports are blank in chrome](/sql_server_reporting_services/reports_are_blank_in_chrome.md)
+	* [view report data](/sql_server_reporting_services/view_report_data.md)
 * [sql spatial](/sql_spatial/01_summary.md)
 	* [construct line geo from two points](/sql_spatial/construct_line_geo_from_two_points.md)
 * [tools](/tools/01_summary.md)

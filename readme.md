@@ -66,7 +66,7 @@ Though this site is published as a free book, there is another book, a real book
  * [redis](redis/01_summary.md) &mdash; 1 article
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) &mdash; 2 articles
  * [sql server](sql_server/01_summary.md) &mdash; 9 articles
- * [sql server reporting services](sql_server_reporting_services/01_summary.md) &mdash; 1 article
+ * [sql server reporting services](sql_server_reporting_services/01_summary.md) &mdash; 2 articles
  * [sql spatial](sql_spatial/01_summary.md) &mdash; 1 article
  * [tools](tools/01_summary.md) &mdash; 2 articles
  * [virtual box](virtual_box/01_summary.md) &mdash; 2 articles
@@ -74,4 +74,4 @@ Though this site is published as a free book, there is another book, a real book
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 2 articles
 
-129 articles
+130 articles
