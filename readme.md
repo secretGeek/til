@@ -42,7 +42,7 @@ Though this site is published as a free book, there is another book, a real book
 ## Topics
 
  * [appharbor](appharbor/01_summary.md) &mdash; 1 article
- * [asp.net mvc](asp.net_mvc/01_summary.md) &mdash; 9 articles
+ * [asp.net mvc](asp.net_mvc/01_summary.md) &mdash; 10 articles
  * [chocolatey](chocolatey/01_summary.md) &mdash; 3 articles
  * [concepts](concepts/01_summary.md) &mdash; 6 articles
  * [console](console/01_summary.md) &mdash; 3 articles
@@ -74,4 +74,4 @@ Though this site is published as a free book, there is another book, a real book
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 2 articles
 
-130 articles
+131 articles

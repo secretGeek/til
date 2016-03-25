@@ -9,6 +9,7 @@
 	* [from memory](/asp.net_mvc/from_memory.md)
 	* [helpful error page](/asp.net_mvc/helpful_error_page.md)
 	* [return 404](/asp.net_mvc/return_404.md)
+	* [scripts sections](/asp.net_mvc/scripts_sections.md)
 	* [select dropdowns](/asp.net_mvc/select_dropdowns.md)
 	* [serve some static files from mvc but not all](/asp.net_mvc/serve_some_static_files_from_mvc_but_not_all.md)
 	* [troller](/asp.net_mvc/troller.md)
