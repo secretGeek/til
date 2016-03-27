@@ -163,4 +163,5 @@
 	* [markdown preview](/vs_code/markdown_preview.md)
 * [windows](/windows/01_summary.md)
 	* [environment variables](/windows/environment_variables.md)
+	* [notepad log file](/windows/notepad_log_file.md)
 	* [screenshot with mouse cursor](/windows/screenshot_with_mouse_cursor.md)
