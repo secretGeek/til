@@ -63,6 +63,7 @@
 	* [iife](/javascript/iife.md)
 	* [poor mans jquery](/javascript/poor_mans_jquery.md)
 	* [quickstart](/javascript/quickstart.md)
+	* [random item](/javascript/random_item.md)
 * [linqpad](/linqpad/01_summary.md)
 	* [invoke linqpad commandlet](/linqpad/invoke_linqpad_commandlet.md)
 	* [offline registration](/linqpad/offline_registration.md)
