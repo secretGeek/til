@@ -41,6 +41,7 @@
 	* [merge pull request](/git/merge_pull_request.md)
 	* [remove from git but keep locally](/git/remove_from_git_but_keep_locally.md)
 	* [see git folder](/git/see_git_folder.md)
+	* [version](/git/version.md)
 * [gitbook](/gitbook/01_summary.md)
 	* [add google analytics to gitbook](/gitbook/add_google_analytics_to_gitbook.md)
 	* [cover image](/gitbook/cover_image.md)

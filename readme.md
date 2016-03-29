@@ -48,7 +48,7 @@ Though this site is published as a free book, there is another book, a real book
  * [console](console/01_summary.md) &mdash; 3 articles
  * [electron](electron/01_summary.md) &mdash; 2 articles
  * [excel](excel/01_summary.md) &mdash; 2 articles
- * [git](git/01_summary.md) &mdash; 6 articles
+ * [git](git/01_summary.md) &mdash; 7 articles
  * [gitbook](gitbook/01_summary.md) &mdash; 6 articles
  * [gmail](gmail/01_summary.md) &mdash; 1 article
  * [google](google/01_summary.md) &mdash; 3 articles
@@ -74,4 +74,4 @@ Though this site is published as a free book, there is another book, a real book
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 3 articles
 
-133 articles
+134 articles
