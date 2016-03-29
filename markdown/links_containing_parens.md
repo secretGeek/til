@@ -2,7 +2,7 @@
 
 I'm writing [Your First Product](http://YourFirstProduct.com) (the book, not the website) in markdown. (Okay - the site is mostly written in markdown too, but I digress)... there was a url that ends with a closing parenthesis.
 
-The markdown parser in gitbook did not understand this (although the one in pandoc did). To make it work everywhere I had to encode the parens in %20 and %29 respectively.
+The markdown parser in gitbook did not understand this (although the one in pandoc did). To make it work everywhere I had to encode the parens as %20 and %29 respectively.
 
 So:
 
@@ -26,7 +26,7 @@ Whereas:
 Compare '[reciprocity](http://en.wikipedia.org/wiki/Reciprocity_(social_psychology))' to '[reciprocity](http://en.wikipedia.org/wiki/Reciprocity_%28social_psychology%29)'
 
 
-Lesson: consider encoding ( and ) as %28 and %29 in urls.
+**Lesson:** consider encoding ( and ) as %28 and %29 in urls.
 
 
 ## Source
