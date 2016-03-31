@@ -140,6 +140,7 @@
 	* [find view function or sproc](/sql_server/find_view_function_or_sproc.md)
 	* [histogram](/sql_server/histogram.md)
 	* [scalar function AfterChar](/sql_server/scalar_function_AfterChar.md)
+	* [select top with dynamic limit](/sql_server/select_top_with_dynamic_limit.md)
 	* [slow and long running queries](/sql_server/slow_and_long_running_queries.md)
 	* [sp heltpext](/sql_server/sp_heltpext.md)
 	* [trailing cr lf](/sql_server/trailing_cr_lf.md)
