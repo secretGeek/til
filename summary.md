@@ -82,6 +82,7 @@
 	* [orig files](/mercurial/orig_files.md)
 * [music](/music/01_summary.md)
 	* [drum beats](/music/drum_beats.md)
+	* [guitar shapes](/music/guitar_shapes.md)
 	* [take it slow](/music/take_it_slow.md)
 * [notepad++](/notepad++/01_summary.md)
 	* [todays date](/notepad++/todays_date.md)
