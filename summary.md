@@ -72,6 +72,7 @@
 	* [set breakpoint](/linqpad/set_breakpoint.md)
 * [markdown](/markdown/01_summary.md)
 	* [links containing parens](/markdown/links_containing_parens.md)
+	* [phone based document editing](/markdown/phone_based_document_editing.md)
 	* [syntax](/markdown/syntax.md)
 * [mercurial](/mercurial/01_summary.md)
 	* [current extensions](/mercurial/current_extensions.md)
