@@ -10,13 +10,13 @@ Or, from powershell (with administrative rights):
     iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
     
     
-after that, [choco commands](commands.md) should work.
+After that, [choco commands](commands.md) should work.
 
-##See Also
+## See Also
 
 To quickly launch cmd.exe or powershell with admin rights use [runas](../powershell/runas.md) &mdash; (kv runas)
 
 
-##Links
+## Links
 
 https://chocolatey.org/

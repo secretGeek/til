@@ -1,6 +1,6 @@
 # COIK
 
-Most online tutorials, most technical instructions, most documentation, most of the language that people use when describing technical subjects is COIK.
+Most online tutorials, most technical instructions, most documentation, most of the language that people use when describing technical subjects are **COIK**.
 
 Clearly Only If Known.
 
