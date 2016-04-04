@@ -60,6 +60,7 @@
 	* [flowcharts](/graphics/flowcharts.md)
 	* [paint.net layers](/graphics/paint.net_layers.md)
 * [javascript](/javascript/01_summary.md)
+	* [console error](/javascript/console_error.md)
 	* [eval](/javascript/eval.md)
 	* [iife](/javascript/iife.md)
 	* [poor mans jquery](/javascript/poor_mans_jquery.md)
