@@ -1,10 +1,10 @@
 # Need to add selects/dropdowns to a basic asp.net MVC site?
 
-The classic jquery plugin for this is [`Chosen`](https://harvesthq.github.io/chosen/) and it's more up to date descendant, [`Select2`](https://select2.github.io/)  ([What are the differences?](http://stackoverflow.com/questions/13575531/what-are-the-differences-between-chosen-and-select2))
+The classic jquery plugin for this is [`Chosen`](https://harvesthq.github.io/chosen/) and its more up to date descendant, [`Select2`](https://select2.github.io/)  ([What are the differences?](http://stackoverflow.com/questions/13575531/what-are-the-differences-between-chosen-and-select2))
 
 I'd forgotten all about these until I needed them today.
 
-To use Select2:
+To use `Select2`:
 
 Add the nuget package for `select2` (and `jquery` if you haven't already)
 
