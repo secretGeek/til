@@ -59,6 +59,8 @@
 	* [ascii fonts](/graphics/ascii_fonts.md)
 	* [flowcharts](/graphics/flowcharts.md)
 	* [paint.net layers](/graphics/paint.net_layers.md)
+* [html](/html/01_summary.md)
+	* [scraping files](/html/scraping_files.md)
 * [javascript](/javascript/01_summary.md)
 	* [console error](/javascript/console_error.md)
 	* [eval](/javascript/eval.md)
