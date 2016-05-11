@@ -28,3 +28,5 @@ And, if you want it to output the text, then add
     .AsTextZM()
 
 ...to the resulting geo.
+
+//todo: sql spatial temp table trick

@@ -51,7 +51,7 @@ Though this site is published as a free book, there is another book, a real book
  * [git](git/01_summary.md) &mdash; 7 articles
  * [gitbook](gitbook/01_summary.md) &mdash; 6 articles
  * [gmail](gmail/01_summary.md) &mdash; 1 article
- * [google](google/01_summary.md) &mdash; 3 articles
+ * [google](google/01_summary.md) &mdash; 4 articles
  * [graphics](graphics/01_summary.md) &mdash; 3 articles
  * [html](html/01_summary.md) &mdash; 1 article
  * [javascript](javascript/01_summary.md) &mdash; 6 articles
@@ -75,4 +75,4 @@ Though this site is published as a free book, there is another book, a real book
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 3 articles
 
-139 articles
+140 articles

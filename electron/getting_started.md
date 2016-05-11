@@ -38,3 +38,5 @@ Next, read the quick start tutorial...
 
  * http://electron.atom.io/#get-started
  * http://electron.atom.io/docs/latest/tutorial/quick-start/
+
+Todo: watch this 9 min video. https://m.youtube.com/watch?v=ojX5yz35v4M

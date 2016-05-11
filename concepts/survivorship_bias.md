@@ -1,5 +1,8 @@
 #Survivorship Bias.
 
+>"Just because nobody complains doesn't mean all parachutes are perfect."
+> &mdash;Benny Hill
+
 An example of a selection bias.
 
 You don't get the opportunity to gather evidence from the "non-survivors". Hence the evidence you do see is wildly tainted.
@@ -14,7 +17,7 @@ If enough scientists study a phenomenon, some will find statistically significan
 
 ### Another example of a selection bias
 
-When scientists began finding exo-planet (planets that orbit a star other than the sun) the first exo planets they found were massive. These were the only exo-planets that their methods were capable of detecting.
+When scientists began finding exo-planets (planets that orbit a star other than the sun) the first exo planets they found were massive. These were the only exo-planets that their methods were capable of detecting.
 
 Journalists dutifully reported that most planets in the universe are gigantic, many times larger than Jupiter, and Earth is some kind of freakishly small anomaly, unique in a universe of gas giants. Thanks, Journalists!
 

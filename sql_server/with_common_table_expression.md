@@ -19,3 +19,5 @@ Common table expressions are a good way to reuse a piece of SQL.
     GO
 
 Bonus points: **recursive** CTEs.
+
+//Todo: recursive cte example

@@ -1,6 +1,6 @@
 # Getting started with Redis (on app harbor)
 
-redis lets you perform simple operations on a fast in memory (and persisted) store.
+redis lets you perform simple operations on a fast in-memory (and persisted) store.
 
 It's basically a key value store, where the keys are strings, and the values can be any of five+ basic types. Links below show you the functions you can apply to each type.
 

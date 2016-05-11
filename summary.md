@@ -52,6 +52,7 @@
 * [gmail](/gmail/01_summary.md)
 	* [keyboard shortcuts](/gmail/keyboard_shortcuts.md)
 * [google](/google/01_summary.md)
+	* [chrome before flight](/google/chrome_before_flight.md)
 	* [chrome reopen closed tabs](/google/chrome_reopen_closed_tabs.md)
 	* [google analytics add new site](/google/google_analytics_add_new_site.md)
 	* [search by file extension](/google/search_by_file_extension.md)
