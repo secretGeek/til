@@ -3,6 +3,7 @@
 ### chapter contents
  
 * [cheatsheet](cheatsheet.md)
+* [diff](diff.md)
 * [git bitbucket](git_bitbucket.md)
 * [git config](git_config.md)
 * [merge pull request](merge_pull_request.md)

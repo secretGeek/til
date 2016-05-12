@@ -6,4 +6,6 @@ Clearly Only If Known.
 
 You can only understand what is being said if you already understand what is being said.
 
-Some call this 'the curse of knowledge' &mdash; that once you know something you can't imagine not having always known it.
+It could be because the writers are suffering from the so-called 'curse of knowledge' &mdash; that once you know something you can't imagine not having always known it.
+
+

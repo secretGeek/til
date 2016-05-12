@@ -1,4 +1,5 @@
-﻿# List of tools in utils folder
+﻿
+# List of tools in utils folder
 
 Below is a list of all tools in the root of my [utils repo](utils_repo.md) (generated using [pre](https://github.com/secretGeek/pre)).
 
@@ -7,7 +8,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
 ## Types of files:
 
- * .exe (125 files)
+ * .exe (126 files)
  * .dll (27 files)
  * .txt (14 files)
  * .bat (12 files)
@@ -54,6 +55,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * bitsadmin.exe
  * browstat.exe
  * cabarc.exe
+ * cal.exe
  * Clip.exe
  * clipp.exe
  * ColorOracle.exe
