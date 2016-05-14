@@ -71,6 +71,7 @@
 	* [quickstart](/javascript/quickstart.md)
 	* [random item](/javascript/random_item.md)
 * [linqpad](/linqpad/01_summary.md)
+	* [clear results](/linqpad/clear_results.md)
 	* [invoke linqpad commandlet](/linqpad/invoke_linqpad_commandlet.md)
 	* [offline registration](/linqpad/offline_registration.md)
 	* [run linqpad scripts from commandline](/linqpad/run_linqpad_scripts_from_commandline.md)

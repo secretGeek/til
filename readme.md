@@ -55,7 +55,7 @@ Though this site is published as a free book, there is another book, a real book
  * [graphics](graphics/01_summary.md) &mdash; 3 articles
  * [html](html/01_summary.md) &mdash; 1 article
  * [javascript](javascript/01_summary.md) &mdash; 6 articles
- * [linqpad](linqpad/01_summary.md) &mdash; 4 articles
+ * [linqpad](linqpad/01_summary.md) &mdash; 5 articles
  * [markdown](markdown/01_summary.md) &mdash; 3 articles
  * [mercurial](mercurial/01_summary.md) &mdash; 6 articles
  * [music](music/01_summary.md) &mdash; 3 articles
@@ -75,4 +75,4 @@ Though this site is published as a free book, there is another book, a real book
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 3 articles
 
-141 articles
+142 articles
