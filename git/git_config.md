@@ -50,4 +50,14 @@ To:
     [remote "origin"]
         url = https://secretGeek@github.com/secretGeek/til.git
 
-(I've only tried that for bitbucket and github)
+I've only tried that for bitbucket and github. It seems to work, in the sense that when I go to push a commit, I no longer need to enter my user name. All of the other techniques worked in the sense that they were stored, but they were not automatically applied when I went to push to a remote location.
+
+To globally assume a username of secretGeek when pushing to github:
+
+    git config --global url."https://secretGeek@github.com".insteadOf "https://github.com"
+
+## External links
+
+ * [Git Configuration from the Pro Git Book](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
+ * [Caching your password](https://help.github.com/articles/caching-your-github-password-in-git/#platform-linux)
+ 
