@@ -56,6 +56,10 @@ To globally assume a username of secretGeek when pushing to github:
 
     git config --global url."https://secretGeek@github.com".insteadOf "https://github.com"
 
+To cache passwords a little bit (on windows)
+ 
+    git config --global credential.helper wincred
+    
 ## External links
 
  * [Git Configuration from the Pro Git Book](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
