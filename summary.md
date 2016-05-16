@@ -94,6 +94,7 @@
 	* [drum beats](/music/drum_beats.md)
 	* [guitar shapes](/music/guitar_shapes.md)
 	* [take it slow](/music/take_it_slow.md)
+	* [tension](/music/tension.md)
 * [notepad++](/notepad++/01_summary.md)
 	* [todays date](/notepad++/todays_date.md)
 	* [trim trailing and save](/notepad++/trim_trailing_and_save.md)
