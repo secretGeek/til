@@ -26,3 +26,5 @@ Put parentheses around the @limit and you're done!
     Select TOP(@limit) * from Leaderboard order by Score desc
 
 Presto!
+
+(In other news, Access DB won't let you use '`Select top 0 * from TableName`' ...pesky Access)

@@ -10,7 +10,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
  * .exe (126 files)
  * .dll (27 files)
- * .txt (14 files)
+ * .txt (15 files)
  * .bat (12 files)
  * .vbs (6 files)
  * .config (6 files)
