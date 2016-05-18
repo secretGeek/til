@@ -3,7 +3,7 @@
 
 # Today I Learned
 
-This is a place where I've started storing short descriptions of things I learn each day.
+This is a place where I store short descriptions of things I learn each day.
 <br />&mdash;Leon Bambrick.
 
 Available as an online gitbook: http://TIL.secretGeek.net/ and as [pdf](https://www.gitbook.com/download/pdf/book/secretgeek/til), [epub](https://www.gitbook.com/download/epub/book/secretgeek/til) and [mobi](https://www.gitbook.com/download/mobi/book/secretgeek/til)
@@ -67,7 +67,7 @@ Though this site is published as a free book, there is another book, a real book
  * [react](react/01_summary.md) &mdash; 2 articles
  * [redis](redis/01_summary.md) &mdash; 1 article
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) &mdash; 2 articles
- * [sql server](sql_server/01_summary.md) &mdash; 10 articles
+ * [sql server](sql_server/01_summary.md) &mdash; 11 articles
  * [sql server reporting services](sql_server_reporting_services/01_summary.md) &mdash; 2 articles
  * [sql spatial](sql_spatial/01_summary.md) &mdash; 1 article
  * [tools](tools/01_summary.md) &mdash; 2 articles
@@ -76,4 +76,4 @@ Though this site is published as a free book, there is another book, a real book
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 3 articles
 
-146 articles
+147 articles

@@ -12,3 +12,4 @@
 * [sp heltpext](sp_heltpext.md)
 * [trailing cr lf](trailing_cr_lf.md)
 * [with common table expression](with_common_table_expression.md)
+* [xtype](xtype.md)
