@@ -3,6 +3,7 @@
 
 
 |Xtype|Meaning|
+|-----|-------|
 |AF|Aggregate function (CLR)|
 |C|CHECK constraint|
 |D|Default or DEFAULT constraint|
