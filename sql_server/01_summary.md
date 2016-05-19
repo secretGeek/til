@@ -7,6 +7,7 @@
 * [find view function or sproc](find_view_function_or_sproc.md)
 * [first day of month](first_day_of_month.md)
 * [histogram](histogram.md)
+* [inline min](inline_min.md)
 * [scalar function AfterChar](scalar_function_AfterChar.md)
 * [select top with dynamic limit](select_top_with_dynamic_limit.md)
 * [slow and long running queries](slow_and_long_running_queries.md)

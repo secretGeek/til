@@ -153,6 +153,7 @@
 	* [find view function or sproc](/sql_server/find_view_function_or_sproc.md)
 	* [first day of month](/sql_server/first_day_of_month.md)
 	* [histogram](/sql_server/histogram.md)
+	* [inline min](/sql_server/inline_min.md)
 	* [scalar function AfterChar](/sql_server/scalar_function_AfterChar.md)
 	* [select top with dynamic limit](/sql_server/select_top_with_dynamic_limit.md)
 	* [slow and long running queries](/sql_server/slow_and_long_running_queries.md)
