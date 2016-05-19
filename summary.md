@@ -91,6 +91,7 @@
 	* [mercurial ini](/mercurial/mercurial_ini.md)
 	* [orig files](/mercurial/orig_files.md)
 * [music](/music/01_summary.md)
+	* [background noise](/music/background_noise.md)
 	* [drum beats](/music/drum_beats.md)
 	* [guitar shapes](/music/guitar_shapes.md)
 	* [take it slow](/music/take_it_slow.md)
