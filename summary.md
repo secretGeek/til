@@ -136,6 +136,7 @@
 	* [see function definition](/powershell/see_function_definition.md)
 	* [sort](/powershell/sort.md)
 	* [Test Path](/powershell/Test_Path.md)
+	* [Transcript](/powershell/Transcript.md)
 	* [tree](/powershell/tree.md)
 	* [version](/powershell/version.md)
 	* [who is using each port](/powershell/who_is_using_each_port.md)
