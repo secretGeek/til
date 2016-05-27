@@ -6,6 +6,8 @@
 * [call commandline apps](call_commandline_apps.md)
 * [console colors](console_colors.md)
 * [create profile](create_profile.md)
+* [dumb or fun ideas](dumb_or_fun_ideas.md)
+* [emoji list](emoji_list.md)
 * [find text](find_text.md)
 * [format table with expressions](format_table_with_expressions.md)
 * [get-member](get-member.md)

@@ -112,6 +112,8 @@
 	* [call commandline apps](/powershell/call_commandline_apps.md)
 	* [console colors](/powershell/console_colors.md)
 	* [create profile](/powershell/create_profile.md)
+	* [dumb or fun ideas](/powershell/dumb_or_fun_ideas.md)
+	* [emoji list](/powershell/emoji_list.md)
 	* [find text](/powershell/find_text.md)
 	* [format table with expressions](/powershell/format_table_with_expressions.md)
 	* [get-member](/powershell/get-member.md)
