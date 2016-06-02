@@ -180,6 +180,7 @@
 	* [ctor](/visual_studio/ctor.md)
 	* [html auto close tags](/visual_studio/html_auto_close_tags.md)
 	* [html surround with](/visual_studio/html_surround_with.md)
+	* [no exports were found that match the constraint](/visual_studio/no_exports_were_found_that_match_the_constraint.md)
 	* [tabs and spaces](/visual_studio/tabs_and_spaces.md)
 * [vs code](/vs_code/01_summary.md)
 	* [launch vs code](/vs_code/launch_vs_code.md)

@@ -7,7 +7,41 @@ A mandelbrot one liner:
 
     $i=$j=$r=$x=$y=[float]-16; while(($y++) -lt 15) {for($x=0; ($x++) -lt 84; write-host (" .:-;!/>')|&IH%*#"[$k -band 15]) -nonewline){$i=$k=$r=[float]0;do{$j=$r*$r-$i*$i-2+$x/25;$i=2*$r*$i+$y/10;$r=$j} while (($j*$j+$i*$i) -lt 11 -band ($k++) -lt 111)}" "}
 
+Which produces output like:
 
+    :::::::::::::------------------------------------------------:::::::::::::::::::::::
+    :::::::::--------------------------------------------------------:::::::::::::::::::
+    :::::----------------------------------;;;;;;;;;;;-------------------:::::::::::::::
+    :::-----------------------------;;;;;;;;;;;;;;;;;;;;;;;;---------------:::::::::::::
+    ---------------------------;;;;;;;;;;;;;!!!/-H//!!!;;;;;;;;---------------::::::::::
+    ------------------------;;;;;;;;;;;;;!!!!//>'&*|I /!!!;;;;;;;;--------------::::::::
+    --------------------;;;;;;;;;;;;;!!!!!!//>')|:* |'>//!!!!;;;;;;;--------------::::::
+    ----------------;;;;;;;;;;;;;!!!!!!////>>'|-    /-|>>///!!!!;;;;;--------------:::::
+    ------------;;;;;;;;;;;;!!!!!!!//>')I'')||I      H&))'>>>>*/!!;;;;;-------------::::
+    --------;;;;;;;;;;!!!!!!!!!!///>>)H-   |             .IH&*I >!!;;;;;-------------:::
+    -----;;;;;;;;;!!!!///////////>>'|:H-                      I'>/!!;;;;;-------------::
+    -;;;;;;;;;;!!!!/>||'>>''''>>'')|%.                        %|&>/!!;;;;--------------:
+    ;;;;;;;;!!!!!//>>)&.-!I*;H &||&>                           *)>/!!;;;;;--------------
+    ;;;;;!!!!!///>>')IH-;                                       &//!!;;;;;--------------
+    !!!!/////>>>')H%:**           *                            )>/!!!;;;;;;-------------
+                                                            .&)>//!!!;;;;;;-------------
+    !!!!/////>>>')H%:**           *                            )>/!!!;;;;;;-------------
+    ;;;;;!!!!!///>>')IH-;                                       &//!!;;;;;--------------
+    ;;;;;;;;!!!!!//>>)&.-!I*;H &||&>                           *)>/!!;;;;;--------------
+    -;;;;;;;;;;!!!!/>||'>>''''>>'')|%.                        %|&>/!!;;;;--------------:
+    -----;;;;;;;;;!!!!///////////>>'|:H-                      I'>/!!;;;;;-------------::
+    --------;;;;;;;;;;!!!!!!!!!!///>>)H-   |             .IH&*I >!!;;;;;-------------:::
+    ------------;;;;;;;;;;;;!!!!!!!//>')I'')||I      H&))'>>>>*/!!;;;;;-------------::::
+    ----------------;;;;;;;;;;;;;!!!!!!////>>'|-    /-|>>///!!!!;;;;;--------------:::::
+    --------------------;;;;;;;;;;;;;!!!!!!//>')|:* |'>//!!!!;;;;;;;--------------::::::
+    ------------------------;;;;;;;;;;;;;!!!!//>'&*|I /!!!;;;;;;;;--------------::::::::
+    ---------------------------;;;;;;;;;;;;;!!!/-H//!!!;;;;;;;;---------------::::::::::
+    :::-----------------------------;;;;;;;;;;;;;;;;;;;;;;;;---------------:::::::::::::
+    :::::----------------------------------;;;;;;;;;;;-------------------:::::::::::::::
+    :::::::::--------------------------------------------------------:::::::::::::::::::
+    :::::::::::::------------------------------------------------:::::::::::::::::::::::    
+    
+    
 ...from WaiKin Kong, in 2006, shared here: [Mandelbrot One-liner](https://blogs.msdn.microsoft.com/powershell/2006/12/28/mandelbrot-one-liner/)
 
 A less condensed version, from [poshcode, by user Zefram](http://poshcode.org/5845) which writes colored squares.
@@ -70,11 +104,12 @@ See:
     $synth = New-Object -TypeName System.Speech.Synthesis.SpeechSynthesizer;
     $message = "Hello. Is there anybody OUT there? Is there anyone at home?";
     $synth.speak($message);
+    $synth.Dispose();
 
 ## Beautiful music
 
 
-From [Luiz Henrique Lima Campos](https://blogs.technet.microsoft.com/wikininjas/2013/11/13/wiki-life-geek/), quoted here: ["Music from the Command Line": Performed by Powershell](http://social.technet.microsoft.com/wiki/contents/articles/20989.music-from-the-command-line-performed-by-powershell.aspx).. though maybe originally from [Jeff Wouters](http://jeffwouters.nl/index.php/2012/03/get-your-geek-on-with-powershell-and-some-music/)
+From [Luiz Henrique Lima Campos](https://blogs.technet.microsoft.com/wikininjas/2013/11/13/wiki-life-geek/), quoted here: ["Music from the Command Line": Performed by Powershell](http://social.technet.microsoft.com/wiki/contents/articles/20989.music-from-the-command-line-performed-by-powershell.aspx), though maybe previously from [Jeff Wouters](http://jeffwouters.nl/index.php/2012/03/get-your-geek-on-with-powershell-and-some-music/)
 
     [console]::beep(440,500)       
     [console]::beep(440,500) 

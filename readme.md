@@ -72,8 +72,8 @@ Though this site is published as a free book, there is another book, a real book
  * [sql spatial](sql_spatial/01_summary.md) &mdash; 1 article
  * [tools](tools/01_summary.md) &mdash; 2 articles
  * [virtual box](virtual_box/01_summary.md) &mdash; 2 articles
- * [visual studio](visual_studio/01_summary.md) &mdash; 4 articles
+ * [visual studio](visual_studio/01_summary.md) &mdash; 5 articles
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 3 articles
 
-154 articles
+155 articles
