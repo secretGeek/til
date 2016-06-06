@@ -60,7 +60,7 @@ Though this site is published as a free book, there is another book, a real book
  * [markdown](markdown/01_summary.md) &mdash; 3 articles
  * [mercurial](mercurial/01_summary.md) &mdash; 6 articles
  * [music](music/01_summary.md) &mdash; 5 articles
- * [notepad++](notepad++/01_summary.md) &mdash; 2 articles
+ * [notepad++](notepad++/01_summary.md) &mdash; 3 articles
  * [npm](npm/01_summary.md) &mdash; 5 articles
  * [paypal](paypal/01_summary.md) &mdash; 1 article
  * [powershell](powershell/01_summary.md) &mdash; 34 articles
@@ -76,4 +76,4 @@ Though this site is published as a free book, there is another book, a real book
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 4 articles
 
-157 articles
+158 articles

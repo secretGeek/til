@@ -1,8 +1,8 @@
 # Turn off App Updates
 
-When you upgrade to Windows 10, it "helpfully" makes all Windos Store Apps update automatically.
+When you upgrade to Windows 10, it "helpfully" makes all Windows Store Apps update automatically.
 
-To turn this off, run the "Store" App. It's the one with an old ladys handbag as the logo.
+To turn this off, run the "Store" App. It's the one with an old lady's handbag as the logo.
 
 Click on the icon with your avatar in it. (Because that's obviously where they'd put the settings. Must've run out of Gear icons.)
 
