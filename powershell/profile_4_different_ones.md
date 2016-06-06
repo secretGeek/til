@@ -1,10 +1,8 @@
 # In powershell you don't have 1 profile, you have 4 different ones.
 
-
 List all four like this:
 
     $profile | get-member -type noteproperty | ft -prop Name, Definition
-    
 
 For example:    
 
@@ -28,8 +26,17 @@ As mentioned -- the file (and even its containing folder) may not exist for you.
 
 So to create it, use:
 
-     New-Item -path {filename} -type file -force
-     
+    New-Item -path {filename} -type file -force
+
+To see example profiles on the internet google for either:
+
+    inurl:Microsoft.PowerShell_profile.ps1
+
+Or:
+
+    inurl:profile.ps1
+
+
 ## See Also
 
  * [Create profile](create_profile.md)

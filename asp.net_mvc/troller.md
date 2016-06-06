@@ -1,6 +1,6 @@
 # Troller &mdash; the trollful way of working with asp.net MVC
 
-This is an approach called variously 'troller', 'beCool' or WTFLeon?.
+This is an approach called variously 'troller', 'beCool' or WTFLeon?. A more accurate name would be "AjaxAwareController".
 
 It's been a while since I used this approach, but I want to document it for posterity and so that I can do something similarly awful to other frameworks in the future.
 
