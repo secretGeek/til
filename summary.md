@@ -162,6 +162,7 @@
 	* [select top with dynamic limit](/sql_server/select_top_with_dynamic_limit.md)
 	* [slow and long running queries](/sql_server/slow_and_long_running_queries.md)
 	* [sp heltpext](/sql_server/sp_heltpext.md)
+	* [start time](/sql_server/start_time.md)
 	* [trailing cr lf](/sql_server/trailing_cr_lf.md)
 	* [with common table expression](/sql_server/with_common_table_expression.md)
 	* [xtype](/sql_server/xtype.md)
@@ -189,3 +190,4 @@
 	* [environment variables](/windows/environment_variables.md)
 	* [notepad log file](/windows/notepad_log_file.md)
 	* [screenshot with mouse cursor](/windows/screenshot_with_mouse_cursor.md)
+	* [windows store apps update](/windows/windows_store_apps_update.md)

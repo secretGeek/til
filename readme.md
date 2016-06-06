@@ -67,13 +67,13 @@ Though this site is published as a free book, there is another book, a real book
  * [react](react/01_summary.md) &mdash; 2 articles
  * [redis](redis/01_summary.md) &mdash; 1 article
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) &mdash; 2 articles
- * [sql server](sql_server/01_summary.md) &mdash; 14 articles
+ * [sql server](sql_server/01_summary.md) &mdash; 15 articles
  * [sql server reporting services](sql_server_reporting_services/01_summary.md) &mdash; 2 articles
  * [sql spatial](sql_spatial/01_summary.md) &mdash; 1 article
  * [tools](tools/01_summary.md) &mdash; 2 articles
  * [virtual box](virtual_box/01_summary.md) &mdash; 2 articles
  * [visual studio](visual_studio/01_summary.md) &mdash; 5 articles
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
- * [windows](windows/01_summary.md) &mdash; 3 articles
+ * [windows](windows/01_summary.md) &mdash; 4 articles
 
-155 articles
+157 articles

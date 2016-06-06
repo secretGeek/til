@@ -13,6 +13,7 @@
 * [select top with dynamic limit](select_top_with_dynamic_limit.md)
 * [slow and long running queries](slow_and_long_running_queries.md)
 * [sp heltpext](sp_heltpext.md)
+* [start time](start_time.md)
 * [trailing cr lf](trailing_cr_lf.md)
 * [with common table expression](with_common_table_expression.md)
 * [xtype](xtype.md)
