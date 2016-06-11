@@ -27,6 +27,7 @@
 * [profile 4 different ones](profile_4_different_ones.md)
 * [prompt](prompt.md)
 * [psget conflicts with PowerShellGet](psget_conflicts_with_PowerShellGet.md)
+* [publish module](publish_module.md)
 * [remove package provider](remove_package_provider.md)
 * [runas](runas.md)
 * [see function definition](see_function_definition.md)
