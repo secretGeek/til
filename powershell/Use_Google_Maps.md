@@ -47,6 +47,43 @@ Thereafter, I try again:
     Coordinates  : 48.8583701,2.2944813
 
 Success!
+
+Now I try 
+
+    Get-GeoLocation
+    
+This one fails with a familiar though slightly different error...
+
+
+    You need to register and get an API key and save it as environment variable $env:GoogleGeoloc_API_Key = "YOUR API KEY"
+    Follow this link and get the API Key - https://developers.google.com/maps/documentation/geolocation/get-api-key
+
+    At C:\Users\Leon\Documents\WindowsPowerShell\Modules\GoogleMap\1.0.0.2\GoogleMap.psm1:703 char:9
+    +         Throw "You need to register and get an API key and save it as ...
+    +         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        + CategoryInfo          : OperationStopped: (You need to reg...get-api-key
+     :String) [], RuntimeException
+        + FullyQualifiedErrorId : You need to register and get an API key and save it as environment variable $env:GoogleGeoloc_API
+       _Key = "YOUR API KEY"
+    Follow this link and get the API Key - https://developers.google.com/maps/documentation/geolocation/get-api-key    
+
+ 
+i.e. This time it's
+
+GoogleGeoloc_API_Key (not GoogleGeocode_API_Key)
+
+Can I use my geo coding API key?
+
+I try that, but it fails.
+
+Looking at the code itself I see it is checking 
+
+    !$env:GooglePlaces_API_Key
+    
+So I'll set that!
+
+Later in the code it mentions $env:GoogleGeoloc_API_Key -- so I think it needs BOTH set (and the reference to the first one is a bug)
+
     
     
 ## Source
