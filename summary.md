@@ -143,6 +143,7 @@
 	* [Test Path](/powershell/Test_Path.md)
 	* [Transcript](/powershell/Transcript.md)
 	* [tree](/powershell/tree.md)
+	* [Use Google Maps](/powershell/Use_Google_Maps.md)
 	* [version](/powershell/version.md)
 	* [who is using each port](/powershell/who_is_using_each_port.md)
 * [react](/react/01_summary.md)
