@@ -183,6 +183,11 @@ Finally, to find local pizza joints....
 
 
     (Get-GeoLocation -WithCoordinates).Coordinates | Get-NearbyPlace -Radius 2000 -TypeOfPlace Restaurant -Keyword Pizza | % { $_.Name + " (" + $_.Address + ")" }
+    
+
+And nearest beer:
+    
+    (Get-GeoLocation -WithCoordinates).Coordinates | Get-NearbyPlace -Radius 1000 -TypeOfPlace Bar -Keyword Beer | % Name
 
 returned:
 
