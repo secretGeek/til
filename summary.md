@@ -143,6 +143,7 @@
 	* [see function definition](/powershell/see_function_definition.md)
 	* [sort](/powershell/sort.md)
 	* [Test Path](/powershell/Test_Path.md)
+	* [top ten files](/powershell/top_ten_files.md)
 	* [Transcript](/powershell/Transcript.md)
 	* [tree](/powershell/tree.md)
 	* [Use Google Maps](/powershell/Use_Google_Maps.md)
