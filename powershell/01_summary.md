@@ -31,6 +31,7 @@
 * [publish module](publish_module.md)
 * [remove package provider](remove_package_provider.md)
 * [runas](runas.md)
+* [Script Analyzer](Script_Analyzer.md)
 * [see function definition](see_function_definition.md)
 * [sort](sort.md)
 * [Test Path](Test_Path.md)

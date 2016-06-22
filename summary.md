@@ -140,6 +140,7 @@
 	* [publish module](/powershell/publish_module.md)
 	* [remove package provider](/powershell/remove_package_provider.md)
 	* [runas](/powershell/runas.md)
+	* [Script Analyzer](/powershell/Script_Analyzer.md)
 	* [see function definition](/powershell/see_function_definition.md)
 	* [sort](/powershell/sort.md)
 	* [Test Path](/powershell/Test_Path.md)
