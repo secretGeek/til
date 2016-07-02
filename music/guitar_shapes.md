@@ -34,6 +34,7 @@ Here's a fretboard with all the notes listed
 
 Here's a place where you can play A pentatonic minor. You can shift that pattern up or down the neck.
 I've marked the root note as R and the V note as capital X.
+I call this the 'up' pattern, because it's upward of the root note.
 
      0   1   2   3   4   5   6   7   8   9   10  11  12
     e|---|---|---|---|--R|---|---|--x|---|---|---|---|
@@ -45,6 +46,7 @@ I've marked the root note as R and the V note as capital X.
 
 
 Or you can play this adjacent shape. Which can also be shifted up or down for different keys.
+I think of this as the 'down' pattern.
 
      0   1   2   3   4   5   6   7   8   9   10  11  12
     e|---|---|--x|---|--R|---|---|---|---|---|---|---|
@@ -55,7 +57,7 @@ Or you can play this adjacent shape. Which can also be shifted up or down for di
     e|---|---|--x|---|--R|---|---|---|---|---|---|---|
 
 
-Within those scales you can add two notes to take it to A heptatonic minor. See the 'o's below.
+Within those scales/shapes you can add two notes to take it to A heptatonic minor. See the 'o's below.
 
      0   1   2   3   4   5   6   7   8   9   10  11  12
     e|---|---|---|---|--R|---|--o|--x|---|---|---|---|
@@ -65,5 +67,50 @@ Within those scales you can add two notes to take it to A heptatonic minor. See 
     a|---|---|---|---|--x|---|--x|--o|---|---|---|---|
     e|---|---|---|---|--R|---|--o|--x|---|---|---|---|
 
+And for the down pattern:
 
+     0   1   2   3   4   5   6   7   8   9   10  11  12
+    e|---|---|--x|---|--R|---|---|---|---|---|---|---|
+    b|---|---|--x|---|--X|--o|---|---|---|---|---|---|
+    g|---|--R|---|--o|--x|---|---|---|---|---|---|---|
+    d|---|--X|--o|---|--x|---|---|---|---|---|---|---|
+    a|---|--o|--x|---|--x|---|---|---|---|---|---|---|
+    e|---|---|--x|---|--R|---|---|---|---|---|---|---|
 
+You can also add a classic 'blue' note to the up pattern like so (marked as 'b'):
+
+     0   1   2   3   4   5   6   7   8   9   10  11  12
+    e|---|---|---|---|--R|---|---|--x|---|---|---|---|
+    b|---|---|---|(b)|--X|---|---|--x|---|---|---|---|
+    g|---|---|---|---|--x|---|--x|--b|(x)|---|---|---|
+    d|---|---|---|---|--x|---|--R|---|---|---|---|---|
+    a|---|---|---|---|--x|--b|--X|---|---|---|---|---|
+    e|---|---|---|---|--R|---|---|--x|---|---|---|---|
+
+The blue note is often played in passing, so I've indicated a few extra locations of some notes, which make it easier to slide over this brief note.
+
+This is just how I think on a fretboard. 
+
+Here is a classic way to travel up the board, moving through more than one shape.
+
+     0   1   2   3   4   5   6   7   8   9   10  11  12
+    e|---|---|---|---|---|---|---|--x|---|--x|--b|--x|
+    b|---|---|---|---|---|---|---|--x|---|--R|---|---|(x)|
+    g|---|---|---|---|--x|---|--x|--b|--x|---|---|---|
+    d|---|---|---|---|--x|---|--R|---|---|(x)|---|---|
+    a|---|---|---|---|--x|--b|--X|---|---|---|---|---|
+    e|---|---|---|---|--R|---|---|--x|---|---|---|---|
+
+Here's one part of the fretboard which forms a 'classic' shape, not mentioned above:
+
+     0   1   2   3   4   5   6   7   8   9   10  11  12
+    e|---|---|---|---|---|---|---|--x|---|--x|---|---|
+    b|---|---|---|---|---|---|---|--x|---|--R|---|---|
+    g|---|---|---|---|---|---|---|---|--x|---|---|---|
+    d|---|---|---|---|---|---|---|---|---|---|---|---|
+    a|---|---|---|---|---|---|---|---|---|---|---|---|
+    e|---|---|---|---|---|---|---|---|---|---|---|---|
+
+Some blues musicians will noodle around on just those five locations for an entire solo.
+
+(And of course you could shift it up or down to transpose to a different key. This is shown in A)

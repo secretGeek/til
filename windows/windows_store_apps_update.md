@@ -6,7 +6,7 @@ To turn this off, run the "Store" App. It's the one with an old lady's handbag a
 
 Click on the icon with your avatar in it. (Because that's obviously where they'd put the settings. Must've run out of Gear icons.)
 
-Don't select "Downloads and updates" because why would you go there to change the way "Downloads and Updates" work?
+Don't select "Downloads and updates" because why would you go *there* to change the way "Downloads and Updates" work?
 
 Instead select "Settings".
 

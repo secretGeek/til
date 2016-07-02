@@ -99,6 +99,7 @@
 	* [tension](/music/tension.md)
 * [notepad++](/notepad++/01_summary.md)
 	* [navigate back](/notepad++/navigate_back.md)
+	* [plugins](/notepad++/plugins.md)
 	* [tell notepad++ about a new file type](/notepad++/tell_notepad++_about_a_new_file_type.md)
 	* [todays date](/notepad++/todays_date.md)
 	* [trim trailing and save](/notepad++/trim_trailing_and_save.md)

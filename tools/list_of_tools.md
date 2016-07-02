@@ -8,7 +8,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
 ## Types of files:
 
- * .exe (127 files)
+ * .exe (128 files)
  * .dll (27 files)
  * .txt (16 files)
  * .bat (12 files)
@@ -77,6 +77,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * dumpchk.exe
  * Dupes.exe
  * dupfinder.exe
+ * EchoArgs.exe
  * efsinfo.exe
  * exctrlst.exe
  * extract.exe
