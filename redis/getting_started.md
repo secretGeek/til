@@ -13,10 +13,10 @@ It's basically a key value store, where the keys are strings, and the values can
 7.  Coming soon.
 
 All types are accessed by keys. Keys are strings.
-
  
 ## See also
 
  * [Getting started with Redis on AppHarbor](https://blog.appharbor.com/2012/04/23/getting-started-with-redis-on-appharbor) (30 meg free)
  * https://try.redis.io/
- * [Karl Seguin's 'little redis book'](http://openmymind.net/2012/1/23/The-Little-Redis-Book/) just 29 pages
+ * [Karl Seguin's 'little redis book'](http://openmymind.net/2012/1/23/The-Little-Redis-Book/) just 29 glorious pages
+

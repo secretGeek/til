@@ -12,5 +12,10 @@ Here's where choco installed ConsoleZ
 
     C:\ProgramData\chocolatey\lib\ConsoleZ\tools\console.exe
 
-//TODO: How can I best put consoleZ into my path (across all machines)? i need it for when i "[runas](../powershell/runas.md)" 
- 
+
+To run consoleZ as admin: 
+
+    Start-Process "$env:ChocolateyInstall\lib\ConsoleZ\tools\console.exe" -Verb runAs
+   
+   
+(Assuming `$env:ChocolateyInstall` is correct)

@@ -6,3 +6,7 @@
     Start-Process console.exe -Verb runAs
     #Or you might prefer
     Start-Process powershell -Verb runAs
+
+Or better yet..
+    
+    SStart-Process "$env:ChocolateyInstall\lib\ConsoleZ\tools\console.exe" -Verb runAstart-Process "$env:ChocolateyInstall\lib\ConsoleZ\tools\console.exe" -Verb runAs

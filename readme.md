@@ -60,12 +60,14 @@ Though this site is published as a free book, there is another book, a real book
  * [markdown](markdown/01_summary.md) &mdash; 3 articles
  * [mercurial](mercurial/01_summary.md) &mdash; 6 articles
  * [music](music/01_summary.md) &mdash; 6 articles
+ * [node](node/01_summary.md) &mdash; 1 article
  * [notepad++](notepad++/01_summary.md) &mdash; 5 articles
  * [npm](npm/01_summary.md) &mdash; 5 articles
+ * [oracle](oracle/01_summary.md) &mdash; 1 article
  * [paypal](paypal/01_summary.md) &mdash; 1 article
  * [powershell](powershell/01_summary.md) &mdash; 39 articles
  * [react](react/01_summary.md) &mdash; 2 articles
- * [redis](redis/01_summary.md) &mdash; 1 article
+ * [redis](redis/01_summary.md) &mdash; 2 articles
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) &mdash; 2 articles
  * [sql server](sql_server/01_summary.md) &mdash; 15 articles
  * [sql server reporting services](sql_server_reporting_services/01_summary.md) &mdash; 2 articles
@@ -76,4 +78,4 @@ Though this site is published as a free book, there is another book, a real book
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 4 articles
 
-166 articles
+169 articles
