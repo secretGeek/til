@@ -40,3 +40,5 @@ Worked fine. Yay.
 Even better, I could pass in a whole array of sessions to delete.
 
     redis.Del(victims.ToArray());
+
+And now that the store is down to 187 entries (instead of 120,000) redis desktop manager works very nicely.    

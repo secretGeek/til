@@ -11,7 +11,7 @@ e.g
 
 "The advice business is a monopoly run by survivors. When something becomes a non-survivor, it is either completely eliminated, or whatever voice it has is muted to zero."
 
-We discount the role of luck.
+We discount the role of luck (particularly when telling our own stories).
 
 If enough scientists study a phenomenon, some will find statistically significant results by chance, and these are the experiments submitted for publication. Additionally, papers showing positive results may be more appealing to editors.
 
@@ -21,7 +21,17 @@ When scientists began finding exo-planets (planets that orbit a star other than 
 
 Journalists dutifully reported that most planets in the universe are gigantic, many times larger than Jupiter, and Earth is some kind of freakishly small anomaly, unique in a universe of gas giants. Thanks, Journalists!
 
+## Related concept
+
+> Privilege is invisible to those who have it.<br />
+> &mdash;American sociologist, Prof Michael Kimmel
+
+> "It is difficult to get a man to understand something, when his salary depends on his not understanding it."<br />
+> &mdash;Upton Sinclair
+
 
 ## See Also
 
  * Darius Kazemi ["How I made it"](https://www.youtube.com/watch?v=l_F9jxsfGCw)  explains his technique for picking winning lottery numbers. (A satirical example of Survivorship Bias) 
+ 
+ 

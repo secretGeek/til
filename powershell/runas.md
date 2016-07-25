@@ -9,4 +9,6 @@
 
 Or better yet..
     
-    SStart-Process "$env:ChocolateyInstall\lib\ConsoleZ\tools\console.exe" -Verb runAstart-Process "$env:ChocolateyInstall\lib\ConsoleZ\tools\console.exe" -Verb runAs
+    Start-Process "$env:ChocolateyInstall\lib\ConsoleZ\tools\console.exe" -Verb runAs
+    
+    

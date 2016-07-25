@@ -44,7 +44,7 @@ Though this site is published as a free book, there is another book, a real book
  * [appharbor](appharbor/01_summary.md) &mdash; 1 article
  * [asp.net mvc](asp.net_mvc/01_summary.md) &mdash; 10 articles
  * [chocolatey](chocolatey/01_summary.md) &mdash; 3 articles
- * [concepts](concepts/01_summary.md) &mdash; 6 articles
+ * [concepts](concepts/01_summary.md) &mdash; 7 articles
  * [console](console/01_summary.md) &mdash; 3 articles
  * [css](css/01_summary.md) &mdash; 2 articles
  * [electron](electron/01_summary.md) &mdash; 2 articles
@@ -56,6 +56,7 @@ Though this site is published as a free book, there is another book, a real book
  * [graphics](graphics/01_summary.md) &mdash; 3 articles
  * [html](html/01_summary.md) &mdash; 1 article
  * [javascript](javascript/01_summary.md) &mdash; 6 articles
+ * [jekyll](jekyll/01_summary.md) &mdash; 1 article
  * [linqpad](linqpad/01_summary.md) &mdash; 5 articles
  * [markdown](markdown/01_summary.md) &mdash; 3 articles
  * [mercurial](mercurial/01_summary.md) &mdash; 6 articles
@@ -78,4 +79,4 @@ Though this site is published as a free book, there is another book, a real book
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 4 articles
 
-169 articles
+171 articles

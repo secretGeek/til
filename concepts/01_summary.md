@@ -3,6 +3,7 @@
 ### chapter contents
  
 * [coik](coik.md)
+* [list of potentially useful concepts](list_of_potentially_useful_concepts.md)
 * [mantras](mantras.md)
 * [mere exposure](mere_exposure.md)
 * [opportunity cost](opportunity_cost.md)
