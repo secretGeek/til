@@ -1,14 +1,12 @@
-# Use express webserver to serve lcoal files over http
+# Use express webserver to serve local files over http
 
 
     npm install express
     
 
-Then create a file, server.js, with contents such as:
+Then create a file, `server.js`, with contents much-like:
 
     
-
-
     var express = require('express');
     var app = express();
     var path = require('path');
@@ -20,7 +18,8 @@ Then create a file, server.js, with contents such as:
     app.listen(8000);
     console.log('Listening on port 8000');
 
-(Replacing '`C:\\SOME\\Path\\Here`' with the path that will serve as the root of the 'site', noting double backslashies. In*nix land of course it's all forward slashies.)
+    
+(Replacing '`C:\\SOME\\Path\\Here`' with the path that will serve as the root of the 'site', noting double backslashies. In *nix land of course it's all forward slashies.)
     
     
 Then start the web server using:
@@ -39,4 +38,3 @@ And browse to:
 
   * <http://stackoverflow.com/a/26845720/49> -- user 'thehme'
 
-  
