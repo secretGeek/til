@@ -46,6 +46,7 @@ to go to your home folder, use:
  * `alt-tab` -- switch applications
  * `ctrl-W` -- close document
  * `ctrl-Q` -- quit application
-
+ * `shift-ctrl-C` -- copy to clipboard
+ * `shift-ctrl-V` -- paste from clipboard
    
 
