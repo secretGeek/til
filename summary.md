@@ -1,5 +1,9 @@
 ﻿# Summary
 
+* [.net core MVC](/.net_core_MVC/01_summary.md)
+	* [ip address](/.net_core_MVC/ip_address.md)
+	* [UrlEncode](/.net_core_MVC/UrlEncode.md)
+	* [UrlParameter-Optional](/.net_core_MVC/UrlParameter-Optional.md)
 * [appharbor](/appharbor/01_summary.md)
 	* [keep alive](/appharbor/keep_alive.md)
 * [asp.net mvc](/asp.net_mvc/01_summary.md)
@@ -85,6 +89,7 @@
 * [linux](/linux/01_summary.md)
 	* [bash](/linux/bash.md)
 	* [profiles](/linux/profiles.md)
+	* [SSH](/linux/SSH.md)
 * [markdown](/markdown/01_summary.md)
 	* [links containing parens](/markdown/links_containing_parens.md)
 	* [phone based document editing](/markdown/phone_based_document_editing.md)
