@@ -3,6 +3,7 @@
 ### chapter contents
  
 * [current extensions](current_extensions.md)
+* [diffmerge merge](diffmerge_merge.md)
 * [ensure all files added](ensure_all_files_added.md)
 * [git versus hg console output](git_versus_hg_console_output.md)
 * [log template](log_template.md)
