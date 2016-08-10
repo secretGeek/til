@@ -125,6 +125,7 @@
 	* [tab completion with powershell](/npm/tab_completion_with_powershell.md)
 * [oracle](/oracle/01_summary.md)
 	* [connection strings](/oracle/connection_strings.md)
+	* [top 10](/oracle/top_10.md)
 * [paypal](/paypal/01_summary.md)
 	* [download custom daterange](/paypal/download_custom_daterange.md)
 * [powershell](/powershell/01_summary.md)

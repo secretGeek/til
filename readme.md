@@ -66,7 +66,7 @@ Though this site is published as a free book, there is another book, a real book
  * [node](node/01_summary.md) &mdash; 1 article
  * [notepad++](notepad++/01_summary.md) &mdash; 5 articles
  * [npm](npm/01_summary.md) &mdash; 5 articles
- * [oracle](oracle/01_summary.md) &mdash; 1 article
+ * [oracle](oracle/01_summary.md) &mdash; 2 articles
  * [paypal](paypal/01_summary.md) &mdash; 1 article
  * [powershell](powershell/01_summary.md) &mdash; 39 articles
  * [react](react/01_summary.md) &mdash; 2 articles
@@ -81,4 +81,4 @@ Though this site is published as a free book, there is another book, a real book
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 4 articles
 
-178 articles
+179 articles
