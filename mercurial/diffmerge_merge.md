@@ -1,6 +1,6 @@
 # Configure mercurial to use sourcegear diffmerge for merging
 
-In your [mercurial.ini file](./mercurial_ini.md) specify...
+In your [mercurial.ini file](./mercurial_ini.md)(i.e. $env:userprofile\mercurial.ini) specify...
 
     [ui]
     merge = vdiff
