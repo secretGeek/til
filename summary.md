@@ -218,3 +218,6 @@
 	* [notepad log file](/windows/notepad_log_file.md)
 	* [screenshot with mouse cursor](/windows/screenshot_with_mouse_cursor.md)
 	* [windows store apps update](/windows/windows_store_apps_update.md)
+* [windows.forms](/windows.forms/01_summary.md)
+	* [key down](/windows.forms/key_down.md)
+	* [select all](/windows.forms/select_all.md)
