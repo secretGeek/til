@@ -1,6 +1,6 @@
 # Form Wide Hotkeys...
 
-For the form, make sure to set "this.KeyPreview = true;"
+For the form, make sure to set `this.KeyPreview = true;`
 
 Then you can define form-wide hotkeys like so...
 
@@ -19,7 +19,6 @@ Then you can define form-wide hotkeys like so...
             return;
         }
 
-        //TODO: cancel.
         if (e.KeyCode == Keys.F5 && e.Shift)
         {
             e.Handled = true;

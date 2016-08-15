@@ -10,4 +10,5 @@ http://www.smarthobbymusician.com/over-300-drum-tracks/
 fantastic resource i intend to come back to again and again.
 
 
-here's that blues in A I was working at earlier: https://www.youtube.com/watch?v=W9shk67MYdc
+here's that blues in A I was working at earlier: <https://www.youtube.com/watch?v=W9shk67MYdc>
+and same with just drums/bass <https://www.youtube.com/watch?v=Axrzkrk08pg>
