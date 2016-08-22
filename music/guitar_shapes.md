@@ -114,3 +114,6 @@ Here's one part of the fretboard which forms a 'classic' shape, not mentioned ab
 Some blues musicians will noodle around on just those five locations for an entire solo.
 
 (And of course you could shift it up or down to transpose to a different key. This is shown in A)
+
+
+![minor pentatonic positions](minorpentatonicpositions.gif)
