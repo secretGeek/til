@@ -1,14 +1,17 @@
 # Bash for Windows User
 
-    clear -- (similar to cls) clears the screen. (not quite, see notes below)
-    ls   -- (similar to dir) list contents of current folder
-    cd ..   -- moves up as expected
-    cat     -- (same as type or get-content) dump contents on a file to screen
-    cd [foldername] -- and of course names are CASE-SENSITIVE in linux land.
-    mkdir -- (same as md) make directory
-    cp -- (same as copy) copy one or more files into the current location
-    rm -- (same as del) remove one or more files (but not folders)
-    rmdir -- remove directory
+|Command|Similar to|Notes|
+|-------|----------|-----|
+|`clear` |`cls`| clears the screen. (not quite, see notes below)|
+|`ls`    |`dir`| list contents of current folder|
+|`cd ..` |`cd..`|moves up as expected|
+|`cat`   |`type` or `get-content`| dump contents of a file to screen|
+|`cd [foldername]`|`cd [foldername]`| of course names are CASE-SENSITIVE in linux land.|
+|`mkdir` |`md`| make directory|
+|`cp` |`copy`| copy one or more files into the current location|
+|`rm` |`del`| remove one or more files (but not folders)|
+|`rmdir` |`rd`|remove directory|
+
     
 for "help" on any command:
 
