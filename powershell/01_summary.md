@@ -30,6 +30,7 @@
 * [psget conflicts with PowerShellGet](psget_conflicts_with_PowerShellGet.md)
 * [publish module](publish_module.md)
 * [remove package provider](remove_package_provider.md)
+* [Rename to lower case](Rename_to_lower_case.md)
 * [runas](runas.md)
 * [Script Analyzer](Script_Analyzer.md)
 * [see function definition](see_function_definition.md)
