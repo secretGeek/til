@@ -88,6 +88,7 @@
 	* [set breakpoint](/linqpad/set_breakpoint.md)
 * [linux](/linux/01_summary.md)
 	* [bash](/linux/bash.md)
+	* [digital ocean](/linux/digital_ocean.md)
 	* [profiles](/linux/profiles.md)
 	* [SSH](/linux/SSH.md)
 * [markdown](/markdown/01_summary.md)

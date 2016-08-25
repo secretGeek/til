@@ -12,3 +12,8 @@ fantastic resource i intend to come back to again and again.
 
 here's that blues in A I was working at earlier: <https://www.youtube.com/watch?v=W9shk67MYdc>
 and same with just drums/bass <https://www.youtube.com/watch?v=Axrzkrk08pg>
+
+And here's that 'straight rock beat' beat i was doing a reggae thing to: <https://www.youtube.com/watch?v=hU4FSLfUEAc&list=PLF990399ACFD0A190&index=56>
+
+   |--3-3-1-3---
+   
