@@ -2,11 +2,11 @@
 
 materials you will need:
 
- * your own domain name already purchased. (suggest gandi.net)
+ * your own domain name already purchased. (suggest <http://gandi.net> as registrar)
  * $5 per month to pay digital ocean
  * need a local machine on which you will do your development. (i'll assume local machine is windows though it could easily be osx or linux)
 
-With any articles mentioned from this one... be sure to read the comments. Sometimes they highlight common problems that people have, or shortcomings/errors in the article that haven't been corrected yet.
+With any articles mentioned below: be sure to read the comments. Sometimes they highlight common problems that people have, or shortcomings/errors in the article that haven't been corrected yet.
  
  
 Prepare your digital ocean account
@@ -18,9 +18,8 @@ Prepare your digital ocean account
 Create and configure your droplet
 
 3. create a droplet at digital ocean. Must be 64 bit (.net core does not run in 32 bit linux). Would currently be Ubuntu 16.
-    -tell it to use the SSH key you already provided it with.  
+ * tell it to use the SSH key you already provided it with.  
 4. use PuTTY to connect to your droplet as root.
-
 
  * create a new user
  * give that user sudo privileges
@@ -43,20 +42,35 @@ on your local machine:
  * verify that you can download/upload files
  * create a new .net core app
  * customize its port number. (this will be handy if you want to host more than 1 app in your droplet)     
- * publish it using `dotnet publish` (from the folder that contains the project.json file. The published content will end up in the bin\Debug\netcoreapp1.0\publish subfolder)
+ * publish it using `dotnet publish` (from the folder that contains the `project.json` file. The published content will end up in the `bin\Debug\netcoreapp1.0\publish\` subfolder)
  * upload the published content to your droplet
+ 
+on your droplet:
+ 
  * install nginx
- * configure nginx to act as a reverse proxy to your site
- * dotnet yoursite.dll
+ * configure nginx to act as a reverse proxy to your site 
+ * run your site in a console. (dotnet `yoursite.dll`)
+
+from a browser: 
+
  * visit your ipaddress... see that the site is returned
  * configure nameservers at your domain name registrar
  * setup domain records at digital ocean (a record, cname)
+ 
+on your droplet: 
+
  * configure nginx to expect the domain name
  * install supervisor
  * configure supervisor to keep your app running
+
+from a browser:
+ 
  * use pingdom or "cake status" to monitor your site(s).
 
+ 
+ 
 ## Here was my preliminary list....
+
 
 
 ### STEP ONE: THE MUST-HAVES
