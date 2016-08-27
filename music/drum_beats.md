@@ -17,3 +17,5 @@ And here's that 'straight rock beat' beat i was doing a reggae thing to: <https:
 
    |--3-3-1-3---
    
+
+And don't forget <http://www.guitarbackingtrack.com> which has many songs, including a lot of simple backing tunes you can jam to. <http://www.guitarbackingtrack.com/bts/Jamtracks.htm>
