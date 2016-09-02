@@ -65,7 +65,7 @@ on your droplet:
 
 from a browser:
  
- * use pingdom or "cake status" to monitor your site(s).
+ * use pingdom or "statuscake" to monitor your site(s).
 
  
  
@@ -103,7 +103,5 @@ from a browser:
  * [How To Set Up Nginx Server Blocks (Virtual Hosts) on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04)
  * [How To Use Filezilla to Transfer and Manage Files Securely on your VPS](https://www.digitalocean.com/community/tutorials/how-to-use-filezilla-to-transfer-and-manage-files-securely-on-your-vps)
  * [How To Protect SSH with Fail2Ban on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-14-04)
- 
  * [Initial Server Setup with Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04)
- 
  * [Uncomplicated FireWall (ufw) on ubuntu](https://help.ubuntu.com/12.04/serverguide/firewall.html)
