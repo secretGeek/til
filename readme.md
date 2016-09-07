@@ -59,7 +59,7 @@ Though this site is published as a free book, there is another book, a real book
  * [javascript](javascript/01_summary.md) &mdash; 6 articles
  * [jekyll](jekyll/01_summary.md) &mdash; 1 article
  * [linqpad](linqpad/01_summary.md) &mdash; 5 articles
- * [linux](linux/01_summary.md) &mdash; 5 articles
+ * [linux](linux/01_summary.md) &mdash; 6 articles
  * [markdown](markdown/01_summary.md) &mdash; 3 articles
  * [mercurial](mercurial/01_summary.md) &mdash; 7 articles
  * [music](music/01_summary.md) &mdash; 6 articles
@@ -72,7 +72,7 @@ Though this site is published as a free book, there is another book, a real book
  * [react](react/01_summary.md) &mdash; 2 articles
  * [redis](redis/01_summary.md) &mdash; 2 articles
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) &mdash; 2 articles
- * [sql server](sql_server/01_summary.md) &mdash; 15 articles
+ * [sql server](sql_server/01_summary.md) &mdash; 16 articles
  * [sql server reporting services](sql_server_reporting_services/01_summary.md) &mdash; 2 articles
  * [sql spatial](sql_spatial/01_summary.md) &mdash; 1 article
  * [tools](tools/01_summary.md) &mdash; 2 articles
@@ -82,4 +82,4 @@ Though this site is published as a free book, there is another book, a real book
  * [windows](windows/01_summary.md) &mdash; 4 articles
  * [windows.forms](windows.forms/01_summary.md) &mdash; 2 articles
 
-185 articles
+187 articles

@@ -3,6 +3,7 @@
 ### chapter contents
  
 * [backup restore script](backup_restore_script.md)
+* [create schema specific role](create_schema_specific_role.md)
 * [datetime trim hours milliseconds](datetime_trim_hours_milliseconds.md)
 * [find view function or sproc](find_view_function_or_sproc.md)
 * [first day of month](first_day_of_month.md)
