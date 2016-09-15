@@ -5,7 +5,7 @@ To trim off the milliseconds.... (this was necessary when sending to XML for con
 
     DATEADD(ms, -DATEPART(ms, [date]), [date])
     
-To trim off the time portion.... 
+To trim off the entire time portion.... 
     
     DATEADD(ms, -DATEPART(dd, [date]), [date])
     
