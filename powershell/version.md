@@ -12,7 +12,9 @@ So I've added this to my profile:
 
 But you might also need to consider where the [currently running shell is 64 or 32 bit](is_this_64_or_32_bit_powershell_today.md), and [is powershell running as admin?](is_current_user_admin.md). 
 
+Or if you want to know the [windows version, I've covered that too](/windows/which_version.md).
     
-## See also    
+## Source
 
  * http://stackoverflow.com/questions/1825585/determine-installed-powershell-version
+
