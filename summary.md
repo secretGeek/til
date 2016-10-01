@@ -94,6 +94,7 @@
 	* [digital ocean](/linux/digital_ocean.md)
 	* [how much memory is free](/linux/how_much_memory_is_free.md)
 	* [how to edit a file](/linux/how_to_edit_a_file.md)
+	* [nginx](/linux/nginx.md)
 	* [profiles](/linux/profiles.md)
 	* [SSH](/linux/SSH.md)
 	* [sudo](/linux/sudo.md)

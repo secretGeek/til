@@ -12,4 +12,9 @@ or, simply:
  
 To update apt-get...
 
-sudo apt-get update
+    sudo apt-get update
+
+
+To install somethink...
+
+    sudo apt-get install unzip

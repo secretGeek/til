@@ -16,3 +16,4 @@ It's pretty intuitive. It all happens in the console. There is a list of command
 Now ofcourse, vim is also available. It's far more powerful, but with a learning curve.
 
 It will never ever go away as long as you live. So any effort spent learning it will continue to be of value forever.
+

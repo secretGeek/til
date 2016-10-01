@@ -1,5 +1,6 @@
 # what's in /bin
 
+Here's what's in the /bin of a linux VM i've been messing with lately.
 
     bash                echo        mv                sleep
     btrfs               ed          nano              ss
