@@ -13,6 +13,12 @@ then start the service, if you're interested.
     
     sudo service nginx start    
     
+go and look at the config...
+
+    cd /etc/nginx/
+    cat nginx.conf
+
+but the stuff we'll be dealing with mostly is in this folder:
     
     cd /etc/nginx/sites-available/
 
@@ -76,3 +82,4 @@ So you can tell nginx to go ahead and use this newly crafted and verified config
  * <https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04>
  * <https://docs.asp.net/en/latest/publishing/linuxproduction.html>
  * [How To Set Up Nginx Server Blocks (Virtual Hosts) on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04)
+ * [NGINX for ASP.NET Core In-Depth](http://rehansaeed.com/nginx-asp-net-core-depth/)
