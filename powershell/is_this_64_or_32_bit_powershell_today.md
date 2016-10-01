@@ -23,6 +23,11 @@ More thorough again...
         return [IntPtr]::size -eq 4
     }
 
-## See Also
+## Source
 
  * http://stackoverflow.com/questions/8588960/determine-if-current-powershell-process-is-32-bit-or-64-bit
+ 
+## See Also
+
+ * [Which version of Windows is currently running?](../windows/which_version.md)
+ * [which version of Powershell do I have?](version.md)

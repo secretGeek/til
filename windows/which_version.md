@@ -1,6 +1,6 @@
 # How can I tell which version of Windows is currently running?
 
-    [System.Environment]::OSVersion.Version
+    [Environment]::OSVersion.Version
 
     
     Major  Minor  Build  Revision
@@ -39,7 +39,14 @@ And you can turn the major/minor into a well known version name, using the table
 And is windows a 64 or 32 bit version??
 
 
-    [System.Environment]::Is64BitOperatingSystem
+    [Environment]::Is64BitOperatingSystem
     True
 
 I suspect that will be true for a long time to come.
+
+Consider also....
+
+    [Environment]::Is64BitProcess
+    True
+
+Which is [described here](../powershell/is_this_64_or_32_bit_powershell_today.md)
