@@ -13,3 +13,4 @@
 * [SSH](SSH.md)
 * [sudo](sudo.md)
 * [supervisor](supervisor.md)
+* [uncomplicated firewall](uncomplicated_firewall.md)

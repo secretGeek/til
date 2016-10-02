@@ -99,6 +99,7 @@
 	* [SSH](/linux/SSH.md)
 	* [sudo](/linux/sudo.md)
 	* [supervisor](/linux/supervisor.md)
+	* [uncomplicated firewall](/linux/uncomplicated_firewall.md)
 * [markdown](/markdown/01_summary.md)
 	* [links containing parens](/markdown/links_containing_parens.md)
 	* [phone based document editing](/markdown/phone_based_document_editing.md)

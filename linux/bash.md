@@ -67,3 +67,4 @@ To go to your home folder, use simply:
 ## Source
 
  * <https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file-on-ubuntu-and-centos>
+ * <http://www.tldp.org/LDP/abs/html/io-redirection.html>
