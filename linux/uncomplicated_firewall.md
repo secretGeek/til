@@ -8,7 +8,8 @@ Enable ufw, and allow 80, for inbound http requests, and 22 for SSH, as follows:
 
     sudo ufw enable;sudo ufw allow 22/tcp;sudo ufw allow 80/tcp
 
-To checkif `ufw` is setting up as expected...
+
+To check if `ufw` is set up as expected...
 
     $ sudo ufw status
     Status: active
@@ -36,8 +37,8 @@ And for extra info you can try:
     80/tcp (v6)                ALLOW IN    Anywhere (v6)
 
 
-    
-And which apps are registered...    
+
+And to see which apps are registered with ufw...
     
     $ sudo ufw app list
     Available applications:
@@ -46,17 +47,16 @@ And which apps are registered...
       Nginx HTTPS
       OpenSSH
 
-    
-    
-Considerations for later...    
 
-    HTTPS connections can be allowed with this command:
+Considerations for later...
 
-    sudo ufw allow https
-
-If you'd rather use the port number, 443, use this command:
-
-    sudo ufw allow 443
+> HTTPS connections can be allowed with this command:
+>
+>     sudo ufw allow https
+>
+> If you'd rather use the port number, 443, use this command:
+>
+>   sudo ufw allow 443
 
 
 
