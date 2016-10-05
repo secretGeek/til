@@ -28,3 +28,7 @@ How bout gigabytes, terrabytes or petabytes?
 |1TB|1099511627776|
 |1PB|1125899906842624|
 
+And you can round them, as follows:
+
+    (763392/1MB).ToString("0.00")
+    0.73
