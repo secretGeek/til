@@ -7,6 +7,12 @@
     -----  -----  -----  --------
     10     0      10586  0
 
+Or (for Windows 10 Anniversary edition)
+
+    Major  Minor  Build  Revision
+    -----  -----  -----  --------
+    10     0      14393  0    
+    
 or perhaps you see...
 
     Major  Minor  Build  Revision
@@ -50,3 +56,10 @@ Consider also....
     True
 
 Which is [described here](../powershell/is_this_64_or_32_bit_powershell_today.md)
+
+You can also run `winver.exe` which produces a dialog something like this:
+
+
+C:\users\leon\dropbox\secretGeek\util\til\windows
+![WinVer.exe](winver.png)
+

@@ -228,6 +228,7 @@
 	* [launch vs code](/vs_code/launch_vs_code.md)
 	* [markdown preview](/vs_code/markdown_preview.md)
 * [windows](/windows/01_summary.md)
+	* [bash on windows](/windows/bash_on_windows.md)
 	* [environment variables](/windows/environment_variables.md)
 	* [notepad log file](/windows/notepad_log_file.md)
 	* [screenshot with mouse cursor](/windows/screenshot_with_mouse_cursor.md)
