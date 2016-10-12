@@ -10,6 +10,7 @@
 * [histogram](histogram.md)
 * [inline min](inline_min.md)
 * [last monday](last_monday.md)
+* [Log Message During LongRunning Proc](Log_Message_During_LongRunning_Proc.md)
 * [mismatch between estimated and actual](mismatch_between_estimated_and_actual.md)
 * [scalar function AfterChar](scalar_function_AfterChar.md)
 * [select top with dynamic limit](select_top_with_dynamic_limit.md)

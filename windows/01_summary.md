@@ -3,6 +3,7 @@
 ### chapter contents
  
 * [bash on windows](bash_on_windows.md)
+* [disable cortana in windows 10](disable_cortana_in_windows_10.md)
 * [environment variables](environment_variables.md)
 * [notepad log file](notepad_log_file.md)
 * [screenshot with mouse cursor](screenshot_with_mouse_cursor.md)

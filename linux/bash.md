@@ -11,6 +11,7 @@
 |`cp` |`copy`| copy one or more files into the current location|
 |`rm` |`del`| remove one or more files (or directories, using -d or -r)|
 |`rmdir` |`rd`|remove directory|
+|`| more` |`| more`|show results one page at a time|
 
     
 for "help" on any command:
