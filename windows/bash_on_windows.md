@@ -96,7 +96,16 @@ Next things to do...
 
  * [Fun with the Windows Subsystem for Linux, Pete Brown](https://blogs.windows.com/buildingapps/2016/07/22/fun-with-the-windows-subsystem-for-linux/#DYZBzMFA6jH3q4qd.97)
  * [Five fun things you can do with the Windows 10 Bash](https://4sysops.com/archives/five-fun-things-you-can-do-with-the-windows-10-bash/)   
-   
+
+Important thing to do.... keep your packages up to date.
+
+I saw a window spontaneously pop open on Wednesday 13th October 2016, AptPackageIndexUpdate -- 
+
+(see this issue: <https://github.com/Microsoft/BashOnWindows/issues/841>)
+
+Turns out that's ok and perfectly acceptable, for now.
+
+ 
 ## Source
 
  * <http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/>
