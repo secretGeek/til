@@ -117,6 +117,7 @@
 	* [background noise](/music/background_noise.md)
 	* [Bb Trumpet](/music/Bb_Trumpet.md)
 	* [drum beats](/music/drum_beats.md)
+	* [guitar finger names](/music/guitar_finger_names.md)
 	* [guitar shapes](/music/guitar_shapes.md)
 	* [take it slow](/music/take_it_slow.md)
 	* [tension](/music/tension.md)
