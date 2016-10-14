@@ -46,6 +46,10 @@ Which finger do we use to pluck each string?
  
 So our thumb does *triple* duty - looking after all the bass strings... while the other three strings have one finger permanently devoted to each of them.
 
+But what about your pinky finger, eh!? What about that! Well this is the cleverest bit of all.
+
+Since the fingers don't need to move around at all, you can plant the pinky finger on the face of the guitar, anchor it in place, and use it to stop your hand from moving. That way you need never look at where your fingers are in relation to the strings, because they can't move... they're wherever you last put them.
+
 THIS is a hard habit to ingest and takes a lot of time to acquire.
 
 Some day I'll get there...
