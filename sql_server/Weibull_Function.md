@@ -1,6 +1,6 @@
 # Weibull function
 
-This is a handy function for modelling statistical likelihood of failure (or survival).
+This is a handy function for modeling statistical likelihood of failure (or survival).
 
 There are four parameters:
 
@@ -13,7 +13,7 @@ There are four parameters:
 
 Here is Weibull function for the cumulative and non-cumulative case.
 
-    WEIBULL(x,a,b,TRUE) = 1 – e^(-(x/b)^a)
+    WEIBULL(x,a,b,TRUE) = 1 - e^(-(x/b)^a)
     WEIBULL(x,a,b,FALSE) = (a/b^a)(x^(a-1))(e^(-x/b)^a) 
     
 In Excel, there is a function WEIBULL, which you can use directly.
