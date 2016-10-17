@@ -15,6 +15,4 @@ Translation:
 >   Look in the array (B3:F2000), for the value 'Puppy' in the first column. Return the value from the 2nd column. 
 
 
-And the false means "Do not use fuzzy match". I don't know what fuzzy match I just know I don't want it.
-
-Always go 'false'.
+And the false means "Do not use fuzzy match". I don't know what fuzzy match means I just know I don't want it. Always go 'false'.

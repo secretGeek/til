@@ -72,7 +72,7 @@ Though this site is published as a free book, there is another book, a real book
  * [react](react/01_summary.md) &mdash; 2 articles
  * [redis](redis/01_summary.md) &mdash; 2 articles
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) &mdash; 2 articles
- * [sql server](sql_server/01_summary.md) &mdash; 18 articles
+ * [sql server](sql_server/01_summary.md) &mdash; 19 articles
  * [sql server reporting services](sql_server_reporting_services/01_summary.md) &mdash; 2 articles
  * [sql spatial](sql_spatial/01_summary.md) &mdash; 1 article
  * [tools](tools/01_summary.md) &mdash; 2 articles
@@ -82,5 +82,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows](windows/01_summary.md) &mdash; 9 articles
  * [windows.forms](windows.forms/01_summary.md) &mdash; 2 articles
 
-203 articles
-36958 words
+204 articles
+37151 words
