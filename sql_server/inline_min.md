@@ -43,9 +43,9 @@ Or using SQL Generics you can simply say:
     
 You will of course need to write your own compiler to use SQL Generics.
 
-Similarly if you want to use:
+Similarly if you want to use PARAMS, such as:
 
     CREATE function dbo.InlineMin<T>(PARAMS @val1 Array<T>)
 
     
-First class array handling is strangely absent from SQL even though it could fit so naturally with set-based processing.
+But "First-class" array handling is strangely absent from SQL even though it could fit so naturally with set-based processing.
