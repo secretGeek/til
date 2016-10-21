@@ -105,7 +105,54 @@ I saw a window spontaneously pop open on Wednesday 13th October 2016, AptPackage
 
 Turns out that's ok and perfectly acceptable, for now.
 
- 
+
+
+When you restart bash on windows, you might see a message like:
+
+    18 packages can be updated.
+    11 updates are security updates.
+
+In which case, don't forget to:
+
+    sudo apt-get update
+
+I found that doing that, then exiting bash and coming back in... I now had:
+
+    26 packages can be updated.
+    12 updates are security updates.
+
+So... I ran "sudo apt-get update" again....
+
+And this time when I exited and came back there were no more messages about packages to be updated.
+
+    
+Also I found that whenever i used `sudo` I would get a messge:
+
+        unable to resolve host LEONCOMPUTER
+
+Turns out I had to edit `/etc/hosts` (i.e. `sudo nano /etc/hosts`) to tell it that this is the local machine name.
+
+previously it had
+
+    127.0.0.1 localhost
+
+    # The following lines are desirable for IPv6 capable hosts
+    ::1 ip6-localhost ip6-loopback
+    fe00::0 ip6-localnet
+    ff00::0 ip6-mcastprefix
+    ff02::1 ip6-allnodes
+    ff02::2 ip6-allrouters
+    ff02::3 ip6-allhosts
+
+I had to add this line:
+
+    127.0.0.1 LEONCOMPUTER
+
+after this line:
+
+    127.0.0.1 localhost
+    
+        
 ## Source
 
  * <http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/>
