@@ -1,7 +1,7 @@
 # Reduce flickering on custom invalidate/paint 
 
 
-Say we are doing custom paining on a panel, and we want to reduce flickering as much as possible.
+Say we are doing custom painting on a panel, and we want to reduce flickering as much as possible.
 There's a few ways to do it, but this is the greatest...
 
 Let's say your panel is called `this.splitContainerMain.Panel2`, then do this in your form constructor...
