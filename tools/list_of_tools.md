@@ -8,7 +8,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
 ## Types of files:
 
- * .exe (129 files)
+ * .exe (130 files)
  * .dll (27 files)
  * .txt (16 files)
  * .bat (12 files)
@@ -96,6 +96,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * ktpass.exe
  * kv.exe
  * ldp.exe
+ * licecap.exe
  * LINQPad.exe
  * memsnap.exe
  * Move Mouse.exe

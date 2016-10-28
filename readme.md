@@ -66,9 +66,9 @@ Though this site is published as a free book, there is another book, a real book
  * [node](node/01_summary.md) &mdash; 1 article
  * [notepad++](notepad++/01_summary.md) &mdash; 5 articles
  * [npm](npm/01_summary.md) &mdash; 5 articles
- * [oracle](oracle/01_summary.md) &mdash; 2 articles
+ * [oracle](oracle/01_summary.md) &mdash; 3 articles
  * [paypal](paypal/01_summary.md) &mdash; 1 article
- * [powershell](powershell/01_summary.md) &mdash; 41 articles
+ * [powershell](powershell/01_summary.md) &mdash; 42 articles
  * [react](react/01_summary.md) &mdash; 2 articles
  * [redis](redis/01_summary.md) &mdash; 2 articles
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) &mdash; 2 articles
@@ -76,12 +76,12 @@ Though this site is published as a free book, there is another book, a real book
  * [sql server](sql_server/01_summary.md) &mdash; 19 articles
  * [sql server reporting services](sql_server_reporting_services/01_summary.md) &mdash; 2 articles
  * [sql spatial](sql_spatial/01_summary.md) &mdash; 1 article
- * [tools](tools/01_summary.md) &mdash; 2 articles
+ * [tools](tools/01_summary.md) &mdash; 3 articles
  * [virtual box](virtual_box/01_summary.md) &mdash; 2 articles
  * [visual studio](visual_studio/01_summary.md) &mdash; 5 articles
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 9 articles
  * [windows.forms](windows.forms/01_summary.md) &mdash; 3 articles
 
-206 articles
-37869 words
+209 articles
+38086 words
