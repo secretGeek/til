@@ -8,10 +8,10 @@ At a smaller scale: tabs and spaces make no difference to a running program, so 
 
 Same for brace positioning. 
 
-People pour effort into these things because they are a way of asserting their individuality.
+People pour effort into these things because they are a way of asserting their identity (either group or individual identity).
 
 
-(Research shows me that [Raganwald spotted this in 2008](http://weblog.raganwald.com/2008/05/narcissism-of-small-code-differences.html)([discussion](https://news.ycombinator.com/item?id=6710668)))
+(Research shows me that [Raganwald spotted this in 2008](http://weblog.raganwald.com/2008/05/narcissism-of-small-code-differences.html) ([discussion](https://news.ycombinator.com/item?id=6710668)))
 
 
 ## Source

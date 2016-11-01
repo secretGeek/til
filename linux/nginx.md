@@ -47,6 +47,7 @@ And update it to something like...
             # the port number there is the one we're using for it
             proxy_http_version 1.1;
             proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header X-Real-IP $remote_addr;
             proxy_set_header Connection keep-alive;
             proxy_set_header Host $host;
             proxy_cache_bypass $http_upgrade;
@@ -77,9 +78,33 @@ So you can tell nginx to go ahead and use this newly crafted and verified config
     
     sudo nginx -s reload    
 
+
+## About remote_addr
+    
+Note, this particular line of config:
+
+    proxy_set_header X-Real-IP $remote_addr;
+    
+This is so that inside our application we'll be able to see the original IP Address of the client. (The original IP request is terminated by `nginx`, and a new request is sent to our application. So if we read the IPAddress a normal way it will simply say 127.0.0.1 (or ::1). Instead if we look at the request header 'X-Real-IP' we will see the original remote IP address of the caller. In C# I do that like this:    
+
+
+    var ipaddress = Request.HttpContext.Connection.RemoteIpAddress.ToString();
+    
+    if (Request.Headers["X-Real-IP"].Count() > 0)
+    {
+        ipaddress = Request.Headers["X-Real-IP"];
+    }
+
+    
+    
 ## Source
 
  * <https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04>
  * <https://docs.asp.net/en/latest/publishing/linuxproduction.html>
  * [How To Set Up Nginx Server Blocks (Virtual Hosts) on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04)
  * [NGINX for ASP.NET Core In-Depth](http://rehansaeed.com/nginx-asp-net-core-depth/)
+ 
+## See also
+
+ * [IP Address in .net core MVC](../.net_core_MVC/ip_address.md)
+ 
