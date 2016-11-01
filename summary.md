@@ -27,6 +27,7 @@
 	* [list of potentially useful concepts](/concepts/list_of_potentially_useful_concepts.md)
 	* [mantras](/concepts/mantras.md)
 	* [mere exposure](/concepts/mere_exposure.md)
+	* [narcissism of small differences](/concepts/narcissism_of_small_differences.md)
 	* [opportunity cost](/concepts/opportunity_cost.md)
 	* [regression to the mean](/concepts/regression_to_the_mean.md)
 	* [survivorship bias](/concepts/survivorship_bias.md)

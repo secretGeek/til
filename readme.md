@@ -45,7 +45,7 @@ Though this site is published as a free book, there is another book, a real book
  * [appharbor](appharbor/01_summary.md) &mdash; 1 article
  * [asp.net mvc](asp.net_mvc/01_summary.md) &mdash; 10 articles
  * [chocolatey](chocolatey/01_summary.md) &mdash; 3 articles
- * [concepts](concepts/01_summary.md) &mdash; 7 articles
+ * [concepts](concepts/01_summary.md) &mdash; 8 articles
  * [console](console/01_summary.md) &mdash; 3 articles
  * [css](css/01_summary.md) &mdash; 2 articles
  * [electron](electron/01_summary.md) &mdash; 2 articles
@@ -83,5 +83,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows](windows/01_summary.md) &mdash; 9 articles
  * [windows.forms](windows.forms/01_summary.md) &mdash; 3 articles
 
-209 articles
-38086 words
+210 articles
+38193 words
