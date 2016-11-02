@@ -2,6 +2,7 @@
 
 * [.net core MVC](/.net_core_MVC/01_summary.md)
 	* [ip address](/.net_core_MVC/ip_address.md)
+	* [send email with mailkit](/.net_core_MVC/send_email_with_mailkit.md)
 	* [UrlEncode](/.net_core_MVC/UrlEncode.md)
 	* [UrlParameter-Optional](/.net_core_MVC/UrlParameter-Optional.md)
 	* [view imports](/.net_core_MVC/view_imports.md)
