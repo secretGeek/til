@@ -203,6 +203,7 @@
 	* [datetime trim hours milliseconds](/sql_server/datetime_trim_hours_milliseconds.md)
 	* [find view function or sproc](/sql_server/find_view_function_or_sproc.md)
 	* [first day of month](/sql_server/first_day_of_month.md)
+	* [format your queries](/sql_server/format_your_queries.md)
 	* [histogram](/sql_server/histogram.md)
 	* [inline min](/sql_server/inline_min.md)
 	* [last monday](/sql_server/last_monday.md)

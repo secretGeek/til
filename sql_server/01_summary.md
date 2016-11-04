@@ -7,6 +7,7 @@
 * [datetime trim hours milliseconds](datetime_trim_hours_milliseconds.md)
 * [find view function or sproc](find_view_function_or_sproc.md)
 * [first day of month](first_day_of_month.md)
+* [format your queries](format_your_queries.md)
 * [histogram](histogram.md)
 * [inline min](inline_min.md)
 * [last monday](last_monday.md)
