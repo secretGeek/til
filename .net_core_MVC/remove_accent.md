@@ -13,13 +13,18 @@ When 'slugifying' a string (and when 'canonicalizing' a username) i like to remo
 
 
 But in .net core it crashed with:
+
    
-    'Cyrillic' is not a supported encoding name.
+> 'Cyrillic' is not a supported encoding name.
 
-THe magic incantation was to add  Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-
-    //using System.Text
     
+The magic incantation was to add:
+
+    Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+
+To wit:
+    
+    //using System.Text
     
     public static string RemoveAccent(this string txt)
     {
@@ -30,7 +35,6 @@ THe magic incantation was to add  Encoding.RegisterProvider(CodePagesEncodingPro
     }
 
 And thus we end up with our slugify extension method working again:
-
 
     public static string ToSlug(this string self, int maxLength = 45)
     {
