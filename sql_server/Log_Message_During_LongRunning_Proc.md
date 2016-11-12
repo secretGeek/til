@@ -13,3 +13,6 @@ Then raise them as errors, as follows:
 You can even use this form of messaging inside TRY/CATCH statements because:	
 	
 > TRY/CATCH in SQL will only catch errors with severity > 10, so using RAISERROR in this way won't jump into your CATCH statement.
+
+
+You cannot use it inside functions, as functions prohibit side effects. (You can't use `print` either)
