@@ -41,4 +41,6 @@ What I should've done: look at the public key in PuTTYgen, where they provide a 
 
 ## Source
 
- * <https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-putty-on-digitalocean-droplets-windows-users>
+ * <https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-putty-on-digitalocean-droplets-windows-users> -- includes how to configure Putty itself.
+ 
+   
