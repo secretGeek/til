@@ -10,9 +10,9 @@ install via apt-get
     sudo apt-get install nginx
 
 then start the service, if you're interested.    
-    
+
     sudo service nginx start    
-    
+
 go and look at the config...
 
     cd /etc/nginx/
@@ -25,17 +25,17 @@ but the stuff we'll be dealing with mostly is in this folder:
 If you're only going to host one site, then go ahead and edit the file `default`.
 
 But we're not going to do things the easy way: we're going to host multiple sites from this VM. So...    
-    
+
 Make a copy of the file, 'default' and in that file tell us how nginx should pass requests onto your account.
 e.g.
 
     cp default yourdomain.com
-    
+
 then edit the file, via sudo, ...
 
     sudo nano yourdomain.com
 
-    
+
 And update it to something like...
     
     server {
@@ -54,29 +54,31 @@ And update it to something like...
         }
     }
 
-    
-Now -- we need to create a symbolic link from your newly added file in the sites-available directory to the sites-enabled directory    
+
+Now -- we need to create a symbolic link from your newly added file in the sites-available directory to the sites-enabled directory
 
     sudo ln -s /etc/nginx/sites-available/yourdomain.com /etc/nginx/sites-enabled/
     
 to test if your changes are valid...
-        
-    sudo nginx -t    
+
+    sudo nginx -t
 
 Sometimes it says the edits you made were indeed horrible... 
 
-    nginx: [emerg] unexpected "}" in /etc/nginx/sites-enabled/your-domain.com:86
+    nginx: [emerg] unexpected "}" in /etc/nginx/sites-enabled/yourdomain.com:86
     nginx: configuration file /etc/nginx/nginx.conf test failed
 
-But if everything is tickety-boo you'll see:
+In which case you need to edit the file and fix it. Then `sudo nginx -t` again to see if the changes are now valid.
+
+Once everything is tickety-boo you'll see:
 
     $ sudo nginx -t
     nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
     nginx: configuration file /etc/nginx/nginx.conf test is successful
 
 So you can tell nginx to go ahead and use this newly crafted and verified configuration...
-    
-    sudo nginx -s reload    
+
+    sudo nginx -s reload
 
 
 ## About remote_addr

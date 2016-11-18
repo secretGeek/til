@@ -1,6 +1,7 @@
 ﻿# Summary
 
 * [.net core MVC](/.net_core_MVC/01_summary.md)
+	* [documenting asp net core](/.net_core_MVC/documenting_asp_net_core.md)
 	* [ip address](/.net_core_MVC/ip_address.md)
 	* [remove accent](/.net_core_MVC/remove_accent.md)
 	* [send email with mailkit](/.net_core_MVC/send_email_with_mailkit.md)
@@ -26,6 +27,8 @@
 	* [list localonly](/chocolatey/list_localonly.md)
 * [concepts](/concepts/01_summary.md)
 	* [coik](/concepts/coik.md)
+	* [echo chamber](/concepts/echo_chamber.md)
+	* [happy path](/concepts/happy_path.md)
 	* [list of potentially useful concepts](/concepts/list_of_potentially_useful_concepts.md)
 	* [mantras](/concepts/mantras.md)
 	* [mere exposure](/concepts/mere_exposure.md)
@@ -67,6 +70,7 @@
 * [google](/google/01_summary.md)
 	* [chrome before flight](/google/chrome_before_flight.md)
 	* [chrome reopen closed tabs](/google/chrome_reopen_closed_tabs.md)
+	* [dead mans switch](/google/dead_mans_switch.md)
 	* [google analytics add new site](/google/google_analytics_add_new_site.md)
 	* [search by file extension](/google/search_by_file_extension.md)
 * [graphics](/graphics/01_summary.md)

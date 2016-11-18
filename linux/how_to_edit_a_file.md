@@ -18,7 +18,7 @@ Now `vim` is also available. It's far more powerful, but with a learning curve.
 
 It will never ever go away as long as you live. So any effort spent moving up that learning curve will continue to be of value forever.
 
-(Early in the Foundation Series of novels by Isaac Asimov, the chracter Hari Seldon uses a special calculator to prove that the Galctic Empire will collapse. The conclusion is inescapable and they begin to prepare for it.
+(Early in the Foundation Series of novels by Isaac Asimov, the character Hari Seldon uses a special calculator to prove that the Galactic Empire will collapse. The conclusion is inescapable and the intelligent people begin to prepare for it. Others don't.
 
-I'm like that, but with vim. Any simple analysis of how the future will play out proves that it is worth learning vim. It is a shocking and inescapable realization.)
+I'm like that, but with vim. Any simple analysis of how the future will play out proves that it is worth learning vim. It is a shocking and inescapable realization. I should begin to prepare for it.)
 

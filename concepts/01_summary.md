@@ -3,6 +3,8 @@
 ### chapter contents
  
 * [coik](coik.md)
+* [echo chamber](echo_chamber.md)
+* [happy path](happy_path.md)
 * [list of potentially useful concepts](list_of_potentially_useful_concepts.md)
 * [mantras](mantras.md)
 * [mere exposure](mere_exposure.md)
