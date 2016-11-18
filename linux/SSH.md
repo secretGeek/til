@@ -37,7 +37,40 @@ What I should've done: look at the public key in PuTTYgen, where they provide a 
 
 
 
+# WARNING: UNPROTECTED PRIVATE KEY FILE!
 
+Got this error:
+
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    Permissions 0744 for '/home/geek/.ssh/id_rsa' are too open.
+    It is recommended that your private key files are NOT accessible by others.
+    This private key will be ignored.
+    bad permissions: ignore key: /home/geek/.ssh/id_rs
+
+sudo chmod 600 ~/.ssh/id_dsa
+sudo chmod 600 ~/.ssh/id_dsa_com.pub
+
+
+## Export puttygen keys to be usable from linux subsystem for windows
+
+<http://stackoverflow.com/a/2224204/49>
+
+1. Open PuttyGen
+2. Click Load
+3. Load your private key
+4. Go to Conversions->Export OpenSSH and export your private key
+5. Copy your private key to ~/.ssh/id_dsa (or id_rsa).
+Create the RFC 4716 version of the public key using  ssh-keygen
+
+    ssh-keygen -e -f ~/.ssh/id_dsa > ~/.ssh/id_dsa_com.pub
+
+6. Convert the RFC 4716 version of the public key to the OpenSSH format:
+
+    ssh-keygen -i -f ~/.ssh/id_dsa_com.pub > ~/.ssh/id_dsa.pub
+
+    
 
 ## Source
 

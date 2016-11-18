@@ -72,6 +72,7 @@
 	* [chrome reopen closed tabs](/google/chrome_reopen_closed_tabs.md)
 	* [dead mans switch](/google/dead_mans_switch.md)
 	* [google analytics add new site](/google/google_analytics_add_new_site.md)
+	* [largest files in gmail](/google/largest_files_in_gmail.md)
 	* [search by file extension](/google/search_by_file_extension.md)
 * [graphics](/graphics/01_summary.md)
 	* [ascii fonts](/graphics/ascii_fonts.md)
