@@ -23,3 +23,7 @@ To check if any packages need to be updated....
 
 
     apt-get -u upgrade
+
+to upgrade packages
+
+    sudo apt-get upgrade
