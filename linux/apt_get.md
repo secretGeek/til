@@ -21,9 +21,16 @@ To install somethink...
 
 To check if any packages need to be updated....
 
-
-    apt-get -u upgrade
+    sudo apt-get -u upgrade
 
 to upgrade packages
 
     sudo apt-get upgrade
+
+
+When asked:
+
+        Do you want to continue [Y/n]
+
+The capital 'Y' means it is the default. So for 'Yes' just press enter.
+
