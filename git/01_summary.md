@@ -4,6 +4,7 @@
  
 * [cheatsheet](cheatsheet.md)
 * [diff](diff.md)
+* [get fork back up to date](get_fork_back_up_to_date.md)
 * [git bitbucket](git_bitbucket.md)
 * [git config](git_config.md)
 * [merge pull request](merge_pull_request.md)

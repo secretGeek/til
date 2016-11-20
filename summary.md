@@ -52,6 +52,7 @@
 * [git](/git/01_summary.md)
 	* [cheatsheet](/git/cheatsheet.md)
 	* [diff](/git/diff.md)
+	* [get fork back up to date](/git/get_fork_back_up_to_date.md)
 	* [git bitbucket](/git/git_bitbucket.md)
 	* [git config](/git/git_config.md)
 	* [merge pull request](/git/merge_pull_request.md)
