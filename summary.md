@@ -104,6 +104,7 @@
 	* [get processes list processes](/linux/get_processes_list_processes.md)
 	* [how much memory is free](/linux/how_much_memory_is_free.md)
 	* [how to edit a file](/linux/how_to_edit_a_file.md)
+	* [nano](/linux/nano.md)
 	* [nginx](/linux/nginx.md)
 	* [profiles](/linux/profiles.md)
 	* [SSH](/linux/SSH.md)
