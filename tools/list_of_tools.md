@@ -8,7 +8,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
 ## Types of files:
 
- * .exe (130 files)
+ * .exe (131 files)
  * .dll (27 files)
  * .txt (16 files)
  * .bat (12 files)
@@ -133,6 +133,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * replmon.exe
  * rsdiag.exe
  * rsdir.exe
+ * ScreenToGif 2.3.exe
  * sdcheck.exe
  * setspn.exe
  * setx.exe
