@@ -111,6 +111,7 @@
 	* [sudo](/linux/sudo.md)
 	* [supervisor](/linux/supervisor.md)
 	* [uncomplicated firewall](/linux/uncomplicated_firewall.md)
+	* [what my ip address](/linux/what_my_ip_address.md)
 * [macbook air](/macbook_air/01_summary.md)
 	* [bluetooth controller](/macbook_air/bluetooth_controller.md)
 	* [insert](/macbook_air/insert.md)

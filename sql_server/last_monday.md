@@ -1,4 +1,4 @@
-# What date was it on the most recent  monday?
+# What date was it on the most recent Monday (.e. last Monday)?
 
 
     Select
@@ -13,3 +13,4 @@ This works because
 ...says "How many weeks between the date of '6' (meaning 7/1/1900)(!!) and now"    
 
 i.e. 6087, currently...
+
