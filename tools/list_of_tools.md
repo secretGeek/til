@@ -8,7 +8,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
 ## Types of files:
 
- * .exe (131 files)
+ * .exe (132 files)
  * .dll (27 files)
  * .txt (16 files)
  * .bat (12 files)
@@ -166,6 +166,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * WindowClippings.exe
  * wsremote.exe
  * xcacls.exe
+ * zoomit.exe
 
 ## Batch Files
 
