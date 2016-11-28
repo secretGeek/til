@@ -4,9 +4,9 @@ Cmder relies on Conemu to create a beautiful console experience on windows.
 
 What matters the most: How do you insert?
 
-Paste with Shift Insert -- which on a macbook air is "fn shift enter"
+Paste with `Shift Insert` -- which on a macbook air is "`fn shift enter`"
 
-Can also use Ctrl V or Right Click, though they give slightly different behaviour....
+Can also use `Ctrl V` or Right Click, though they give slightly different behavior....
 
 ![cmder paste settings](CmdEr_Paste_Settings.png)
 
@@ -16,13 +16,13 @@ Set cmder to load powershell by default, via:
 
 Settings -> Startup -> Tasks
 
-Find the {Powershell::Powershell} task and move it Up Up Up to the top.
+Find the `{Powershell::Powershell}` task and move it Up Up Up to the top.
 
 Change the task parameters:
 
-PowerShell -ExecutionPolicy Bypass -NoLogo -NoExit -new_console:d:"C:\users\leon\dropbox\secretgeek"
+    PowerShell -ExecutionPolicy Bypass -NoLogo -NoExit -new_console:d:"C:\users\leon\dropbox\secretgeek"
 
-...instead of the default task parameters which swap in a different profile.ps1 file, etc.
+...instead of the default task parameters which swap in a different `profile.ps1` file, etc.
 
 Then, in:
 
@@ -71,7 +71,10 @@ I also added a `bash` function to my powershell `profile.ps1` which reads:
 
 Change this in settings -> Features -> Color -> Graphic enhancement -> Fade when inactive.
 
+(Included in one of the screenshots above)
+
     
 ## Source
 
  * <http://superuser.com/questions/652155/configure-powershell-to-be-conemus-default-shell>
+ 
