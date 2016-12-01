@@ -13,24 +13,25 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * .txt (16 files)
  * .bat (12 files)
  * .vbs (6 files)
- * .config (6 files)
  * .chm (6 files)
+ * .config (6 files)
  * .xml (5 files)
  * .pdb (5 files)
  * .doc (5 files)
  * .hlp (4 files)
- * .cnt (3 files)
  * .sys (3 files)
- * .html (2 files)
+ * .cnt (3 files)
  * .ini (2 files)
+ * .msc (2 files)
  * .htm (2 files)
  * .ocx (2 files)
- * .msc (2 files)
+ * .html (2 files)
  * .cfg (1 files)
  * .orig (1 files)
- * .md (1 files)
- * .pdf (1 files)
+ * .exe-e01130bf (1 files)
  * .com (1 files)
+ * .pdf (1 files)
+ * .md (1 files)
  * .chk (1 files)
 
 ## Executables
@@ -167,6 +168,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * wsremote.exe
  * xcacls.exe
  * zoomit.exe
+ * zoomit.exe-e01130bf
 
 ## Batch Files
 
