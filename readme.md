@@ -78,11 +78,12 @@ Though this site is published as a free book, there is another book, a real book
  * [sql server reporting services](sql_server_reporting_services/01_summary.md) &mdash; 2 articles
  * [sql spatial](sql_spatial/01_summary.md) &mdash; 1 article
  * [tools](tools/01_summary.md) &mdash; 3 articles
+ * [typescript](typescript/01_summary.md) &mdash; 1 article
  * [virtual box](virtual_box/01_summary.md) &mdash; 2 articles
  * [visual studio](visual_studio/01_summary.md) &mdash; 5 articles
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 9 articles
  * [windows.forms](windows.forms/01_summary.md) &mdash; 3 articles
 
-228 articles
-41068 words
+229 articles
+41366 words

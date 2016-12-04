@@ -244,6 +244,8 @@
 	* [about utils](/tools/about_utils.md)
 	* [list of tools](/tools/list_of_tools.md)
 	* [utils repo](/tools/utils_repo.md)
+* [typescript](/typescript/01_summary.md)
+	* [getting started](/typescript/getting_started.md)
 * [virtual box](/virtual_box/01_summary.md)
 	* [virtual box requires hyper v disabled](/virtual_box/virtual_box_requires_hyper_v_disabled.md)
 	* [virtual box warning](/virtual_box/virtual_box_warning.md)
