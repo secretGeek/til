@@ -12,6 +12,7 @@
 * [nano](nano.md)
 * [nginx](nginx.md)
 * [profiles](profiles.md)
+* [reboot](reboot.md)
 * [scp](scp.md)
 * [SSH](SSH.md)
 * [sudo](sudo.md)

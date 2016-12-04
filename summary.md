@@ -108,6 +108,7 @@
 	* [nano](/linux/nano.md)
 	* [nginx](/linux/nginx.md)
 	* [profiles](/linux/profiles.md)
+	* [reboot](/linux/reboot.md)
 	* [scp](/linux/scp.md)
 	* [SSH](/linux/SSH.md)
 	* [sudo](/linux/sudo.md)

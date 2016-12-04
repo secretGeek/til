@@ -1,7 +1,16 @@
 # SSH to a linux machine from windows
 
-On windows, you'll use PuTTY to connect to your digital ocean droplet via SSH.
+On windows, you can use PuTTY to connect to your digital ocean droplet via SSH.
 
+(I've since found two better ways to do this: 
+   1. with [bash.exe](../windows/bash_on_windows.md) or 
+   2. with `cmder` which I think is using OpenSSH by way of gitbash.
+   
+Soon I think windows will have better ssh features built in. Powershell will get them for example.)
+
+
+## Creating private/public key pair for use in SSH, using PuTTYgen.
+   
 First need to generate private/public key pair, using PuTTYgen.
 
 Guide I followed for this is: <https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-putty-on-digitalocean-droplets-windows-users>
@@ -18,7 +27,7 @@ Store the passphrase in your password manager. Note that the passphrase is somet
 
 (Originally I created a long and complex password... but then it was too hard to type. I found I could change the passphrase, using PuTTYgen -- I just had to re-save the private key afterwards.)
 
-# Add your public key to digital ocean...
+## Add your public key to digital ocean...
 
 Go to your profile: https://cloud.digitalocean.com/settings/profile
 
@@ -49,11 +58,15 @@ Got this error:
     This private key will be ignored.
     bad permissions: ignore key: /home/geek/.ssh/id_rs
 
-sudo chmod 600 ~/.ssh/id_dsa
-sudo chmod 600 ~/.ssh/id_dsa_com.pub
+To limit the permissiveness of those files I used these commands...
+    
+    sudo chmod 600 ~/.ssh/id_dsa
+    sudo chmod 600 ~/.ssh/id_dsa_com.pub
 
 
 ## Export puttygen keys to be usable from linux subsystem for windows
+
+Had I created my keys in a different way I would not have needed to do this. But because I used PuTTYgen, this is what I needed to do...
 
 <http://stackoverflow.com/a/2224204/49>
 
@@ -70,10 +83,10 @@ Create the RFC 4716 version of the public key using  ssh-keygen
 
     ssh-keygen -i -f ~/.ssh/id_dsa_com.pub > ~/.ssh/id_dsa.pub
 
-    
+Simple right!? No, not simple.    
 
 ## Source
 
- * <https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-putty-on-digitalocean-droplets-windows-users> -- includes how to configure Putty itself.
+ * <https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-putty-on-digitalocean-droplets-windows-users> -- includes how to configure PuTTY itself.
  
    

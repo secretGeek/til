@@ -94,6 +94,11 @@ Next things to do...
     sudo apt-get install xclip
     sudo apt-get install zsh    
 
+    
+Apparently:
+
+> bash.exe -c "/usr/zsh" will launch zsh directly    
+    
  * [Fun with the Windows Subsystem for Linux, Pete Brown](https://blogs.windows.com/buildingapps/2016/07/22/fun-with-the-windows-subsystem-for-linux/#DYZBzMFA6jH3q4qd.97)
  * [Five fun things you can do with the Windows 10 Bash](https://4sysops.com/archives/five-fun-things-you-can-do-with-the-windows-10-bash/)   
 
