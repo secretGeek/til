@@ -88,16 +88,34 @@ or
 
     %LOCALAPPDATA%\lxss\home\LINUSER\.profile
     
+And guidance from windows is very clear: DO NOT EDIT any files in this \lxss\ folder using Windows applications.
 
+ * [Do not change Linux files using Windows apps and tools](https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/)
+
+This is a pretty fundamental issue... I was bitten by this almost immediately... i edited my profile using Notepad++ -- and linux promptly discarded and recreated the file. I was confused until I read the above article (weeks later!)
+
+>If WSL can't find Linux file metadata for a given file, it assumes the file is corrupted/damaged, and will likely fail to open/read the file correctly, causing apps, tools, etc. to fail and in some cases, delete files seen as "corrupt"!
+>
+>File metadata (e.g. permissions, ownership, timestamps, etc.) is represented differently in Linux than in Windows. Because stores your Linux files in an NTFS folder, WSL calculates and persists each Linux file's metadata in its NTFS extended attributes.
+>
+>However, Windows apps do not know how to (nor that they should) re-calculate & persist this Linux metadata each time they create/modify a file stored under your distro's root (%localappdata\lxss\).
+>
+>Therefore, if you use a Windows app/tool/console to create and/or modify a file under your distro root, it won't have any Linux file metadata (e.g. permissions, owner, timestamps, etc.) stored in its extended attributes.
+ 
+    
 Next things to do...
 
     sudo apt-get install xclip
     sudo apt-get install zsh    
+    sudo apt-get install tree
 
     
 Apparently:
 
 > bash.exe -c "/usr/zsh" will launch zsh directly    
+
+from <https://twitter.com/hmemcpy/status/786936955292483584>
+
     
  * [Fun with the Windows Subsystem for Linux, Pete Brown](https://blogs.windows.com/buildingapps/2016/07/22/fun-with-the-windows-subsystem-for-linux/#DYZBzMFA6jH3q4qd.97)
  * [Five fun things you can do with the Windows 10 Bash](https://4sysops.com/archives/five-fun-things-you-can-do-with-the-windows-10-bash/)   

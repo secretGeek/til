@@ -13,9 +13,9 @@ Soon I think windows will have better ssh features built in. Powershell will get
    
 First need to generate private/public key pair, using PuTTYgen.
 
-Guide I followed for this is: <https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-putty-on-digitalocean-droplets-windows-users>
+Guide I followed for this is: <https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-PuTTY-on-digitalocean-droplets-windows-users>
 
-Download complete puTTY installer (msi) from this page: <http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html>
+Download complete PuTTY installer (msi) from this page: <http://www.chiark.greenend.org.uk/~sgtatham/PuTTY/download.html>
 
 Look for "A Windows MSI installer package for everything except PuTTYtel"
 
@@ -64,13 +64,13 @@ To limit the permissiveness of those files I used these commands...
     sudo chmod 600 ~/.ssh/id_dsa_com.pub
 
 
-## Export puttygen keys to be usable from linux subsystem for windows
+## Export PuTTYgen keys to be usable from linux subsystem for windows
 
 Had I created my keys in a different way I would not have needed to do this. But because I used PuTTYgen, this is what I needed to do...
 
 <http://stackoverflow.com/a/2224204/49>
 
-1. Open PuttyGen
+1. Open PuTTYGen
 2. Click Load
 3. Load your private key
 4. Go to Conversions->Export OpenSSH and export your private key
@@ -87,6 +87,6 @@ Simple right!? No, not simple.
 
 ## Source
 
- * <https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-putty-on-digitalocean-droplets-windows-users> -- includes how to configure PuTTY itself.
+ * <https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-PuTTY-on-digitalocean-droplets-windows-users> -- includes how to configure PuTTY itself.
  
    
