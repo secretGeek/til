@@ -105,6 +105,7 @@
 	* [get processes list processes](/linux/get_processes_list_processes.md)
 	* [how much memory is free](/linux/how_much_memory_is_free.md)
 	* [how to edit a file](/linux/how_to_edit_a_file.md)
+	* [lets encrypt](/linux/lets_encrypt.md)
 	* [nano](/linux/nano.md)
 	* [nginx](/linux/nginx.md)
 	* [profiles](/linux/profiles.md)
@@ -272,3 +273,5 @@
 	* [key down](/windows.forms/key_down.md)
 	* [reduce flicker](/windows.forms/reduce_flicker.md)
 	* [select all](/windows.forms/select_all.md)
+* [wordpress](/wordpress/01_summary.md)
+	* [wp on digital ocean](/wordpress/wp_on_digital_ocean.md)

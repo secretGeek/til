@@ -43,6 +43,24 @@ Result will be something like this:
       -v, --version                 Print the compiler's version: 1.0.3.0
       @<file>                       Insert command line options and files from a file.
 
+      
+## Problem...
+
+the above said my tsc version was 1.0.3.0, even though the installer said "typescript@2.0.10"
+
+I looked further into it, by running "Get-Command tsc" and found tsc was being loaded from:
+
+    C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\tsc.exe
+
+Why? Because some earlier SDK i'd installed had added that folder to my path.
+
+So that exe was found, instead of finding the one installed by npm, which is located here:
+
+    C:\Users\Leon\AppData\Roaming\npm\tsc.cmd
+
+So I edited my path to *remove* that folder from it (notes on editing environment variables here...)
+
+    
 Create a simple javascript file, with a .ts extension, e.g.
 
 log.ts:

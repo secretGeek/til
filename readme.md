@@ -59,7 +59,7 @@ Though this site is published as a free book, there is another book, a real book
  * [javascript](javascript/01_summary.md) &mdash; 6 articles
  * [jekyll](jekyll/01_summary.md) &mdash; 1 article
  * [linqpad](linqpad/01_summary.md) &mdash; 5 articles
- * [linux](linux/01_summary.md) &mdash; 17 articles
+ * [linux](linux/01_summary.md) &mdash; 18 articles
  * [macbook air](macbook_air/01_summary.md) &mdash; 4 articles
  * [markdown](markdown/01_summary.md) &mdash; 3 articles
  * [mercurial](mercurial/01_summary.md) &mdash; 7 articles
@@ -84,6 +84,7 @@ Though this site is published as a free book, there is another book, a real book
  * [vs code](vs_code/01_summary.md) &mdash; 2 articles
  * [windows](windows/01_summary.md) &mdash; 9 articles
  * [windows.forms](windows.forms/01_summary.md) &mdash; 3 articles
+ * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-229 articles
-41366 words
+231 articles
+41667 words
