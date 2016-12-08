@@ -3,11 +3,13 @@
 
     npm install -g typescript
 
-(Note you can install a specific version by running....    
-    npm install typescript@2.0.0.
-)
+Note you can install a specific version with [npm](../npm/install_npm.md) by running, for example:
 
-Output:
+    npm install typescript@2.0.0.
+
+
+
+Here's the output I saw:
 
     C:\Users\Leon\AppData\Roaming\npm\tsserver -> C:\Users\Leon\AppData\Roaming\npm\node_modules\typescript\bin\tsserver
     C:\Users\Leon\AppData\Roaming\npm\tsc -> C:\Users\Leon\AppData\Roaming\npm\node_modules\typescript\bin\tsc
@@ -44,23 +46,10 @@ Result will be something like this:
       @<file>                       Insert command line options and files from a file.
 
       
-## Problem...
 
-the above said my tsc version was 1.0.3.0, even though the installer said "typescript@2.0.10"
 
-I looked further into it, by running "Get-Command tsc" and found tsc was being loaded from:
-
-    C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\tsc.exe
-
-Why? Because some earlier SDK i'd installed had added that folder to my path.
-
-So that exe was found, instead of finding the one installed by npm, which is located here:
-
-    C:\Users\Leon\AppData\Roaming\npm\tsc.cmd
-
-So I edited my path to *remove* that folder from it (notes on editing environment variables here...)
-
-    
+## To use TypeScript
+      
 Create a simple javascript file, with a .ts extension, e.g.
 
 log.ts:
@@ -75,11 +64,39 @@ So i load it up in visual studio code, by running "code.exe" from the commandlin
 
 Now, I don't use vs code too often.
 
-It straight away had this warning: 
+
+## Problem: running old version despite installing new version.
+
+
+The output from `tsc --help` above said my tsc version was `1.0.3.0`, even though the installer said "`typescript@2.0.10`"
+
+When I started vs code it straight away gave me this warning: 
 
 > Version mismatch! global tsc (1.0.3.0) != VS Code's language service (2.0.10). Inconsistent compile errors might occur
+
+
+I looked further into it, by running "Get-Command tsc" (in powershell) and found tsc was being loaded from:
+
+    C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\tsc.exe
+
+Why? Because some earlier SDK i'd installed had added that folder to my [path](../powershell/PATH.md).
+
+So that old exe was found, instead of finding the one installed by npm, which is located here:
+
+    C:\Users\Leon\AppData\Roaming\npm\tsc.cmd
+
+So I edited my path to *remove* that folder from it (notes on [editing environment variables here...](../windows/environment_variables.md))
+
+
+
 
 
 ## Source
 
  * <http://blog.teamtreehouse.com/getting-started-typescript>
+ 
+## See also
+ 
+ * [path](../powershell/PATH.md)
+ * [editing environment variables](../windows/environment_variables.md)
+ 
