@@ -8,7 +8,7 @@
 
  * Split editor with  `Ctrl+\`
  * Show preview: `Ctrl+Shift+V`
- * Ctrl + Tab
+ * `Ctrl + Tab`
         
 # Source
 

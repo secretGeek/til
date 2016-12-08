@@ -62,8 +62,6 @@ Done that!? Woot! You're a typescript developser!
 
 So i load it up in visual studio code, by running "code.exe" from the commandline.
 
-Now, I don't use vs code too often.
-
 
 ## Problem: running old version despite installing new version.
 
@@ -88,15 +86,85 @@ So that old exe was found, instead of finding the one installed by npm, which is
 So I edited my path to *remove* that folder from it (notes on [editing environment variables here...](../windows/environment_variables.md))
 
 
+## Resume getting started....
+
+You can compile multiple files at once:
+
+    tsc *.ts
+    
+That will produce one js file for each ts file.
+
+You can combine all the ts files into one js file.
+
+    tsc *.ts --out example.js
+
+
+But howbout this for clever... you can tell typescript to watch files and recompile as soon as 1 changes...
+
+
+    tsc *.ts --out example.js --watch
+    
+ 
+## DOing more with visual studio code.
+
+
+The first step in working on a TypeScript project in visual studio vode is to add a `tsconfig.json` file to the root of the project.
+
+It can be an empty object, like this:
+
+    {
+    }
+
+But why not spruce it up a bit by adding something like this...
+
+    {
+         "compilerOptions": {
+            "target": "es5",
+            "module": "commonjs",
+            "sourceMap": true
+        }
+    }
+
+Choices under 'target' are currently:
+
+    * ES3 (default)
+    * ES5
+    * ES6/ES2015
+    * ES2016
+    * ES2017
+    * ESNext
+
+Knowing what these mysterious things do is part of the magic of being a web developer in 2016. Know one knows their way the whole way around the elephant.
+
+
+## Configure a task runner in vs code...
+
+Press `ctrl shift P` (and do it sort of casually, like you knew that was the right thing to do all along)
+
+That brings up what is known as the command palette. (You can also find it under the 'View' menu, where it helpfully reminds you that `ctrl shift p` is the key combo to know)
+
+Type: `tasks: Configure Task Runner` (or any shortest unique substring of that command)...
+
+...and vs code will lead you toward choosing the right type of `tasks.json` file for your nascent project, and then create it for you (in a .vscode folder)
+
+![select a task runner](task_runner.png)
+
+
+You can learn more about the `tasks.json` file format by visiting <http://code.visualstudio.com/docs/editor/tasks> -- but ain't nobody got time for that.
 
 
 
-## Source
+    
+
+## Sources
 
  * <http://blog.teamtreehouse.com/getting-started-typescript>
+ * <https://code.visualstudio.com/Docs/languages/typescript>
+ * <http://code.visualstudio.com/docs/editor/tasks>
  
 ## See also
  
+ * [npm](../npm/install_npm.md)
  * [path](../powershell/PATH.md)
  * [editing environment variables](../windows/environment_variables.md)
  

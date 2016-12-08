@@ -1,6 +1,6 @@
 # See the .git folder (in a terminal)
 
-The .git folder is hidden by default.
+The ".git" folder is hidden by default.
 
 use:
     
@@ -9,3 +9,4 @@ use:
 To see hidden folders.
 
 (On linux, files/folders starting with "." are hidden from `ls`, and you use `-a` or `--all` to view them.)
+

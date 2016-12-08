@@ -259,6 +259,7 @@
 * [vs code](/vs_code/01_summary.md)
 	* [launch vs code](/vs_code/launch_vs_code.md)
 	* [markdown preview](/vs_code/markdown_preview.md)
+	* [remove trailing whitespace](/vs_code/remove_trailing_whitespace.md)
 * [windows](/windows/01_summary.md)
 	* [bash on windows](/windows/bash_on_windows.md)
 	* [disable cortana in windows 10](/windows/disable_cortana_in_windows_10.md)
