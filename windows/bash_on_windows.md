@@ -1,6 +1,6 @@
 # Installing bash on windows.
 
-You need to at least Windows 10 anniversary edition:
+You need to at least have Windows 10 anniversary edition:
 
 Check with `[Environment]::OSVersion.Version` (see [How can I tell which version of Windows is currently running?](which_version.md)), you want at least "10.0.14393.0"
 
@@ -12,9 +12,9 @@ Then a message... "installing developer mode package..."
 
 The excitement is building...
 
-I didn't get past that message until i'd cleared a bunch of space on my machine and restarted... it seems to have worked... Next step...
+I didn't get past that message until I'd cleared a bunch of space on my machine and restarted... it seems to have worked... Next step...
 
-> Control Panel -> Programs -> Turn Windows Features On or Off under Programs and Features. 
+> Control Panel -> Programs -> Turn Windows Features On or Off under Programs and Features.
 
 Enable the "Windows Subsystem for Linux (Beta)" option in the list here and click OK.
 
@@ -30,7 +30,7 @@ the first time it's run it downloads some stuff. Message:
     This will install Ubuntu on Windows, distributed by Canonical
     and licensed under its terms available here:
     https://aka.ms/uowterms
-    
+
     Type "y" to continue
     Downloading from the Windows Store... 8%
 
@@ -40,7 +40,7 @@ then you're in.
 
 Documentation link: <http://aka.ms/wsldocs>
 
-All the normal [getting started on bash](../linux/bash.md) stuff applies.
+All the normal [getting started on bash](../linux/bash.md) stuff applies. (See also: [A Quick Intro to Linux Command Line for Windows Users](http://blog.robertelder.org/intro-to-linux-command-line-for-windows-users/) and [A Quick Intro to Linux Shell Scripting for Windows Developers](http://blog.robertelder.org/intro-to-linux-shell-scripting-for-windows-developers/) )
 
 Your traditional windows C drive is mounted at:  /mnt/c
 
@@ -70,16 +70,16 @@ Your .profile (in home folder) says:
         fi
 
 
-When you run `bash` you are running `C:\Windows\System32\bash.exe`. 
+When you run `bash` you are running `C:\Windows\System32\bash.exe`.
 
 Bash's files/data are stored in this location in windows:
-    
+
     $env:LOCALAPPDATA\lxss
 
 i.e.
 
     %LOCALAPPDATA%\lxss
-    
+
 When you edit your profile in bash, you are editing this file (assuming your linux user name is "LINUSER")
 
     $env:LOCALAPPDATA\lxss\home\LINUSER\.profile
@@ -87,7 +87,7 @@ When you edit your profile in bash, you are editing this file (assuming your lin
 or
 
     %LOCALAPPDATA%\lxss\home\LINUSER\.profile
-    
+
 And guidance from windows is very clear: DO NOT EDIT any files in this \lxss\ folder using Windows applications.
 
  * [Do not change Linux files using Windows apps and tools](https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/)
@@ -101,28 +101,28 @@ This is a pretty fundamental issue... I was bitten by this almost immediately...
 >However, Windows apps do not know how to (nor that they should) re-calculate & persist this Linux metadata each time they create/modify a file stored under your distro's root (%localappdata\lxss\).
 >
 >Therefore, if you use a Windows app/tool/console to create and/or modify a file under your distro root, it won't have any Linux file metadata (e.g. permissions, owner, timestamps, etc.) stored in its extended attributes.
- 
-    
+
+
 Next things to do...
 
     sudo apt-get install xclip
-    sudo apt-get install zsh    
+    sudo apt-get install zsh
     sudo apt-get install tree
 
-    
+
 Apparently:
 
-> bash.exe -c "/usr/zsh" will launch zsh directly    
+> bash.exe -c "/usr/zsh" will launch zsh directly
 
 from <https://twitter.com/hmemcpy/status/786936955292483584>
 
-    
+
  * [Fun with the Windows Subsystem for Linux, Pete Brown](https://blogs.windows.com/buildingapps/2016/07/22/fun-with-the-windows-subsystem-for-linux/#DYZBzMFA6jH3q4qd.97)
- * [Five fun things you can do with the Windows 10 Bash](https://4sysops.com/archives/five-fun-things-you-can-do-with-the-windows-10-bash/)   
+ * [Five fun things you can do with the Windows 10 Bash](https://4sysops.com/archives/five-fun-things-you-can-do-with-the-windows-10-bash/)
 
 Important thing to do.... keep your packages up to date.
 
-I saw a window spontaneously pop open on Wednesday 13th October 2016, AptPackageIndexUpdate -- 
+I saw a window spontaneously pop open on Wednesday 13th October 2016, AptPackageIndexUpdate --
 
 (see this issue: <https://github.com/Microsoft/BashOnWindows/issues/841>)
 
@@ -148,7 +148,7 @@ So... I ran "sudo apt-get update" again....
 
 And this time when I exited and came back there were no more messages about packages to be updated.
 
-    
+
 Also I found that whenever i used `sudo` I would get a messge:
 
         unable to resolve host LEONCOMPUTER
@@ -174,8 +174,17 @@ I had to add this line:
 after this line:
 
     127.0.0.1 localhost
-    
-        
+
+
 ## Source
 
- * <http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/>
+ * [How to Install and Use the Linux Bash Shell on Windows 10](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
+  * [Warning! Do not change Linux files using Windows apps and tools](https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/)
+ * [A Quick Intro to Linux Command Line for Windows Users](http://blog.robertelder.org/intro-to-linux-command-line-for-windows-users/)
+ * [A Quick Intro to Linux Shell Scripting for Windows Developers](http://blog.robertelder.org/intro-to-linux-shell-scripting-for-windows-developers/)
+
+
+## See also
+
+ * [How can I tell which version of Windows is currently running?](which_version.md)
+ * [getting started on bash](../linux/bash.md)

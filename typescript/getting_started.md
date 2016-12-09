@@ -15,7 +15,7 @@ Here's the output I saw:
     C:\Users\Leon\AppData\Roaming\npm\tsc -> C:\Users\Leon\AppData\Roaming\npm\node_modules\typescript\bin\tsc
     C:\Users\Leon\AppData\Roaming\npm
     +-- typescript@2.0.10
-    
+
 See if `tsc` (the typescript compiler) was installed by running:
 
     tsc --help
@@ -45,11 +45,11 @@ Result will be something like this:
       -v, --version                 Print the compiler's version: 1.0.3.0
       @<file>                       Insert command line options and files from a file.
 
-      
+
 
 
 ## To use TypeScript
-      
+
 Create a simple javascript file, with a .ts extension, e.g.
 
 log.ts:
@@ -68,7 +68,7 @@ So i load it up in visual studio code, by running "code.exe" from the commandlin
 
 The output from `tsc --help` above said my tsc version was `1.0.3.0`, even though the installer said "`typescript@2.0.10`"
 
-When I started vs code it straight away gave me this warning: 
+When I started vs code it straight away gave me this warning:
 
 > Version mismatch! global tsc (1.0.3.0) != VS Code's language service (2.0.10). Inconsistent compile errors might occur
 
@@ -91,7 +91,7 @@ So I edited my path to *remove* that folder from it (notes on [editing environme
 You can compile multiple files at once:
 
     tsc *.ts
-    
+
 That will produce one js file for each ts file.
 
 You can combine all the ts files into one js file.
@@ -103,12 +103,11 @@ But howbout this for clever... you can tell typescript to watch files and recomp
 
 
     tsc *.ts --out example.js --watch
-    
- 
-## DOing more with visual studio code.
 
 
-The first step in working on a TypeScript project in visual studio vode is to add a `tsconfig.json` file to the root of the project.
+## Doing more with visual studio code.
+
+The first step in working on a TypeScript project in visual studio code is to add a `tsconfig.json` file to the root of the project.
 
 It can be an empty object, like this:
 
@@ -134,7 +133,7 @@ Choices under 'target' are currently:
     * ES2017
     * ESNext
 
-Knowing what these mysterious things do is part of the magic of being a web developer in 2016. Know one knows their way the whole way around the elephant.
+Knowing what these mysterious things mean is part of the magic of being a web developer in 2016. Know one knows the whole path around the elephant.
 
 
 ## Configure a task runner in vs code...
@@ -154,17 +153,16 @@ You can learn more about the `tasks.json` file format by visiting <http://code.v
 
 
 
-    
+
 
 ## Sources
 
  * <http://blog.teamtreehouse.com/getting-started-typescript>
  * <https://code.visualstudio.com/Docs/languages/typescript>
  * <http://code.visualstudio.com/docs/editor/tasks>
- 
+
 ## See also
- 
+
  * [npm](../npm/install_npm.md)
  * [path](../powershell/PATH.md)
  * [editing environment variables](../windows/environment_variables.md)
- 

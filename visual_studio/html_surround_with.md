@@ -21,4 +21,3 @@ The poor person's "surround with", when you don't have web essentials.
  * http://stackoverflow.com/questions/191463/how-do-i-wrap-a-selection-with-an-html-tag-in-visual-studio
  * http://vswebessentials.com/features/html#surround-with
  * http://stackoverflow.com/a/35178430/49
- 
