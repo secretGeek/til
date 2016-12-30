@@ -80,11 +80,11 @@ Though this site is published as a free book, there is another book, a real book
  * [tools](tools/01_summary.md) &mdash; 3 articles
  * [typescript](typescript/01_summary.md) &mdash; 1 article
  * [virtual box](virtual_box/01_summary.md) &mdash; 2 articles
- * [visual studio](visual_studio/01_summary.md) &mdash; 5 articles
+ * [visual studio](visual_studio/01_summary.md) &mdash; 6 articles
  * [vs code](vs_code/01_summary.md) &mdash; 3 articles
  * [windows](windows/01_summary.md) &mdash; 9 articles
  * [windows.forms](windows.forms/01_summary.md) &mdash; 3 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-232 articles
-42239 words
+233 articles
+42352 words

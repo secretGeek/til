@@ -60,7 +60,7 @@ From this I can assume:
 
 The babel javascript library is loaded, and the `text/babel` scripts are not executed by the browser. The babel library then looks for any `text/babel` scripts, and *transpiles* them into javascript, adding them to the page. (Kids actually do this kind of thing on purpose... Wow.)
 
-Inside the babel scripts we see the intermingling of javascript with XML. The XML is called `JSX`. Babel turns the `JSX` into regular javascript. Again -- kids do this kind of thing on purpose. I know, right. The scariest part isn't that they're doing this sort of business, but that they're actually make it work for them. Really freaking nicely. 
+Inside the babel scripts we see the intermingling of javascript with XML. The XML is called `JSX`. Babel turns the `JSX` into regular javascript. Again -- kids do this kind of thing on purpose. I know, right. The scariest part isn't that they're doing this sort of business, but that they're actually making it work for them. Really freaking nicely. 
 
 Take this snippet from the example.js
 
@@ -76,12 +76,12 @@ What is CommentBox you might ask? Is that some new highly-specific HTML5 tag? No
 
 So we see that ReactDOM renders that CommentBox **component**. And it renders it inside that `#content` element we saw earlier.
 
-How was it defined.... in some code that looks like this:
+How was it defined? in some code that looks like this:
 
     var CommentBox = React.createClass({
        ...});
 
-Note the capital C on CommentBox. That's a convention, whereby they're saying "Hey, this thing is a Component! It's kind of a big deal."
+Note the capital C on CommentBox. That's a convention, whereby they're saying "Hey, this thing is a Component! It's kind of a big deal!"
        
 Inside that createClass piece of JSON, there's a whoooole bunch of crazy going on.
 
@@ -124,7 +124,9 @@ Let's start there.
 
 Okay -- so again, it contains `JSX`. It looks like HTML, is actually XML. Is turned into javascript at compile time (by babel) and is rendered into the virtual DOM at render time. And possibly applied to the real DOM, if needed.
 
-(Btw, these familiar html tags are written with a **lowercase** first letter, unlike our components)
+Like any good xml document, it needs to have only one root node (a <form /> in this case).
+
+(Btw, these familiar html tags are written with a **lowercase** first letter, unlike our special Components)
 
 Note how, inside a few `{squiggly}` brackets there's a bunch of stuff going on.
 
