@@ -69,7 +69,7 @@ Though this site is published as a free book, there is another book, a real book
  * [npm](npm/01_summary.md) &mdash; 5 articles
  * [oracle](oracle/01_summary.md) &mdash; 3 articles
  * [paypal](paypal/01_summary.md) &mdash; 1 article
- * [powershell](powershell/01_summary.md) &mdash; 42 articles
+ * [powershell](powershell/01_summary.md) &mdash; 43 articles
  * [react](react/01_summary.md) &mdash; 2 articles
  * [redis](redis/01_summary.md) &mdash; 2 articles
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) &mdash; 2 articles
@@ -86,5 +86,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 3 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-233 articles
-42352 words
+234 articles
+42527 words
