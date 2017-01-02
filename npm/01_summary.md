@@ -2,6 +2,7 @@
 # npm
 ### chapter contents
  
+* [getting started](getting_started.md)
 * [install npm](install_npm.md)
 * [nodejs on ubuntu linux](nodejs_on_ubuntu_linux.md)
 * [node gyp dependencies](node_gyp_dependencies.md)

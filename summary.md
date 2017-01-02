@@ -150,6 +150,7 @@
 	* [todays date](/notepad++/todays_date.md)
 	* [trim trailing and save](/notepad++/trim_trailing_and_save.md)
 * [npm](/npm/01_summary.md)
+	* [getting started](/npm/getting_started.md)
 	* [install npm](/npm/install_npm.md)
 	* [nodejs on ubuntu linux](/npm/nodejs_on_ubuntu_linux.md)
 	* [node gyp dependencies](/npm/node_gyp_dependencies.md)
