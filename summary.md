@@ -260,6 +260,7 @@
 	* [nuget json dot net problem](/visual_studio/nuget_json_dot_net_problem.md)
 	* [tabs and spaces](/visual_studio/tabs_and_spaces.md)
 * [vs code](/vs_code/01_summary.md)
+	* [hiding noise](/vs_code/hiding_noise.md)
 	* [launch vs code](/vs_code/launch_vs_code.md)
 	* [markdown preview](/vs_code/markdown_preview.md)
 	* [remove trailing whitespace](/vs_code/remove_trailing_whitespace.md)
