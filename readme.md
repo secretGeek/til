@@ -59,7 +59,7 @@ Though this site is published as a free book, there is another book, a real book
  * [javascript](javascript/01_summary.md) &mdash; 6 articles
  * [jekyll](jekyll/01_summary.md) &mdash; 1 article
  * [linqpad](linqpad/01_summary.md) &mdash; 5 articles
- * [linux](linux/01_summary.md) &mdash; 18 articles
+ * [linux](linux/01_summary.md) &mdash; 19 articles
  * [macbook air](macbook_air/01_summary.md) &mdash; 4 articles
  * [markdown](markdown/01_summary.md) &mdash; 3 articles
  * [mercurial](mercurial/01_summary.md) &mdash; 7 articles
@@ -77,6 +77,7 @@ Though this site is published as a free book, there is another book, a real book
  * [sql server](sql_server/01_summary.md) &mdash; 20 articles
  * [sql server reporting services](sql_server_reporting_services/01_summary.md) &mdash; 2 articles
  * [sql spatial](sql_spatial/01_summary.md) &mdash; 1 article
+ * [stackexchange](stackexchange/01_summary.md) &mdash; 1 article
  * [tools](tools/01_summary.md) &mdash; 3 articles
  * [typescript](typescript/01_summary.md) &mdash; 1 article
  * [virtual box](virtual_box/01_summary.md) &mdash; 2 articles
@@ -86,5 +87,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 3 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-236 articles
-43476 words
+238 articles
+43891 words
