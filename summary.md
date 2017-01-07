@@ -117,6 +117,7 @@
 	* [uncomplicated firewall](/linux/uncomplicated_firewall.md)
 	* [what my ip address](/linux/what_my_ip_address.md)
 	* [wkhtmltopdf](/linux/wkhtmltopdf.md)
+	* [xlsx to csv](/linux/xlsx_to_csv.md)
 * [macbook air](/macbook_air/01_summary.md)
 	* [bluetooth controller](/macbook_air/bluetooth_controller.md)
 	* [insert](/macbook_air/insert.md)
