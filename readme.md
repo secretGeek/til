@@ -41,7 +41,7 @@ Though this site is published as a free book, there is another book, a real book
 
 ## Topics
 
- * [.net core MVC](.net_core_MVC/01_summary.md) &mdash; 8 articles
+ * [.net core MVC](.net_core_MVC/01_summary.md) &mdash; 9 articles
  * [appharbor](appharbor/01_summary.md) &mdash; 1 article
  * [asp.net mvc](asp.net_mvc/01_summary.md) &mdash; 10 articles
  * [chocolatey](chocolatey/01_summary.md) &mdash; 3 articles
@@ -88,5 +88,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-245 articles
-44869 words
+246 articles
+45022 words

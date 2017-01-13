@@ -28,4 +28,15 @@ You might for example add a file helloworld.conf in the required place with cont
 Here's how to view the last 20 lines of the supervisor log, using `tail`
 
     $ sudo tail -n 20 -f /var/log/supervisor/supervisord.log 
-    
+
+
+To restart supervisor after you've given it some new configuration:
+
+        service supervisor stop
+        service supervisor start
+
+
+        
+## Sources
+
+ * [Supervisord: Restarting and Reloading](http://www.onurguzel.com/supervisord-restarting-and-reloading/)

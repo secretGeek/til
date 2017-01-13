@@ -1,6 +1,7 @@
 ﻿# Summary
 
 * [.net core MVC](/.net_core_MVC/01_summary.md)
+	* [custom port](/.net_core_MVC/custom_port.md)
 	* [documenting asp net core](/.net_core_MVC/documenting_asp_net_core.md)
 	* [ip address](/.net_core_MVC/ip_address.md)
 	* [remove accent](/.net_core_MVC/remove_accent.md)
