@@ -75,5 +75,9 @@ the result was that the question was closed.
 But this doesn't tell us the close reason sub types either!
 
 
-http://meta.stackexchange.com/questions/255880/how-can-we-write-a-query-in-data-stackexchange-to-find-the-closeasofftopicreason
+## Source 
+
+ * <http://meta.stackexchange.com/questions/255880/how-can-we-write-a-query-in-data-stackexchange-to-find-the-closeasofftopicreason>
+ 
+ 
 
