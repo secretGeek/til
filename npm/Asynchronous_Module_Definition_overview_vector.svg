@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW Home & Student X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="135.696mm" height="99.4211mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 13333 9769"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:19.6519}
+    .fil3 {fill:black}
+    .fil0 {fill:black}
+    .fil2 {fill:red}
+    .fil1 {fill:white}
+    .fnt0 {font-weight:normal;font-size:554.617px;font-family:Arial}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0 str0" points="763,8061 12389,8061 12384,8676 13320,7740 12401,6822 12392,7437 763,7437 "/>
+  <polygon class="fil0 str0" points="763,3416 12389,3416 12384,4031 13320,3095 12401,2177 12392,2792 763,2792 "/>
+  <rect class="fil1 str0" x="1525" y="5634" width="3258" height="2114"/>
+  <rect class="fil1 str0" x="4273" y="6380" width="3258" height="2114"/>
+  <rect class="fil1 str0" x="2644" y="7645" width="3258" height="2114"/>
+  <rect class="fil1 str0" x="1525" y="2047" width="3258" height="2114"/>
+  <rect class="fil1 str0" x="5148" y="2047" width="3258" height="2114"/>
+  <rect class="fil1 str0" x="8770" y="2047" width="3258" height="2114"/>
+  <path class="fil2" d="M778 2364c206,0 382,73 528,220 146,146 219,322 219,528 0,205 -73,381 -219,527 -146,146 -322,219 -528,219 -205,0 -381,-73 -527,-219 -147,-146 -220,-322 -220,-527 0,-206 73,-382 220,-528 146,-147 322,-220 527,-220zm489 1164c103,-121 154,-260 154,-416 0,-115 -29,-222 -86,-321 -58,-100 -137,-178 -236,-236 -100,-58 -207,-86 -321,-86 -155,0 -294,51 -417,154l906 905zm-72 72l-906 -906c-102,121 -154,261 -154,418 0,113 29,220 87,320 57,99 136,178 236,236 99,58 206,87 320,87 155,0 294,-52 417,-155z"/>
+  <polygon class="fil2" points="594,8215 508,8299 423,8215 423,8214 0,7791 85,7706 508,8129 1441,7198 1525,7282 593,8214 "/>
+  <text x="2046" y="3300"  class="fil3 fnt0">module 1</text>
+  <text x="5632" y="3300"  class="fil3 fnt0">module 2</text>
+  <text x="9253" y="3300"  class="fil3 fnt0">module 3</text>
+  <text x="1835" y="6896"  class="fil3 fnt0">module 1</text>
+  <text x="3129" y="8898"  class="fil3 fnt0">module 2</text>
+  <text x="4756" y="7546"  class="fil3 fnt0">module 3</text>
+  <text x="4039" y="397"  class="fil3 fnt0">Asynchronous Module</text>
+  <text x="4749" y="1017"  class="fil3 fnt0">Definition (AMD)</text>
+ </g>
+</svg>

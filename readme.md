@@ -44,6 +44,7 @@ Though this site is published as a free book, there is another book, a real book
  * [.net core MVC](.net_core_MVC/01_summary.md) &mdash; 9 articles
  * [appharbor](appharbor/01_summary.md) &mdash; 1 article
  * [asp.net mvc](asp.net_mvc/01_summary.md) &mdash; 10 articles
+ * [bower](bower/01_summary.md) &mdash; 2 articles
  * [chocolatey](chocolatey/01_summary.md) &mdash; 3 articles
  * [concepts](concepts/01_summary.md) &mdash; 10 articles
  * [console](console/01_summary.md) &mdash; 4 articles
@@ -55,6 +56,7 @@ Though this site is published as a free book, there is another book, a real book
  * [gmail](gmail/01_summary.md) &mdash; 1 article
  * [google](google/01_summary.md) &mdash; 6 articles
  * [graphics](graphics/01_summary.md) &mdash; 3 articles
+ * [gulp](gulp/01_summary.md) &mdash; 1 article
  * [html](html/01_summary.md) &mdash; 1 article
  * [javascript](javascript/01_summary.md) &mdash; 6 articles
  * [jekyll](jekyll/01_summary.md) &mdash; 1 article
@@ -67,7 +69,7 @@ Though this site is published as a free book, there is another book, a real book
  * [music](music/01_summary.md) &mdash; 7 articles
  * [node](node/01_summary.md) &mdash; 1 article
  * [notepad++](notepad++/01_summary.md) &mdash; 5 articles
- * [npm](npm/01_summary.md) &mdash; 6 articles
+ * [npm](npm/01_summary.md) &mdash; 7 articles
  * [oracle](oracle/01_summary.md) &mdash; 3 articles
  * [paypal](paypal/01_summary.md) &mdash; 1 article
  * [powershell](powershell/01_summary.md) &mdash; 44 articles
@@ -88,5 +90,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-246 articles
-45022 words
+250 articles
+47134 words

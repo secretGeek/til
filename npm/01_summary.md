@@ -2,6 +2,7 @@
 # npm
 ### chapter contents
  
+* [amd](amd.md)
 * [getting started](getting_started.md)
 * [install npm](install_npm.md)
 * [nodejs on ubuntu linux](nodejs_on_ubuntu_linux.md)
