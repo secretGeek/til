@@ -73,11 +73,12 @@ Though this site is published as a free book, there is another book, a real book
  * [oracle](oracle/01_summary.md) &mdash; 3 articles
  * [paypal](paypal/01_summary.md) &mdash; 1 article
  * [powershell](powershell/01_summary.md) &mdash; 44 articles
+ * [python](python/01_summary.md) &mdash; 2 articles
  * [react](react/01_summary.md) &mdash; 2 articles
  * [redis](redis/01_summary.md) &mdash; 2 articles
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) &mdash; 2 articles
  * [smallbasic](smallbasic/01_summary.md) &mdash; 1 article
- * [sql server](sql_server/01_summary.md) &mdash; 20 articles
+ * [sql server](sql_server/01_summary.md) &mdash; 21 articles
  * [sql server reporting services](sql_server_reporting_services/01_summary.md) &mdash; 2 articles
  * [sql spatial](sql_spatial/01_summary.md) &mdash; 1 article
  * [stackexchange](stackexchange/01_summary.md) &mdash; 3 articles
@@ -90,5 +91,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-250 articles
-47243 words
+253 articles
+47455 words
