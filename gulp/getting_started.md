@@ -193,6 +193,9 @@ Next... install gulp-cli.
 
     npm install --global gulp-cli
 
+
+This is being installed globally, so it's available all the time, not just for this project.
+
 This resulted in....
 
 
@@ -331,8 +334,11 @@ Moving on, inside your project you are expected to run this command....
     npm install --save-dev gulp
 
 
-That gave me a *LOT* of output, which I'll break up and discuss in pieces...
+The `--save-dev` flag means gulp will be added to the dependencies of your `package.json` file (if you have one)
 
+(Reminder: `package.json` is the file npm uses for describing a node package)
+
+That gave me a *LOT* of output, which I'll break up and discuss in pieces...
 
 Hmmm... gulp, the task runner, (transitively) depends on some very out of date things.
 
@@ -341,7 +347,7 @@ Hmmm... gulp, the task runner, (transitively) depends on some very out of date t
     npm WARN deprecated graceful-fs@1.2.3: graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
     npm WARN deprecated lodash@1.0.2: lodash@<3.0.0 is no longer maintained. Upgrade to lodash@^4.0.0.
 
-Then these warnings are typical `npm` noise if you aren't building a package.
+Then these warnings are typical `npm` noise if you aren't building a package and don't have a `package.json` file.
 
     npm WARN saveError ENOENT: no such file or directory, open 'C:\users\username\scratch\markdown-it-3\package.json'
 
@@ -531,10 +537,22 @@ And finally more typical `npm` noise about things missing from the non-existent 
     npm WARN EPACKAGEJSON markdown-it-3 No README data
     npm WARN EPACKAGEJSON markdown-it-3 No license field.
 
+Create a `gulpfile.js` in your project root with these contents:
 
-    
-    
+    var gulp = require('gulp'); // this is node's "require" command.
+
+    gulp.task('default', function() {
+      // place code for your default task here
+      console.log("gulp!");
+    });
+
+Now you can run `gulp` and see what happens...
+
+    [22:27:42] Using gulpfile C:\users\username\scratch\markdown-it-3\gulpfile.js
+    [22:27:42] Starting 'default'...
+    gulp!
+    [22:27:42] Finished 'default' after 283 µs
+
 ## Source
-
 
  * [gulpjs Getting started](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
