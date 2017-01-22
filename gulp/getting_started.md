@@ -1,6 +1,6 @@
 # Getting started with gulp
 
-Ensure you have [npm](../npm/getting_started.md) You need npm to install gulp.
+Ensure you have [npm](../npm/install_npm.md) You need `npm` to install `gulp`.
 
 If you've previously installed gulp... uninstall it now.
 
@@ -556,3 +556,8 @@ Now you can run `gulp` and see what happens...
 ## Source
 
  * [gulpjs Getting started](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
+ 
+## See Also
+
+ * [install npm](../npm/install_npm.md)
+ * [NPM -- some notes for beginners.](getting_started.md)

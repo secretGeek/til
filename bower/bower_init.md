@@ -44,3 +44,6 @@ After going through the questionnaire I ended up with something like this:
 
 Note it was smart enough to add what i'd added already as a dependency.
 
+var MarkdownIt = require('markdown-it'),
+    md = new MarkdownIt();
+var result = md.render('# markdown-it rulezz!');

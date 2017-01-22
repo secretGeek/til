@@ -62,7 +62,7 @@ Though this site is published as a free book, there is another book, a real book
  * [jekyll](jekyll/01_summary.md) &mdash; 1 article
  * [jquery](jquery/01_summary.md) &mdash; 1 article
  * [linqpad](linqpad/01_summary.md) &mdash; 5 articles
- * [linux](linux/01_summary.md) &mdash; 20 articles
+ * [linux](linux/01_summary.md) &mdash; 21 articles
  * [macbook air](macbook_air/01_summary.md) &mdash; 4 articles
  * [markdown](markdown/01_summary.md) &mdash; 3 articles
  * [mercurial](mercurial/01_summary.md) &mdash; 7 articles
@@ -78,7 +78,7 @@ Though this site is published as a free book, there is another book, a real book
  * [redis](redis/01_summary.md) &mdash; 2 articles
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) &mdash; 2 articles
  * [smallbasic](smallbasic/01_summary.md) &mdash; 1 article
- * [sql server](sql_server/01_summary.md) &mdash; 21 articles
+ * [sql server](sql_server/01_summary.md) &mdash; 23 articles
  * [sql server reporting services](sql_server_reporting_services/01_summary.md) &mdash; 2 articles
  * [sql spatial](sql_spatial/01_summary.md) &mdash; 1 article
  * [stackexchange](stackexchange/01_summary.md) &mdash; 3 articles
@@ -87,9 +87,9 @@ Though this site is published as a free book, there is another book, a real book
  * [virtual box](virtual_box/01_summary.md) &mdash; 2 articles
  * [visual studio](visual_studio/01_summary.md) &mdash; 6 articles
  * [vs code](vs_code/01_summary.md) &mdash; 4 articles
- * [windows](windows/01_summary.md) &mdash; 9 articles
+ * [windows](windows/01_summary.md) &mdash; 10 articles
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-253 articles
-47455 words
+257 articles
+48235 words

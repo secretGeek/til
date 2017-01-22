@@ -35,6 +35,10 @@ To restart supervisor after you've given it some new configuration:
         service supervisor stop
         service supervisor start
 
+I noticed that supervisor did not successfully restart when I [rebooted my linux](reboot.md) box.
+
+
+TODO: https://lincolnloop.com/blog/automatically-running-supervisord-startup/
 
         
 ## Sources

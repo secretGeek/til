@@ -1,0 +1,10 @@
+# Repeat every n seconds forever
+
+I wanted to repeat this every 5 seconds:
+
+    dir . *.* -recurse | measure | % Count
+
+    
+And used this command to achieve it:
+    
+ cls; while ($true) { dir . *.* -recurse | measure | % Count; start-sleep -seconds 5; }

@@ -10,3 +10,7 @@ Don't have chocolatey?  [install chocolatey](../chocolatey/install_chocolatey.md
 
 Next: add [tab completion](tab_completion_with_powershell.md)
 
+or 
+
+[NPM -- some notes for beginners.](getting_started.md)
+

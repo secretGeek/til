@@ -50,4 +50,8 @@ In `project.json` ensure `hosting.json` gets included when the file is published
       
 Then `dotnet publish` as usual.
 
-      
+## Source
+
+ * [How to configure Kestrel URLs in ASP.NET Core RC2](http://benfoster.io/blog/how-to-configure-kestrel-urls-in-aspnet-core-rc2) (comments are important there too)
+ 
+ 

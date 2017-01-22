@@ -11,7 +11,8 @@ Easy to find:
         p.rows AS RowCounts,
         (SUM(a.total_pages) * 8)/1024 AS TotalSpaceMB, 
         (SUM(a.used_pages) * 8)/1024 AS UsedSpaceMB, 
-        ((SUM(a.total_pages) - SUM(a.used_pages)) * 8/1024) AS UnusedSpaceMB
+        ((SUM(a.total_pages) - SUM(a.used_pages)) * 8/1024) AS UnusedSpaceMB,
+		case when p.rows > 0 then ((SUM(a.used_pages)*8000 ) / p.rows) else 0 end as bytes_per_row
     FROM 
         sys.tables t
     INNER JOIN      

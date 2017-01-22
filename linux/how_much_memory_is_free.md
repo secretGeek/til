@@ -12,6 +12,14 @@ Also
     Mem:            488         228          23          11         236         217
     Swap:             0           0           0
 
+The figure under "available" is how much is "Free and available"
+
+i.e. what humans usually mean when they say "free"
+
+
+    
+    
+    
     
 To watch it as it changes...    
 
@@ -33,4 +41,7 @@ And similarly:
 To see a lot of specific info about your machine...
 
     $ sudo lshw
-    
+
+## See Also
+
+    * [Linux Ate My Ram](http://www.linuxatemyram.com/)
