@@ -50,7 +50,7 @@ Though this site is published as a free book, there is another book, a real book
  * [console](console/01_summary.md) &mdash; 4 articles
  * [css](css/01_summary.md) &mdash; 2 articles
  * [electron](electron/01_summary.md) &mdash; 2 articles
- * [excel](excel/01_summary.md) &mdash; 2 articles
+ * [excel](excel/01_summary.md) &mdash; 3 articles
  * [git](git/01_summary.md) &mdash; 9 articles
  * [gitbook](gitbook/01_summary.md) &mdash; 6 articles
  * [gmail](gmail/01_summary.md) &mdash; 1 article
@@ -62,7 +62,7 @@ Though this site is published as a free book, there is another book, a real book
  * [jekyll](jekyll/01_summary.md) &mdash; 1 article
  * [jquery](jquery/01_summary.md) &mdash; 1 article
  * [linqpad](linqpad/01_summary.md) &mdash; 5 articles
- * [linux](linux/01_summary.md) &mdash; 21 articles
+ * [linux](linux/01_summary.md) &mdash; 22 articles
  * [macbook air](macbook_air/01_summary.md) &mdash; 4 articles
  * [markdown](markdown/01_summary.md) &mdash; 3 articles
  * [mercurial](mercurial/01_summary.md) &mdash; 7 articles
@@ -91,5 +91,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-257 articles
-48235 words
+259 articles
+54553 words

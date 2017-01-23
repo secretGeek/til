@@ -5,6 +5,7 @@
 * [apt get](apt_get.md)
 * [bash](bash.md)
 * [bin contents](bin_contents.md)
+* [chmod file permissions](chmod_file_permissions.md)
 * [count files recursively](count_files_recursively.md)
 * [digital ocean](digital_ocean.md)
 * [get processes list processes](get_processes_list_processes.md)
