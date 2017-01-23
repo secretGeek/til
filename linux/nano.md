@@ -7,7 +7,9 @@ Common shortcut keys which are worth committing to finger memory are:
 
 But here's the one I want to remember...
 
-    Ctrl Z - go to background
+    Ctrl Z - go to background. 
+    
+For more on that, see [bg,fg: background and foreground](bg_fg_background_and_foreground.md)
     fg -- go back to nano in foreground
 
 You may be wondering what the heck I am talking about there?
@@ -37,3 +39,8 @@ For example, here I've got two `nano` instances stopped...
 
 To jump to the one I prefer I can use '`fg 1`' or '`fg 2`'
 
+    Ctrl K -- delete current line
+
+## See also
+
+ * [bg,fg: background and foreground](bg_fg_background_and_foreground.md)    

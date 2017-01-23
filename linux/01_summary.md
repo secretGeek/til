@@ -4,6 +4,7 @@
  
 * [apt get](apt_get.md)
 * [bash](bash.md)
+* [bg fg background and foreground](bg_fg_background_and_foreground.md)
 * [bin contents](bin_contents.md)
 * [chmod file permissions](chmod_file_permissions.md)
 * [count files recursively](count_files_recursively.md)

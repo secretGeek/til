@@ -110,6 +110,7 @@
 * [linux](/linux/01_summary.md)
 	* [apt get](/linux/apt_get.md)
 	* [bash](/linux/bash.md)
+	* [bg fg background and foreground](/linux/bg_fg_background_and_foreground.md)
 	* [bin contents](/linux/bin_contents.md)
 	* [chmod file permissions](/linux/chmod_file_permissions.md)
 	* [count files recursively](/linux/count_files_recursively.md)
