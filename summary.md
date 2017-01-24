@@ -7,6 +7,7 @@
 	* [remove accent](/.net_core_MVC/remove_accent.md)
 	* [send email with mailkit](/.net_core_MVC/send_email_with_mailkit.md)
 	* [server mappath](/.net_core_MVC/server_mappath.md)
+	* [specified framework not found](/.net_core_MVC/specified_framework_not_found.md)
 	* [UrlEncode](/.net_core_MVC/UrlEncode.md)
 	* [UrlParameter-Optional](/.net_core_MVC/UrlParameter-Optional.md)
 	* [view imports](/.net_core_MVC/view_imports.md)

@@ -4,7 +4,7 @@ nginx overtook apache as the most popular webserver in the world.
 
 what i use it for is as an internet facing webserver that acts as a 'reverse proxy' for my web apps (which themselves run kestrel, a lightweight webserver, that isn't robust enough to withstand the open internet)
 
-install via apt-get
+install via `apt-get`
 
     sudo apt-get update
     sudo apt-get install nginx
