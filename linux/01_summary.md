@@ -21,6 +21,7 @@
 * [SSH](SSH.md)
 * [sudo](sudo.md)
 * [supervisor](supervisor.md)
+* [systemd](systemd.md)
 * [uncomplicated firewall](uncomplicated_firewall.md)
 * [what my ip address](what_my_ip_address.md)
 * [wkhtmltopdf](wkhtmltopdf.md)
