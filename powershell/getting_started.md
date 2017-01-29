@@ -27,7 +27,17 @@ If you type `alias dir` you will see the real name of the command you are callin
 
 Ah-ha!, so `dir` is an alias for `Get-ChildItem`. 
 
+Now, given an alias you can find the underlying command. And you've seen that commands are named like this: Get-ChildItem, i.e. Verb-Noun. So you can often make a good guess at the name of a command. 
 
+## Finding commands, working out what they return
+
+You can look for commands by name or alias, using 'Get-Command', e.g.
+
+    Get-Command Get-ChildItem
+
+Or you can looks at *ALL* the available commands by typing simply:
+
+    Get-Command
 
 
 Get-Member
