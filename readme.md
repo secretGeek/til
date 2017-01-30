@@ -48,6 +48,7 @@ Though this site is published as a free book, there is another book, a real book
  * [chocolatey](chocolatey/01_summary.md) &mdash; 3 articles
  * [concepts](concepts/01_summary.md) &mdash; 10 articles
  * [console](console/01_summary.md) &mdash; 4 articles
+ * [cpu analyzer](cpu_analyzer/01_summary.md) &mdash; 1 article
  * [css](css/01_summary.md) &mdash; 2 articles
  * [electron](electron/01_summary.md) &mdash; 2 articles
  * [excel](excel/01_summary.md) &mdash; 3 articles
@@ -93,5 +94,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-270 articles
-56113 words
+271 articles
+56365 words

@@ -85,9 +85,9 @@ This is essentially npm saying:
 
 > I see you're doing some npm related stuff in the current folder.... well, you better not think about publishing your current folder as a package. It's looking mighty shoddy. There's no description. No repository field. No license field. Allow me to summarize: as a package, your current folder STINKS!
 
-Why would npm be telling us that? It's as if you walk into a bar, in search of a drink, and the bartender says "You're a shitty employee, we don't hire drunks!" But you don't want to work there, you're there to get a drink! What kind of a crazy judgmental bartender is this npm guy?
+Why would `npm` be telling us that? It's as if you walk into a bar, in search of a drink, and the bartender says "You're a shitty employee, we don't hire drunks!" But you don't want to work there, you're there to get a drink! What kind of a crazy judgemental bartender is this `npm` guy?
 
-So, what we have to do is either populate our package.json file with a description, with repository details and with license details. (I'll show you how to do that in a moment). Or we can update our `package.json` file to say:
+So, what we have to do is either populate our `package.json` file with a description, with repository details and with license details. (I'll show you how to do that in a moment). Or we can update our `package.json` file to say:
 
     { "private":"true" }
 
@@ -95,7 +95,7 @@ That means:
 
 >"This folder is just a private piece of code... I'm NOT planning to publish it to the world, so get the HELL OFF MY CASE, npm, you intrusive, weird, bully."
 
-Now -- what if the current package is not intended only for private use. Then we need to know how to populate the missing attributes.
+Now &mdash; what if the current package is not intended only for private use. Then we need to know how to populate the missing attributes.
 
 Here's an example of starting `package.json` that contains just the attributes that are causing warnings:
 
@@ -108,7 +108,7 @@ Here's an example of starting `package.json` that contains just the attributes t
       "license": "MIT"
     }                                                             
 
-But there's a much trick for populating our `package.json`. We can use the command 
+But there's a much neater trick for populating our `package.json`. We can use the command:
 
     npm init
     

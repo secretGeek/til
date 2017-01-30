@@ -48,6 +48,8 @@
 	* [consolez](/console/consolez.md)
 	* [ndesk options](/console/ndesk_options.md)
 	* [settings](/console/settings.md)
+* [cpu analyzer](/cpu_analyzer/01_summary.md)
+	* [getting started](/cpu_analyzer/getting_started.md)
 * [css](/css/01_summary.md)
 	* [center](/css/center.md)
 	* [maintainable css](/css/maintainable_css.md)
