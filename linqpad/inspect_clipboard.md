@@ -4,7 +4,7 @@ While testing the upcoming [NimbleText](http://NimbleText.com) enhancements I ne
 
 ![inspect_clipboard_1.png](inspect_clipboard_1.png)
 
-Now if I type `linq inspect_clipboard` I will instantly see, color coded, what special characters are in the clipboard:
+And now, thanks to the magic of the `Invoke-LinqPadScript` commandlet, if I type `linq inspect_clipboard` I will instantly see, color coded, what special characters are on the clipboard:
 
 ![inspect_clipboard_2.png](inspect_clipboard_2.png)
 
