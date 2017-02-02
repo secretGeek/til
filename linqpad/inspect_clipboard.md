@@ -1,6 +1,6 @@
 # Inspect clipboard with linqpad
 
-While testing the upcoming [NimbleText](http://NimbleText.com) enhancements I need to be able to inspect the line endings on the clipboard, so put this LinqPad script into my [linqpad script folder](invoke_linqpad_commandlet.md)
+While testing the upcoming [NimbleText](http://NimbleText.com) enhancements I need to be able to inspect the line endings on the clipboard, so I've put this LinqPad script into my [linqpad script folder](invoke_linqpad_commandlet.md)
 
 ![inspect_clipboard_1.png](inspect_clipboard_1.png)
 
