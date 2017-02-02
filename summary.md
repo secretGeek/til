@@ -111,6 +111,7 @@
 	* [textarea keypress](/jquery/textarea_keypress.md)
 * [linqpad](/linqpad/01_summary.md)
 	* [clear results](/linqpad/clear_results.md)
+	* [inspect clipboard](/linqpad/inspect_clipboard.md)
 	* [invoke linqpad commandlet](/linqpad/invoke_linqpad_commandlet.md)
 	* [offline registration](/linqpad/offline_registration.md)
 	* [run linqpad scripts from commandline](/linqpad/run_linqpad_scripts_from_commandline.md)
