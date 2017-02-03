@@ -315,6 +315,7 @@
 	* [mstsc black screen](/windows/mstsc_black_screen.md)
 	* [mstsc without mouse](/windows/mstsc_without_mouse.md)
 	* [notepad log file](/windows/notepad_log_file.md)
+	* [program associated](/windows/program_associated.md)
 	* [Remove Stored Credentials](/windows/Remove_Stored_Credentials.md)
 	* [screenshot with mouse cursor](/windows/screenshot_with_mouse_cursor.md)
 	* [when does password expire](/windows/when_does_password_expire.md)

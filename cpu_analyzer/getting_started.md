@@ -5,8 +5,6 @@ This is a tool originally created by Sam Saffron and since forked by jitbit. Ava
 You can use it for profiling .net applications in production, for example for profiling w3wp, profiling iis, profiling asp.net applications. etc..
 
 
-
-
 ## Troubleshooting cpu-analyzer
 
 
@@ -38,7 +36,7 @@ Line 212 is "var snapshot = ThreadSnapshot.GetThreadSnapshot(thread);"
 Line 104 is " foreach (MDbgFrame frame in thread.Frames"
 
 
-This can occur if the w3wp process has been torn down while you're trying to analyze it. Either take less samples, or just try again (making sure you've got the right process id.)
+This can occur if the w3wp process has been torn down while you're trying to analyze it. Either take less samples, or just try again (making sure you've got the right process id, if it's been restarted with a new one)
 
 
 ### failed to attach to process The operation completed successfully
@@ -49,7 +47,55 @@ This can occur if the w3wp process has been torn down while you're trying to ana
        at Microsoft.Samples.Debugging.MdbgEngine.MdbgVersionPolicy.GetDefaultAttachVersion(Int32 processId)
        at Microsoft.Samples.Debugging.MdbgEngine.MDbgEngine.Attach(Int32 processId)
        at cpu_analyzer.Program.Main(String[] args) in C:\...\Program.cs:line 201
-   
+
+I don't know why I got this one.
 
 
-   https://samsaffron.com/archive/2009/11/11/Diagnosing+runaway+CPU+in+a+Net+production+application
+
+### the state of the thread is invalid
+
+
+
+When running for longer, such as this (120 samples, 250ms apart... total 30 seconds of sampling)
+
+	> .\cpu-analyzer.exe 8132 /S 120 /I 250 > output.txt
+
+I often hit this:
+
+	Unhandled Exception: System.Runtime.InteropServices.COMException: The state of the thread is invalid. (Exception from HRESULT: 0x8013132D)
+	   at Microsoft.Samples.Debugging.CorDebug.NativeApi.ICorDebugThread3.CreateStackWalk(ICorDebugStackWalk& ppStackWalk)
+	   at Microsoft.Samples.Debugging.CorDebug.CorThread.CreateStackWalk(CorStackWalkType type)
+	   at Microsoft.Samples.Debugging.MdbgEngine.MDbgV3FrameFactory.<EnumerateFrames>d__0.MoveNext()
+	   at Microsoft.Samples.Debugging.MdbgEngine.FrameCache.GetFrame(Int32 index)
+	   at Microsoft.Samples.Debugging.MdbgEngine.MDbgThread.EnsureCurrentStackWalker()
+	   at Microsoft.Samples.Debugging.MdbgEngine.MDbgThread.get_Frames()
+	   at cpu_analyzer.ThreadSnapshot.GetThreadSnapshot(MDbgThread thread) in C:\...\Program.cs:line 104
+	   at cpu_analyzer.Program.Main(String[] args) in C:\...\Program.cs:line 212
+
+
+To avoid this, at line 104 in Program.cs,  I wrapped the foreach in a try/catch
+
+	try
+	{
+		foreach (MDbgFrame frame in thread.Frames)
+		{
+			try
+			{
+				snapshot.StackTrace.Add(frame.Function.FullName);
+			}
+			catch
+			{
+				// no frame, so ignore
+			}
+		}
+	}
+	catch (COMException)
+	{
+		//Thread might be in an invalid state apparently...
+		//So ignore away
+	}
+
+## Source
+
+ * [Diagnosing runaway CPU in a .Net production application](https://samsaffron.com/archive/2009/11/11/Diagnosing+runaway+CPU+in+a+Net+production+application)
+ * [jitbit/cpu-analyzer](https://github.com/jitbit/cpu-analyzer)
