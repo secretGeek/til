@@ -183,6 +183,8 @@
 	* [node gyp dependencies](/npm/node_gyp_dependencies.md)
 	* [npm run scripts](/npm/npm_run_scripts.md)
 	* [tab completion with powershell](/npm/tab_completion_with_powershell.md)
+* [nuget](/nuget/01_summary.md)
+	* [consolidate nuget packages](/nuget/consolidate_nuget_packages.md)
 * [oracle](/oracle/01_summary.md)
 	* [connection strings](/oracle/connection_strings.md)
 	* [top 10](/oracle/top_10.md)
