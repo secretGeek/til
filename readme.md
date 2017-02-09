@@ -67,13 +67,13 @@ Though this site is published as a free book, there is another book, a real book
  * [linux](linux/01_summary.md) &mdash; 24 articles
  * [macbook air](macbook_air/01_summary.md) &mdash; 4 articles
  * [markdown](markdown/01_summary.md) &mdash; 3 articles
- * [mercurial](mercurial/01_summary.md) &mdash; 8 articles
+ * [mercurial](mercurial/01_summary.md) &mdash; 10 articles
  * [music](music/01_summary.md) &mdash; 7 articles
  * [node](node/01_summary.md) &mdash; 1 article
- * [notepad++](notepad++/01_summary.md) &mdash; 5 articles
+ * [notepad++](notepad++/01_summary.md) &mdash; 6 articles
  * [npm](npm/01_summary.md) &mdash; 7 articles
  * [nuget](nuget/01_summary.md) &mdash; 1 article
- * [oracle](oracle/01_summary.md) &mdash; 3 articles
+ * [oracle](oracle/01_summary.md) &mdash; 4 articles
  * [paypal](paypal/01_summary.md) &mdash; 1 article
  * [powershell](powershell/01_summary.md) &mdash; 45 articles
  * [python](python/01_summary.md) &mdash; 2 articles
@@ -95,5 +95,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-275 articles
-57750 words
+279 articles
+58447 words

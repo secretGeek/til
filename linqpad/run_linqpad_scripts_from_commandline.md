@@ -26,13 +26,13 @@ Thereafter if i run:
 
 ...it works as expected.
 
-I've now wrapped this behavior up into the powershell commandlet [Invoke-PowershellScript](invoke_linqpad_commandlet.md)
+I've now wrapped this behavior up into the powershell commandlet [Invoke-LinqPadScript](invoke_linqpad_commandlet.md)
 
 
 
 ## Source
 
- * https://www.linqpad.net/lprun.aspx
+ * <https://www.linqpad.net/lprun.aspx>
 
 ## See Also
 

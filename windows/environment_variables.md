@@ -9,11 +9,14 @@
         * Advanced tab: click "Environment Variables..."
             * There you have "user variables for current user" and "System variables"
             * Note that those in the "user variables" section also exist in the System variables -- so think carefully about which one you mean.
-            
-* From Windows, method 2    
-    
-    * or `[Windows`]`[R`] to bring up the run dialog and type `sysdm.cpl`
-    
+
+* From Windows, method 2
+
+    * `[Windows`]`[R`] to bring up the run dialog and type `sysdm.cpl`
+
+* From Windows, method 3
+
+    * `[Windows`]`[R`] to bring up the run dialog and type `rundll32 sysdm.cpl,EditEnvironmentVariables`
 
 ## See also
 

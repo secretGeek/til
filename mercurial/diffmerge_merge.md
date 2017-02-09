@@ -13,7 +13,8 @@ In your [mercurial.ini file](./mercurial_ini.md)(i.e. $env:userprofile\mercurial
 
     [merge-tools]
     vdiff.executable = C:\Program Files\SourceGear\Common\DiffMerge\sgdm.exe
-    vdiff.args = -merge -result=$output  $local $base $other
+    # vdiff.args = -merge -result=$output  $local $base $other
+    vdiff.args = -merge -result=$output -t1="Local Version" -t2=$output -t3="Other Version" -caption=$output $local $base $other
     vdiff.binary = False
     vdiff.symlinks = False
     vdiff.gui = True

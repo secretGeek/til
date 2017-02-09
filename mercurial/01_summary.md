@@ -9,4 +9,6 @@
 * [handshake failure](handshake_failure.md)
 * [log template](log_template.md)
 * [mercurial ini](mercurial_ini.md)
+* [merging failed](merging_failed.md)
+* [multiple heads](multiple_heads.md)
 * [orig files](orig_files.md)
