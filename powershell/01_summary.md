@@ -47,3 +47,4 @@
 * [Use Google Maps](Use_Google_Maps.md)
 * [version](version.md)
 * [who is using each port](who_is_using_each_port.md)
+* [write-host alternatives](write-host_alternatives.md)

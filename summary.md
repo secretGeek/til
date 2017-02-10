@@ -241,6 +241,7 @@
 	* [Use Google Maps](/powershell/Use_Google_Maps.md)
 	* [version](/powershell/version.md)
 	* [who is using each port](/powershell/who_is_using_each_port.md)
+	* [write-host alternatives](/powershell/write-host_alternatives.md)
 * [python](/python/01_summary.md)
 	* [grip](/python/grip.md)
 	* [pip](/python/pip.md)
