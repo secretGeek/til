@@ -97,6 +97,8 @@
 * [iis](/iis/01_summary.md)
 	* [which version](/iis/which_version.md)
 	* [which w3wp process is which](/iis/which_w3wp_process_is_which.md)
+* [itunes](/itunes/01_summary.md)
+	* [setup as new ipad](/itunes/setup_as_new_ipad.md)
 * [javascript](/javascript/01_summary.md)
 	* [console error](/javascript/console_error.md)
 	* [eval](/javascript/eval.md)
