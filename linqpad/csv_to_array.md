@@ -60,7 +60,7 @@ The load and convert to Array code is....
 
     
     
-A different approach is to use a library. I've tried two. Here's ServiceStack and LinqToCsv.
+A different approach is to use a library. I've tried three. Here's ServiceStack, LinqToCsv and FileHelpers.net
 
 TODO: I'll put FileHelpers.net in here later if I get around to it. (Send a PR if you've got one)
 
@@ -134,7 +134,40 @@ Here's our annotated DTO...
         public int? Postcode { get; set; }
     }
 
-
-## Source
-
     
+## Using FileHelpers to read a csv file (from linqpad)
+
+For more info see <http://www.filehelpers.net/example/QuickStart/ReadFileDelimited/>
+
+    void Main()
+    {
+        var fileName = @"C:\Temp\Crime_Data.csv";
+        //Null end dates becomes: 31/12/1899 2:00:00 PM (which is the type at GMT+0, when it is 1/1/1900 12:00 here)
+        var crimes = new FileHelperEngine(typeof(Crime)).ReadFile(fileName);
+        crimes.Dump();
+    }
+
+And here's our not-so-poco DTO. Note that we now have fields not records. And we haven't specified names... their order is assumed to match the order of the file.
+    
+    [DelimitedRecord(",")]
+    [IgnoreFirst()]
+    public class Crime
+    {
+        //Offence Description,Start Date,End Date,Suburb,Postcode
+        public string Offence;
+        [FieldConverter(ConverterKind.Date, "yyyy-MM-dd HH:mm")]
+        public DateTime? Start;
+        [FieldConverter(ConverterKind.Date, "yyyy-MM-dd HH:mm" )]
+        public DateTime? End;
+        public string Suburb;
+        public int? Postcode;
+    }
+    
+
+## Sources
+
+ * [Linq To Csv](http://www.aspnetperformance.com/post/LINQ-to-CSV-library.aspx#How_to_use)
+ * [FileHelpers read file delimited](http://www.filehelpers.net/example/QuickStart/ReadFileDelimited/)
+ 
+## See also
+
