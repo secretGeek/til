@@ -45,6 +45,7 @@
 	* [survivorship bias](/concepts/survivorship_bias.md)
 * [console](/console/01_summary.md)
 	* [cmder](/console/cmder.md)
+	* [cmder powershell](/console/cmder_powershell.md)
 	* [consolez](/console/consolez.md)
 	* [ndesk options](/console/ndesk_options.md)
 	* [settings](/console/settings.md)

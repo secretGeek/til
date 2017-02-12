@@ -2,7 +2,6 @@
 
 By far the most common query I've every run in SQL Server is:
 
-
     Select SomeColumn, Count(*) as [Count]
     from SomeTable
     group by SomeColumn
@@ -16,3 +15,4 @@ Here's the equivalent in Linq:
 							 SomeColumn = group.Key
                         }).OrderByDescending(x => x.Count);
 	tableSummary.Dump();						
+

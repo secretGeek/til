@@ -2,6 +2,15 @@
 
 Cmder relies on Conemu to create a beautiful console experience on windows. 
 
+## download
+
+from <http://cmder.net/> 
+
+Try downloading "mini" -- see if it work suitably.
+
+
+## insert text
+
 What matters the most: How do you insert?
 
 Paste with `Shift Insert` -- which on a macbook air is "`fn shift enter`"
