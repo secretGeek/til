@@ -62,7 +62,6 @@ The load and convert to Array code is....
     
 A different approach is to use a library. I've tried three. Here's ServiceStack, LinqToCsv and FileHelpers.net
 
-TODO: I'll put FileHelpers.net in here later if I get around to it. (Send a PR if you've got one)
 
 
 ## Using ServiceStack to load a CSV File
