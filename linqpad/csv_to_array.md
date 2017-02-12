@@ -11,11 +11,11 @@ Below are four different implementations, all pretty simple. They use, in order
 
  
  
-Given a CSV (of Crime data) with header row like this:
+Given a CSV (of crime data) with header row like this:
 
 	Offence Description,Start Date,End Date,Suburb,Postcode
 
-For which I've had to manually create this POCO/DTO.
+... and for which I've manually created a similar looking POCO/DTO.
 
     public class Crime
     {
@@ -34,7 +34,7 @@ Add a reference to `Microsoft.VisualBasic.dll` and namespaces of:
     Microsoft.VisualBasic.FileIO
     System.Globalization
 
-The load and convert to Array code is....
+The load and convert to List<Crime> code is....
 
     void Main()
     {
@@ -110,7 +110,7 @@ And this not-so Poco DTO...
 ## Using LinqToCsv to load a csv file
 
 
-(For more on this one see <http://www.aspnetperformance.com/post/LINQ-to-CSV-library.aspx#How_to_use>
+(For more on this one see <http://www.aspnetperformance.com/post/LINQ-to-CSV-library.aspx#How_to_use>)
 
 
     void Main()
@@ -156,7 +156,7 @@ For more info see <http://www.filehelpers.net/example/QuickStart/ReadFileDelimit
         crimes.Dump();
     }
 
-And here's our not-so-poco DTO. Note that we now have fields not records. And we haven't specified names... their order is assumed to match the order of the file.
+And here's our not-so-poco DTO. Note that we now have fields not properties. And we haven't specified names... their order is assumed to match the order of the file.
     
     [DelimitedRecord(",")]
     [IgnoreFirst()]
@@ -178,5 +178,3 @@ And here's our not-so-poco DTO. Note that we now have fields not records. And we
  * [Linq To Csv](http://www.aspnetperformance.com/post/LINQ-to-CSV-library.aspx#How_to_use)
  * [FileHelpers read file delimited](http://www.filehelpers.net/example/QuickStart/ReadFileDelimited/)
  
-## See also
-
