@@ -113,6 +113,8 @@
 	* [textarea keypress](/jquery/textarea_keypress.md)
 * [linqpad](/linqpad/01_summary.md)
 	* [clear results](/linqpad/clear_results.md)
+	* [csv to array](/linqpad/csv_to_array.md)
+	* [group by](/linqpad/group_by.md)
 	* [inspect clipboard](/linqpad/inspect_clipboard.md)
 	* [invoke linqpad commandlet](/linqpad/invoke_linqpad_commandlet.md)
 	* [offline registration](/linqpad/offline_registration.md)
