@@ -1,7 +1,16 @@
 # CSV to IEnumerable<T> (or Array<T>) in Linqpad
 
-This needs to be a simple activity, here it is:
+Loading a CSV file and turning it into an IEnumerable<T> needs to be a simple activity.
 
+Below are four different implementations, all pretty simple. They use, in order
+
+ * Microsoft.VisualBasic.dll
+ * ServiceStack
+ * LinqToCsv
+ * FileHelpers.net
+
+ 
+ 
 Given a CSV (of Crime data) with header row like this:
 
 	Offence Description,Start Date,End Date,Suburb,Postcode
@@ -18,7 +27,9 @@ For which I've had to manually create this POCO/DTO.
     }
 
 
-With a reference to Microsoft.VisualBasic.dll and namespace of:
+## Using Microsoft.VisualBasic.dll to load a CSV file
+    
+Add a reference to `Microsoft.VisualBasic.dll` and namespaces of:
 
     Microsoft.VisualBasic.FileIO
     System.Globalization
@@ -59,8 +70,7 @@ The load and convert to Array code is....
     }
 
     
-    
-A different approach is to use a library. I've tried three. Here's ServiceStack, LinqToCsv and FileHelpers.net
+A different approach is to use a 3rd party library, imported via `nuget`. I've tried three. Here's ServiceStack, LinqToCsv and FileHelpers.net
 
 
 
