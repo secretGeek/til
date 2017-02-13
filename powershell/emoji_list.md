@@ -329,6 +329,10 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |👩‍👩‍👧‍👦|Family: WOMAN, WOMAN, GIRL, BOY|U+1F469 U+200D U+1F469 U+200D U+1F467 U+200D U+1F466|&amp;#1F469; &amp;#200D; &amp;#1F469; &amp;#200D; &amp;#1F467; &amp;#200D; &amp;#1F466;|boy, family, girl, woman|
 |👩‍👩‍👦‍👦|Family: WOMAN, WOMAN, BOY, BOY|U+1F469 U+200D U+1F469 U+200D U+1F466 U+200D U+1F466|&amp;#1F469; &amp;#200D; &amp;#1F469; &amp;#200D; &amp;#1F466; &amp;#200D; &amp;#1F466;|boy, family, woman|
 |👩‍👩‍👧‍👧|Family: WOMAN, WOMAN, GIRL, GIRL|U+1F469 U+200D U+1F469 U+200D U+1F467 U+200D U+1F467|&amp;#1F469; &amp;#200D; &amp;#1F469; &amp;#200D; &amp;#1F467; &amp;#200D; &amp;#1F467;|family, girl, woman|
+
+
+|Emoji|Name|Unicode|HTML Entity Code|Attributes|
+|-----|----|-------|----------------|----------|
 |🏻|EMOJI MODIFIER FITZPATRICK TYPE-1-2|U+1F3FB|&amp;#1F3FB;|emoji modifier, fitzpatrick, skin, symbol, tone|
 |🏼|EMOJI MODIFIER FITZPATRICK TYPE-3|U+1F3FC|&amp;#1F3FC;|emoji modifier, fitzpatrick, skin, symbol, tone|
 |🏽|EMOJI MODIFIER FITZPATRICK TYPE-4|U+1F3FD|&amp;#1F3FD;|emoji modifier, fitzpatrick, skin, symbol, tone|
@@ -540,6 +544,13 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |💄|LIPSTICK|U+1F484|&amp;#1F484;|cosmetics, lipstick, makeup, object, person|
 |💍|RING|U+1F48D|&amp;#1F48D;|diamond, emotion, object, person, ring, romance|
 |💎|GEM STONE|U+1F48E|&amp;#1F48E;|diamond, emotion, gem, jewel, object, person, romance|
+
+
+## Animals
+
+
+|Emoji|Name|Unicode|HTML Entity Code|Attributes|
+|-----|----|-------|----------------|----------|
 |🐵|MONKEY FACE|U+1F435|&amp;#1F435;|animal, face, monkey, nature|
 |🐒|MONKEY|U+1F412|&amp;#1F412;|animal, monkey, nature|
 |🐶|DOG FACE|U+1F436|&amp;#1F436;|animal, dog, face, nature, pet|
@@ -612,6 +623,12 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |🕷|SPIDER|U+1F577|&amp;#1F577;|animal, insect, object, spider|
 |🕸|SPIDER WEB|U+1F578|&amp;#1F578;|animal, object, spider, web|
 |🦂|SCORPION|U+1F982|&amp;#1F982;|animal, nature, scorpio, scorpion, scorpius, zodiac|
+
+
+## Plants and Food
+
+|Emoji|Name|Unicode|HTML Entity Code|Attributes|
+|-----|----|-------|----------------|----------|
 |💐|BOUQUET|U+1F490|&amp;#1F490;|bouquet, flower, nature, object, place, plant, romance|
 |🌸|CHERRY BLOSSOM|U+1F338|&amp;#1F338;|blossom, cherry, flower, nature, plant|
 |💮|WHITE FLOWER|U+1F4AE|&amp;#1F4AE;|flower, object, symbol|
@@ -704,6 +721,12 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |🍴|FORK AND KNIFE|U+1F374|&amp;#1F374;|cooking, food, fork, knife, nature, object|
 |🔪|HOCHO|U+1F52A|&amp;#1F52A;|cooking, hocho, knife, object, tool, weapon|
 |🏺|AMPHORA|U+1F3FA|&amp;#1F3FA;|amphora, aquarius, cooking, drink, jug, nature, tool, weapon, zodiac|
+
+
+## Places
+
+|Emoji|Name|Unicode|HTML Entity Code|Attributes|
+|-----|----|-------|----------------|----------|
 |🌍|EARTH GLOBE EUROPE-AFRICA|U+1F30D|&amp;#1F30D;|africa, earth, europe, globe, nature, place, world|
 |🌎|EARTH GLOBE AMERICAS|U+1F30E|&amp;#1F30E;|americas, earth, globe, nature, place, world|
 |🌏|EARTH GLOBE ASIA-AUSTRALIA|U+1F30F|&amp;#1F30F;|asia, australia, earth, globe, nature, place, world|
@@ -843,6 +866,9 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |🛀🏾|BATH, TYPE-5|U+1F6C0 U+1F3FE|&amp;#1F6C0; &amp;#1F3FE;||
 |🛀🏿|BATH, TYPE-6|U+1F6C0 U+1F3FF|&amp;#1F6C0; &amp;#1F3FF;||
 |🛁|BATHTUB|U+1F6C1|&amp;#1F6C1;|bath, bathtub, object, place, travel|
+
+|Emoji|Name|Unicode|HTML Entity Code|Attributes|
+|-----|----|-------|----------------|----------|
 |⌛|HOURGLASS|U+231B|&amp;#231B;|hourglass, object, sand, time, timer|
 |⏳|HOURGLASS WITH FLOWING SAND|U+23F3|&amp;#23F3;|hourglass, object, sand, time, timer|
 |⌚|WATCH|U+231A|&amp;#231A;|clock, object, time, watch|
@@ -1380,6 +1406,12 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |🎌|CROSSED FLAGS|U+1F38C|&amp;#1F38C;|activity, celebration, cross, crossed, flag, japanese, object|
 |🏴|WAVING BLACK FLAG|U+1F3F4|&amp;#1F3F4;|flag, object, waving|
 |🏳|WAVING WHITE FLAG|U+1F3F3|&amp;#1F3F3;|flag, object, waving|
+
+
+## National Flags
+
+|Emoji|Name|Unicode|HTML Entity Code|Attributes|
+|-----|----|-------|----------------|----------|
 |🇦🇨|Flag for Ascension Island|U+1F1E6 U+1F1E8|&amp;#1F1E6; &amp;#1F1E8;|ascension, flag, island, other|
 |🇦🇩|Flag for Andorra|U+1F1E6 U+1F1E9|&amp;#1F1E6; &amp;#1F1E9;|andorra, flag, other|
 |🇦🇪|Flag for United Arab Emirates|U+1F1E6 U+1F1EA|&amp;#1F1E6; &amp;#1F1EA;|emirates, flag, other, uae, united|
