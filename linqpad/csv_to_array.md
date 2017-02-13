@@ -2,13 +2,13 @@
 
 Loading a CSV file and turning it into an IEnumerable<T> needs to be a simple activity.
 
-Below are four different implementations, all pretty simple. They use, in order
+Below are five different implementations, all pretty simple. They use, in order
 
  * Microsoft.VisualBasic.dll
  * ServiceStack
  * LinqToCsv
  * FileHelpers.net
-
+ * Powershell (Import-CSV)
  
  
 Given a CSV (of crime data) with header row like this:
@@ -173,6 +173,22 @@ And here's our not-so-poco DTO. Note that we now have fields not properties. And
     }
     
 
+## Powershell: Import-CSV    
+
+
+Here's an example of the using the Import-CSV commandlet from Powershell and then outputting the "End Date" property
+
+    Import-CSV "C:\Temp\Crime_Data.csv" | % { $_."End Date" }
+
+(This can be shortened to simply...)
+    
+    Import-CSV "C:\Temp\Crime_Data.csv" | % "End Date" 
+    
+Convert it into objects, sort it, and convert it back to csv for further processing
+
+    Import-CSV "C:\Temp\Crime_Data.csv" | sort -d "Start Date" | convertto-csv -NoTypeInformation   
+
+    
 ## Sources
 
  * [Linq To Csv](http://www.aspnetperformance.com/post/LINQ-to-CSV-library.aspx#How_to_use)
