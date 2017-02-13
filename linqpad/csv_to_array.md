@@ -176,7 +176,7 @@ And here's our not-so-poco DTO. Note that we now have fields not properties. And
 ## Powershell: Import-CSV    
 
 
-Here's an example of the using the Import-CSV commandlet from Powershell and then outputting the "End Date" property
+Here's an example of using the Import-CSV commandlet from Powershell and then outputting the "End Date" property
 
     Import-CSV "C:\Temp\Crime_Data.csv" | % { $_."End Date" }
 
@@ -184,13 +184,19 @@ Here's an example of the using the Import-CSV commandlet from Powershell and the
     
     Import-CSV "C:\Temp\Crime_Data.csv" | % "End Date" 
     
-Convert it into objects, sort it, and convert it back to csv for further processing
+Example of convert it into objects, sorting, and convert it back to csv for further processing
 
     Import-CSV "C:\Temp\Crime_Data.csv" | sort -d "Start Date" | convertto-csv -NoTypeInformation   
+
+
+### Sponsor
+    
+Love CSV? Hate CSV? Try [NimbleText](http://NimbleText.com/) for your CSV transforming needs.
 
     
 ## Sources
 
  * [Linq To Csv](http://www.aspnetperformance.com/post/LINQ-to-CSV-library.aspx#How_to_use)
  * [FileHelpers read file delimited](http://www.filehelpers.net/example/QuickStart/ReadFileDelimited/)
- 
+ * [ServiceStack](http://docs.servicestack.net/csv-format) 
+
