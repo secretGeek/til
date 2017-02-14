@@ -157,6 +157,7 @@
 	* [syntax](/markdown/syntax.md)
 * [math](/math/01_summary.md)
 	* [eulers number](/math/eulers_number.md)
+	* [log](/math/log.md)
 * [mercurial](/mercurial/01_summary.md)
 	* [current extensions](/mercurial/current_extensions.md)
 	* [diffmerge merge](/mercurial/diffmerge_merge.md)

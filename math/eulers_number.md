@@ -16,10 +16,3 @@ You need to use the `e^x` button which is only visible when you click the `Inv` 
 
 So enter the number `1`. Click `Inv` then `e^x` and you will thus find the value of `e^1`, i.e. `e`.
 
-
-
-
-
-
-
-
