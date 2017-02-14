@@ -60,7 +60,9 @@ then transpile it into a js file, by running `tsc log.ts` -- the result is a jav
 
 Done that!? Woot! You're a typescript developser!
 
-So i load it up in visual studio code, by running "code.exe" from the commandline.
+So i load it up in visual studio code, by running "code.exe ." from the commandline, i.e.
+
+    code .
 
 
 ## Problem: running old version despite installing new version.
@@ -133,7 +135,7 @@ Choices under 'target' are currently:
     * ES2017
     * ESNext
 
-Knowing what these mysterious things mean is part of the magic of being a web developer in 2016. Know one knows the whole path around the elephant.
+Knowing what these mysterious things mean is part of the magic of being a web developer in 2017. Know one knows the whole path around the elephant.
 
 
 ## Configure a task runner in vs code...
