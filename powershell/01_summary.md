@@ -25,6 +25,7 @@
 * [module commands](module_commands.md)
 * [multi-line comments](multi-line_comments.md)
 * [parse comment block](parse_comment_block.md)
+* [parts of a fileInfo object](parts_of_a_fileInfo_object.md)
 * [parts of a fileSystemInfo object](parts_of_a_fileSystemInfo_object.md)
 * [pass argument to script](pass_argument_to_script.md)
 * [PATH](PATH.md)

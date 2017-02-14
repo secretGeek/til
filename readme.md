@@ -68,6 +68,7 @@ Though this site is published as a free book, there is another book, a real book
  * [linux](linux/01_summary.md) &mdash; 24 articles
  * [macbook air](macbook_air/01_summary.md) &mdash; 4 articles
  * [markdown](markdown/01_summary.md) &mdash; 3 articles
+ * [math](math/01_summary.md) &mdash; 1 article
  * [mercurial](mercurial/01_summary.md) &mdash; 10 articles
  * [music](music/01_summary.md) &mdash; 7 articles
  * [node](node/01_summary.md) &mdash; 1 article
@@ -76,14 +77,14 @@ Though this site is published as a free book, there is another book, a real book
  * [nuget](nuget/01_summary.md) &mdash; 1 article
  * [oracle](oracle/01_summary.md) &mdash; 4 articles
  * [paypal](paypal/01_summary.md) &mdash; 1 article
- * [powershell](powershell/01_summary.md) &mdash; 46 articles
+ * [powershell](powershell/01_summary.md) &mdash; 47 articles
  * [python](python/01_summary.md) &mdash; 2 articles
  * [react](react/01_summary.md) &mdash; 2 articles
  * [redis](redis/01_summary.md) &mdash; 2 articles
  * [saltwater swimming pool](saltwater_swimming_pool/01_summary.md) &mdash; 2 articles
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) &mdash; 2 articles
  * [smallbasic](smallbasic/01_summary.md) &mdash; 1 article
- * [sql server](sql_server/01_summary.md) &mdash; 23 articles
+ * [sql server](sql_server/01_summary.md) &mdash; 24 articles
  * [sql server reporting services](sql_server_reporting_services/01_summary.md) &mdash; 2 articles
  * [sql spatial](sql_spatial/01_summary.md) &mdash; 1 article
  * [stackexchange](stackexchange/01_summary.md) &mdash; 3 articles
@@ -96,5 +97,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-284 articles
-59656 words
+287 articles
+59905 words

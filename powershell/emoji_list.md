@@ -5,11 +5,8 @@ The emoji module is mentioned in the [dumb or fun](/dumb_or_fun_ideas.md) articl
 Here's a complete list of all emoji, and their names, including attributes and html entity codes for each emoji.
 
 
-<!-- 
-$json = Get-Content 'C:\Users\Leon\Documents\WindowsPowerShell\Modules\Emojis\0.1\Unicode-Emojis.json' | Out-String | ConvertFrom-Json
-$json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|" + (($_.code -replace "U[+]", "&amp;#") -replace " ",";") + ";|" + $_.Annotations + "|" } | set-clipboard
--->
 
+## People
 
 |Emoji|Name|Unicode|HTML Entity Code|Attributes|
 |-----|----|-------|----------------|----------|
@@ -330,6 +327,7 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |👩‍👩‍👦‍👦|Family: WOMAN, WOMAN, BOY, BOY|U+1F469 U+200D U+1F469 U+200D U+1F466 U+200D U+1F466|&amp;#1F469; &amp;#200D; &amp;#1F469; &amp;#200D; &amp;#1F466; &amp;#200D; &amp;#1F466;|boy, family, woman|
 |👩‍👩‍👧‍👧|Family: WOMAN, WOMAN, GIRL, GIRL|U+1F469 U+200D U+1F469 U+200D U+1F467 U+200D U+1F467|&amp;#1F469; &amp;#200D; &amp;#1F469; &amp;#200D; &amp;#1F467; &amp;#200D; &amp;#1F467;|family, girl, woman|
 
+## Partly Human
 
 |Emoji|Name|Unicode|HTML Entity Code|Attributes|
 |-----|----|-------|----------------|----------|
@@ -867,6 +865,8 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |🛀🏿|BATH, TYPE-6|U+1F6C0 U+1F3FF|&amp;#1F6C0; &amp;#1F3FF;||
 |🛁|BATHTUB|U+1F6C1|&amp;#1F6C1;|bath, bathtub, object, place, travel|
 
+## Time
+
 |Emoji|Name|Unicode|HTML Entity Code|Attributes|
 |-----|----|-------|----------------|----------|
 |⌛|HOURGLASS|U+231B|&amp;#231B;|hourglass, object, sand, time, timer|
@@ -900,6 +900,9 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |🕥|CLOCK FACE TEN-THIRTY|U+1F565|&amp;#1F565;|10, 10:30, 30, clock, symbol, ten, thirty, time|
 |🕚|CLOCK FACE ELEVEN OCLOCK|U+1F55A|&amp;#1F55A;|00, 11, 11:00, clock, eleven, o�clock, symbol, time|
 |🕦|CLOCK FACE ELEVEN-THIRTY|U+1F566|&amp;#1F566;|11, 11:30, 30, clock, eleven, symbol, thirty, time|
+
+## Weather
+
 |🌑|NEW MOON SYMBOL|U+1F311|&amp;#1F311;|dark, moon, nature, place, space, time, weather|
 |🌒|WAXING CRESCENT MOON SYMBOL|U+1F312|&amp;#1F312;|crescent, moon, nature, place, space, time, waxing, weather|
 |🌓|FIRST QUARTER MOON SYMBOL|U+1F313|&amp;#1F313;|moon, nature, place, quarter, space, time, weather|
@@ -945,6 +948,9 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |🔥|FIRE|U+1F525|&amp;#1F525;|fire, flame, object, tool|
 |💧|DROPLET|U+1F4A7|&amp;#1F4A7;|cold, comic, drop, emotion, nature, object, person, sweat, weather|
 |🌊|WATER WAVE|U+1F30A|&amp;#1F30A;|nature, ocean, place, water, wave, weather|
+
+## Entertainment
+
 |🎃|JACK-O-LANTERN|U+1F383|&amp;#1F383;|activity, celebration, entertainment, halloween, jack, lantern, object|
 |🎄|CHRISTMAS TREE|U+1F384|&amp;#1F384;|activity, celebration, christmas, entertainment, object, tree|
 |🎆|FIREWORKS|U+1F386|&amp;#1F386;|activity, celebration, entertainment, fireworks, object|
@@ -965,6 +971,9 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |🎟|ADMISSION TICKETS|U+1F39F|&amp;#1F39F;|admission, entertainment, object, ticket|
 |🎫|TICKET|U+1F3AB|&amp;#1F3AB;|activity, admission, entertainment, object, place, ticket|
 |🎖|MILITARY MEDAL|U+1F396|&amp;#1F396;|celebration, medal, military, object|
+
+## Sport
+
 |🏆|TROPHY|U+1F3C6|&amp;#1F3C6;|object, place, prize, sport, trophy|
 |🏅|SPORTS MEDAL|U+1F3C5|&amp;#1F3C5;|medal, object, sport|
 |⚽|SOCCER BALL|U+26BD|&amp;#26BD;|ball, object, place, soccer, sport|
@@ -1028,6 +1037,9 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |🚵🏿|MOUNTAIN BICYCLIST, TYPE-6|U+1F6B5 U+1F3FF|&amp;#1F6B5; &amp;#1F3FF;||
 |🏎|RACING CAR|U+1F3CE|&amp;#1F3CE;|car, place, racing, sport, travel|
 |🏍|RACING MOTORCYCLE|U+1F3CD|&amp;#1F3CD;|motorcycle, person, racing, sport, travel|
+
+## Game
+
 |🎯|DIRECT HIT|U+1F3AF|&amp;#1F3AF;|activity, bull, bullseye, dart, entertainment, eye, game, hit, object, target|
 |🎮|VIDEO GAME|U+1F3AE|&amp;#1F3AE;|controller, entertainment, game, object, video game|
 |🕹|JOYSTICK|U+1F579|&amp;#1F579;|entertainment, game, joystick, object, video game|
@@ -1039,6 +1051,10 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |🃏|PLAYING CARD BLACK JOKER|U+1F0CF|&amp;#1F0CF;|card, entertainment, game, joker, object, playing|
 |🀄|MAHJONG TILE RED DRAGON|U+1F004|&amp;#1F004;|game, mahjong, object, red|
 |🎴|FLOWER PLAYING CARDS|U+1F3B4|&amp;#1F3B4;|activity, card, entertainment, flower, game, japanese, object, playing|
+
+
+## Sound
+
 |🔇|SPEAKER WITH CANCELLATION STROKE|U+1F507|&amp;#1F507;|mute, object, quiet, silent, sound, speaker, volume|
 |🔈|SPEAKER|U+1F508|&amp;#1F508;|object, sound, speaker, volume|
 |🔉|SPEAKER WITH ONE SOUND WAVE|U+1F509|&amp;#1F509;|low, object, sound, speaker, volume, wave|
@@ -1064,6 +1080,9 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |🎻|VIOLIN|U+1F3BB|&amp;#1F3BB;|activity, entertainment, instrument, music, object, sound, violin|
 |📱|MOBILE PHONE|U+1F4F1|&amp;#1F4F1;|cell, communication, mobile, object, phone, telephone|
 |📲|MOBILE PHONE WITH RIGHTWARDS ARROW AT LEFT|U+1F4F2|&amp;#1F4F2;|arrow, call, cell, communication, mobile, object, phone, receive, telephone|
+
+## Office
+
 |☎|BLACK TELEPHONE|U+260E|&amp;#260E;|object, office, phone, sound, telephone|
 |📞|TELEPHONE RECEIVER|U+1F4DE|&amp;#1F4DE;|communication, object, phone, receiver, sound, telephone|
 |📟|PAGER|U+1F4DF|&amp;#1F4DF;|communication, object, office, pager|
@@ -1078,6 +1097,9 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |🖲|TRACKBALL|U+1F5B2|&amp;#1F5B2;|computer, object, office, trackball|
 |💽|MINIDISC|U+1F4BD|&amp;#1F4BD;|computer, disk, entertainment, minidisk, object, office, optical|
 |💾|FLOPPY DISK|U+1F4BE|&amp;#1F4BE;|computer, disk, floppy, object, office|
+
+## Technology
+
 |💿|OPTICAL DISC|U+1F4BF|&amp;#1F4BF;|blu-ray, cd, computer, disk, dvd, object, office, optical|
 |📀|DVD|U+1F4C0|&amp;#1F4C0;|blu-ray, cd, computer, disk, dvd, entertainment, object, office, optical|
 |🎥|MOVIE CAMERA|U+1F3A5|&amp;#1F3A5;|activity, camera, cinema, entertainment, movie, object|
@@ -1115,6 +1137,9 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |📑|BOOKMARK TABS|U+1F4D1|&amp;#1F4D1;|bookmark, mark, marker, object, office, tabs|
 |🔖|BOOKMARK|U+1F516|&amp;#1F516;|bookmark, mark, object|
 |🏷|LABEL|U+1F3F7|&amp;#1F3F7;|label, object|
+
+## Money
+
 |💰|MONEY BAG|U+1F4B0|&amp;#1F4B0;|bag, dollar, money, moneybag, object, office|
 |💴|BANKNOTE WITH YEN SIGN|U+1F4B4|&amp;#1F4B4;|bank, banknote, bill, currency, money, note, object, office, yen|
 |💵|BANKNOTE WITH DOLLAR SIGN|U+1F4B5|&amp;#1F4B5;|bank, banknote, bill, currency, dollar, money, note, object, office|
@@ -1125,6 +1150,10 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |💹|CHART WITH UPWARDS TREND AND YEN SIGN|U+1F4B9|&amp;#1F4B9;|bank, chart, currency, graph, growth, market, money, object, office, rise, symbol, trend, upward, yen|
 |💱|CURRENCY EXCHANGE|U+1F4B1|&amp;#1F4B1;|bank, currency, exchange, money, object, office, symbol|
 |💲|HEAVY DOLLAR SIGN|U+1F4B2|&amp;#1F4B2;|currency, dollar, money, object, office, symbol|
+
+
+## Mail
+
 |✉|ENVELOPE|U+2709|&amp;#2709;|e-mail, email, envelope, object, office|
 |📧|E-MAIL SYMBOL|U+1F4E7|&amp;#1F4E7;|communication, e-mail, email, letter, mail, object, office|
 |📨|INCOMING ENVELOPE|U+1F4E8|&amp;#1F4E8;|communication, e-mail, email, envelope, incoming, letter, mail, object, office, receive|
@@ -1168,12 +1197,18 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |🗃|CARD FILE BOX|U+1F5C3|&amp;#1F5C3;|box, card, file, object, office|
 |🗄|FILE CABINET|U+1F5C4|&amp;#1F5C4;|cabinet, file, object, office|
 |🗑|WASTEBASKET|U+1F5D1|&amp;#1F5D1;|object, office, wastebasket|
+
+## Security
+
 |🔒|LOCK|U+1F512|&amp;#1F512;|closed, lock, object|
 |🔓|OPEN LOCK|U+1F513|&amp;#1F513;|lock, object, open, unlock|
 |🔏|LOCK WITH INK PEN|U+1F50F|&amp;#1F50F;|ink, lock, nib, object, pen, privacy|
 |🔐|CLOSED LOCK WITH KEY|U+1F510|&amp;#1F510;|closed, key, lock, object, secure|
 |🔑|KEY|U+1F511|&amp;#1F511;|key, lock, object, password|
 |🗝|OLD KEY|U+1F5DD|&amp;#1F5DD;|clue, key, lock, object, old|
+
+## Tool
+
 |🔨|HAMMER|U+1F528|&amp;#1F528;|hammer, object, tool|
 |⛏|PICK|U+26CF|&amp;#26CF;|mining, object, pick, tool|
 |⚒|HAMMER AND PICK|U+2692|&amp;#2692;|hammer, object, pick, tool|
@@ -1199,6 +1234,9 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 |🗿|MOYAI|U+1F5FF|&amp;#1F5FF;|face, moyai, place, statue, travel|
 |🛢|OIL DRUM|U+1F6E2|&amp;#1F6E2;|drum, object, oil|
 |🔮|CRYSTAL BALL|U+1F52E|&amp;#1F52E;|ball, crystal, fairy tale, fantasy, fortune, object, tool|
+
+## Symbols
+
 |🏧|AUTOMATED TELLER MACHINE|U+1F3E7|&amp;#1F3E7;|atm, automated, bank, place, sign, symbol, teller|
 |🚮|PUT LITTER IN ITS PLACE SYMBOL|U+1F6AE|&amp;#1F6AE;|litter, litterbox, place, symbol, travel|
 |🚰|POTABLE WATER SYMBOL|U+1F6B0|&amp;#1F6B0;|drink, potable, sign, symbol, travel, water|
@@ -1666,3 +1704,23 @@ $json | % { "|" + (get-emoji -Name $_.Name) + "|" + $_.Name + "|" + $_.Code + "|
 
 
 
+
+
+Retrieved from emoji module (see 'source') and formatted to markdown table, via this script:
+
+
+    $emojiPath = get-module -listavailable emoji* | % Path | Get-Item | % DirectoryName
+    $emojiPath = Join-Path $emojiPath "Unicode-Emojis.json"
+    $json = Get-Content $emojiPath | Out-String | ConvertFrom-Json
+    
+    $json | % { 
+    "|" + (get-emoji -Name $_.Name) + 
+    "|" + $_.Name + 
+    "|" + $_.Code + 
+    "|" + (($_.code -replace "U[+]", "&amp;#") -replace " ",";") + ";" +
+    "|" + $_.Annotations + "|" 
+    } | set-clipboard
+
+## Source
+
+ * [Emojis in PowerShell? Yes!](https://artofshell.com/2016/04/emojis-in-powershell-yes/)    
