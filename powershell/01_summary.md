@@ -16,6 +16,7 @@
 * [get-member](get-member.md)
 * [getting started](getting_started.md)
 * [Get All Available Modules](Get_All_Available_Modules.md)
+* [get filehash](get_filehash.md)
 * [here strings](here_strings.md)
 * [histogram](histogram.md)
 * [how to completely remove a module](how_to_completely_remove_a_module.md)

@@ -33,4 +33,6 @@ Copy multiple files from the remote host to your current directory on the local 
     $ scp your_username@remotehost.edu:/some/remote/directory/\{a,b,c\} .
     $ scp your_username@remotehost.edu:~/\{foo.txt,bar.txt\} .
 
-    
+## Source
+
+ * [Example syntax for Secure Copy (scp)](http://www.hypexr.org/linux_scp_help.php)

@@ -218,6 +218,7 @@
 	* [get-member](/powershell/get-member.md)
 	* [getting started](/powershell/getting_started.md)
 	* [Get All Available Modules](/powershell/Get_All_Available_Modules.md)
+	* [get filehash](/powershell/get_filehash.md)
 	* [here strings](/powershell/here_strings.md)
 	* [histogram](/powershell/histogram.md)
 	* [how to completely remove a module](/powershell/how_to_completely_remove_a_module.md)
