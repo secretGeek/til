@@ -4,8 +4,6 @@
 
 [draw.io](http://draw.io) is a great way to make quick and clean flowcharts.
 
-
-
   
 ## Ascii flow charts  
 
@@ -13,6 +11,11 @@ To create ascii based flowcharts use:
 
     http://asciiflow.com/
 
+You can use these directly in emails, and especially in code comments.
+
+Or you can convert them into graphics using the following two tools:
+    
+    
 ## Ascii to PNG
 
 To convert ascii flowcharts into normal images use **ditaa**
@@ -28,10 +31,13 @@ Which turns "hey.txt" into "hey.png"
   
 ## Cartoony Ascii flowchart to png
 
-See 
-http://shaky.github.bushong.net/
+See <http://shaky.github.bushong.net/>
 
 
+
+## See also
+
+ * [create sequence diagrams](sequence_diagrams.md)
 
 
   

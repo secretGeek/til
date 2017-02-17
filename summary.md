@@ -91,6 +91,8 @@
 	* [ascii fonts](/graphics/ascii_fonts.md)
 	* [flowcharts](/graphics/flowcharts.md)
 	* [paint.net layers](/graphics/paint.net_layers.md)
+	* [paint.net select single pixel](/graphics/paint.net_select_single_pixel.md)
+	* [sequence diagrams](/graphics/sequence_diagrams.md)
 * [gulp](/gulp/01_summary.md)
 	* [getting started](/gulp/getting_started.md)
 * [html](/html/01_summary.md)

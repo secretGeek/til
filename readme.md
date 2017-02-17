@@ -56,7 +56,7 @@ Though this site is published as a free book, there is another book, a real book
  * [gitbook](gitbook/01_summary.md) &mdash; 6 articles
  * [gmail](gmail/01_summary.md) &mdash; 1 article
  * [google](google/01_summary.md) &mdash; 6 articles
- * [graphics](graphics/01_summary.md) &mdash; 3 articles
+ * [graphics](graphics/01_summary.md) &mdash; 5 articles
  * [gulp](gulp/01_summary.md) &mdash; 1 article
  * [html](html/01_summary.md) &mdash; 1 article
  * [iis](iis/01_summary.md) &mdash; 2 articles
@@ -97,5 +97,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-289 articles
-60733 words
+291 articles
+60966 words
