@@ -9,7 +9,7 @@
 
 To create ascii based flowcharts use:
 
-    http://asciiflow.com/
+ * <http://asciiflow.com/>
 
 You can use these directly in emails, and especially in code comments.
 

@@ -90,6 +90,7 @@
 * [graphics](/graphics/01_summary.md)
 	* [ascii fonts](/graphics/ascii_fonts.md)
 	* [flowcharts](/graphics/flowcharts.md)
+	* [icon edit online](/graphics/icon_edit_online.md)
 	* [paint.net layers](/graphics/paint.net_layers.md)
 	* [paint.net select single pixel](/graphics/paint.net_select_single_pixel.md)
 	* [sequence diagrams](/graphics/sequence_diagrams.md)
