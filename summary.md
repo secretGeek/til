@@ -209,6 +209,7 @@
 * [powershell](/powershell/01_summary.md)
 	* [alias](/powershell/alias.md)
 	* [base64 encode decode](/powershell/base64_encode_decode.md)
+	* [boot time](/powershell/boot_time.md)
 	* [call commandline apps](/powershell/call_commandline_apps.md)
 	* [console colors](/powershell/console_colors.md)
 	* [convert KB MB GB](/powershell/convert_KB_MB_GB.md)

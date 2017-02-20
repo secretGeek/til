@@ -4,6 +4,7 @@
  
 * [alias](alias.md)
 * [base64 encode decode](base64_encode_decode.md)
+* [boot time](boot_time.md)
 * [call commandline apps](call_commandline_apps.md)
 * [console colors](console_colors.md)
 * [convert KB MB GB](convert_KB_MB_GB.md)
