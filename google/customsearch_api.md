@@ -1,7 +1,7 @@
 # Custom Search for Images
 
 
-Here's a simple example of running an image search against google's 'customsearch' api... Getting it to work is NOT simple.
+Here's a simple example of running an image search against google's 'customsearch' api... Getting their API to work, however, is NOT simple.
 
     <input id="searchterm" />
     <button id="search">search</button>
@@ -22,7 +22,7 @@ Here's a simple example of running an image search against google's 'customsearc
             },
             function (data) {
                 $.each(data.items, function(i,item){    
-                    $("#results").ap    pend('<img class="img-responsive" src="' + item.link + '">');
+                    $("#results").append('<img class="img-responsive" src="' + item.link + '">');
                 });
             });        
         });
@@ -47,21 +47,21 @@ To do this you need to "enable" the API.
 
 Steps:
 
-Go to <https://console.developers.google.com/> and sign up as a developer if you haven't already.
+1. Go to <https://console.developers.google.com/> and sign up as a developer if you haven't already.
 
-Then create a new project, and give it a name. Then wait for it to be 'created'. 
+2. Then create a new project, and give it a name. Then wait for it to be 'created'. 
 
-On the 'dashboard' for the project you just created, click `+ Enable API` and find the 'Custom Search' API.
+3. On the 'dashboard' for the project you just created, click `+ Enable API` and find the 'Custom Search' API.
 
-Click the `Enable` button which is up near the top of the screen where you easily overlook it.
+4 Click the `Enable` button which is up near the top of the screen where you easily overlook it.
 
-Click on 'Create Credentials' then click on 'What credentials do I need?'
+5. Click on 'Create Credentials' then click on 'What credentials do I need?'
 
-It will then create an API key for you.
+6. It will then create an API key for you.
 
 This is so ridiculously convoluted.
 
-At this point you can easily add 'restrictions' to the API key to prevent 'quota theft'. SO yeh, do that if you want.
+At this point you can easily add 'restrictions' to the API key to prevent 'quota theft'. So yeh, do that if you want.
 
 
 ## 2. Create a custom search engine. 
