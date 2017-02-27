@@ -38,7 +38,7 @@ Code (requires a reference to, and "Additional namespace import" of, `System.Win
 	
 And another problem arose today that required clipboard inspections.
 
-Some code I'd copied from a comment at StackOverflow did not work as expected. I used a variation on the code above to inspect every byte of my cliboard. I found the snippet  contained character 8203 (U+200b -- the infamous zero width space) and character 8204 (U+200c zero-width non joiner)
+Some code I'd copied from a comment at StackOverflow did not work as expected. I used a variation on the code above to inspect every byte of my cliboard. I found the snippet  contained character 8203 (U+200b -- the infamous zero width space or zwsp) and character 8204 (U+200c zero-width non joiner)
 
 Here's the error message I received when trying to run the code:
 
@@ -75,11 +75,11 @@ I love that at [fileformat.info](http://www.fileformat.info/info/unicode/char/20
 
 If there's a non-malicious use for this character in domain names, I'd like to hear it. 
 
-And being black listed isn't the only reason you shouldn't use it in domain names. The fact that it's invisible is also a good reason to avoid it. If you saw this on the side of a van:
+And being black listed isn't the only reason you shouldn't use it in domain names. The fact that it's invisible is also a good reason to avoid it. If you saw this on the side of a blimp:
 
-> http://Example.com 
+> http://example.com 
 
-...you wouldn't know that it actually contains 52 zero-width spaces between each letter.
+...you might not immediately realize that it actually contains 52 zero-width spaces between each letter.
 
 	
 ## See also
