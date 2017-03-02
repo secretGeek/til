@@ -31,10 +31,31 @@ Here's a fretboard with all the notes listed
     a|-a#|--b|--c|-c#|--d|-d#|--e|--f|-f#|--g|-g#|--a|-a#|--b|--c|-c#|--d|
     e|--f|-f#|--g|-g#|--a|-a#|--b|--c|-c#|--d|-d#|--e|--f|-f#|--g|-g#|--a|
 
+Here's a simple spare fretbord, with thicker strings shown thick:
 
+    e|-------------
+    B|-------------
+    G|-------------
+    D|=============
+    A|=============
+    E|=============
+
+And another with some frets drawn in
+    
+      0   1   2   3 
+    e |---|---|---|--
+    b |---|---|---|--
+    g |---|---|---|--
+    d |---|---|---|--
+    a |---|---|---|--
+    E |---|---|---|--
+    
+    
 Here's a place where you can play A pentatonic minor. You can shift that pattern up or down the neck.
 I've marked the root note as R and the V note as capital X.
 I call this the 'up' pattern, because it's upward of the root note.
+
+It's also known as 'Position 1'
 
      0   1   2   3   4   5   6   7   8   9   10  11  12
     e|---|---|---|---|--R|---|---|--x|---|---|---|---|
@@ -56,7 +77,8 @@ I think of this as the 'down' pattern.
     a|---|---|--x|---|--x|---|---|---|---|---|---|---|
     e|---|---|--x|---|--R|---|---|---|---|---|---|---|
 
-
+^^ This is also known as 'Position 5'
+    
 Within those scales/shapes you can add two notes to take it to A heptatonic minor. See the 'o's below.
 
      0   1   2   3   4   5   6   7   8   9   10  11  12
@@ -67,7 +89,7 @@ Within those scales/shapes you can add two notes to take it to A heptatonic mino
     a|---|---|---|---|--x|---|--x|--o|---|---|---|---|
     e|---|---|---|---|--R|---|--o|--x|---|---|---|---|
 
-And for the down pattern:
+And for the down pattern  (position 5):
 
      0   1   2   3   4   5   6   7   8   9   10  11  12
     e|---|---|--x|---|--R|---|---|---|---|---|---|---|
@@ -101,7 +123,7 @@ Here is a classic way to travel up the board, moving through more than one shape
     a|---|---|---|---|--x|--b|--X|---|---|---|---|---|
     e|---|---|---|---|--R|---|---|--x|---|---|---|---|
 
-Here's one part of the fretboard which forms a 'classic' shape, not mentioned above:
+Here's one part of the fretboard which forms a 'classic' shape, not mentioned above (it's part of position 2!) :
 
      0   1   2   3   4   5   6   7   8   9   10  11  12
     e|---|---|---|---|---|---|---|--x|---|--x|---|---|
@@ -111,9 +133,10 @@ Here's one part of the fretboard which forms a 'classic' shape, not mentioned ab
     a|---|---|---|---|---|---|---|---|---|---|---|---|
     e|---|---|---|---|---|---|---|---|---|---|---|---|
 
+    
 Some blues musicians will noodle around on just those five locations for an entire solo.
 
-(And of course you could shift it up or down to transpose to a different key. This is shown in A)
+(And of course you could shift these patterns up or down to transpose to a different key. This is shown in A)
 
 
 ![minor pentatonic positions](minorpentatonicpositions.gif)

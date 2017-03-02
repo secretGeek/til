@@ -3,6 +3,7 @@
 ### chapter contents
  
 * [chrome before flight](chrome_before_flight.md)
+* [chrome reader mode](chrome_reader_mode.md)
 * [chrome reopen closed tabs](chrome_reopen_closed_tabs.md)
 * [customsearch api](customsearch_api.md)
 * [dead mans switch](dead_mans_switch.md)
