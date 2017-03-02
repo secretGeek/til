@@ -10,6 +10,7 @@
 * [convert KB MB GB](convert_KB_MB_GB.md)
 * [count distinct rows](count_distinct_rows.md)
 * [create profile](create_profile.md)
+* [diff between two dates](diff_between_two_dates.md)
 * [dumb or fun ideas](dumb_or_fun_ideas.md)
 * [emoji list](emoji_list.md)
 * [find text](find_text.md)

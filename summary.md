@@ -218,6 +218,7 @@
 	* [convert KB MB GB](/powershell/convert_KB_MB_GB.md)
 	* [count distinct rows](/powershell/count_distinct_rows.md)
 	* [create profile](/powershell/create_profile.md)
+	* [diff between two dates](/powershell/diff_between_two_dates.md)
 	* [dumb or fun ideas](/powershell/dumb_or_fun_ideas.md)
 	* [emoji list](/powershell/emoji_list.md)
 	* [find text](/powershell/find_text.md)
