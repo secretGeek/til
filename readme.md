@@ -29,6 +29,8 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  
 ## The real book I am writing...
 
+<p><a href='http://YourFirstProduct.com'><img src='yfp_book.png' title='Your First Product' alt='Your First Product' /></a></p>
+
 Though this site is published as a free book, there is another book, a real book, that I am working on.
  
 **[Your First Product](http://YourFirstProduct.com)** will help would-be product creators to realise their dream. If you are at all interested in building products, please sign up at [http://YourFirstProduct.com](http://YourFirstProduct.com). Thank you.
@@ -98,4 +100,4 @@ Though this site is published as a free book, there is another book, a real book
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
 297 articles
-62083 words
+62093 words
