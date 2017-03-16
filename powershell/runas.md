@@ -11,4 +11,4 @@ Or better yet..
     
     Start-Process "$env:ChocolateyInstall\lib\ConsoleZ\tools\console.exe" -Verb runAs
     
-    
+    Start-Process C:\Users\Leon\Downloads\cmder_mini\vendor\conemu-maximus5\ConEmu64.exe -Verb runAs

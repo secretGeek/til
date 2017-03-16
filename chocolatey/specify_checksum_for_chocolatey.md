@@ -26,8 +26,7 @@ Now I had to make it look like this (for example)
     $package = 'NimbleText'
     $drop = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
     $checkSum = "CB546C6280E1359C94901BF460AFF237B00D529F73FCACB8F86AC568669DDDC4"
-    Install-ChocolateyZipPackage $package 'http://nimbletext.com/download/NimbleText.zip' $drop -Checksum $checkSum
-    
+    Install-ChocolateyZipPackage $package 'http://nimbletext.com/download/NimbleText.zip' $drop -ChecksumType "sha256" -Checksum $checkSum
 
 And since the checksum is different for every build, I need to make my build process **rewrite** that line `$checkSum =...` each time a release candidate was built.
 
