@@ -47,7 +47,7 @@ Though this site is published as a free book, there is another book, a real book
  * [appharbor](appharbor/01_summary.md) &mdash; 1 article
  * [asp.net mvc](asp.net_mvc/01_summary.md) &mdash; 10 articles
  * [bower](bower/01_summary.md) &mdash; 2 articles
- * [chocolatey](chocolatey/01_summary.md) &mdash; 3 articles
+ * [chocolatey](chocolatey/01_summary.md) &mdash; 4 articles
  * [concepts](concepts/01_summary.md) &mdash; 10 articles
  * [console](console/01_summary.md) &mdash; 5 articles
  * [cpu analyzer](cpu_analyzer/01_summary.md) &mdash; 1 article
@@ -79,7 +79,7 @@ Though this site is published as a free book, there is another book, a real book
  * [nuget](nuget/01_summary.md) &mdash; 1 article
  * [oracle](oracle/01_summary.md) &mdash; 4 articles
  * [paypal](paypal/01_summary.md) &mdash; 1 article
- * [powershell](powershell/01_summary.md) &mdash; 50 articles
+ * [powershell](powershell/01_summary.md) &mdash; 51 articles
  * [python](python/01_summary.md) &mdash; 2 articles
  * [react](react/01_summary.md) &mdash; 2 articles
  * [redis](redis/01_summary.md) &mdash; 2 articles
@@ -99,5 +99,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-297 articles
-62093 words
+299 articles
+63011 words

@@ -40,6 +40,7 @@
 * [rename photos](rename_photos.md)
 * [Rename to lower case](Rename_to_lower_case.md)
 * [rename with force](rename_with_force.md)
+* [replace a line in a file](replace_a_line_in_a_file.md)
 * [runas](runas.md)
 * [Script Analyzer](Script_Analyzer.md)
 * [see function definition](see_function_definition.md)

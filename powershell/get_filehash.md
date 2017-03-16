@@ -35,7 +35,7 @@ Or for MD5...
 
 ## Large files?
 
-Although the above worked fine for my use case, comments from stackoverflow show how it can be done with loading the whole file at once, with the use of streams (and they also point out you need to close the stream.
+Although the above worked fine for my use case, comments from stackoverflow show how it can be done without loading the whole file at once, with the use of streams (and they also point out you need to close the stream.
 
 
 	$stream = [System.IO.File]::Open("$someFilePath",[System.IO.Filemode]::Open, [System.IO.FileAccess]::Read)
