@@ -61,5 +61,5 @@ I am certain this will require further changes in future.
 
  * [Stack Overflow: Effective way to find any file's Encoding](http://stackoverflow.com/questions/3825390/effective-way-to-find-any-files-encoding)
  * ["The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)"](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
- * [A Programmer’s Introduction to Unicode](http://reedbeta.com/blog/programmers-intro-to-unicode/)
+ * [A Programmer's Introduction to Unicode](http://reedbeta.com/blog/programmers-intro-to-unicode/)
  * [A Practical Guide to Character Sets and Encodings](https://medium.com/@keithgabryelski/a-practical-guide-to-character-sets-and-encodings-b5362447456f#.dn0guodnz)
