@@ -267,6 +267,7 @@
 * [python](/python/01_summary.md)
 	* [grip](/python/grip.md)
 	* [pip](/python/pip.md)
+	* [turtle](/python/turtle.md)
 * [react](/react/01_summary.md)
 	* [getting started](/react/getting_started.md)
 	* [javascript 1.7](/react/javascript_1.7.md)
