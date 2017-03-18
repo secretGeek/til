@@ -266,6 +266,7 @@
 	* [write-host alternatives](/powershell/write-host_alternatives.md)
 * [python](/python/01_summary.md)
 	* [grip](/python/grip.md)
+	* [input output](/python/input_output.md)
 	* [pip](/python/pip.md)
 	* [turtle](/python/turtle.md)
 * [react](/react/01_summary.md)
