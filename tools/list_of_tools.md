@@ -110,7 +110,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * netset.exe
  * NextAction.exe
  * NimbleGeo.exe
- * NimbleSet.exe
+ * NimbleSET.exe
  * NimbleText.exe
  * NimbleTextAlpha.exe
  * nltest.exe

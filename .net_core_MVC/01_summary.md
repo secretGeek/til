@@ -6,6 +6,7 @@
 * [documenting asp net core](documenting_asp_net_core.md)
 * [form value count limit 1024 exceeded](form_value_count_limit_1024_exceeded.md)
 * [ip address](ip_address.md)
+* [no authentication handler](no_authentication_handler.md)
 * [remove accent](remove_accent.md)
 * [send email with mailkit](send_email_with_mailkit.md)
 * [server mappath](server_mappath.md)

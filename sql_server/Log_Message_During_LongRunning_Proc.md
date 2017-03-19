@@ -18,6 +18,8 @@ You can even use this form of messaging inside TRY/CATCH statements because:
 You cannot use it inside functions, as functions prohibit side effects. (You can't use `print` either)
 
 
+Other keywords: synchronous, asynchronous
+
 ## Source
 
  * [TRY...CATCH (Transact-SQL)](https://msdn.microsoft.com/en-us/library/ms175976.aspx)
