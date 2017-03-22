@@ -300,6 +300,7 @@
 	* [Log Message During LongRunning Proc](/sql_server/Log_Message_During_LongRunning_Proc.md)
 	* [mismatch between estimated and actual](/sql_server/mismatch_between_estimated_and_actual.md)
 	* [outer apply](/sql_server/outer_apply.md)
+	* [run a command against each table](/sql_server/run_a_command_against_each_table.md)
 	* [scalar function AfterChar](/sql_server/scalar_function_AfterChar.md)
 	* [select top with dynamic limit](/sql_server/select_top_with_dynamic_limit.md)
 	* [slow and long running queries](/sql_server/slow_and_long_running_queries.md)
