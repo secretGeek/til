@@ -75,7 +75,7 @@ Though this site is published as a free book, there is another book, a real book
  * [mercurial](mercurial/01_summary.md) &mdash; 10 articles
  * [music](music/01_summary.md) &mdash; 7 articles
  * [node](node/01_summary.md) &mdash; 1 article
- * [notepad++](notepad++/01_summary.md) &mdash; 6 articles
+ * [notepad++](notepad++/01_summary.md) &mdash; 7 articles
  * [npm](npm/01_summary.md) &mdash; 7 articles
  * [nuget](nuget/01_summary.md) &mdash; 1 article
  * [oracle](oracle/01_summary.md) &mdash; 4 articles
@@ -100,5 +100,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-304 articles
-63835 words
+305 articles
+64121 words

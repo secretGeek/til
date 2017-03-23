@@ -13,12 +13,12 @@ For me, it was because in:
     public void Configure
         
         
-I had left out:
+I had simply left out:
 
     app.UseIdentity();
 
     
-(Which does just before `app.UseMvc(routes =>`
+(Which goes just before `app.UseMvc(routes =>` )
 
 ## Further reading
 

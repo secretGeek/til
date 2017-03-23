@@ -191,6 +191,7 @@
 	* [webserver express](/node/webserver_express.md)
 * [notepad++](/notepad++/01_summary.md)
 	* [disable automatic parens completion](/notepad++/disable_automatic_parens_completion.md)
+	* [install textfx plugin](/notepad++/install_textfx_plugin.md)
 	* [navigate back](/notepad++/navigate_back.md)
 	* [plugins](/notepad++/plugins.md)
 	* [tell notepad++ about a new file type](/notepad++/tell_notepad++_about_a_new_file_type.md)

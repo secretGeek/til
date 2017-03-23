@@ -3,6 +3,7 @@
 ### chapter contents
  
 * [disable automatic parens completion](disable_automatic_parens_completion.md)
+* [install textfx plugin](install_textfx_plugin.md)
 * [navigate back](navigate_back.md)
 * [plugins](plugins.md)
 * [tell notepad++ about a new file type](tell_notepad++_about_a_new_file_type.md)
