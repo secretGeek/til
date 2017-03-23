@@ -55,4 +55,5 @@ Now ADD the one you want. Under:
 	
 ## See also
 
- * [Plugins for Notepad++](plugins.md)	
+ * [Plugins for Notepad++](plugins.md)
+ * [Install TextFX plugin to notepad++](install_textfx_plugin.md)
