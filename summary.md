@@ -286,6 +286,8 @@
 	* [virus total](/security_virus_spam_etc/virus_total.md)
 * [smallbasic](/smallbasic/01_summary.md)
 	* [shortcomings of smallbasic](/smallbasic/shortcomings_of_smallbasic.md)
+* [speech](/speech/01_summary.md)
+	* [copy voices](/speech/copy_voices.md)
 * [sql server](/sql_server/01_summary.md)
 	* [backup restore script](/sql_server/backup_restore_script.md)
 	* [create schema specific role](/sql_server/create_schema_specific_role.md)
