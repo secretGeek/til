@@ -267,6 +267,7 @@
 	* [who is using each port](/powershell/who_is_using_each_port.md)
 	* [write-host alternatives](/powershell/write-host_alternatives.md)
 * [python](/python/01_summary.md)
+	* [comments](/python/comments.md)
 	* [grip](/python/grip.md)
 	* [input output](/python/input_output.md)
 	* [pip](/python/pip.md)
