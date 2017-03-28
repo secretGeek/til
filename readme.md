@@ -56,7 +56,7 @@ Though this site is published as a free book, there is another book, a real book
  * [electron](electron/01_summary.md) &mdash; 2 articles
  * [excel](excel/01_summary.md) &mdash; 3 articles
  * [git](git/01_summary.md) &mdash; 9 articles
- * [gitbook](gitbook/01_summary.md) &mdash; 6 articles
+ * [gitbook](gitbook/01_summary.md) &mdash; 7 articles
  * [gmail](gmail/01_summary.md) &mdash; 1 article
  * [google](google/01_summary.md) &mdash; 8 articles
  * [graphics](graphics/01_summary.md) &mdash; 7 articles
@@ -101,5 +101,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-307 articles
-64365 words
+308 articles
+64599 words

@@ -78,6 +78,7 @@
 * [gitbook](/gitbook/01_summary.md)
 	* [add google analytics to gitbook](/gitbook/add_google_analytics_to_gitbook.md)
 	* [cover image](/gitbook/cover_image.md)
+	* [custom css](/gitbook/custom_css.md)
 	* [getting started with gitbook](/gitbook/getting_started_with_gitbook.md)
 	* [host on custom subdomain](/gitbook/host_on_custom_subdomain.md)
 	* [use gitbook locally](/gitbook/use_gitbook_locally.md)
