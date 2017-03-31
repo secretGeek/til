@@ -2,6 +2,7 @@
 # concepts
 ### chapter contents
  
+* [art of the data email](art_of_the_data_email.md)
 * [coik](coik.md)
 * [echo chamber](echo_chamber.md)
 * [happy path](happy_path.md)

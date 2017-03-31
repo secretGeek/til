@@ -16,7 +16,7 @@ Similarly, here's a query for objects by name:
 
 And one for columns:
 
-	Select sc.Name as Column, Schema_Name(so.UID) + '.' + so.Name as Table, so.Xtype
+	Select sc.Name as [Column], Schema_Name(so.UID) + '.' + so.Name as [Table], so.Xtype
 	from sysobjects so
 	inner join syscolumns sc on so.id = sc.id
 	where so.xtype in ('U','V') AND Schema_Name(so.UID) + '.' + so.Name  like 
@@ -36,7 +36,7 @@ And here's commands to add them to kv:
 	xtype = 'U' AND Schema_Name(UID) + '.' + Name  like 
 	'%%'"
 	
-	kv sc "Select sc.Name as Column, Schema_Name(so.UID) + '.' + so.Name as Table, so.Xtype
+	kv sc "Select sc.Name as [Column], Schema_Name(so.UID) + '.' + so.Name as [Table], so.Xtype
 	from sysobjects so
 	inner join syscolumns sc on so.id = sc.id
 	where so.xtype in ('U','V') AND Schema_Name(so.UID) + '.' + so.Name  like 

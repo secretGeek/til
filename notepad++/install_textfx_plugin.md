@@ -43,3 +43,4 @@ When I restart Notepad++ as non admin I still have the "TextFX" menu, so the plu
 ## See also
 
  * [Need a shortcut that inserts the current date/time?](todays_date.md)
+ * [Resolved: There was an error downloading the plugin list](error_downloading_the_plugin_list.md)

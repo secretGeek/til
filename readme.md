@@ -49,7 +49,7 @@ Though this site is published as a free book, there is another book, a real book
  * [asp.net mvc](asp.net_mvc/01_summary.md) &mdash; 10 articles
  * [bower](bower/01_summary.md) &mdash; 2 articles
  * [chocolatey](chocolatey/01_summary.md) &mdash; 4 articles
- * [concepts](concepts/01_summary.md) &mdash; 10 articles
+ * [concepts](concepts/01_summary.md) &mdash; 11 articles
  * [console](console/01_summary.md) &mdash; 5 articles
  * [cpu analyzer](cpu_analyzer/01_summary.md) &mdash; 1 article
  * [css](css/01_summary.md) &mdash; 2 articles
@@ -72,15 +72,15 @@ Though this site is published as a free book, there is another book, a real book
  * [macbook air](macbook_air/01_summary.md) &mdash; 4 articles
  * [markdown](markdown/01_summary.md) &mdash; 3 articles
  * [math](math/01_summary.md) &mdash; 2 articles
- * [mercurial](mercurial/01_summary.md) &mdash; 10 articles
+ * [mercurial](mercurial/01_summary.md) &mdash; 11 articles
  * [music](music/01_summary.md) &mdash; 7 articles
  * [node](node/01_summary.md) &mdash; 1 article
- * [notepad++](notepad++/01_summary.md) &mdash; 7 articles
+ * [notepad++](notepad++/01_summary.md) &mdash; 8 articles
  * [npm](npm/01_summary.md) &mdash; 7 articles
  * [nuget](nuget/01_summary.md) &mdash; 1 article
  * [oracle](oracle/01_summary.md) &mdash; 4 articles
  * [paypal](paypal/01_summary.md) &mdash; 1 article
- * [powershell](powershell/01_summary.md) &mdash; 51 articles
+ * [powershell](powershell/01_summary.md) &mdash; 52 articles
  * [python](python/01_summary.md) &mdash; 5 articles
  * [react](react/01_summary.md) &mdash; 2 articles
  * [redis](redis/01_summary.md) &mdash; 2 articles
@@ -101,5 +101,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-308 articles
-64599 words
+312 articles
+65408 words

@@ -16,3 +16,4 @@ In powershell, you would edit:
 To edit the config of a single repo, look for the `.hg\hgrc` file.
 
 
+When running powershell as an admin you may not have a `$env:userprofile` at all. If you're intending to run mercurial as a non-admin this is not an issue. Just restart powershell as a mortal user.

@@ -27,6 +27,7 @@
 * [is this 64 or 32 bit powershell today](is_this_64_or_32_bit_powershell_today.md)
 * [module commands](module_commands.md)
 * [multi-line comments](multi-line_comments.md)
+* [operation is blocked by software restriction policies](operation_is_blocked_by_software_restriction_policies.md)
 * [parse comment block](parse_comment_block.md)
 * [parts of a fileInfo object](parts_of_a_fileInfo_object.md)
 * [parts of a fileSystemInfo object](parts_of_a_fileSystemInfo_object.md)

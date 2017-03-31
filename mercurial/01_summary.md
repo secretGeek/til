@@ -12,3 +12,4 @@
 * [merging failed](merging_failed.md)
 * [multiple heads](multiple_heads.md)
 * [orig files](orig_files.md)
+* [proxy connection attempt failure](proxy_connection_attempt_failure.md)
