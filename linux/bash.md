@@ -6,12 +6,12 @@
 |`ls`    |`dir`| list contents of current folder. `ls -a` to see `all` (includes hidden)|
 |`cd ..` |`cd..`|moves up as expected|
 |`cat`   |`type` or `get-content`| dump contents of a file to screen|
-|`cd [foldername]`|`cd [foldername]`| of course names are CASE-SENSITIVE in linux land.|
+|`cd [foldername]`|`cd [foldername]`| be aware that names are CASE-SENSITIVE in linux land.|
 |`mkdir` |`md`| make directory|
 |`cp` |`copy`| copy one or more files into the current location|
 |`rm` |`del`| remove one or more files (or directories, using -d or -r)|
 |`rmdir` |`rd`|remove directory|
-|`| more` |`| more`|show results one page at a time|
+|`more` |`more`|show results one page at a time|
 
 
 for "help" on any command:
