@@ -263,6 +263,7 @@
 	* [Script Analyzer](/powershell/Script_Analyzer.md)
 	* [see function definition](/powershell/see_function_definition.md)
 	* [sort](/powershell/sort.md)
+	* [split file into named files](/powershell/split_file_into_named_files.md)
 	* [Test Path](/powershell/Test_Path.md)
 	* [top ten files](/powershell/top_ten_files.md)
 	* [Transcript](/powershell/Transcript.md)
