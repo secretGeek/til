@@ -47,10 +47,52 @@ To restart supervisor after you've given it some new configuration:
 
 I noticed that supervisor did not successfully restart when I [rebooted my linux](reboot.md) box.
 
+I restarted it with `service supervisor start` (which required me to type my password)
 
+First though, I checked the status with `service supervisor status`, and saw:
+
+    user1@machine1:~$ service supervisor status
+    ? supervisor.service - Supervisor process control system for UNIX
+       Loaded: loaded (/lib/systemd/system/supervisor.service; disabled; vendor preset: enabled)
+       Active: inactive (dead)
+         Docs: http://supervisord.org
+         
+Starting it went like this...
+         
+    user1@machine1:~$ service supervisor start
+    ==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
+    Authentication is required to start 'supervisor.service'.
+    Authenticating as: user1,,, (user1)
+    Password:
+    ==== AUTHENTICATION COMPLETE ===
+
+And now I get this result from `status` --
+
+    user1@machine1:~$ service supervisor status
+    ? supervisor.service - Supervisor process control system for UNIX
+       Loaded: loaded (/lib/systemd/system/supervisor.service; disabled; vendor preset: enabled)
+       Active: active (running) since Thu 2017-04-06 07:19:51 EDT; 4min 19s ago
+         Docs: http://supervisord.org
+     Main PID: 2795 (supervisord)
+        Tasks: 41
+       Memory: 275.4M
+          CPU: 24.093s
+       CGroup: /system.slice/supervisor.service
+               +-2795 /usr/bin/python /usr/bin/supervisord -n -c /etc/supervisor/supervisord.conf
+               +-2800 /usr/bin/dotnet /opt/webapps/webapp1/app/app1.dll
+               +-2801 /usr/bin/dotnet /opt/webapps/webapp2/app/app2.dll
+               +-2802 /usr/bin/dotnet /opt/webapps/webapp3/app/app3.dll
+    
 TODO: https://lincolnloop.com/blog/automatically-running-supervisord-startup/
 
+recommends:
 
+    @reboot	/my/path/to/supervisord -c /my/path/to/supervisord.conf 2>&1
+i.e.
+
+    @reboot /usr/bin/supervisord -n -c /etc/supervisor/supervisord.conf 2>&1
+    
+But I need to add that to my cron jobs using crontab.
 ## Sources
 
  * [Supervisord: Restarting and Reloading](http://www.onurguzel.com/supervisord-restarting-and-reloading/)
