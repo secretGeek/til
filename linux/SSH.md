@@ -85,8 +85,30 @@ Create the RFC 4716 version of the public key using  ssh-keygen
 
 Simple right!? No, not simple.    
 
+
+
+## Host Identification has changed.
+
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+    Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+    It is also possible that a host key has just been changed.
+    The fingerprint for the ECDSA key sent by the remote host is
+    7e:5e:42:31:34:82:c7:97:e3:3a:f2:e1:b4:4f:d4:56.
+    Please contact your system administrator.
+    Add correct host key in /home/user1/.ssh/known_hosts to get rid of this message.
+    Offending ECDSA key in /home/user1/.ssh/known_hosts:2
+      remove with: ssh-keygen -f "/home/user1/.ssh/known_hosts" -R 555.55.55.555
+    ECDSA host key for 555.55.55.555 has changed and you have requested strict checking.
+    Host key verification failed.
+
+
+    ssh-keygen -R [IP_ADDRESS]
+
 ## Source
 
  * <https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-PuTTY-on-digitalocean-droplets-windows-users> -- includes how to configure PuTTY itself.
- 
+ * <http://stackoverflow.com/questions/20840012/ssh-remote-host-identification-has-changed>
    
