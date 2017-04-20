@@ -2,6 +2,7 @@
 
 * [.net](/.net/01_summary.md)
 	* [detect text encoding](/.net/detect_text_encoding.md)
+	* [parse exact](/.net/parse_exact.md)
 * [.net core MVC](/.net_core_MVC/01_summary.md)
 	* [custom port](/.net_core_MVC/custom_port.md)
 	* [documenting asp net core](/.net_core_MVC/documenting_asp_net_core.md)
