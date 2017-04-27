@@ -1,5 +1,8 @@
 # count all files in a directory, recursively
 
+Count files in current folder not recursive:
+
+    ls -1 | wc -l
 
 Count files only:
 

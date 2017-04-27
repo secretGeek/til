@@ -87,7 +87,7 @@ Note, this particular line of config:
 
     proxy_set_header X-Real-IP $remote_addr;
 
-This is so that inside our application we'll be able to see the original IP Address of the client. (The original IP request is terminated by `nginx`, and a new request is sent to our application. So if we read the IPAddress a normal way it will simply say 127.0.0.1 (or ::1). Instead if we look at the request header 'X-Real-IP' we will see the original remote IP address of the caller. In C# I do that like this:
+This is so that inside our application we'll be able to see the original IP Address of the client. The original IP request is terminated by `nginx`, and a new request is sent to our application. So if we read the IPAddress a normal way it will simply say 127.0.0.1 (or ::1). Instead if we look at the request header 'X-Real-IP' we will see the original remote IP address of the caller. In C# I do that like this:
 
 
     var ipaddress = Request.HttpContext.Connection.RemoteIpAddress.ToString();

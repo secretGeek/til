@@ -14,6 +14,7 @@
 * [dumb or fun ideas](dumb_or_fun_ideas.md)
 * [emoji list](emoji_list.md)
 * [find text](find_text.md)
+* [find todos](find_todos.md)
 * [format table with expressions](format_table_with_expressions.md)
 * [get-member](get-member.md)
 * [getting started](getting_started.md)
