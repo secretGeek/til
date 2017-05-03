@@ -109,7 +109,7 @@ You can also add a classic 'blue' note to the up pattern like so (marked as 'b')
     a|---|---|---|---|--x|--b|--X|---|---|---|---|---|
     e|---|---|---|---|--R|---|---|--x|---|---|---|---|
 
-The blue note is often played in passing, so I've indicated a few extra locations of some notes, which make it easier to slide over this brief note.
+The blue note is often played in passing (well, that's how I play it anyway), so I've indicated a few extra locations of this note, which make it easier to slide over this brief note.
 
 This is just how I think on a fretboard. 
 
@@ -123,7 +123,7 @@ Here is a classic way to travel up the board, moving through more than one shape
     a|---|---|---|---|--x|--b|--X|---|---|---|---|---|
     e|---|---|---|---|--R|---|---|--x|---|---|---|---|
 
-Here's one part of the fretboard which forms a 'classic' shape, not mentioned above (it's part of position 2!) :
+Here's one part of the fretboard which forms a 'classic' shape, not mentioned above (it's part of position 2) :
 
      0   1   2   3   4   5   6   7   8   9   10  11  12
     e|---|---|---|---|---|---|---|--x|---|--x|---|---|
@@ -138,5 +138,37 @@ Some blues musicians will noodle around on just those five locations for an enti
 
 (And of course you could shift these patterns up or down to transpose to a different key. This is shown in A)
 
+------
 
-![minor pentatonic positions](minorpentatonicpositions.gif)
+
+
+## Pent Minor positions:
+
+![minor pentatonic positions](minorpentatonicpositionsG.png)
+
+
+------
+
+
+## "Natural minor" positions
+
+![minor heptatonic positions](minorheptatonicpositions.png)
+
+
+------
+
+## Major (hept) positions
+
+![major hept positions](majorheptatonicpositions.png)
+
+
+------
+
+
+## Major Pentatonic Positions
+
+![major pentatonic positions](majorpentatonicpositions.png)
+
+
+------
+

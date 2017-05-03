@@ -49,7 +49,7 @@ Though this site is published as a free book, there is another book, a real book
  * [asp.net mvc](asp.net_mvc/01_summary.md) &mdash; 10 articles
  * [bower](bower/01_summary.md) &mdash; 2 articles
  * [chocolatey](chocolatey/01_summary.md) &mdash; 4 articles
- * [concepts](concepts/01_summary.md) &mdash; 11 articles
+ * [concepts](concepts/01_summary.md) &mdash; 12 articles
  * [console](console/01_summary.md) &mdash; 5 articles
  * [cpu analyzer](cpu_analyzer/01_summary.md) &mdash; 1 article
  * [css](css/01_summary.md) &mdash; 2 articles
@@ -101,5 +101,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-317 articles
-67856 words
+318 articles
+67950 words

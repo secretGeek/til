@@ -5,6 +5,7 @@
 * [art of the data email](art_of_the_data_email.md)
 * [coik](coik.md)
 * [echo chamber](echo_chamber.md)
+* [getting unblocked](getting_unblocked.md)
 * [happy path](happy_path.md)
 * [list of potentially useful concepts](list_of_potentially_useful_concepts.md)
 * [mantras](mantras.md)

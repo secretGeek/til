@@ -41,6 +41,7 @@
 	* [art of the data email](/concepts/art_of_the_data_email.md)
 	* [coik](/concepts/coik.md)
 	* [echo chamber](/concepts/echo_chamber.md)
+	* [getting unblocked](/concepts/getting_unblocked.md)
 	* [happy path](/concepts/happy_path.md)
 	* [list of potentially useful concepts](/concepts/list_of_potentially_useful_concepts.md)
 	* [mantras](/concepts/mantras.md)

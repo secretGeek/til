@@ -65,7 +65,7 @@ First, get the smallest number of rows you can, *without* using any spatial term
  
  
 
-Then create a spatial index on that table. (Which has a primary key, thus has a clustered index already) These parameters (high, high, etc) could perhaps be improved through actual research rather than the anecdotal approach I’ve accepted thus far.
+Then create a spatial index on that table. (Which has a primary key, thus has a clustered index already) These parameters (`high`, `high`, etc) could perhaps be improved through actual research rather than the anecdotal approach I've accepted thus far.
  
 
 
