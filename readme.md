@@ -86,6 +86,7 @@ Though this site is published as a free book, there is another book, a real book
  * [redis](redis/01_summary.md) &mdash; 2 articles
  * [saltwater swimming pool](saltwater_swimming_pool/01_summary.md) &mdash; 2 articles
  * [security virus spam etc](security_virus_spam_etc/01_summary.md) &mdash; 2 articles
+ * [sharepoint](sharepoint/01_summary.md) &mdash; 1 article
  * [smallbasic](smallbasic/01_summary.md) &mdash; 1 article
  * [speech](speech/01_summary.md) &mdash; 1 article
  * [sql server](sql_server/01_summary.md) &mdash; 26 articles
@@ -101,5 +102,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-318 articles
-67950 words
+319 articles
+68010 words

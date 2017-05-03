@@ -293,6 +293,8 @@
 * [security virus spam etc](/security_virus_spam_etc/01_summary.md)
 	* [google search console](/security_virus_spam_etc/google_search_console.md)
 	* [virus total](/security_virus_spam_etc/virus_total.md)
+* [sharepoint](/sharepoint/01_summary.md)
+	* [find view guid](/sharepoint/find_view_guid.md)
 * [smallbasic](/smallbasic/01_summary.md)
 	* [shortcomings of smallbasic](/smallbasic/shortcomings_of_smallbasic.md)
 * [speech](/speech/01_summary.md)
