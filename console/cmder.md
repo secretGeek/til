@@ -82,6 +82,22 @@ Change this in settings -> Features -> Color -> Graphic enhancement -> Fade when
 
 (Included in one of the screenshots above)
 
+
+## is cmder slow over rdp? 
+
+is cmder slow over remote desktop? is cmder slow via terminal services?
+
+Turn off transparency! Right this moment! Kill it!
+
+It's under `Settings > Features > Transparency` -- to wit:
+
+	Settings > Features > Transparency > Active window transparency <- uncheck!
+	Settings > Features > Transparency > Use separate transparency value for inactive window <- uncheck!
+
+
+![turn off transparency](cmder_rdp_speed.png)
+
+Cmder will no longer be slow to paint over remote connections.
     
 ## Source
 

@@ -11,6 +11,7 @@
 * [program associated](program_associated.md)
 * [Remove Stored Credentials](Remove_Stored_Credentials.md)
 * [screenshot with mouse cursor](screenshot_with_mouse_cursor.md)
+* [shutdown](shutdown.md)
 * [when does password expire](when_does_password_expire.md)
 * [which version](which_version.md)
 * [windows store apps update](windows_store_apps_update.md)

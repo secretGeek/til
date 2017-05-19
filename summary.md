@@ -367,6 +367,7 @@
 	* [program associated](/windows/program_associated.md)
 	* [Remove Stored Credentials](/windows/Remove_Stored_Credentials.md)
 	* [screenshot with mouse cursor](/windows/screenshot_with_mouse_cursor.md)
+	* [shutdown](/windows/shutdown.md)
 	* [when does password expire](/windows/when_does_password_expire.md)
 	* [which version](/windows/which_version.md)
 	* [windows store apps update](/windows/windows_store_apps_update.md)
