@@ -47,6 +47,7 @@ Though this site is published as a free book, there is another book, a real book
  * [.net core MVC](.net_core_MVC/01_summary.md) &mdash; 12 articles
  * [appharbor](appharbor/01_summary.md) &mdash; 1 article
  * [asp.net mvc](asp.net_mvc/01_summary.md) &mdash; 10 articles
+ * [banking](banking/01_summary.md) &mdash; 1 article
  * [bower](bower/01_summary.md) &mdash; 2 articles
  * [chocolatey](chocolatey/01_summary.md) &mdash; 4 articles
  * [concepts](concepts/01_summary.md) &mdash; 12 articles
@@ -102,5 +103,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-321 articles
-68193 words
+322 articles
+68394 words

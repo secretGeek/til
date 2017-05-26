@@ -29,6 +29,8 @@
 	* [select dropdowns](/asp.net_mvc/select_dropdowns.md)
 	* [serve some static files from mvc but not all](/asp.net_mvc/serve_some_static_files_from_mvc_but_not_all.md)
 	* [troller](/asp.net_mvc/troller.md)
+* [banking](/banking/01_summary.md)
+	* [convert ofx to csv](/banking/convert_ofx_to_csv.md)
 * [bower](/bower/01_summary.md)
 	* [bower init](/bower/bower_init.md)
 	* [update bower](/bower/update_bower.md)
