@@ -190,6 +190,7 @@
 	* [drum beats](/music/drum_beats.md)
 	* [guitar finger names](/music/guitar_finger_names.md)
 	* [guitar shapes](/music/guitar_shapes.md)
+	* [PC guitar effects](/music/PC_guitar_effects.md)
 	* [take it slow](/music/take_it_slow.md)
 	* [tension](/music/tension.md)
 * [node](/node/01_summary.md)
