@@ -43,6 +43,7 @@
 	* [art of the data email](/concepts/art_of_the_data_email.md)
 	* [coik](/concepts/coik.md)
 	* [echo chamber](/concepts/echo_chamber.md)
+	* [follow up and recurring emails](/concepts/follow_up_and_recurring_emails.md)
 	* [getting unblocked](/concepts/getting_unblocked.md)
 	* [happy path](/concepts/happy_path.md)
 	* [list of potentially useful concepts](/concepts/list_of_potentially_useful_concepts.md)
