@@ -32,7 +32,7 @@ So the problem  is that one dated "13 months ago on a day when I was about to go
 
 Hmmm. Looking at what it does, it included code that is merged in elsewhere anyway.
 
-Infact -- 3403 and its troublesome parent 3402 are "secret". So these are secret commits. How can I at least close them out.
+Infact -- 3403 and its troublesome parent 3402 are "secret". So these are secret commits. How can I at least close them out?
 
 
     hg merge

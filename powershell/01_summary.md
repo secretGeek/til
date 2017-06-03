@@ -26,6 +26,7 @@
 * [interactive remote script](interactive_remote_script.md)
 * [is current user admin](is_current_user_admin.md)
 * [is this 64 or 32 bit powershell today](is_this_64_or_32_bit_powershell_today.md)
+* [Message of the day](Message_of_the_day.md)
 * [module commands](module_commands.md)
 * [multi-line comments](multi-line_comments.md)
 * [operation is blocked by software restriction policies](operation_is_blocked_by_software_restriction_policies.md)
