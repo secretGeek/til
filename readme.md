@@ -81,7 +81,7 @@ Though this site is published as a free book, there is another book, a real book
  * [nuget](nuget/01_summary.md) &mdash; 1 article
  * [oracle](oracle/01_summary.md) &mdash; 4 articles
  * [paypal](paypal/01_summary.md) &mdash; 1 article
- * [powershell](powershell/01_summary.md) &mdash; 55 articles
+ * [powershell](powershell/01_summary.md) &mdash; 56 articles
  * [python](python/01_summary.md) &mdash; 5 articles
  * [react](react/01_summary.md) &mdash; 2 articles
  * [redis](redis/01_summary.md) &mdash; 2 articles
@@ -90,7 +90,7 @@ Though this site is published as a free book, there is another book, a real book
  * [sharepoint](sharepoint/01_summary.md) &mdash; 1 article
  * [smallbasic](smallbasic/01_summary.md) &mdash; 1 article
  * [speech](speech/01_summary.md) &mdash; 1 article
- * [sql server](sql_server/01_summary.md) &mdash; 26 articles
+ * [sql server](sql_server/01_summary.md) &mdash; 27 articles
  * [sql server reporting services](sql_server_reporting_services/01_summary.md) &mdash; 2 articles
  * [sql spatial](sql_spatial/01_summary.md) &mdash; 2 articles
  * [stackexchange](stackexchange/01_summary.md) &mdash; 3 articles
@@ -103,5 +103,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-324 articles
-68595 words
+326 articles
+68977 words

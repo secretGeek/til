@@ -5,6 +5,7 @@
 * [backup restore script](backup_restore_script.md)
 * [create schema specific role](create_schema_specific_role.md)
 * [datetime trim hours milliseconds](datetime_trim_hours_milliseconds.md)
+* [delete duplicate rows](delete_duplicate_rows.md)
 * [delete millions of rows](delete_millions_of_rows.md)
 * [find large tables](find_large_tables.md)
 * [find view function or sproc](find_view_function_or_sproc.md)

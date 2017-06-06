@@ -11,3 +11,7 @@ Previously the HtmlAgilityPack was the tool of choice for this.
 The python project BeautifulSoup is a famous tool in this category.
 
 And regex is the other, more [eldritch](http://stackoverflow.com/a/1732454) option.
+
+## Other keywords
+
+Screenscrape, screen scape
