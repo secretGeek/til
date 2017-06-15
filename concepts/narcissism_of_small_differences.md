@@ -4,11 +4,11 @@
 
 For example, because Java and C# are so similar, their users are more likely to feud, not less.
 
-At a smaller scale: tabs and spaces make no difference to a running program, so proponents are each are the most likely to feud.
+At a smaller scale: tabs and spaces make no difference to a running program, so proponents of each are the most likely to feud.
 
 Same for brace positioning. 
 
-People pour effort into these things because they are a way of asserting their identity (either group or individual identity).
+People pour effort into these things because they are a way of asserting their identity (either group identity or individual identity).
 
 
 (Research shows me that [Raganwald spotted this in 2008](http://weblog.raganwald.com/2008/05/narcissism-of-small-code-differences.html) ([discussion](https://news.ycombinator.com/item?id=6710668)))

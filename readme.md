@@ -73,7 +73,7 @@ Though this site is published as a free book, there is another book, a real book
  * [macbook air](macbook_air/01_summary.md) &mdash; 4 articles
  * [markdown](markdown/01_summary.md) &mdash; 3 articles
  * [math](math/01_summary.md) &mdash; 2 articles
- * [mercurial](mercurial/01_summary.md) &mdash; 12 articles
+ * [mercurial](mercurial/01_summary.md) &mdash; 13 articles
  * [music](music/01_summary.md) &mdash; 8 articles
  * [node](node/01_summary.md) &mdash; 1 article
  * [notepad++](notepad++/01_summary.md) &mdash; 8 articles
@@ -103,5 +103,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-329 articles
-69281 words
+330 articles
+69479 words

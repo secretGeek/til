@@ -189,6 +189,7 @@
 	* [multiple heads](/mercurial/multiple_heads.md)
 	* [orig files](/mercurial/orig_files.md)
 	* [proxy connection attempt failure](/mercurial/proxy_connection_attempt_failure.md)
+	* [rebase](/mercurial/rebase.md)
 * [music](/music/01_summary.md)
 	* [background noise](/music/background_noise.md)
 	* [Bb Trumpet](/music/Bb_Trumpet.md)
