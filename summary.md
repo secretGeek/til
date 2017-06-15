@@ -331,6 +331,7 @@
 	* [scalar function AfterChar](/sql_server/scalar_function_AfterChar.md)
 	* [select top with dynamic limit](/sql_server/select_top_with_dynamic_limit.md)
 	* [slow and long running queries](/sql_server/slow_and_long_running_queries.md)
+	* [split string](/sql_server/split_string.md)
 	* [sp heltpext](/sql_server/sp_heltpext.md)
 	* [start time](/sql_server/start_time.md)
 	* [trailing cr lf](/sql_server/trailing_cr_lf.md)
