@@ -11,6 +11,8 @@ So the alternative is to:
 
 Copy the repository to your local machine. Either by robocopy or any other method.
 
+	robocopy X:\Repositories\MonoRepo C:\Repos\MonoRepo /MIR
+
 Then edit the `.hg/hgrc` file to refer to the remote location.
 
 You want the hgrc file to say something like this:
