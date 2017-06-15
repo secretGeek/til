@@ -9,6 +9,7 @@
 * [console colors](console_colors.md)
 * [convert KB MB GB](convert_KB_MB_GB.md)
 * [count distinct rows](count_distinct_rows.md)
+* [count repositories](count_repositories.md)
 * [create profile](create_profile.md)
 * [custom objects](custom_objects.md)
 * [diff between two dates](diff_between_two_dates.md)

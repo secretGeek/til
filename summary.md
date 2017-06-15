@@ -2,6 +2,7 @@
 
 * [.net](/.net/01_summary.md)
 	* [detect text encoding](/.net/detect_text_encoding.md)
+	* [load datatable](/.net/load_datatable.md)
 	* [parse exact](/.net/parse_exact.md)
 * [.net core MVC](/.net_core_MVC/01_summary.md)
 	* [custom port](/.net_core_MVC/custom_port.md)
@@ -176,6 +177,7 @@
 	* [eulers number](/math/eulers_number.md)
 	* [log](/math/log.md)
 * [mercurial](/mercurial/01_summary.md)
+	* [clone without cloning](/mercurial/clone_without_cloning.md)
 	* [current extensions](/mercurial/current_extensions.md)
 	* [diffmerge merge](/mercurial/diffmerge_merge.md)
 	* [ensure all files added](/mercurial/ensure_all_files_added.md)
@@ -232,6 +234,7 @@
 	* [console colors](/powershell/console_colors.md)
 	* [convert KB MB GB](/powershell/convert_KB_MB_GB.md)
 	* [count distinct rows](/powershell/count_distinct_rows.md)
+	* [count repositories](/powershell/count_repositories.md)
 	* [create profile](/powershell/create_profile.md)
 	* [custom objects](/powershell/custom_objects.md)
 	* [diff between two dates](/powershell/diff_between_two_dates.md)

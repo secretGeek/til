@@ -2,6 +2,7 @@
 # mercurial
 ### chapter contents
  
+* [clone without cloning](clone_without_cloning.md)
 * [current extensions](current_extensions.md)
 * [diffmerge merge](diffmerge_merge.md)
 * [ensure all files added](ensure_all_files_added.md)

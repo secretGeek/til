@@ -43,7 +43,7 @@ Though this site is published as a free book, there is another book, a real book
 
 ## Topics
 
- * [.net](.net/01_summary.md) &mdash; 2 articles
+ * [.net](.net/01_summary.md) &mdash; 3 articles
  * [.net core MVC](.net_core_MVC/01_summary.md) &mdash; 12 articles
  * [appharbor](appharbor/01_summary.md) &mdash; 1 article
  * [asp.net mvc](asp.net_mvc/01_summary.md) &mdash; 10 articles
@@ -73,7 +73,7 @@ Though this site is published as a free book, there is another book, a real book
  * [macbook air](macbook_air/01_summary.md) &mdash; 4 articles
  * [markdown](markdown/01_summary.md) &mdash; 3 articles
  * [math](math/01_summary.md) &mdash; 2 articles
- * [mercurial](mercurial/01_summary.md) &mdash; 11 articles
+ * [mercurial](mercurial/01_summary.md) &mdash; 12 articles
  * [music](music/01_summary.md) &mdash; 8 articles
  * [node](node/01_summary.md) &mdash; 1 article
  * [notepad++](notepad++/01_summary.md) &mdash; 8 articles
@@ -81,7 +81,7 @@ Though this site is published as a free book, there is another book, a real book
  * [nuget](nuget/01_summary.md) &mdash; 1 article
  * [oracle](oracle/01_summary.md) &mdash; 4 articles
  * [paypal](paypal/01_summary.md) &mdash; 1 article
- * [powershell](powershell/01_summary.md) &mdash; 56 articles
+ * [powershell](powershell/01_summary.md) &mdash; 57 articles
  * [python](python/01_summary.md) &mdash; 5 articles
  * [react](react/01_summary.md) &mdash; 2 articles
  * [redis](redis/01_summary.md) &mdash; 2 articles
@@ -103,5 +103,5 @@ Though this site is published as a free book, there is another book, a real book
  * [windows.forms](windows.forms/01_summary.md) &mdash; 4 articles
  * [wordpress](wordpress/01_summary.md) &mdash; 1 article
 
-326 articles
-69049 words
+329 articles
+69281 words
