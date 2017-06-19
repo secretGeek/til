@@ -56,6 +56,28 @@ So you're command might be more like:
 	hg rebase -s $myEarliestCommit -d $otherPeoplesLastCommit
 
 
+Here's another example.
+
+The repo looked like this:
+
+![rebase_example3.png](rebase_example3.png)
+
+I'd commited 722 and 723 locally. 
+
+I wanted to move them after 724, which had been done remotely.
+
+I used this command:
+
+    hg rebase -s 722 -d 724        
+
+
+Which resulted in:
+
+![rebase_example4.png](rebase_example4.png)    
+
+The linear history I was after.
+
+    
 
 ## Source
 

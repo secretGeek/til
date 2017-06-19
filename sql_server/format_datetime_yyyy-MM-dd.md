@@ -1,19 +1,34 @@
 # Format DateTime as yyyy-MM-dd
 
 
-    Left(CONVERT(VARCHAR(19), GetDate(), 120), 10)
+For `yyyy-MM-dd` :
+
+    CONVERT(VARCHAR(10), GetDate(), 120)
     
 e.g.
     
-    select left(CONVERT(VARCHAR(19), GetDate(), 120), 10)
+    select CONVERT(VARCHAR(10), GetDate(), 120)
     2017-02-02
     
-    
+Format "120" is 24-hour time, down to the second. But we limit the size of the result to remove the time component.
+
+  
 Or for the ever useful sortable reporting month: yyyy-MM
 
-    Select left(CONVERT(VARCHAR(19), GetDate(), 120), 7)    
+    Select CONVERT(VARCHAR(7), GetDate(), 120)
     2017-02
+
+
+To get milliseconds (and 24 hour time) 
+
+    Select CONVERT(VARCHAR(23), GetDate(), 121)
+    2017-02-02 11:52:33.980
+
+(Any length 23 or larger will suffice)
+
+
 
 ## See also
 
- * [just the date portion of a datetime](datetime_trim_hours_milliseconds.md)
+ * [SQL: just the date portion of a datetime](datetime_trim_hours_milliseconds.md)
+ * [Excel: Extract Year/Month (for grouping/reporting)](../excel/extract_year_and_month_from_date_for_grouping_purposes.md)

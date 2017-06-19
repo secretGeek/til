@@ -18,6 +18,12 @@ You can even use this form of messaging inside TRY/CATCH statements because:
 You cannot use it inside functions, as functions prohibit side effects. (You can't use `print` either)
 
 
+To preface the message with a date/time down to the millisecond, try this:
+
+        Declare @Message Varchar(255) = (CONVERT(VARCHAR(50), GetDate(), 121) + ': BEGIN switcharoo' )
+        RAISERROR (@Message, 0, 1) WITH NOWAIT
+
+
 Other keywords: synchronous, asynchronous
 
 ## Source

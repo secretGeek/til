@@ -8,7 +8,9 @@ SmallBasic is deliberately limited in how it behaves -- it boasts only 15 keywor
 
 Some of the limitations are too much though. 
 
-## Shortcomings of the language 13 The 'biggie' (for me) is that there are no functions, only subroutines. 
+## Shortcomings of the language 
+
+The 'biggie' (for me) is that there are no functions, only subroutines. 
 
 Subroutines have no parameters, and no return value. 
 
@@ -20,13 +22,17 @@ So I can see why they didn't add it, but for me it places major limitations on w
 
 No way to maximize a window. 
 
-No way to switch between windows from the keyboard. 
-
-No auto saving. 
-
-About auto saving... if you want to automatically save files, you need to give them a name. Sure you can call them "Untitled.sb", then "Untitled 1.sb" etc. But in a fun environment you can do better -- for example by having the name composed of a bunch of randomly created key phrases, such as "HairyPurplePumpkinSoup.sb" (Any programmer who doesn't enjoy creating that feature is not someone I want to meet)
+No way to switch between windows from the keyboard. (No ctrl-tab)
 
 No way to see the code while the program is running. I accept that you can't set breakpoints, or alter the program, or step through the program... all of which are great learning experiences... but you should be able to see the code at least, so you can think about it while the program runs.
 
+No auto saving. 
 
+## About auto saving... 
+
+If you want to automatically save files, you would need to automatically assign a name. 
+
+Sure you can call them "Untitled.sb", then "Untitled 1.sb" and so on. 
+
+But in a fun environment you can do better -- for example by having the name composed of a bunch of randomly created key phrases, such as "HairyPurplePumpkinSoup.sb" (Any programmer who doesn't enjoy creating that feature is not someone I want to meet)
 
