@@ -13,7 +13,7 @@ Then, someone complains that their non-ascii files weren't read correctly, I ask
 
     using (var sr = new StreamReader(fileName, System.Text.Encoding.UTF8))
 
-It works for a while, then I receive more complains and more test files. I see that it doesn't work for the new test files.
+It works for a while, then I receive more complaints and more test files. I see that it doesn't work for the new test files. Hmm.
 
 I studiously avoid thinking about ["The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)"](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/).
 

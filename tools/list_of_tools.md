@@ -8,7 +8,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
 ## Types of files:
 
- * .exe (132 files)
+ * .exe (133 files)
  * .dll (27 files)
  * .txt (17 files)
  * .bat (12 files)
@@ -159,6 +159,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * tracefmt.exe
  * tracelog.exe
  * tracepdb.exe
+ * UpandDown.exe
  * Urldecode.exe
  * Urlencode.exe
  * vfi.exe

@@ -14,4 +14,5 @@
 * [multiple heads](multiple_heads.md)
 * [orig files](orig_files.md)
 * [proxy connection attempt failure](proxy_connection_attempt_failure.md)
+* [push rainbow](push_rainbow.md)
 * [rebase](rebase.md)

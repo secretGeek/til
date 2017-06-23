@@ -21,3 +21,16 @@
 		
 		return dt;
 	}
+
+
+The nearest equivalent using Dapper would be something like this:
+
+
+	private IEnumerable<T> Load<T>(string connectionString, string sql)
+	{
+		using (var connection = new SqlConnection(connectionString))
+		{
+			connection.Open();
+			return connection.Query<T>(sql);
+		}
+	}

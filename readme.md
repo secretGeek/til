@@ -45,7 +45,7 @@ Though this site is published as a free book, there is another book, a real book
 
 |Topic|# Articles|
 |-----|----------|
-| [.net](.net/01_summary.md) | 3 articles |
+| [.net](.net/01_summary.md) | 4 articles |
  | [.net core MVC](.net_core_MVC/01_summary.md) | 12 articles |
  | [appharbor](appharbor/01_summary.md) | 1 article |
  | [asp.net mvc](asp.net_mvc/01_summary.md) | 10 articles |
@@ -75,7 +75,8 @@ Though this site is published as a free book, there is another book, a real book
  | [macbook air](macbook_air/01_summary.md) | 4 articles |
  | [markdown](markdown/01_summary.md) | 3 articles |
  | [math](math/01_summary.md) | 2 articles |
- | [mercurial](mercurial/01_summary.md) | 13 articles |
+ | [memorize](memorize/01_summary.md) | 2 articles |
+ | [mercurial](mercurial/01_summary.md) | 14 articles |
  | [music](music/01_summary.md) | 8 articles |
  | [node](node/01_summary.md) | 1 article |
  | [notepad++](notepad++/01_summary.md) | 8 articles |
@@ -106,5 +107,5 @@ Though this site is published as a free book, there is another book, a real book
  | [wordpress](wordpress/01_summary.md) | 1 article |
 
 
-331 articles
-69824 words
+335 articles
+70120 words
