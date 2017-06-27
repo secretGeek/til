@@ -295,6 +295,7 @@
 	* [grip](/python/grip.md)
 	* [input output](/python/input_output.md)
 	* [pip](/python/pip.md)
+	* [python in minecraft](/python/python_in_minecraft.md)
 	* [turtle](/python/turtle.md)
 * [react](/react/01_summary.md)
 	* [getting started](/react/getting_started.md)

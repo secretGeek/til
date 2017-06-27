@@ -85,7 +85,7 @@ Though this site is published as a free book, there is another book, a real book
  | [oracle](oracle/01_summary.md) | 4 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [powershell](powershell/01_summary.md) | 57 articles |
- | [python](python/01_summary.md) | 5 articles |
+ | [python](python/01_summary.md) | 6 articles |
  | [react](react/01_summary.md) | 2 articles |
  | [redis](redis/01_summary.md) | 2 articles |
  | [saltwater swimming pool](saltwater_swimming_pool/01_summary.md) | 2 articles |
@@ -107,5 +107,5 @@ Though this site is published as a free book, there is another book, a real book
  | [wordpress](wordpress/01_summary.md) | 1 article |
 
 
-335 articles
-70120 words
+336 articles
+70486 words
