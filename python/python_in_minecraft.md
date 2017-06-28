@@ -2,11 +2,11 @@
 
 One of my daughters is getting into minecraft. I've heard you can do python in minecraft, so I want to give that a go.
 
+All of the examples below are taken wholly or in part from this awesome guide: [Python Coding for Minecraft by arpruss in minecraft](http://www.instructables.com/id/Python-coding-for-Minecraft/)
 
+1. Get minecraft for PC
 
-1. Get minecraft
-
-costs $26.95
+Costs $26.95
 
 2. Minecraft no longer requires java. So you don't need to update that.
 
@@ -23,6 +23,7 @@ costs $26.95
 On the front screen, on the big green button hit the 'up' arrow to change profile. Select this new profile. And press play.    
     
 Make sure it works.
+
 Maybe create a new world, superflat, bonus chest on, cheats on.
 
     
@@ -51,28 +52,14 @@ I went with 3.x which I may regret later.
 I'm socially progressive and tend to get myself into this kind of problem for fun.
 
 
-6. Mods folder
+6. Download the latest zip file containing sample Python scripts and the mcpi library from:
 
-Allegedly the next step is to create a mods folder under:
-
-    $env:appdata\.minecraft
-
-I found there was already a mods folder there. With all this content:
-
-
-       mods
-       +---1.10
-       +---1.10.2
-       +---1.11
-       +---1.11.2
-       +---1.12
-       +---1.8
-       +---1.8.8
-       +---1.8.9
-       +---1.9
-       +---1.9.4        
-        
-
+	[https://github.com/arpruss/raspberryjammod/releases](https://github.com/arpruss/raspberryjammod/releases)
+	
+Create a new folder: `$env:AppData\.minecraft\mcpipy`
+	
+Unzip the file and places its content into the $env:AppData\.minecraft\mcpipy folder.	
+	
 7. Run minecraft launcher...
 
 pick the 'forge' profile by clicking the up arrow on the green button.
@@ -87,8 +74,10 @@ Run a python script by:
 
 e.g.
 
-/py helloworld.py
+/py helloworld
 
+
+## Hello World!
 
 Here's a helloworld script...
 
@@ -96,32 +85,180 @@ Here's a helloworld script...
     mc = Minecraft()
     mc.postToChat("Hello world!")
 
+It outputs the message "Hello world!" to the chat window.	
 
-Next example:
 
-Place a block
+
+## Read parameters from input
+
+
+	say.py:
+	
+	from mine import *
+	from sys import argv
+	mc = Minecraft()
+	mc.postToChat(argv[1])
+	
+To use it:
+	
+	/py say HELLO
+	
+The screen then says:	
+
+	HELLO
+	
+Or if you want a message that includes spaces, you'd use:
+
+	/py say "HELLO WORLD"
+	
+The technique above is very useful if you want to run a script that lets the user decide on something when the script is run (instead of knowing everything when the script is first written)
+
+Sometimes these are called parameters, sometimes they are called arguments.
+
+
+Here's an advanced trick... if you want to join all of the parameters together into one:
+
+	from mine import *
+	from sys import argv
+	mc = Minecraft()
+    if len(sys.argv) <= 1:
+        text = "Hello, world!\nWelcome to Minecraft."
+    else:
+        del sys.argv[0]
+        text = " ".join(sys.argv)
+	mc.postToChat(text)
+		
+	
+## Teleport to a location
+
+
+	from mine import *
+	from sys import argv
+	mc = Minecraft()
+	mc.player.setTilePos(int(argv[1]), int(argv[2]), int(argv[3]))
+
+
+	
+## To find my location:
+
+	/py whereami
+	
+returns (currently)
+
+	vec3(116,10,9)
+
+Then i can get back there with:
+
+	/py teleport 116 10 9
+
+whereami:
+	
+	from mine import *
+	from sys import argv
+	mc = Minecraft()
+	mc.postToChat(mc.player.getTilePos())
+	
+
+## Place a block
 
     from mine import *
     mc = Minecraft()
     mc.postToChat("Placing a block...")
     playerPos = mc.player.getPos()
     mc.setBlock(playerPos.x,playerPos.y-1,playerPos.z,block.DIAMOND_ORE)
+	
+	
+
+## Place 7 blocks....
+
+	from mine import *
+	mc = Minecraft()
+	mc.postToChat("Placing 7 blocks...")
+	playerPos = mc.player.getPos()
+
+	for i in range(7):
+		mc.setBlock(playerPos.x + i,playerPos.y-1,playerPos.z,block.DIAMOND_ORE)
+
+## Place as many blocks in a row as you want
 
 
-Place a row of blocks
+With `blockn.py`:
+
+	from mine import *
+	from sys import argv
+	mc = Minecraft()
+	mc.postToChat("Placing argv[1] blocks...")
+	playerPos = mc.player.getPos()
+	for i in range(int(argv[1])):
+		mc.setBlock(playerPos.x + i,playerPos.y-1,playerPos.z,block.DIAMOND_ORE)
+
+Usage:
+
+	/py blockn 30
+
+
+## Place as many blocks in a row as you want, of a given type 
+
+
+With `b.py`
+
+	
+	from mine import *
+	from sys import argv
+	mc = Minecraft()
+	mc.postToChat("Placing argv[1] blocks of type argv[2]...")
+	playerPos = mc.player.getPos()
+	specifiedBlock = Block.byName(argv[2])
+	for i in range(int(argv[1])):
+		mc.setBlock(playerPos.x + i,playerPos.y,playerPos.z,specifiedBlock)
+	
+
+Usage:
+
+	/py b 30 GLOWSTONE_BLOCK
+	
+	
+For a list of all block types in minecraft see [blocks in minecraft](blocks_in_minecraft.md)
 
 
 
 
-Place a rectangle of blocks
 
 
-Make a pyramid
+## Place a row of blocks
+
+
+	from mine import *
+	mc = Minecraft()
+	mc.postToChat("Placing 7 blocks...")
+	playerPos = mc.player.getPos()
+
+	for i in range(7):
+		mc.setBlock(playerPos.x + i,playerPos.y-1,playerPos.z,block.DIAMOND_ORE)
+
+
+## Place a rectangle of blocks
+
+
+	from mine import *
+	mc = Minecraft()
+	mc.postToChat("Placing a wall...")
+	playerPos = mc.player.getPos()
+
+	for i in range(7):
+		for j in range(7):
+			mc.setBlock(playerPos.x + i,playerPos.y-1,playerPos.z+j,block.DIAMOND_ORE)
 
 
 
+## Make a pyramid
 
 
+
+## Run python commands in the minecraft console
+
+See console.py
+		
 ## Sources
 
  * [Minecraft Doesn't Need Java Installed Anymore](https://www.howtogeek.com/210907/minecraft-doesnt-need-java-installed-anymore-its-time-to-remove-it/)
