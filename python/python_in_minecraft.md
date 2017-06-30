@@ -223,20 +223,6 @@ For a list of all block types in minecraft see [blocks in minecraft](blocks_in_m
 
 
 
-
-
-## Place a row of blocks
-
-
-	from mine import *
-	mc = Minecraft()
-	mc.postToChat("Placing 7 blocks...")
-	playerPos = mc.player.getPos()
-
-	for i in range(7):
-		mc.setBlock(playerPos.x + i,playerPos.y-1,playerPos.z,block.DIAMOND_ORE)
-
-
 ## Place a rectangle of blocks
 
 
@@ -250,7 +236,46 @@ For a list of all block types in minecraft see [blocks in minecraft](blocks_in_m
 			mc.setBlock(playerPos.x + i,playerPos.y-1,playerPos.z+j,block.DIAMOND_ORE)
 
 
+## Place a row of blocks of a random type
 
+
+
+	import random
+	from mine import *
+	from sys import argv
+
+	mc = Minecraft()
+	mc.postToChat("Placing argv[1] RANDOM blocks...")
+	playerPos = mc.player.getPos()
+	blocktypes = [ 
+		block.STAINED_GLASS_BLACK,
+		block.STAINED_GLASS_BLUE,
+		block.STAINED_GLASS_BROWN,
+		block.STAINED_GLASS_CYAN,
+		block.STAINED_GLASS_GRAY,
+		block.STAINED_GLASS_GREEN,
+		block.STAINED_GLASS_LIGHT_BLUE,
+		block.STAINED_GLASS_LIGHT_GRAY,
+		block.STAINED_GLASS_LIME,
+		block.STAINED_GLASS_MAGENTA,
+		block.STAINED_GLASS_ORANGE,
+		block.STAINED_GLASS_PINK,
+		block.STAINED_GLASS_PURPLE,
+		block.STAINED_GLASS_RED,
+		block.STAINED_GLASS_WHITE,
+		block.STAINED_GLASS_YELLOW,
+	]
+	for i in range(int(argv[1])):
+		mc.setBlock(playerPos.x + i,playerPos.y,playerPos.z,random.choice(blocktypes))
+
+
+Usage:
+
+	/py randomblocks 10
+		
+....Places a row of 10 blocks in different stained glass colors.
+
+		
 ## Make a pyramid
 
 
