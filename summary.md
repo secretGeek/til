@@ -195,6 +195,8 @@
 	* [proxy connection attempt failure](/mercurial/proxy_connection_attempt_failure.md)
 	* [push rainbow](/mercurial/push_rainbow.md)
 	* [rebase](/mercurial/rebase.md)
+* [minecraft](/minecraft/01_summary.md)
+	* [mark jump in minecraft](/minecraft/mark_jump_in_minecraft.md)
 * [music](/music/01_summary.md)
 	* [background noise](/music/background_noise.md)
 	* [Bb Trumpet](/music/Bb_Trumpet.md)

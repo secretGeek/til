@@ -77,6 +77,7 @@ Though this site is published as a free book, there is another book, a real book
  | [math](math/01_summary.md) | 2 articles |
  | [memorize](memorize/01_summary.md) | 2 articles |
  | [mercurial](mercurial/01_summary.md) | 14 articles |
+ | [minecraft](minecraft/01_summary.md) | 1 article |
  | [music](music/01_summary.md) | 8 articles |
  | [node](node/01_summary.md) | 1 article |
  | [notepad++](notepad++/01_summary.md) | 8 articles |
@@ -107,5 +108,5 @@ Though this site is published as a free book, there is another book, a real book
  | [wordpress](wordpress/01_summary.md) | 1 article |
 
 
-338 articles
-71290 words
+339 articles
+71617 words
