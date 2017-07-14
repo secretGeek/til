@@ -35,11 +35,10 @@ Four files:
 
 	if os.path.isfile("marks.json"):
 		with open('marks.json') as json_file:  
-			marks = json.load(json_file)	
+			marks = json.load(json_file)
 	else: 
 		marks = {}
 
-	# todo: if marks[argv[1]] already exists... don't overwrite it, ask them if they meant jump or unmark?
 	if argv[1] in marks.keys():
 		mc.postToChat("That mark already exists. I refuse to overwrite it.")
 	else:
@@ -56,17 +55,15 @@ Four files:
 	from sys import argv
 	mc = Minecraft()
 
-	print("teleport to argv[1]")
 	mc.postToChat("teleport to argv[1]")
 
 	if os.path.isfile("marks.json"):
 		with open('marks.json') as json_file:  
-			marks = json.load(json_file)	
-		print("Jump to...")
+			marks = json.load(json_file)
 		if argv[1] in marks.keys():
 			mc.player.setTilePos(marks[argv[1]][0], marks[argv[1]][1], marks[argv[1]][2])
 		else:
-			mc.postToChat("No such key as argv[1]. Notes: 1. marks are CASE sensitive. 2. Perhaps you meant 'mark'?")
+			mc.postToChat("No such key as argv[1]. Notes: 1. marks are CASE sensitive or 2. Perhaps you meant 'mark'?")
  
  
 ## Marks.py

@@ -1,12 +1,12 @@
 # Installing bash on windows.
 
-You need to at least have Windows 10 anniversary edition:
+You need to have (at least) Windows 10 anniversary edition:
 
 Check with `[Environment]::OSVersion.Version` (see [How can I tell which version of Windows is currently running?](which_version.md)), you want at least "10.0.14393.0"
 
-> Once you're sure you're using the correct version, open the Settings app and head to Update & Security > For Developers. Activate the "Developer Mode" switch here to enable Developer Mode.
+> Once you're sure you're using the correct version, open the Settings app and head to Update & Security -> For Developers. Activate the "Developer Mode" switch here to enable Developer Mode.
 
-You get a super scary warning (because you'll be allowing apps to be sideloaded)
+You get a super scary warning (because you'll be allowing "apps" to be sideloaded)
 
 Then a message... "installing developer mode package..."
 
@@ -22,9 +22,9 @@ restart.
 
 run bash.
 
-you have to confirm some scary shit.
+You have to confirm some scary shit.
 
-the first time it's run it downloads some stuff. Message:
+The first time it's run it downloads some stuff. Message:
 
     -- Beta feature --
     This will install Ubuntu on Windows, distributed by Canonical
@@ -36,7 +36,7 @@ the first time it's run it downloads some stuff. Message:
 
 It asks you to enter a username and create a password.
 
-then you're in.
+Then you're in.
 
 Documentation link: <http://aka.ms/wsldocs>
 

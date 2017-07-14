@@ -2,7 +2,7 @@
 
 One of my daughters is getting into minecraft. I've heard you can do python in minecraft, so I want to give that a go.
 
-All of the examples below are taken wholly or in part from this awesome guide: [Python Coding for Minecraft by arpruss in minecraft](http://www.instructables.com/id/Python-coding-for-Minecraft/)
+All of the examples below are taken wholly or in part from this awesome guide: [Python Coding for Minecraft by Alex Pruss](http://www.instructables.com/id/Python-coding-for-Minecraft/)
 
 1. Get minecraft for PC
 
