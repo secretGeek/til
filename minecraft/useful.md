@@ -7,10 +7,13 @@ Purpose: carve out a 3 dimensional box of air, centered on your current location
 
 	/py aircube3 50 3 50
 
-...to create a long, wide basement.
+...to create a long, wide basement. (Parameters are X Y and Z dimensions.
 
+Or 	`/py aircube3 50 3 3` to create a long tunnel in the X direction, 
+and: `/py aircube3 3 3 50` to create a long tunnel in the Z direction, 
+and:  `/py aircube3 3 50 3` to create a tall tube of air Y direction, 
 
-
+Here's the file `aircube3.py`:
 
 	from mine import * 
 	from sys import argv
