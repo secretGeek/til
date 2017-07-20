@@ -1,6 +1,7 @@
 # Useful minecraft scripts (in python)
 
 
+
 ## Aircube3:
 
 Purpose: carve out a 3 dimensional box of air, centered on your current location. For example if you are underground, run:
@@ -36,7 +37,7 @@ Here's the file `aircube3.py`:
 
 Put lights all over the place, so you can see what's going on. Useful in caves.
 
-(Alternative technique is to use a night vision potion, but I still prefer this little script)
+(Alternative technique is to use a nightvision potion, but I still prefer this little script)
 
 Use it like this: 
 	/py lightup
