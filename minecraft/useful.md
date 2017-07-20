@@ -38,6 +38,10 @@ Put lights all over the place, so you can see what's going on. Useful in caves.
 
 (Alternative technique is to use a night vision potion, but I still prefer this little script)
 
+Use it like this: 
+	/py lightup
+
+Here's the script `lightup.py`
 
 	from mine import *
 	mc = Minecraft()
