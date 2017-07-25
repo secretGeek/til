@@ -1,6 +1,6 @@
 # Hiding noise
 
-Okay &mdash; to give you more of a clean feeling, you can hide things &mdash; but you need to know how to bring them back.
+In Visual Studio Code, to give you more of a clean feeling, you can hide things &mdash; but you need to know how to bring them back.
 
 <strike>
 The thing on the left is the activity bar.

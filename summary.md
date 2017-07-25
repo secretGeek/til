@@ -229,6 +229,8 @@
 	* [tab completion with powershell](/npm/tab_completion_with_powershell.md)
 * [nuget](/nuget/01_summary.md)
 	* [consolidate nuget packages](/nuget/consolidate_nuget_packages.md)
+* [office](/office/01_summary.md)
+	* [outlook calendar celsius fahrenheit](/office/outlook_calendar_celsius_fahrenheit.md)
 * [oracle](/oracle/01_summary.md)
 	* [connection strings](/oracle/connection_strings.md)
 	* [instant client](/oracle/instant_client.md)

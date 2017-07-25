@@ -83,6 +83,7 @@ Though this site is published as a free book, there is another book, a real book
  | [notepad++](notepad++/01_summary.md) | 8 articles |
  | [npm](npm/01_summary.md) | 7 articles |
  | [nuget](nuget/01_summary.md) | 1 article |
+ | [office](office/01_summary.md) | 1 article |
  | [oracle](oracle/01_summary.md) | 4 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [powershell](powershell/01_summary.md) | 57 articles |
@@ -108,5 +109,5 @@ Though this site is published as a free book, there is another book, a real book
  | [wordpress](wordpress/01_summary.md) | 1 article |
 
 
-341 articles
-72160 words
+342 articles
+72231 words
