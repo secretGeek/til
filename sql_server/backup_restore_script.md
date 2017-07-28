@@ -19,6 +19,8 @@ If you need to move db's around via script, this is me trusty old script since 2
       MOVE 'Northwind_log' TO 'c:\test\testdb.ldf'
     GO
 
+
+To get the mdf/ldf file names you can also use: `sp_helpdb Northwin`
     
     
 ## Source
