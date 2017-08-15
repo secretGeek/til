@@ -34,7 +34,7 @@ Add a reference to `Microsoft.VisualBasic.dll` and namespaces of:
     Microsoft.VisualBasic.FileIO
     System.Globalization
 
-The load and convert to List<Crime> code is....
+The code to load and convert to List<Crime> code is....
 
     void Main()
     {

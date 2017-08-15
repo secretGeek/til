@@ -1,6 +1,6 @@
 # Press Ctrl-A to select all in a textbox
 
-* textbox must be multiline.
+**NOTE** textbox must be multiline.
 
 
     private void txtSQL_KeyDown(object sender, KeyEventArgs e)

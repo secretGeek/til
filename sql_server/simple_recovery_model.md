@@ -1,6 +1,8 @@
 # Set a database to simple recovery model
 
+This is how you turn off needing to log everything.
 
+Simple recovery model is ok for dev, not for prod.
 
 
 

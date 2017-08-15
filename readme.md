@@ -84,7 +84,7 @@ Though this site is published as a free book, there is another book, a real book
  | [npm](npm/01_summary.md) | 7 articles |
  | [nuget](nuget/01_summary.md) | 1 article |
  | [office](office/01_summary.md) | 1 article |
- | [oracle](oracle/01_summary.md) | 4 articles |
+ | [oracle](oracle/01_summary.md) | 5 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [powershell](powershell/01_summary.md) | 57 articles |
  | [python](python/01_summary.md) | 8 articles |
@@ -95,7 +95,7 @@ Though this site is published as a free book, there is another book, a real book
  | [sharepoint](sharepoint/01_summary.md) | 1 article |
  | [smallbasic](smallbasic/01_summary.md) | 1 article |
  | [speech](speech/01_summary.md) | 1 article |
- | [sql server](sql_server/01_summary.md) | 30 articles |
+ | [sql server](sql_server/01_summary.md) | 32 articles |
  | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 2 articles |
  | [sql spatial](sql_spatial/01_summary.md) | 2 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
@@ -109,5 +109,5 @@ Though this site is published as a free book, there is another book, a real book
  | [wordpress](wordpress/01_summary.md) | 1 article |
 
 
-344 articles
-72342 words
+347 articles
+72533 words
