@@ -22,14 +22,15 @@ Currently something like....
 	
 	    #Consider: asa asax ascx ashx asmx asp aspq aspx cfg cfm class config cs cshtm cshtml css csv dbml htaccess htm html ini inc install js log master module mxml php phps pl py readme restext resx script settings sitemap skin sql svc text txt vb vbhtm vbhtml vbs xaml xml xoml xsd xsl xslt
 	
-	    $path = get-location
+	    # $path = get-location
+		$path = (get-location | % { $_.ProviderPath })
 	
 	    $ErrorActionPreference = "SilentlyContinue"
 	    #TODO: improve the way the error handling is performed, so we ONLY jump to the trap if the regex was invalid
 	    get-childitem -Path * -Include $fileTypes -Exclude .hg,*jquery*,modernizr* -Recurse |
 	        ? { $_.DirectoryName -notmatch "_book" } |
 	        select-string -pattern $pattern |
-	        format-table -property @{Expression={$_.Path.SubString($path.Path.Length+1)};Label="Location"},
+	        format-table -property @{Expression={$_.Path.SubString($path.Length+1)};Label="Location"},
 	            @{Expression={$_.LineNumber};Label="Line"},
 	            @{Expression={$_.Line};Label="Match"} -auto
 	
@@ -41,7 +42,7 @@ Currently something like....
 	        get-childitem -Path * -Include $fileTypes -Exclude .hg,*jquery*,modernizr* -Recurse |
 	            ? { $_.DirectoryName -notmatch "_book" } |
 	            select-string -pattern $pattern -SimpleMatch |
-	            ft -property @{Expression={$_.Path.SubString($path.Path.Length+1)};Label="Location"},
+	            ft -property @{Expression={$_.Path.SubString($path.Length+1)};Label="Location"},
 	                @{Expression={$_.LineNumber};Label="Line"},
 	                @{Expression={$_.Line};Label="Match"} -auto
 	    }
@@ -59,12 +60,13 @@ Currently something like....
 	
 	    #Consider: asa asax ascx ashx asmx asp aspq aspx cfg cfm class config cs cshtm cshtml css csv dbml htaccess htm html ini inc install js log master module mxml php phps pl py readme restext resx script settings sitemap skin sql svc text txt vb vbhtm vbhtml vbs xaml xml xoml xsd xsl xslt
 	
-	    $path = get-location
-	
+	    # $path = get-location
+		$path = (get-location | % { $_.ProviderPath })
+		
 		get-childitem -Path * -Include $fileTypes -Exclude .hg,*jquery*,modernizr* -Recurse |
 			? { $_.DirectoryName -notmatch "_book" } |
 			select-string -pattern $pattern -SimpleMatch |
-			ft -property @{Expression={$_.Path.SubString($path.Path.Length+1)};Label="Location"},
+			ft -property @{Expression={$_.Path.SubString($path.Length+1)};Label="Location"},
 				@{Expression={$_.LineNumber};Label="Line"},
 				@{Expression={$_.Line};Label="Match"} -auto
 	

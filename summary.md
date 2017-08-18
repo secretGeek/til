@@ -129,6 +129,7 @@
 * [jekyll](/jekyll/01_summary.md)
 	* [getting started on windows](/jekyll/getting_started_on_windows.md)
 * [jquery](/jquery/01_summary.md)
+	* [adhoc webscraping with jquery](/jquery/adhoc_webscraping_with_jquery.md)
 	* [datatables alert](/jquery/datatables_alert.md)
 	* [textarea keypress](/jquery/textarea_keypress.md)
 * [linqpad](/linqpad/01_summary.md)
