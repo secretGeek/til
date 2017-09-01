@@ -330,6 +330,7 @@
 	* [collation find change compare](/sql_server/collation_find_change_compare.md)
 	* [create schema specific role](/sql_server/create_schema_specific_role.md)
 	* [datetime trim hours milliseconds](/sql_server/datetime_trim_hours_milliseconds.md)
+	* [delete backup files](/sql_server/delete_backup_files.md)
 	* [delete duplicate rows](/sql_server/delete_duplicate_rows.md)
 	* [delete millions of rows](/sql_server/delete_millions_of_rows.md)
 	* [drive sizes](/sql_server/drive_sizes.md)

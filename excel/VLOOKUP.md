@@ -32,4 +32,4 @@ And also -- I am usually referencing something on a different sheet... so to do 
 
 
 
-    =IFERROR(VLOOKUP(D4,Sheet1!B3:F2000,2,FALSE),"")
+    =IFERROR(VLOOKUP(D4,Sheet1!$B3:$F2000,2,FALSE),"")

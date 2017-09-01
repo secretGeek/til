@@ -6,6 +6,7 @@
 * [collation find change compare](collation_find_change_compare.md)
 * [create schema specific role](create_schema_specific_role.md)
 * [datetime trim hours milliseconds](datetime_trim_hours_milliseconds.md)
+* [delete backup files](delete_backup_files.md)
 * [delete duplicate rows](delete_duplicate_rows.md)
 * [delete millions of rows](delete_millions_of_rows.md)
 * [drive sizes](drive_sizes.md)

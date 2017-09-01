@@ -95,7 +95,7 @@ Though this site is published as a free book, there is another book, a real book
  | [sharepoint](sharepoint/01_summary.md) | 1 article |
  | [smallbasic](smallbasic/01_summary.md) | 1 article |
  | [speech](speech/01_summary.md) | 1 article |
- | [sql server](sql_server/01_summary.md) | 32 articles |
+ | [sql server](sql_server/01_summary.md) | 33 articles |
  | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 2 articles |
  | [sql spatial](sql_spatial/01_summary.md) | 2 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
@@ -109,5 +109,5 @@ Though this site is published as a free book, there is another book, a real book
  | [wordpress](wordpress/01_summary.md) | 1 article |
 
 
-348 articles
-72893 words
+349 articles
+73208 words
