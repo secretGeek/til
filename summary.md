@@ -254,6 +254,7 @@
 	* [diff between two dates](/powershell/diff_between_two_dates.md)
 	* [dumb or fun ideas](/powershell/dumb_or_fun_ideas.md)
 	* [emoji list](/powershell/emoji_list.md)
+	* [find all fonts](/powershell/find_all_fonts.md)
 	* [find text](/powershell/find_text.md)
 	* [find todos](/powershell/find_todos.md)
 	* [format table with expressions](/powershell/format_table_with_expressions.md)

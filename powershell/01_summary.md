@@ -15,6 +15,7 @@
 * [diff between two dates](diff_between_two_dates.md)
 * [dumb or fun ideas](dumb_or_fun_ideas.md)
 * [emoji list](emoji_list.md)
+* [find all fonts](find_all_fonts.md)
 * [find text](find_text.md)
 * [find todos](find_todos.md)
 * [format table with expressions](format_table_with_expressions.md)
