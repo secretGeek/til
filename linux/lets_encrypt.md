@@ -1,6 +1,5 @@
 # How To Secure Nginx with Let's Encrypt on Ubuntu 16.04
 
-
  
     sudo apt-get update
     sudo apt-get install letsencrypt

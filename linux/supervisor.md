@@ -39,7 +39,6 @@ Or the last 20 lines of your app's standard (non error) output...
 
     $ sudo tail -n 20 -f /var/log/helloworld.out.log
 
-
 To restart supervisor after you've given it some new configuration:
 
         service supervisor stop

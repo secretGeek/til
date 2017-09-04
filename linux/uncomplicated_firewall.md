@@ -59,5 +59,29 @@ Considerations for later...
 >   sudo ufw allow 443
 
 
+Simpler one is:
+
+
+	sudo ufw allow 'Nginx HTTP'
+
+Or, for http and https:
+
+	sudo ufw allow 'Nginx Full'
+
+You can remove those you've already allowed with, for example:
+
+	sudo ufw delete allow 80/tcp
+
+^^ because that's superceded by 'Nginx HTTP' profile
+
+	sudo ufw delete allow 'Nginx HTTP'
+
+^^ because that's superceded by 'Nginx Full' (which allow both http and https)
+
+Might also want to allow 'OpenSSH' something like sudo ufw allow 'OpenSSH' but i'm not sure so I'd stick with
+
+	sudo ufw allow 22/tcp
+
+For now.
 
  * <https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-14-04>
