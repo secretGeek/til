@@ -2,7 +2,6 @@
 
 cron runs commands periodically.
 
-//TODO: more about crontab and about logs/failures from cron and notation
 
 ## cron expressions
 
@@ -21,21 +20,21 @@ A cron expression has five parts....
 
 
 
-	* * * * * ls		# Every minute
-	*/2 * * * * ls		# Even minutes
-	1-59/2 * * * * ls 	# Odd minutes
-	*/5 * * * * ls		# Every 5 minutes
-	*/15 * * * * ls		# Every 15 minutes
-	22 * * * * ls		# 22 minutes past the hour every hour...
+    * * * * * ls         # Every  minute
+    */2 * * * * ls       # Even minutes
+    1-59/2 * * * * ls    # Odd minutes
+    */5 * * * * ls       # Every 5 minutes
+    */15 * * * * ls      # Every 15 minutes
+    22 * * * * ls        # 22 minutes past the hour every hour...
 
-	0 * * * * ls		# Every hour On the hour
-	0 */2 * * * ls		# Even hours, on the hour
-	0 1-23/2 * * * ls	# Odd hours on the hour
-	0 */6 * * * ls		# Every 6 hours
-	0 3 * * * ls		# At 3 AM (every day)...
-	0 0 * * * ls		# Every day at midnight
-	0 0 */2 * * ls		# EVEN days at midnight
-	0 0 */5 * * ls		# Every 5 days
+    0 * * * * ls         # Every hour On the hour
+    0 */2 * * * ls       # Even hours, on the hour
+    0 1-23/2 * * * ls    # Odd hours on the hour
+    0 */6 * * * ls       # Every 6 hours
+    0 3 * * * ls         # At 3 AM (every day)...
+    0 0 * * * ls         # Every day at midnight
+    0 0 */2 * * ls       # EVEN days at midnight
+    0 0 */5 * * ls       # Every 5 days
 
 ## crontab
 
@@ -59,6 +58,14 @@ If you've never used crontab before, then the first time you run it it will ask 
 If you're a BASIC like me then choose `nano`
 
 Next it will open `nano` with your empty crontab file (empty apart from explanatory comments)...
+
+Add your cronexpression at the bottom of the file.
+
+
+## check cron logs....
+
+
+	sudo grep CRON /var/log/syslog
 
 
 ## references
