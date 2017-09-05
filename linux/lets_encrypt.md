@@ -7,7 +7,7 @@ Pre-requisite: Nginx is installed and websites are already configured and runnin
 Let's Encrypt provide a tool called `certbot` which you need to get.
 
 (Some older instructions call this the letsencrypt tool, and other even older instructions sayyou need to get the source code of the tool)
- 
+
 	sudo add-apt-repository ppa:certbot/certbot
 	sudo apt-get update
 	sudo apt-get install python-certbot-nginx
@@ -111,7 +111,7 @@ In words:
 
 1. First you have to enter a contact email address.
 2. Next you have to agree to [these terms (pdf)](https://letsencrypt.org/documents/LE-SA-v1.1.1-August-1-2016.pdf)
-3. Answer yes or no to sharing your email address with EFF 
+3. Answer yes or no to sharing your email address with EFF
 4. Choose whether to redirect all non-https traffic to https (more details below)
 
 
@@ -142,9 +142,9 @@ It adds this *AFTER* everything else INSIDE the server block....
 
 If you want to allow redirect of non-https to https, just add this next (still inside the server block)
 
-   if ($scheme != "https") {                    
-       return 301 https://$host$request_uri;    
-   } # managed by Certbot                       
+   if ($scheme != "https") {
+       return 301 https://$host$request_uri;
+   } # managed by Certbot
 
 After changing nginx config -- test it is ok with:
 
@@ -182,7 +182,7 @@ If you've never used crontab before, then the first time you run it it will ask 
 	  3. /usr/bin/vim.basic
 	  4. /usr/bin/vim.tiny
 
-	Choose 1-4 [2]: 2	
+	Choose 1-4 [2]: 2
 
 If you're a BASIC like me then choose `nano`
 
@@ -207,7 +207,7 @@ The output will be like this (people said it would take a while but it was done 
 
 	Generating DH parameters, 2048 bit long safe prime, generator 2
 	This is going to take a long time
-	..........................................+.........................................................................................................................................................................+..........+..++*++*	
+	..........................................+.........................................................................................................................................................................+..........+..++*++*
 
 
 In each of your nginx config files that contain a server block, add this line:
@@ -224,7 +224,7 @@ Test and reload the config once more with:
 
 Test your score at (using your own domain name instead of example.com....) :
 
-	https://www.ssllabs.com/ssltest/analyze.html?d=example.com&latest	
+	https://www.ssllabs.com/ssltest/analyze.html?d=example.com&latest
 
 (Maybe need to hit 'clear cache')
 
