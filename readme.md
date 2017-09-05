@@ -71,7 +71,7 @@ Though this site is published as a free book, there is another book, a real book
  | [jekyll](jekyll/01_summary.md) | 1 article |
  | [jquery](jquery/01_summary.md) | 3 articles |
  | [linqpad](linqpad/01_summary.md) | 8 articles |
- | [linux](linux/01_summary.md) | 24 articles |
+ | [linux](linux/01_summary.md) | 25 articles |
  | [macbook air](macbook_air/01_summary.md) | 4 articles |
  | [markdown](markdown/01_summary.md) | 3 articles |
  | [math](math/01_summary.md) | 2 articles |
@@ -109,5 +109,5 @@ Though this site is published as a free book, there is another book, a real book
  | [wordpress](wordpress/01_summary.md) | 1 article |
 
 
-350 articles
-73378 words
+351 articles
+74538 words

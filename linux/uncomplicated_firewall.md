@@ -39,7 +39,7 @@ And for extra info you can try:
 
 
 And to see which apps are registered with ufw...
-    
+
     $ sudo ufw app list
     Available applications:
       Nginx Full
@@ -83,5 +83,19 @@ Might also want to allow 'OpenSSH' something like sudo ufw allow 'OpenSSH' but i
 	sudo ufw allow 22/tcp
 
 For now.
+
+Although, checking what application lists are avaible with:
+
+	sudo ufw app list
+
+I see:
+
+  Nginx Full
+  Nginx HTTP
+  Nginx HTTPS
+  OpenSSH
+
+So I expect if i do `sudo ufw allow 'OpenSSH'` then i would be able to delete 22/tcp and still use ssh.
+
 
  * <https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-14-04>

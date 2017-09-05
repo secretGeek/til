@@ -8,6 +8,7 @@
 * [bin contents](bin_contents.md)
 * [chmod file permissions](chmod_file_permissions.md)
 * [count files recursively](count_files_recursively.md)
+* [cron](cron.md)
 * [digital ocean](digital_ocean.md)
 * [get processes list processes](get_processes_list_processes.md)
 * [how much memory is free](how_much_memory_is_free.md)

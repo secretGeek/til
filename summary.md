@@ -148,6 +148,7 @@
 	* [bin contents](/linux/bin_contents.md)
 	* [chmod file permissions](/linux/chmod_file_permissions.md)
 	* [count files recursively](/linux/count_files_recursively.md)
+	* [cron](/linux/cron.md)
 	* [digital ocean](/linux/digital_ocean.md)
 	* [get processes list processes](/linux/get_processes_list_processes.md)
 	* [how much memory is free](/linux/how_much_memory_is_free.md)
