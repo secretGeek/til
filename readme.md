@@ -45,7 +45,7 @@ Though this site is published as a free book, there is another book, a real book
 
 |Topic|# Articles|
 |-----|----------|
-| [.net](.net/01_summary.md) | 4 articles |
+| [.net](.net/01_summary.md) | 5 articles |
  | [.net core MVC](.net_core_MVC/01_summary.md) | 12 articles |
  | [appharbor](appharbor/01_summary.md) | 1 article |
  | [asp.net mvc](asp.net_mvc/01_summary.md) | 10 articles |
@@ -104,10 +104,10 @@ Though this site is published as a free book, there is another book, a real book
  | [virtual box](virtual_box/01_summary.md) | 2 articles |
  | [visual studio](visual_studio/01_summary.md) | 6 articles |
  | [vs code](vs_code/01_summary.md) | 4 articles |
- | [windows](windows/01_summary.md) | 13 articles |
+ | [windows](windows/01_summary.md) | 14 articles |
  | [windows.forms](windows.forms/01_summary.md) | 4 articles |
  | [wordpress](wordpress/01_summary.md) | 1 article |
 
 
-351 articles
-74893 words
+353 articles
+75092 words

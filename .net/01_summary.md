@@ -6,3 +6,4 @@
 * [load datatable](load_datatable.md)
 * [override equals](override_equals.md)
 * [parse exact](parse_exact.md)
+* [zipfile](zipfile.md)

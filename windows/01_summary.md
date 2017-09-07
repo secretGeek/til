@@ -10,6 +10,7 @@
 * [notepad log file](notepad_log_file.md)
 * [program associated](program_associated.md)
 * [Remove Stored Credentials](Remove_Stored_Credentials.md)
+* [remove unreachable recyclebin crap](remove_unreachable_recyclebin_crap.md)
 * [screenshot with mouse cursor](screenshot_with_mouse_cursor.md)
 * [shutdown](shutdown.md)
 * [when does password expire](when_does_password_expire.md)
