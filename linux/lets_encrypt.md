@@ -135,16 +135,16 @@ First let's look at what is added to the site's nginx file if you answer NO (opt
 
 It adds this *AFTER* everything else INSIDE the server block....
 
-	    listen 443 ssl; # managed by Certbot
-		ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem; # managed by Certbot
-		ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.pem; # managed by Certbot
-		include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+	listen 443 ssl; # managed by Certbot
+	ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem; # managed by Certbot
+	ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.pem; # managed by Certbot
+	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
 
 If you want to allow redirect of non-https to https, just add this next (still inside the server block)
 
-   if ($scheme != "https") {
-       return 301 https://$host$request_uri;
-   } # managed by Certbot
+	if ($scheme != "https") {
+	   return 301 https://$host$request_uri;
+	} # managed by Certbot
 
 After changing nginx config -- test it is ok with:
 
