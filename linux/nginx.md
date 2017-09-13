@@ -2,7 +2,7 @@
 
 nginx overtook apache as the most popular webserver in the world.
 
-what i use it for is as an internet facing webserver that acts as a 'reverse proxy' for my web apps (which themselves run kestrel, a lightweight webserver, that isn't robust enough to withstand the open internet)
+what i use it for is as an internet facing webserver that acts as a 'reverse proxy' for my web apps (which themselves run `kestrel`, a lightweight webserver, that isn't robust enough to withstand the open internet)
 
 install via `apt-get`
 
@@ -58,15 +58,27 @@ And update it to something like...
 Now -- we need to create a symbolic link from your newly added file in the sites-available directory to the sites-enabled directory
 
     sudo ln -s /etc/nginx/sites-available/yourdomain.com /etc/nginx/sites-enabled/
+	sudo ln -s /etc/nginx/sites-available/nimbletext.com /etc/nginx/sites-enabled/
 
 to test if your changes are valid...
 
     sudo nginx -t
 
-Sometimes it says the edits you made were indeed horrible...
+Sometimes it says the edits you made were indeed horrible, e.g..
 
     nginx: [emerg] unexpected "}" in /etc/nginx/sites-enabled/yourdomain.com:86
     nginx: configuration file /etc/nginx/nginx.conf test failed
+
+(I had an extra "}")
+	
+And another example:
+
+	$ sudo nginx -t
+	nginx: [warn] conflicting server name "codesmackdown.com" on 0.0.0.0:80, ignored
+	nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+	nginx: configuration file /etc/nginx/nginx.conf test is successful	
+
+(I had two config files that both wanted to be handlers for the `codesmackdown.com` `server_name` ...)	
 
 In which case you need to edit the file and fix it. Then `sudo nginx -t` again to see if the changes are now valid.
 

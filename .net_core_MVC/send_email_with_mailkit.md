@@ -1,6 +1,6 @@
 # To send email with .net core, use Mailkit
 
-.net core doesn't include the same email sending stuff, so you need to install 3rd party packages, such as [Mailkit](https://github.com/jstedfast/MailKit) (add it via nuget).
+.net core (1.0) doesn't include the same email sending stuff, so you need to install 3rd party packages, such as [Mailkit](https://github.com/jstedfast/MailKit) (add it via nuget).
 
 You also cannot currently use OAuth2 for this. (Discussion much lower down)
 
