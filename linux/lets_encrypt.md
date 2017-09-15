@@ -163,7 +163,7 @@ If you run this command manually it will renew your certificate (if it is less t
 
 	certbot renew --quiet
 
-But *don't* reneew them manually. They expire every 3 months, so you absolutely must automate their renewal.
+But *don't* renew them manually. They expire every 3 months, so you absolutely must automate their renewal.
 
 So you can use `cron` to run it automatically.
 

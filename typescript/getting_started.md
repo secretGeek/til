@@ -128,12 +128,12 @@ But why not spruce it up a bit by adding something like this...
 
 Choices under 'target' are currently:
 
-    * ES3 (default)
-    * ES5
-    * ES6/ES2015
-    * ES2016
-    * ES2017
-    * ESNext
+* ES3 (default)
+* ES5
+* ES6/ES2015
+* ES2016
+* ES2017
+* ESNext
 
 Knowing what these mysterious things mean is part of the magic of being a web developer in 2017. Know one knows the whole path around the elephant.
 

@@ -330,6 +330,7 @@
 	* [copy voices](/speech/copy_voices.md)
 * [sql server](/sql_server/01_summary.md)
 	* [backup restore script](/sql_server/backup_restore_script.md)
+	* [bulk comparison with hashbytes](/sql_server/bulk_comparison_with_hashbytes.md)
 	* [collation find change compare](/sql_server/collation_find_change_compare.md)
 	* [create schema specific role](/sql_server/create_schema_specific_role.md)
 	* [datetime trim hours milliseconds](/sql_server/datetime_trim_hours_milliseconds.md)

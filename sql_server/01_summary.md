@@ -3,6 +3,7 @@
 ### chapter contents
  
 * [backup restore script](backup_restore_script.md)
+* [bulk comparison with hashbytes](bulk_comparison_with_hashbytes.md)
 * [collation find change compare](collation_find_change_compare.md)
 * [create schema specific role](create_schema_specific_role.md)
 * [datetime trim hours milliseconds](datetime_trim_hours_milliseconds.md)
