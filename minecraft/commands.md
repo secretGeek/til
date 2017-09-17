@@ -17,8 +17,17 @@ Make sure that if you die you don't lose your inventory with:
 
 	/gamerule keepInventory true
 
-	
-	
-/cannon
+	/cannon
 
 ...launches TNT where you are pointing.
+
+
+# Teleport
+
+	/tp ~ ~ ~
+
+^^ This returns your current location
+
+	/tp x y z
+
+(Where x y and z are values) will take you somewhere.
