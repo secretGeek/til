@@ -78,6 +78,11 @@ Which resulted in:
 The linear history I was after.
 
     
+	
+To see neat `log` (to help with deciding `-s` and `-d`) use:
+
+
+	hg log --template "{rev}: {desc} {author}\n" -l 10
 
 ## Source
 

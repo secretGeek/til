@@ -9,4 +9,5 @@
 * [dead mans switch](dead_mans_switch.md)
 * [google analytics add new site](google_analytics_add_new_site.md)
 * [largest files in gmail](largest_files_in_gmail.md)
+* [post to google sheets](post_to_google_sheets.md)
 * [search by file extension](search_by_file_extension.md)

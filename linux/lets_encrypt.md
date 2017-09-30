@@ -224,7 +224,7 @@ Test and reload the config once more with:
 
 Test your score at (using your own domain name instead of example.com....) :
 
-	https://www.ssllabs.com/ssltest/analyze.html?d=example.com&latest
+	https://www.ssllabs.com/ssltest/analyze.html?d=yourfirstproduct.com&latest
 
 (Maybe need to hit 'clear cache')
 

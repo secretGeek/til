@@ -61,7 +61,7 @@ Though this site is published as a free book, there is another book, a real book
  | [git](git/01_summary.md) | 9 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
  | [gmail](gmail/01_summary.md) | 1 article |
- | [google](google/01_summary.md) | 8 articles |
+ | [google](google/01_summary.md) | 9 articles |
  | [graphics](graphics/01_summary.md) | 7 articles |
  | [gulp](gulp/01_summary.md) | 1 article |
  | [html](html/01_summary.md) | 1 article |
@@ -79,6 +79,7 @@ Though this site is published as a free book, there is another book, a real book
  | [mercurial](mercurial/01_summary.md) | 14 articles |
  | [minecraft](minecraft/01_summary.md) | 3 articles |
  | [music](music/01_summary.md) | 8 articles |
+ | [nimbletext](nimbletext/01_summary.md) | 1 article |
  | [node](node/01_summary.md) | 1 article |
  | [notepad++](notepad++/01_summary.md) | 8 articles |
  | [npm](npm/01_summary.md) | 7 articles |
@@ -110,5 +111,5 @@ Though this site is published as a free book, there is another book, a real book
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-356 articles
-76397 words
+358 articles
+76542 words

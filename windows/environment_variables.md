@@ -11,7 +11,7 @@
             * Note that those in the "user variables" section also exist in the System variables -- so think carefully about which one you mean.
 
 * From Windows, method 2
-
+ex
     * `[Windows`]`[R`] to bring up the run dialog and type `sysdm.cpl`
 
 * From Windows, method 3
