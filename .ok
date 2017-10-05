@@ -1,0 +1,2 @@
+.\quick.ps1; .\deploy.ps1; set-clipboard 'deploy "'
+.\build.ps1

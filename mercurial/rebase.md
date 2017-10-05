@@ -12,11 +12,17 @@ And in the `[extensions]` section, write:
 	rebase =
 
 
-Confirm you have the rebase extension installed by typing:
+If you *don't* have the extension, then running a rebase, e.g. `hg rebase -s 745 -d 775`, will result in:
+
+	hg: unknown command 'rebase'
+	(did you mean one of qrename, rename, resolve?)	
+	
+
+Once you've enabled it, confirm you have the rebase extension installed by typing:
 
 	hg help extensions
 
-And at that bottom of that output you should see:
+In that bottom of that output you should see somethign like:
 
     enabled extensions:
 
@@ -24,7 +30,7 @@ And at that bottom of that output you should see:
      extdiff       command to allow external programs to compare revisions
      fetch         pull, update and merge in one command (DEPRECATED)
      mq            manage a stack of patches
-     rebase        command to move sets of revisions to a different ancestor
+     rebase        command to move sets of revisions to a different ancestor **********
 
 
 ## Using rebase

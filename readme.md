@@ -56,6 +56,7 @@ Though this site is published as a free book, there is another book, a real book
  | [console](console/01_summary.md) | 5 articles |
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article |
  | [css](css/01_summary.md) | 2 articles |
+ | [design](design/01_summary.md) | 1 article |
  | [electron](electron/01_summary.md) | 2 articles |
  | [excel](excel/01_summary.md) | 3 articles |
  | [git](git/01_summary.md) | 9 articles |
@@ -87,7 +88,7 @@ Though this site is published as a free book, there is another book, a real book
  | [office](office/01_summary.md) | 1 article |
  | [oracle](oracle/01_summary.md) | 5 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
- | [powershell](powershell/01_summary.md) | 58 articles |
+ | [powershell](powershell/01_summary.md) | 59 articles |
  | [python](python/01_summary.md) | 8 articles |
  | [react](react/01_summary.md) | 2 articles |
  | [redis](redis/01_summary.md) | 2 articles |
@@ -111,5 +112,5 @@ Though this site is published as a free book, there is another book, a real book
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-358 articles
-76542 words
+360 articles
+76728 words
