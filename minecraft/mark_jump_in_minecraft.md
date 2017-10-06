@@ -8,9 +8,9 @@ I wanted to take it a step further and implement a full "Mark-Jump" setup.
 
 ## What is mark jump?
 
-I navigate around my windows PC by using a Powershell utility called MarkJump. It's super helpful.
+I navigate around my windows PC by using a Powershell utility called [MarkJump](https://github.com/secretGeek/markjump/blob/master/markjump.ps1). It's super helpful.
 
-I use Jump command to go to a well known location. I use the Mark command to mark my current location as a well known location. And the Marks command to list all well known locations.
+I use `Jump` command to go to a well-known location. I use the `Mark` command to mark my current location as a well-known location. And the `Marks` command to list all well-known locations.
 
 ## Mark-Jump in Python for Minecraft
 
@@ -98,3 +98,8 @@ Four files:
 	#todo: write the file now...
 
 
+## See also
+
+ * [markjump in powershell](https://github.com/secretGeek/markjump)
+ * [CRUMBS! Commandline navigation tool for Powershell](http://www.secretgeek.net/crumbs)
+ 
