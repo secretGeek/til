@@ -1,5 +1,6 @@
 # Format DateTime as yyyy-MM-dd
 
+You want ISO8601 formats in SQL Server, here you go.
 
 For `yyyy-MM-dd` :
 
