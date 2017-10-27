@@ -118,7 +118,8 @@ i.e.
 
     @reboot /usr/bin/supervisord -n -c /etc/supervisor/supervisord.conf 2>&1
     
-But I need to add that to my cron jobs using crontab.
+
+Add that to your cron jobs using crontab (described in [cron](cron.md)).
 
 
 ## Sources

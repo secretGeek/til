@@ -14,7 +14,7 @@ To reboot a server from the command line, run:
     sudo shutdown -r now
 
 
-That ^^ is the preferred method, over the more obvious:
+That ^^ is allegedly the preferred method, over the more obvious:
     
     sudo reboot
 
@@ -31,11 +31,11 @@ So I use:
 
 After a reboot I found I had to restart some of my systems.
 
-To restart supervisor (on sg1 or sg2) I would currently need to use:
+To restart supervisor manually I previously needed to use:
 
 	service supervisor start
 
-TODO: Why doesn't it restart by itself? THat's a problem for another night
+But I now have my machines configured to restart the `supervisor` service automatically as described in [cron](cron.md)
     
 ## References
 

@@ -115,6 +115,43 @@ This is so that inside our application we'll be able to see the original IP Addr
 
     sudo tail -n 20 -f /var/log/nginx/access.log
 
+## gzip -- enable it!
+
+I get poor scores at google pagespeed insights: https://developers.google.com/speed/pagespeed/insights/?url=secretgeek.net&tab=desktop and at 
+tools.pingdom -- https://tools.pingdom.com/#!/cpJDXC/secretgeek.net
+
+
+...partly because I haven't enabled gzip compression.
+
+To enable it i edit the `/etc/nginx/nginx.conf` file and enable the gzip stuff (plus add a little more types to compress)
+
+Here's what I end up with:
+
+	##
+	# Gzip Settings
+	##
+
+	gzip on;
+	gzip_disable "msie6";
+
+	gzip_vary on;
+	gzip_proxied any;
+	gzip_comp_level 6;
+	gzip_buffers 16 8k;
+	gzip_http_version 1.1;
+	gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript application/vnd.ms-fontobject application/x-font-ttf font/opentype image/svg+xml image/x-icon;
+	gzip_min_length 256;
+	
+THen I check the conf file using good old:
+
+	sudo nginx -t
+	
+And reload the nginx service with good old:
+
+	sudo nginx -s reload	
+
+I re-run the pagespeed test and my scores are up by 3 points.
+	
 ## Source
 
  * <https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04>

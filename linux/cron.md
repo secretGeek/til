@@ -59,8 +59,12 @@ If you're a BASIC like me then choose `nano`
 
 Next it will open `nano` with your empty crontab file (empty apart from explanatory comments)...
 
-Add your cronexpression at the bottom of the file.
+Add your cronexpressions at the bottom of the file.
 
+e.g.
+
+	15 3 * * * /usr/bin/certbot renew --quiet
+	@reboot /usr/bin/supervisord -n -c /etc/supervisor/supervisord.conf 2>&1
 
 ## check cron logs....
 
