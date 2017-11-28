@@ -23,6 +23,7 @@
 * [Log Message During LongRunning Proc](Log_Message_During_LongRunning_Proc.md)
 * [mismatch between estimated and actual](mismatch_between_estimated_and_actual.md)
 * [outer apply](outer_apply.md)
+* [parse varchar into datetime](parse_varchar_into_datetime.md)
 * [pivot](pivot.md)
 * [run a command against each table](run_a_command_against_each_table.md)
 * [scalar function AfterChar](scalar_function_AfterChar.md)

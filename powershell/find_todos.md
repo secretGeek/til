@@ -18,12 +18,12 @@ Currently something like....
 	    }
 	    #TODO: ability to override included file types, override recurse
 	
-	    [string[]] $fileTypes = "*.md","*.fmw","*.txt","*.cs","*.cshtml","*.css","*.ps1","*.js","*.bat","*.vbs","*.vb","*.xml","*.config","*.htm","*.html","*.pre","*.ini","*.sql","*.linq","*.json","*.spark","*.ts","*.psm1","*.psd1","*.aspx","*.ascx","*.asp","*.asmx","*.pubxml","*.dgml","*.sln","*.*proj","*.spark","*.rdl","*.py","*.log"
+	    [string[]] $fileTypes = "*.md","*.fmw","*.txt","*.cs","*.cshtml","*.css","*.ps1","*.js","*.bat","*.vbs","*.vb","*.xml","*.config","*.htm","*.html","*.pre","*.ini","*.sql","*.linq","*.json","*.spark","*.ts","*.psm1","*.psd1","*.aspx","*.ascx","*.asp","*.asmx","*.pubxml","*.dgml","*.sln","*.*proj","*.spark","*.rdl","*.py","*.log","*.las"
 	
 	    #Consider: asa asax ascx ashx asmx asp aspq aspx cfg cfm class config cs cshtm cshtml css csv dbml htaccess htm html ini inc install js log master module mxml php phps pl py readme restext resx script settings sitemap skin sql svc text txt vb vbhtm vbhtml vbs xaml xml xoml xsd xsl xslt
 	
 	    # $path = get-location
-		$path = (get-location | % { $_.ProviderPath })
+	    $path = (get-location | % { $_.ProviderPath })
 	
 	    $ErrorActionPreference = "SilentlyContinue"
 	    #TODO: improve the way the error handling is performed, so we ONLY jump to the trap if the regex was invalid

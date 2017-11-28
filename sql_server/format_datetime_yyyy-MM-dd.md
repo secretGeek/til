@@ -33,3 +33,4 @@ To get milliseconds (and 24 hour time)
 
  * [SQL: just the date portion of a datetime](datetime_trim_hours_milliseconds.md)
  * [Excel: Extract Year/Month (for grouping/reporting)](../excel/extract_year_and_month_from_date_for_grouping_purposes.md)
+ * [Parse varchar into DateTime](parse_varchar_into_datetime.md)

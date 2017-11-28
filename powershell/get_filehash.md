@@ -1,17 +1,19 @@
 # Calculate sha256 filehash of a file
 
-PowerShell 4+ includes a built-in Get-FileHash commandlet that does this for you.
+PowerShell 4+ includes a built-in `Get-FileHash` commandlet that does this for you:
+
+	get-filehash "c:\temp\nimbleset.exe"
 
 But if you're stuck on PowerShell 2 because your corporate IT department take the "if it ain't broke don't fix it" approach to life, then this snippet will help you out
 
 
-Powershell code to calculate the sha256 hash of a file
+Powershell 2 code to calculate the sha256 hash of a file
 
 
 	$someFilePath = "c:\temp\nimbleset.exe"
-    $sha256 = New-Object -TypeName System.Security.Cryptography.SHA256CryptoServiceProvider
-    $hash = [System.BitConverter]::ToString($sha256.ComputeHash([System.IO.File]::ReadAllBytes($someFilePath))).Replace('-','')
-    $hash
+	$sha256 = New-Object -TypeName System.Security.Cryptography.SHA256CryptoServiceProvider
+	$hash = [System.BitConverter]::ToString($sha256.ComputeHash([System.IO.File]::ReadAllBytes($someFilePath))).Replace('-','')
+	$hash
 
 
 Or to calculate the md5 hash (often used as a checksum)
@@ -35,18 +37,20 @@ Or for MD5...
 
 ## Large files?
 
-Although the above worked fine for my use case, comments from stackoverflow show how it can be done without loading the whole file at once, with the use of streams (and they also point out you need to close the stream.
+Although the above worked fine for my use case, comments from stackoverflow show how it can be done without loading the whole file at once, with the use of streams (and they also point out you need to close the stream)
 
 
-	$stream = [System.IO.File]::Open("$someFilePath",[System.IO.Filemode]::Open, [System.IO.FileAccess]::Read)
-	$hash2 = [System.BitConverter]::ToString($sha256.ComputeHash($stream)).Replace('-','')
-	$stream.Close()
-	$hash2
+	$someFilePath = "c:\temp\nimbleset.exe"
+	$sha256 = New-Object -TypeName System.Security.Cryptography.SHA256CryptoServiceProvider;
+	$stream = [System.IO.File]::Open($someFilePath, [System.IO.Filemode]::Open, [System.IO.FileAccess]::Read);
+	$hash2 = [System.BitConverter]::ToString($sha256.ComputeHash($stream)).Replace('-','');
+	$stream.Close();
+	$hash2;
 
 
 ## Use the hash to check VirusTotal
 
-And why are we doing this? To check VirusTotal....
+And why are we doing this? To check VirusTotal for example:
 
 
 	$url = "https://www.virustotal.com/en/file/$hash/analysis"
@@ -56,3 +60,4 @@ And why are we doing this? To check VirusTotal....
 ## Source
 
  * [How to get an MD5 checksum in PowerShell](http://stackoverflow.com/questions/10521061/how-to-get-an-md5-checksum-in-powershell)
+ 

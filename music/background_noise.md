@@ -8,5 +8,5 @@ This site -- [noise machines](https://mynoise.net/noiseMachines.php) is extremel
 
 White noise is particularly helpful to "camouflage the annoyance caused by tinnitus, a ringing in the ear occurring without any stimulus."
 
-These background sounds are also helpful for tuning out the inane chatter and bustle of coworkers or the monotonous drone of your own extistential dread.
+These background sounds are also helpful for tuning out the inane chatter and bustle of coworkers or the monotonous drone of your own existential dread.
 
