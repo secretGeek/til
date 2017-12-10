@@ -1,2 +1,3 @@
 .\quick.ps1; .\deploy.ps1; set-clipboard '.\deploy.ps1 "'; get-clipboard
 .\build.ps1
+n _book\index.html

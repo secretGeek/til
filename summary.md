@@ -108,6 +108,7 @@
 	* [search by file extension](/google/search_by_file_extension.md)
 * [graphics](/graphics/01_summary.md)
 	* [ascii fonts](/graphics/ascii_fonts.md)
+	* [bulk resize images with image magick](/graphics/bulk_resize_images_with_image_magick.md)
 	* [flowcharts](/graphics/flowcharts.md)
 	* [icon edit online](/graphics/icon_edit_online.md)
 	* [paint.net layers](/graphics/paint.net_layers.md)

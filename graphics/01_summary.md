@@ -3,6 +3,7 @@
 ### chapter contents
  
 * [ascii fonts](ascii_fonts.md)
+* [bulk resize images with image magick](bulk_resize_images_with_image_magick.md)
 * [flowcharts](flowcharts.md)
 * [icon edit online](icon_edit_online.md)
 * [paint.net layers](paint.net_layers.md)

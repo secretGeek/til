@@ -63,7 +63,7 @@ Though this site is published as a free book, there is another book, a real book
  | [gitbook](gitbook/01_summary.md) | 7 articles |
  | [gmail](gmail/01_summary.md) | 1 article |
  | [google](google/01_summary.md) | 9 articles |
- | [graphics](graphics/01_summary.md) | 7 articles |
+ | [graphics](graphics/01_summary.md) | 8 articles |
  | [gulp](gulp/01_summary.md) | 1 article |
  | [html](html/01_summary.md) | 1 article |
  | [iis](iis/01_summary.md) | 2 articles |
@@ -112,5 +112,5 @@ Though this site is published as a free book, there is another book, a real book
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-364 articles
-77487 words
+365 articles
+77573 words
