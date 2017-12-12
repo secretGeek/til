@@ -98,6 +98,7 @@
 	* [keyboard shortcuts](/gmail/keyboard_shortcuts.md)
 * [google](/google/01_summary.md)
 	* [chrome before flight](/google/chrome_before_flight.md)
+	* [chrome design mode](/google/chrome_design_mode.md)
 	* [chrome reader mode](/google/chrome_reader_mode.md)
 	* [chrome reopen closed tabs](/google/chrome_reopen_closed_tabs.md)
 	* [customsearch api](/google/customsearch_api.md)
