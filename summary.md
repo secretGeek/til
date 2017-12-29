@@ -262,6 +262,7 @@
 	* [custom objects](/powershell/custom_objects.md)
 	* [diff between two dates](/powershell/diff_between_two_dates.md)
 	* [dumb or fun ideas](/powershell/dumb_or_fun_ideas.md)
+	* [elevate](/powershell/elevate.md)
 	* [emoji list](/powershell/emoji_list.md)
 	* [find all fonts](/powershell/find_all_fonts.md)
 	* [find text](/powershell/find_text.md)

@@ -14,6 +14,7 @@
 * [custom objects](custom_objects.md)
 * [diff between two dates](diff_between_two_dates.md)
 * [dumb or fun ideas](dumb_or_fun_ideas.md)
+* [elevate](elevate.md)
 * [emoji list](emoji_list.md)
 * [find all fonts](find_all_fonts.md)
 * [find text](find_text.md)
