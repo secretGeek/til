@@ -153,6 +153,7 @@
 	* [bg fg background and foreground](/linux/bg_fg_background_and_foreground.md)
 	* [bin contents](/linux/bin_contents.md)
 	* [chmod file permissions](/linux/chmod_file_permissions.md)
+	* [colored output with bash](/linux/colored_output_with_bash.md)
 	* [count files recursively](/linux/count_files_recursively.md)
 	* [cron](/linux/cron.md)
 	* [digital ocean](/linux/digital_ocean.md)

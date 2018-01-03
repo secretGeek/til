@@ -7,6 +7,7 @@
 * [bg fg background and foreground](bg_fg_background_and_foreground.md)
 * [bin contents](bin_contents.md)
 * [chmod file permissions](chmod_file_permissions.md)
+* [colored output with bash](colored_output_with_bash.md)
 * [count files recursively](count_files_recursively.md)
 * [cron](cron.md)
 * [digital ocean](digital_ocean.md)
