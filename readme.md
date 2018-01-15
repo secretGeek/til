@@ -72,7 +72,7 @@ Though this site is published as a free book, there is another book, a real book
  | [jekyll](jekyll/01_summary.md) | 1 article |
  | [jquery](jquery/01_summary.md) | 3 articles |
  | [linqpad](linqpad/01_summary.md) | 8 articles |
- | [linux](linux/01_summary.md) | 26 articles |
+ | [linux](linux/01_summary.md) | 27 articles |
  | [macbook air](macbook_air/01_summary.md) | 4 articles |
  | [markdown](markdown/01_summary.md) | 3 articles |
  | [math](math/01_summary.md) | 2 articles |
@@ -84,7 +84,7 @@ Though this site is published as a free book, there is another book, a real book
  | [node](node/01_summary.md) | 1 article |
  | [notepad++](notepad++/01_summary.md) | 8 articles |
  | [npm](npm/01_summary.md) | 7 articles |
- | [nuget](nuget/01_summary.md) | 1 article |
+ | [nuget](nuget/01_summary.md) | 2 articles |
  | [office](office/01_summary.md) | 1 article |
  | [oracle](oracle/01_summary.md) | 5 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
@@ -102,6 +102,7 @@ Though this site is published as a free book, there is another book, a real book
  | [sql spatial](sql_spatial/01_summary.md) | 2 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
  | [tools](tools/01_summary.md) | 3 articles |
+ | [tutorials](tutorials/01_summary.md) | 1 article |
  | [typescript](typescript/01_summary.md) | 1 article |
  | [virtual box](virtual_box/01_summary.md) | 2 articles |
  | [visual studio](visual_studio/01_summary.md) | 6 articles |
@@ -112,5 +113,5 @@ Though this site is published as a free book, there is another book, a real book
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-368 articles
-77879 words
+371 articles
+79768 words

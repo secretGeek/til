@@ -15,14 +15,14 @@ And in the `[extensions]` section, write:
 If you *don't* have the extension, then running a rebase, e.g. `hg rebase -s 745 -d 775`, will result in:
 
 	hg: unknown command 'rebase'
-	(did you mean one of qrename, rename, resolve?)	
-	
+	(did you mean one of qrename, rename, resolve?)
+
 
 Once you've enabled it, confirm you have the rebase extension installed by typing:
 
 	hg help extensions
 
-In that bottom of that output you should see somethign like:
+In the bottom of that output you should see something like:
 
     enabled extensions:
 
@@ -55,7 +55,7 @@ You won't use the literal letters "X" and "E". You'll use the revision numbers. 
 
 ![revnum](revnum.png)
 
-So you're command might be more like:
+So your command might be more like:
 
 	$myEarliestCommit = 100
 	$otherPeoplesLastCommit = 115
@@ -84,11 +84,54 @@ Which resulted in:
 The linear history I was after.
 
     
-	
+
 To see neat `log` (to help with deciding `-s` and `-d`) use:
 
 
 	hg log --template "{rev}: {desc} {author}\n" -l 10
+
+## One more time
+
+I seem to have written this out previously, so here it is one more time, this time with ascii art.
+
+
+	hg rebase -s A -d B
+
+Where A is the lowest number of the revisions I've done locally
+
+and B is the highest number of the revisions that have been done remotely.
+
+Once the command is performed A will be rebased to occur straigth after B.
+
+
+
+                  -- J (101)--- K (102)--- L (103)--->
+                 /
+    --- I (100)-
+                 \-- M (104)--- N (105)--- O (106)--->
+
+
+Assume that J,K, and L are my local changes.
+
+M,N, and O are some remote changes I need to 'merge' with. In this case i decide to merge by rebasing.
+
+Since "A is the lowest number of the revisions I've done locally", A = 101
+
+and "B is the highest number of the revisions that have been done remotely", B = 106.
+
+So run this command:
+
+	hg rebase -s 101 -d 106
+
+
+And end up with:
+
+
+    --- I (100)--- M (101)--- N (102)--- O (103)--- J (104)--- K (105)--- L (106)--->
+
+Nice and linear
+
+
 
 ## Source
 

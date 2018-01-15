@@ -38,6 +38,8 @@ For a specific file (I haven't used this one)
 
     git config --file FILE_Name user.name "John Doe"
 
+(Where `FILE_Name` is the name of the actual file)
+
 
 Also -- for a given repository, to set the username, you can go into the `.git\config` file and add the username plus an '@' before the url in the 'remote origin' value, e.g.
 
@@ -67,6 +69,7 @@ And to stop caching password on windows:
     git config --system --unset credential.helper
 
 Or on linux:
+
     git config --global credential.helper cache
     git config --global credential.helper 'cache --timeout=3600'
 

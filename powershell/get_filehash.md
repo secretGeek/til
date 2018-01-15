@@ -48,6 +48,12 @@ Although the above worked fine for my use case, comments from stackoverflow show
 	$hash2;
 
 
+## Another way: Certutil
+
+
+	$(CertUtil -hashfile "c:\temp\nimbleset.exe" SHA256)[1] -replace " ",""
+
+
 ## Use the hash to check VirusTotal
 
 And why are we doing this? To check VirusTotal for example:
@@ -60,4 +66,3 @@ And why are we doing this? To check VirusTotal for example:
 ## Source
 
  * [How to get an MD5 checksum in PowerShell](http://stackoverflow.com/questions/10521061/how-to-get-an-md5-checksum-in-powershell)
- 
