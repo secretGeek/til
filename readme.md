@@ -105,7 +105,7 @@ Though this site is published as a free book, there is another book, a real book
  | [tutorials](tutorials/01_summary.md) | 1 article |
  | [typescript](typescript/01_summary.md) | 1 article |
  | [virtual box](virtual_box/01_summary.md) | 2 articles |
- | [visual studio](visual_studio/01_summary.md) | 6 articles |
+ | [visual studio](visual_studio/01_summary.md) | 7 articles |
  | [vs code](vs_code/01_summary.md) | 4 articles |
  | [windows](windows/01_summary.md) | 14 articles |
  | [windows.forms](windows.forms/01_summary.md) | 4 articles |
@@ -113,5 +113,5 @@ Though this site is published as a free book, there is another book, a real book
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-371 articles
-79768 words
+372 articles
+79898 words
