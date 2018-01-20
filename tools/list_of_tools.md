@@ -11,7 +11,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * .exe (133 files)
  * .dll (27 files)
  * .txt (17 files)
- * .bat (12 files)
+ * .bat (13 files)
  * .vbs (6 files)
  * .config (6 files)
  * .chm (6 files)
@@ -174,6 +174,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
  * dor.bat
  * evim.bat
+ * g.bat
  * gview.bat
  * gvim.bat
  * gvimdiff.bat

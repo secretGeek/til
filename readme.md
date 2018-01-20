@@ -59,7 +59,7 @@ Though this site is published as a free book, there is another book, a real book
  | [design](design/01_summary.md) | 1 article |
  | [electron](electron/01_summary.md) | 2 articles |
  | [excel](excel/01_summary.md) | 3 articles |
- | [git](git/01_summary.md) | 9 articles |
+ | [git](git/01_summary.md) | 11 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
  | [gmail](gmail/01_summary.md) | 1 article |
  | [google](google/01_summary.md) | 10 articles |
@@ -113,5 +113,5 @@ Though this site is published as a free book, there is another book, a real book
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-372 articles
-79898 words
+374 articles
+80363 words

@@ -6,9 +6,9 @@
 		findtext ("TODO" + ":|\[_\]")
 	}
 
-...which relies on my ever-evoling sense of 'findtext'
+...which relies on my ever-evolving sense of 'findtext'
 
-Currently something like....
+Currently something like.... (this is dynamically loaded from util)
 
 	function findtext($pattern)
 	{
