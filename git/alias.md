@@ -8,6 +8,8 @@ Aliases from my `~\.gitconfig` file:
 		# mercurial compatability, more see https://github.com/sympy/sympy/wiki/Git-hg-rosetta-stone#Rosetta_Stone
 		outgoing = log --branches --not --remotes=origin
 		out = !"git outgoing"
+		incoming = !git fetch && git log ..origin/master
+		in = !"git in"
 		st = status
 		stat = status
 		outy = !"git l4 --branches --not --remotes=origin"
