@@ -362,6 +362,7 @@
 	* [format your queries](/sql_server/format_your_queries.md)
 	* [histogram](/sql_server/histogram.md)
 	* [how much space does my db use](/sql_server/how_much_space_does_my_db_use.md)
+	* [identity insert off](/sql_server/identity_insert_off.md)
 	* [inline min](/sql_server/inline_min.md)
 	* [last monday](/sql_server/last_monday.md)
 	* [Log Message During LongRunning Proc](/sql_server/Log_Message_During_LongRunning_Proc.md)

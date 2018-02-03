@@ -18,6 +18,7 @@
 * [format your queries](format_your_queries.md)
 * [histogram](histogram.md)
 * [how much space does my db use](how_much_space_does_my_db_use.md)
+* [identity insert off](identity_insert_off.md)
 * [inline min](inline_min.md)
 * [last monday](last_monday.md)
 * [Log Message During LongRunning Proc](Log_Message_During_LongRunning_Proc.md)
