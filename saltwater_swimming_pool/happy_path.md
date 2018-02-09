@@ -2,18 +2,23 @@
 
 If all is going well with your saltwater swimming pool you will still need to regularly add:
 
-1. water
-2. salt
-3. hydrochloric acid
+1. water (if hot/dry conditions lower the level)
+2. salt (a few bags over summer)
+3. hydrochloric acid (approx a cup per weak)
 4. uric acid
 
 And you will need to regularly:
 
-1. empty the baskets
-2. test the pool
-3. backwash the filter
-4. rinse the filter
-5. de-calcify the chlorinator
+1. empty the baskets (1-7 days)
+2. test the pool (1-7 days)
+3. backwash the filter (monthly)
+4. rinse the filter (when backwashing)
+5. de-calcify the chlorinator (1-3 months)
+
+And vacuum the pool (if you don't have an automated vaccum or robot butler)
+
+
+
 
 
 You will need to perform a lot more maintenance in summer than winter.

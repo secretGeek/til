@@ -63,5 +63,6 @@
 * [tree](tree.md)
 * [Use Google Maps](Use_Google_Maps.md)
 * [version](version.md)
+* [where is script running from](where_is_script_running_from.md)
 * [who is using each port](who_is_using_each_port.md)
 * [write-host alternatives](write-host_alternatives.md)
