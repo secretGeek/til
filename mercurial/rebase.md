@@ -35,6 +35,16 @@ In the bottom of that output you should see something like:
 
 ## Using rebase
 
+The simplest way to use it is that when you wish to pull and update the repo, instead of using:
+
+    hg pull --update   # <-- don't do this!
+
+Do this instead:	
+	
+	hg pull --rebase
+	
+That will change your local revisions to be applied *after* any revs that were performed in remote locations (after you last updated)
+
 
 Let's say while you were making some local revisions, X,Y&Z:
 

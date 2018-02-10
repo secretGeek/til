@@ -77,7 +77,7 @@ Though this site is published as a free book, there is another book, a real book
  | [markdown](markdown/01_summary.md) | 3 articles |
  | [math](math/01_summary.md) | 2 articles |
  | [memorize](memorize/01_summary.md) | 2 articles |
- | [mercurial](mercurial/01_summary.md) | 14 articles |
+ | [mercurial](mercurial/01_summary.md) | 15 articles |
  | [minecraft](minecraft/01_summary.md) | 3 articles |
  | [music](music/01_summary.md) | 8 articles |
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
@@ -113,5 +113,5 @@ Though this site is published as a free book, there is another book, a real book
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-376 articles
-80876 words
+377 articles
+81131 words

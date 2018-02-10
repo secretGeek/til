@@ -193,6 +193,7 @@
 	* [phonetic alphabet](/memorize/phonetic_alphabet.md)
 	* [spaced repetition](/memorize/spaced_repetition.md)
 * [mercurial](/mercurial/01_summary.md)
+	* [branching](/mercurial/branching.md)
 	* [clone without cloning](/mercurial/clone_without_cloning.md)
 	* [current extensions](/mercurial/current_extensions.md)
 	* [diffmerge merge](/mercurial/diffmerge_merge.md)
