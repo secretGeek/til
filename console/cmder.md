@@ -6,7 +6,7 @@ Cmder relies on Conemu to create a beautiful console experience on windows.
 
 from <http://cmder.net/> 
 
-Try downloading "mini" -- see if it work suitably.
+Try downloading "mini" -- see if it works suitably.
 
 
 ## insert text
@@ -27,7 +27,7 @@ Settings -> Startup -> Tasks
 
 Find the `{Powershell::Powershell}` task and move it Up Up Up to the top.
 
-Change the task parameters:
+Change the Commands to:
 
     PowerShell -ExecutionPolicy Bypass -NoLogo -NoExit -new_console:d:"C:\users\leon\dropbox\secretgeek"
 
