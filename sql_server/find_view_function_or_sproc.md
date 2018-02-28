@@ -37,6 +37,7 @@ And here's commands to add them to `kv` &mdash;
     xtype in ('U','V','P') AND Schema_Name(UID) + '.' + Name like
     '%%'"
 
+
     kv sc "Select sc.Name as [Column], Schema_Name(so.UID) + '.' + so.Name as [Table], so.Xtype
     from sysobjects so
     inner join syscolumns sc on so.id = sc.id

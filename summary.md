@@ -1,6 +1,7 @@
 ﻿# Summary
 
 * [.net](/.net/01_summary.md)
+	* [config external source](/.net/config_external_source.md)
 	* [detect text encoding](/.net/detect_text_encoding.md)
 	* [load datatable](/.net/load_datatable.md)
 	* [override equals](/.net/override_equals.md)

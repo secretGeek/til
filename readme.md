@@ -45,7 +45,7 @@ Though this site is published as a free book, there is another book, a real book
 
 |Topic|# Articles|
 |-----|----------|
-| [.net](.net/01_summary.md) | 5 articles |
+| [.net](.net/01_summary.md) | 6 articles |
  | [.net core MVC](.net_core_MVC/01_summary.md) | 12 articles |
  | [appharbor](appharbor/01_summary.md) | 1 article |
  | [asp.net mvc](asp.net_mvc/01_summary.md) | 10 articles |
@@ -113,5 +113,5 @@ Though this site is published as a free book, there is another book, a real book
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-377 articles
-81131 words
+378 articles
+81219 words
