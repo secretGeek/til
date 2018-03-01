@@ -40,7 +40,6 @@ Aliases from my `~\.gitconfig` file:
 		bdone = "!f() { git checkout ${1-master} && git up && git bclean ${1-master}; }; f"
 		cheat = !cat C:/Users/Leon/dropbox/secretGeek/util/powershell/scriptlets/git_cheat.txt
 	[credential]
-		helper = wincred
 
 
 ## See also

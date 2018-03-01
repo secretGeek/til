@@ -62,7 +62,9 @@ To cache passwords (on windows)
 
     git config --global credential.helper wincred
 
-    This stores your credentials in the Windows credential store which has a Control Panel interface where you can delete or edit your stored credentials. (Under Control Panel\User Accounts\Credential Manager)
+> This stores your credentials in the Windows credential store which has a Control Panel interface where you can delete or edit your stored credentials. (Under Control Panel\User Accounts\Credential Manager)
+
+(from <https://stackoverflow.com/questions/15381198/remove-credentials-from-git>)
 
 And to stop caching password on windows:
 
