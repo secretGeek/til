@@ -14,4 +14,6 @@ Go into "Press shortcut keys", hit Ctrl-E and it'll show you that you're overwri
 
 Do it!
 	
-	
+SIMILARLY.... Query.ResultsToGrid should be Ctrl-D but is not. So fix that while you're there.
+
+(I'm not even game to check up on Alt-X)
