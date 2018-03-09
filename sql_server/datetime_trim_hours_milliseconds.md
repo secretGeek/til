@@ -3,17 +3,17 @@
 
 To trim off the milliseconds.... (this was necessary when sending to XML for consumption by Excel...)
 
-    DATEADD(ms, -DATEPART(ms, [date]), [date])
+    DATEADD(ms, -DATEPART(ms, YourDate), YourDate)
     
 
 To trim off the entire time portion.... 
 i.e. want just the date portion of a datetime? 
 
     
-    DATEADD(ms, -DATEPART(dd, [date]), [date])
+    DATEADD(dd, 0, DATEDIFF(dd, 0, YourDate))
     
 
-A function to do it for you....    
+A function to do it for you....
     
     CREATE FUNCTION dbo.JustDate(@date DATETIME)  
     RETURNS DATETIME  

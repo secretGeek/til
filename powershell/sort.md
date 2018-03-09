@@ -18,3 +18,8 @@ e.g.
 
     get-alias -def "get*" | sort -property definition | ft -property Name, Definition
     
+Another example:
+
+You can sort a file's content by the length of its lines by using:
+
+    cat $file | sort -property Length

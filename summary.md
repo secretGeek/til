@@ -141,6 +141,8 @@
 	* [adhoc webscraping with jquery](/jquery/adhoc_webscraping_with_jquery.md)
 	* [datatables alert](/jquery/datatables_alert.md)
 	* [textarea keypress](/jquery/textarea_keypress.md)
+* [library](/library/01_summary.md)
+	* [ebooks and audiobooks](/library/ebooks_and_audiobooks.md)
 * [linqpad](/linqpad/01_summary.md)
 	* [clear results](/linqpad/clear_results.md)
 	* [csv to array](/linqpad/csv_to_array.md)

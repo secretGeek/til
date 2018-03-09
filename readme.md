@@ -71,6 +71,7 @@ Though this site is published as a free book, there is another book, a real book
  | [javascript](javascript/01_summary.md) | 6 articles |
  | [jekyll](jekyll/01_summary.md) | 1 article |
  | [jquery](jquery/01_summary.md) | 3 articles |
+ | [library](library/01_summary.md) | 1 article |
  | [linqpad](linqpad/01_summary.md) | 8 articles |
  | [linux](linux/01_summary.md) | 27 articles |
  | [macbook air](macbook_air/01_summary.md) | 4 articles |
@@ -113,5 +114,5 @@ Though this site is published as a free book, there is another book, a real book
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-379 articles
-81398 words
+380 articles
+81567 words
