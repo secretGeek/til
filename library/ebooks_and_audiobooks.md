@@ -1,5 +1,6 @@
 # How to get ebooks and audiobooks from the brisbane library
 
+(This is information I received from 'ask a librarian')
 
 To use the Bolinda/Borrowbox collection, you will first need to create a Bolinda/Borrowbox account. Follow these steps to do this:
 
@@ -19,5 +20,7 @@ Links to the Borrowbox app for Androids and iOS devices are on the Audiobooks pa
  
 
 The loan period for Bolinda/Borrowbox items is two weeks. If there are no holds on the item, you can immediately renew it for another two weeks.
+
+
 
  
