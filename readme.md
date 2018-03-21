@@ -89,7 +89,7 @@ Though this site is published as a free book, there is another book, a real book
  | [office](office/01_summary.md) | 1 article |
  | [oracle](oracle/01_summary.md) | 5 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
- | [powershell](powershell/01_summary.md) | 64 articles |
+ | [powershell](powershell/01_summary.md) | 65 articles |
  | [python](python/01_summary.md) | 8 articles |
  | [react](react/01_summary.md) | 2 articles |
  | [redis](redis/01_summary.md) | 2 articles |
@@ -114,5 +114,5 @@ Though this site is published as a free book, there is another book, a real book
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-380 articles
-81621 words
+381 articles
+81720 words

@@ -24,7 +24,7 @@ Run this command to see a map from Process ID to application pools:
     
 If that doesn't work, try:
 
-    c:\windows\system32\cscript c:\windows\system32\iisapp.vbs.
+    c:\windows\system32\cscript c:\windows\system32\iisapp.vbs
     
 ## Source
 

@@ -314,6 +314,7 @@
 	* [see function definition](/powershell/see_function_definition.md)
 	* [sort](/powershell/sort.md)
 	* [split file into named files](/powershell/split_file_into_named_files.md)
+	* [store and use password via securestring](/powershell/store_and_use_password_via_securestring.md)
 	* [Test Path](/powershell/Test_Path.md)
 	* [top ten files](/powershell/top_ten_files.md)
 	* [Transcript](/powershell/Transcript.md)

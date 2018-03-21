@@ -57,6 +57,7 @@
 * [see function definition](see_function_definition.md)
 * [sort](sort.md)
 * [split file into named files](split_file_into_named_files.md)
+* [store and use password via securestring](store_and_use_password_via_securestring.md)
 * [Test Path](Test_Path.md)
 * [top ten files](top_ten_files.md)
 * [Transcript](Transcript.md)
