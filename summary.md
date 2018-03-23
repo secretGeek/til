@@ -354,6 +354,7 @@
 * [sql server](/sql_server/01_summary.md)
 	* [backup restore script](/sql_server/backup_restore_script.md)
 	* [bulk comparison with hashbytes](/sql_server/bulk_comparison_with_hashbytes.md)
+	* [case sensitive string comparison](/sql_server/case_sensitive_string_comparison.md)
 	* [collation find change compare](/sql_server/collation_find_change_compare.md)
 	* [create schema specific role](/sql_server/create_schema_specific_role.md)
 	* [ctrl e execute](/sql_server/ctrl_e_execute.md)

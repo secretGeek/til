@@ -4,6 +4,7 @@
  
 * [backup restore script](backup_restore_script.md)
 * [bulk comparison with hashbytes](bulk_comparison_with_hashbytes.md)
+* [case sensitive string comparison](case_sensitive_string_comparison.md)
 * [collation find change compare](collation_find_change_compare.md)
 * [create schema specific role](create_schema_specific_role.md)
 * [ctrl e execute](ctrl_e_execute.md)

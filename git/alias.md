@@ -39,6 +39,7 @@ Aliases from my `~\.gitconfig` file:
 		bclean = "!f() { git branch --merged ${1-master} | grep -v " ${1-master}$" | xargs -r git branch -d; }; f"
 		bdone = "!f() { git checkout ${1-master} && git up && git bclean ${1-master}; }; f"
 		cheat = !cat C:/Users/Leon/dropbox/secretGeek/util/powershell/scriptlets/git_cheat.txt
+		alias = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
 	[credential]
 	[winUpdater]
 		recentlySeenVersion = 2.16.2.windows.1
