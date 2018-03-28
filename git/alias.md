@@ -42,9 +42,9 @@ Aliases from my `~\.gitconfig` file:
 		alias = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
 	[credential]
 	[winUpdater]
-		recentlySeenVersion = 2.16.2.windows.1
+		recentlySeenVersion = 2.16.3.windows.1
 
 
 ## See also
 
- * [The Ultimate Git Alias Setup](https://gist.github.com/mwhite/6887990)
+ * [TheUltimate Git Alias Setup](https://gist.github.com/mwhite/6887990)

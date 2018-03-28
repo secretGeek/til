@@ -20,7 +20,3 @@ Links to the Borrowbox app for Androids and iOS devices are on the Audiobooks pa
  
 
 The loan period for Bolinda/Borrowbox items is two weeks. If there are no holds on the item, you can immediately renew it for another two weeks.
-
-
-
- 

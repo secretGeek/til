@@ -6,6 +6,7 @@
 * [bulk comparison with hashbytes](bulk_comparison_with_hashbytes.md)
 * [case sensitive string comparison](case_sensitive_string_comparison.md)
 * [collation find change compare](collation_find_change_compare.md)
+* [convert timestamp to varchar](convert_timestamp_to_varchar.md)
 * [create schema specific role](create_schema_specific_role.md)
 * [ctrl e execute](ctrl_e_execute.md)
 * [datetime trim hours milliseconds](datetime_trim_hours_milliseconds.md)
