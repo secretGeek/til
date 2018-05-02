@@ -13,9 +13,9 @@ Next it looks in `tnsnames.ora.`
 
 `tnsnames.ora` is a file that contains enough configuration detail that your machine should be able to connect to the remote machine.
 
-How does Oracle find the tnsnames.ora file?
+How does Oracle find the `tnsnames.ora` file?
 
-Oracle relies on an environment variable, TNS_ADMIN
+Oracle relies on an environment variable, TNS_ADMIN, which contains the folder name in which `tnsnames.ora` is stored.
 
 If you don't have this environment variable set, then Oracle will not be able to find the tnsnames.ora file (or the sqlnet.ora file, which will be described later)
 

@@ -20,7 +20,9 @@
     lists installed (i.e. available) modules. They **may not** have been imported (i.e. loaded)
 9. `get-module`    
     lists installed (i.e. available) and imported (i.e. loaded) modules.
-    
+ 
+TODO: How to add a path such that it shows up in $env:PSModulePath 
+ 
 ## See Also
 
  * [Use Get-Module to list all available modules (packages)](Get_All_Available_Modules.md)

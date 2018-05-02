@@ -66,7 +66,7 @@ Though this site is published as a free book, there is another book, a real book
  | [graphics](graphics/01_summary.md) | 8 articles |
  | [gulp](gulp/01_summary.md) | 1 article |
  | [html](html/01_summary.md) | 1 article |
- | [iis](iis/01_summary.md) | 2 articles |
+ | [iis](iis/01_summary.md) | 3 articles |
  | [itunes](itunes/01_summary.md) | 1 article |
  | [javascript](javascript/01_summary.md) | 6 articles |
  | [jekyll](jekyll/01_summary.md) | 1 article |
@@ -76,6 +76,7 @@ Though this site is published as a free book, there is another book, a real book
  | [linux](linux/01_summary.md) | 27 articles |
  | [macbook air](macbook_air/01_summary.md) | 4 articles |
  | [markdown](markdown/01_summary.md) | 3 articles |
+ | [marketing](marketing/01_summary.md) | 6 articles |
  | [math](math/01_summary.md) | 2 articles |
  | [memorize](memorize/01_summary.md) | 2 articles |
  | [mercurial](mercurial/01_summary.md) | 15 articles |
@@ -83,7 +84,7 @@ Though this site is published as a free book, there is another book, a real book
  | [music](music/01_summary.md) | 8 articles |
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
  | [node](node/01_summary.md) | 1 article |
- | [notepad++](notepad++/01_summary.md) | 8 articles |
+ | [notepad++](notepad++/01_summary.md) | 9 articles |
  | [npm](npm/01_summary.md) | 7 articles |
  | [nuget](nuget/01_summary.md) | 2 articles |
  | [office](office/01_summary.md) | 1 article |
@@ -106,7 +107,7 @@ Though this site is published as a free book, there is another book, a real book
  | [tutorials](tutorials/01_summary.md) | 1 article |
  | [typescript](typescript/01_summary.md) | 1 article |
  | [virtual box](virtual_box/01_summary.md) | 2 articles |
- | [visual studio](visual_studio/01_summary.md) | 7 articles |
+ | [visual studio](visual_studio/01_summary.md) | 8 articles |
  | [vs code](vs_code/01_summary.md) | 4 articles |
  | [windows](windows/01_summary.md) | 14 articles |
  | [windows.forms](windows.forms/01_summary.md) | 4 articles |
@@ -114,5 +115,5 @@ Though this site is published as a free book, there is another book, a real book
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-383 articles
-81832 words
+392 articles
+82121 words

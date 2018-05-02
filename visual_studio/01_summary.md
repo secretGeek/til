@@ -2,6 +2,7 @@
 # visual studio
 ### chapter contents
  
+* [could not refresh credentials](could_not_refresh_credentials.md)
 * [ctor](ctor.md)
 * [html auto close tags](html_auto_close_tags.md)
 * [html surround with](html_surround_with.md)
