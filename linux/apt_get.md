@@ -62,4 +62,10 @@ You can either
 
 http://askubuntu.com/questions/601/the-following-packages-have-been-kept-back-why-and-how-do-i-solve-it/185402#185402
 
+To update just a single package, and only if it is already installed....
 
+	apt-get install --only-upgrade <packagename>
+	
+e.g. 
+
+	sudo apt-get install --only-upgrade python-certbot-nginx	

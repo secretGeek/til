@@ -68,12 +68,12 @@ Though this site is published as a free book, there is another book, a real book
  | [html](html/01_summary.md) | 1 article |
  | [iis](iis/01_summary.md) | 3 articles |
  | [itunes](itunes/01_summary.md) | 1 article |
- | [javascript](javascript/01_summary.md) | 6 articles |
+ | [javascript](javascript/01_summary.md) | 7 articles |
  | [jekyll](jekyll/01_summary.md) | 1 article |
  | [jquery](jquery/01_summary.md) | 3 articles |
  | [library](library/01_summary.md) | 1 article |
  | [linqpad](linqpad/01_summary.md) | 8 articles |
- | [linux](linux/01_summary.md) | 27 articles |
+ | [linux](linux/01_summary.md) | 28 articles |
  | [macbook air](macbook_air/01_summary.md) | 4 articles |
  | [markdown](markdown/01_summary.md) | 3 articles |
  | [marketing](marketing/01_summary.md) | 6 articles |
@@ -115,5 +115,5 @@ Though this site is published as a free book, there is another book, a real book
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-392 articles
-82121 words
+394 articles
+82388 words

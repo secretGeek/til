@@ -29,11 +29,21 @@ If you have a domain called 'example.com' then run:
 
 	sudo certbot --nginx -d example.com -d www.example.com
 
+Or for a subdomain:
+
+    sudo certbot --nginx -d blog.example.com
+
 To do a dry run (i.e. to see what would happen without making any changes) you can use the `dry-run` parameter like so:
 
 	sudo certbot --dry-run --nginx -d example.com -d www.example.com
 
-If you have 3 different websites on the same server, example1, example2 and example3 then run the command 3 times, i.e.:
+(Hmmm, Actually -- that returns:
+
+    --dry-run currently only works with the 'certonly' or 'renew' subcommands ('run')	
+
+)
+
+If you have 3 different domains on the same server, example1, example2 and example3 then run the command 3 times, i.e.:
 
 	sudo certbot --nginx -d example1.com -d www.example1.com
 	sudo certbot --nginx -d example2.com -d www.example2.com
