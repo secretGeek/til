@@ -10,7 +10,7 @@
 Okay - a nice start.
 
 
-Working with a file that contains:
+In the following examples i'll be working with a file, called `data.txt`, that contains:
 
 	Beth    4.00    0
 	Dan     3.75    0
@@ -22,7 +22,7 @@ Working with a file that contains:
 ...where there is a `tab` character between each field.
 
 
-Can pipe the input to awk...
+Can pipe the input to `awk`...
 
 	~$ cat data.txt | awk '{print $1}'
 	Beth
@@ -32,7 +32,7 @@ Can pipe the input to awk...
 	Mary
 	Susie	
 
-Or can have awk load the file, for example:
+Or can have `awk` load the file, for example:
 
 	$ awk '{print $1}' data.txt
 	Beth
