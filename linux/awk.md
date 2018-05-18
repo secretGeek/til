@@ -9,7 +9,33 @@
 	
 Okay - a nice start.
 
+Bah, lemme push it a bit....
 
+
+	$ awk ''
+	$ awk 'BEGIN {}'
+	$ awk 'BEGIN { print;}'
+
+	$ awk 'BEGIN { print}'
+
+	$ awk 'BEGIN { print "Hello"}'
+	Hello
+	$ awk 'BEGIN { print "Hello" + 42}'
+	42
+	$ awk 'BEGIN { print "Hello"42}'
+	Hello42
+	$ awk 'BEGIN { print "Hello" 42}'
+	Hello42
+	$ awk 'BEGIN { print "Hello" 42 "Hello"}'
+	Hello42Hello
+	$ awk 'BEGIN { print; print ;print}'
+	
+(3 empty lines).
+
+
+Ok, ready to move on now.
+
+	
 In the following examples i'll be working with a file, called `data.txt`, that contains:
 
 	Beth    4.00    0
@@ -22,7 +48,7 @@ In the following examples i'll be working with a file, called `data.txt`, that c
 ...where there is a `tab` character between each field.
 
 
-Can pipe the input to `awk`...
+From there, we can pipe the input to `awk`...
 
 	~$ cat data.txt | awk '{print $1}'
 	Beth
