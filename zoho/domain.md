@@ -22,7 +22,12 @@ There were a lot of DNS records to configure.
 
 Two MX records. Each with a different priority.
 
-It says "You must remove (delete) any other MX records other than the above 2 records.In case you have previous providers MX records, then you may not receive emails in Zoho." -- so for NimbleText.com where previously the email was managed by Arvixe, I will have to delete the old MX records. Hmmm, bit reluctant. For now I edited the old ones to have lower priority (30 and 40) than the new ones. That could turn out to be a ridiculous idea.
+It says 
+
+> You must remove (delete) any other MX records other than the above 2 records. In case you have previous providers MX records, then you may not receive emails in Zoho.
+
+
+So for NimbleText.com where previously the email was managed by Arvixe, I will have to delete the old MX records. Hmmm, bit reluctant. For now I edited the old ones to have lower priority (30 and 40) than the new ones. That could turn out to be a ridiculous idea.
 
 
 ### TXT Records: SPF
@@ -75,5 +80,5 @@ I clicked "verify" (over in zoho) and it verified successfully.
 
 ...so they have done the opposite of digitalocean. 
 
-After finishing with the DKIM bit, hit Return to Domain setup and continue.
+After finishing with the DKIM bit, hit "Return to Domain setup" and continue.
 
