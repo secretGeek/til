@@ -52,7 +52,7 @@ Though this site is published as a free book, there is another book, a real book
  | [banking](banking/01_summary.md) | 1 article |
  | [bower](bower/01_summary.md) | 2 articles |
  | [chocolatey](chocolatey/01_summary.md) | 4 articles |
- | [concepts](concepts/01_summary.md) | 13 articles |
+ | [concepts](concepts/01_summary.md) | 14 articles |
  | [console](console/01_summary.md) | 5 articles |
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article |
  | [css](css/01_summary.md) | 2 articles |
@@ -115,5 +115,5 @@ Though this site is published as a free book, there is another book, a real book
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-394 articles
-82485 words
+395 articles
+82914 words

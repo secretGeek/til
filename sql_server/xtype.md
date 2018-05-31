@@ -29,3 +29,8 @@
 |UQ|UNIQUE constraint (type is K)|
 |V|View|
 |X|Extended stored procedure|
+
+
+Function:
+
+XType in ('AF','FS','FT','IF','TF')

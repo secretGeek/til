@@ -2,13 +2,34 @@
 
 (Not extensions, not addins, not add-ons, not apps, not packages... Plugins!)
 
-Plugin Config path is: `$env:APPDATA\Notepad++\plugins\Config`
+Plugin Config path is: 
+
+	$env:APPDATA\Notepad++\plugins\Config
 
 In main menu, go to "Plugins" -> "Plugin manager"
+
+
+Note: 
 
 There's also "Settings" -> "Import" -> "Import Plugins"
 
 You can use that facility with a NotePad++ plugin DLL that you've downloaded separately.
+
+## What If I don't have "Plugin Manager?"
+
+It's no longer included with Notepad++ because it includes sponsored ads that some people didn't like. 
+
+See <https://notepad-plus-plus.org/community/topic/14496/no-plugin-manager/3>
+
+download it here:
+
+<https://github.com/bruderstein/nppPluginManager/releases>
+
+Unzip it and copy the extracted files to your notepad++ plugins and updater folder. (which, as described about is:
+
+	$env:APPDATA\Notepad++\plugins\Config
+
+
 
 ## Updating plugins...
 

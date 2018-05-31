@@ -48,6 +48,7 @@
 	* [coik](/concepts/coik.md)
 	* [echo chamber](/concepts/echo_chamber.md)
 	* [follow up and recurring emails](/concepts/follow_up_and_recurring_emails.md)
+	* [generals fight the last war](/concepts/generals_fight_the_last_war.md)
 	* [getting unblocked](/concepts/getting_unblocked.md)
 	* [happy path](/concepts/happy_path.md)
 	* [list of potentially useful concepts](/concepts/list_of_potentially_useful_concepts.md)
