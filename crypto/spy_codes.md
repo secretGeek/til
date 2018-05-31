@@ -11,6 +11,23 @@ Useful for field agents who need to crack codes they encounter.
 * Binary Ascii Letters
 * Hexadecimal Letters
 
+
+## A=B alphabet
+
+
+## Morse Code Alphabet
+
+![international morse code](International_Morse_Code.svg)
+
+
+
+## Braille Alphabet
+
+## Pigpen Cipher
+
+## All the Caesar Codes
+
+
 # All the Caesar Codes
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 |
@@ -44,3 +61,6 @@ Useful for field agents who need to crack codes they encounter.
 
 
 
+
+## Binary Ascii Letters
+## Hexadecimal Letters
