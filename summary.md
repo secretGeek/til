@@ -66,6 +66,8 @@
 	* [settings](/console/settings.md)
 * [cpu analyzer](/cpu_analyzer/01_summary.md)
 	* [getting started](/cpu_analyzer/getting_started.md)
+* [crypto](/crypto/01_summary.md)
+	* [spy codes](/crypto/spy_codes.md)
 * [css](/css/01_summary.md)
 	* [center](/css/center.md)
 	* [maintainable css](/css/maintainable_css.md)

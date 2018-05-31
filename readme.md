@@ -55,6 +55,7 @@ Though this site is published as a free book, there is another book, a real book
  | [concepts](concepts/01_summary.md) | 14 articles |
  | [console](console/01_summary.md) | 5 articles |
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article |
+ | [crypto](crypto/01_summary.md) | 1 article |
  | [css](css/01_summary.md) | 2 articles |
  | [design](design/01_summary.md) | 1 article |
  | [electron](electron/01_summary.md) | 2 articles |
@@ -115,5 +116,5 @@ Though this site is published as a free book, there is another book, a real book
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-395 articles
-82914 words
+396 articles
+84396 words
