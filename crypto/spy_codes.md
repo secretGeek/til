@@ -1,4 +1,4 @@
-# Spy Codes
+# Codes
 
 Useful for field agents who need to crack codes they encounter.
 
@@ -7,13 +7,16 @@ Useful for field agents who need to crack codes they encounter.
 * Morse Code Alphabet
 * Braille Alphabet
 * Pigpen Cipher
+* Knights Templar Cipher
+* Mayan Numbers
 * ROT-13 Code
 * All the Caesar Codes
 * Decimal Ascii Letters
 * Binary Numbers
 * Binary Ascii Letters
 * Hexadecimal Letters
-
+* Leet Speak
+* Wingdings
 
 ## A=1 alphabet
 
