@@ -120,6 +120,8 @@ Useful for field agents who need to crack codes they encounter.
 
 ## Decimal Ascii Letters
 
+| Num | Char | Num | Char |
+|----|----|----|----|
 | 65 | A | 97 | a |
 | 66 | B | 98 | b |
 | 67 | C | 99 | c |
@@ -151,6 +153,7 @@ Useful for field agents who need to crack codes they encounter.
 
 
 | Decimal | Hexadecimal | Binary | Character |
+|---------|-------------|--------|-----------|
 | 0 | 00 | 00000000 | (Null character)  |
 | 1 | 01 | 00000001 | (Start of Header)  |
 | 2 | 02 | 00000010 | (Start of Text)  |
@@ -275,7 +278,7 @@ Useful for field agents who need to crack codes they encounter.
 | 121 | 79 | 01111001 | y  |
 | 122 | 7A | 01111010 | z  |
 | 123 | 7B | 01111011 | {  |
-| 124 | 7C | 01111100 | |  |
+| 124 | 7C | 01111100 | (pipe)  |
 | 125 | 7D | 01111101 | }  |
 | 126 | 7E | 01111110 | ~  |
 | 127 | 7F | 01111111 | (Delete character)  |
