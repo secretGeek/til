@@ -76,6 +76,7 @@ Though this site is published as a free book, there is another book, a real book
  | [linqpad](linqpad/01_summary.md) | 8 articles |
  | [linux](linux/01_summary.md) | 28 articles |
  | [macbook air](macbook_air/01_summary.md) | 4 articles |
+ | [mailgun](mailgun/01_summary.md) | 1 article |
  | [markdown](markdown/01_summary.md) | 3 articles |
  | [marketing](marketing/01_summary.md) | 6 articles |
  | [math](math/01_summary.md) | 2 articles |
@@ -116,5 +117,5 @@ Though this site is published as a free book, there is another book, a real book
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-396 articles
-86074 words
+397 articles
+87124 words
