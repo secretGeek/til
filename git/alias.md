@@ -7,8 +7,8 @@ Aliases from my `~\.gitconfig` file:
 	[alias]
 		# mercurial compatability, more see https://github.com/sympy/sympy/wiki/Git-hg-rosetta-stone#Rosetta_Stone
 		outgoing = log --branches --not --remotes=origin
-		out = !"git outgoing"
-		incoming = !git fetch && git log ..origin/master
+		out = !git outgoing
+		incoming = !git fetch ; git log ..origin/master
 		in = !"git in"
 		st = status
 		stat = status
@@ -39,7 +39,10 @@ Aliases from my `~\.gitconfig` file:
 		bclean = "!f() { git branch --merged ${1-master} | grep -v " ${1-master}$" | xargs -r git branch -d; }; f"
 		bdone = "!f() { git checkout ${1-master} && git up && git bclean ${1-master}; }; f"
 		cheat = !cat C:/Users/Leon/dropbox/secretGeek/util/powershell/scriptlets/git_cheat.txt
-		alias = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+		#alias = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+		aliasa = config --get-regexp alias
+		ooutgoing = log --branches --not --remotes=origin
+		oout = ooutgoing	
 	[credential]
 	[winUpdater]
 		recentlySeenVersion = 2.17.1.windows.2

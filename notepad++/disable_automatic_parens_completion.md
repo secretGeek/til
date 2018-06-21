@@ -9,6 +9,19 @@ You type `"`  and it throws in another `"` right away! Stop it already!
 >
 > 2nd grouping called "Auto-Insert", check/un-check the appropriate auto completion/inserts.
 
+Similarly...
+
+![nth_char.png](nth_char.png)
+
+In the 
+
+`Settings` &rarr; `Preferences` &rarr; `Auto-Completion`
+
+...area, change auto-completion on each input to be from 5th character, not from 1st character
+
+
+
+
 
 ## Source
 
