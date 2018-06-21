@@ -27,7 +27,7 @@ The folder structure means things are categorised by ONE main topic, not tagged 
  * http://wiki.secretGeek.net (wiki for things I find fascinating)
  * http://www.secretGeek.net (blog)
  
-## The real book I am writing...
+## Get this book...
 
 <p><a href='http://YourFirstProduct.com'><img src='yfp_book.png' title='Your First Product' alt='Your First Product' /></a></p>
 
@@ -118,4 +118,4 @@ Though this site is published as a free digital-only book, I've also published a
 
 
 397 articles
-87144 words
+87141 words
