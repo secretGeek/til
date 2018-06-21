@@ -31,9 +31,9 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 
 <p><a href='http://YourFirstProduct.com'><img src='yfp_book.png' title='Your First Product' alt='Your First Product' /></a></p>
 
-Though this site is published as a free book, there is another book, a real book, that I've released.
+Though this site is published as a free digital-only book, I've also published a *real* book.
  
-**[Choose Your First Product](https://YourFirstProduct.com)** help creators to find a suitable idea for their digital product. If you want to build products, please learn more at [https://YourFirstProduct.com](https://YourFirstProduct.com). Thank you.
+**[Choose Your First Product](https://YourFirstProduct.com)** helps creators find a suitable idea for their first digital product. If you want to build products, please learn more at [https://YourFirstProduct.com](https://YourFirstProduct.com). Thank you.
 
 
 
@@ -118,4 +118,4 @@ Though this site is published as a free book, there is another book, a real book
 
 
 397 articles
-87147 words
+87144 words
