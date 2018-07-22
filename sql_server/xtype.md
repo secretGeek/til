@@ -33,4 +33,5 @@
 
 Function:
 
-XType in ('AF','FS','FT','IF','TF')
+	XType in ('AF','FS','FT','IF','TF')
+

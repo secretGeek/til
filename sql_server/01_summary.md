@@ -9,6 +9,7 @@
 * [convert timestamp to varchar](convert_timestamp_to_varchar.md)
 * [create schema specific role](create_schema_specific_role.md)
 * [ctrl e execute](ctrl_e_execute.md)
+* [data dictionary](data_dictionary.md)
 * [datetime trim hours milliseconds](datetime_trim_hours_milliseconds.md)
 * [delete backup files](delete_backup_files.md)
 * [delete duplicate rows](delete_duplicate_rows.md)

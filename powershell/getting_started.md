@@ -35,7 +35,7 @@ You can look for commands by name or alias, using 'Get-Command', e.g.
 
     Get-Command Get-ChildItem
 
-Or you can looks at *ALL* the available commands by typing simply:
+Or you can look at *ALL* the available commands by typing simply:
 
     Get-Command
 

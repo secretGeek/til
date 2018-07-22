@@ -21,6 +21,7 @@
 * [nginx](nginx.md)
 * [profiles](profiles.md)
 * [reboot](reboot.md)
+* [rename files with mv](rename_files_with_mv.md)
 * [scp](scp.md)
 * [SSH](SSH.md)
 * [sudo](sudo.md)
