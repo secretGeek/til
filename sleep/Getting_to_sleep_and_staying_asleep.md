@@ -17,7 +17,7 @@ Learn to mentally decelerate before bed to reduce anxiety-provoking thoughts at 
 
 If having difficulty sleeping at night, avoid daytime napping. (But if sleeping well, a daytime nap is a great benefit)
 
-(Avoid sleeping pills, but don't please change medication based on something you read at `secretgeek.net` - seek medical help. But equally, if your doctor is twirling an Ambien pen while she talks please switch doctors.)
+(Avoid sleeping pills. But please don't change medication suddenly. And don't change medication based on something you read at `secretgeek.net` &mdash; seek medical help first! But equally, if your doctor is twirling an Ambien pen while she talks *please* switch doctors.)
 
 
 ## Source
