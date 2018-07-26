@@ -20,13 +20,8 @@ I've often hit that combo and i've never needed it.
 
 So Ctrl-D for Date.
 
-Under:
-
-
-Remove this one....
 
 Under:
-
 
     Settings | Shortcut Mapper | Scintilla Commands
 
@@ -38,7 +33,9 @@ You can't delete the command, you need to modify it to have no hotkey combo.
 
 Use "Modify" -- then on the modify dialog, select a key combination of "None" and press "Apply".
 
-A warning message will appear saying "This will remove the accelerator!"  Great! Don't forget to press "Apply". Just pressing OK is not enough. Strangely.
+(i.e. select "none" from the drop down of key combos, and de-select the 'Ctrl' checkbox)
+
+A warning message will appear at the foot of the dialog saying "This will remove shortcut from this command"  Great! Don't forget to press "Apply". Just pressing OK is not enough. Strangely.
 
 Removed that one? Great.
 

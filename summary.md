@@ -368,6 +368,7 @@
 	* [find view guid](/sharepoint/find_view_guid.md)
 * [sleep](/sleep/01_summary.md)
 	* [Getting to sleep and staying asleep](/sleep/Getting_to_sleep_and_staying_asleep.md)
+	* [sleep terminology](/sleep/sleep_terminology.md)
 	* [why sleep](/sleep/why_sleep.md)
 * [smallbasic](/smallbasic/01_summary.md)
 	* [shortcomings of smallbasic](/smallbasic/shortcomings_of_smallbasic.md)

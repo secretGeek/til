@@ -100,7 +100,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [saltwater swimming pool](saltwater_swimming_pool/01_summary.md) | 2 articles |
  | [security virus spam etc](security_virus_spam_etc/01_summary.md) | 2 articles |
  | [sharepoint](sharepoint/01_summary.md) | 1 article |
- | [sleep](sleep/01_summary.md) | 2 articles |
+ | [sleep](sleep/01_summary.md) | 3 articles |
  | [smallbasic](smallbasic/01_summary.md) | 1 article |
  | [speech](speech/01_summary.md) | 1 article |
  | [sql server](sql_server/01_summary.md) | 40 articles |
@@ -119,5 +119,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-402 articles
-88009 words
+403 articles
+88197 words

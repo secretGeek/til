@@ -45,7 +45,7 @@ Aliases from my `~\.gitconfig` file:
 		oout = ooutgoing	
 	[credential]
 	[winUpdater]
-		recentlySeenVersion = 2.17.1.windows.2
+		recentlySeenVersion = 2.18.0.windows.1
 
 
 ## See also
