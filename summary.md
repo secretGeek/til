@@ -219,6 +219,7 @@
 	* [current extensions](/mercurial/current_extensions.md)
 	* [diffmerge merge](/mercurial/diffmerge_merge.md)
 	* [ensure all files added](/mercurial/ensure_all_files_added.md)
+	* [find deleted files](/mercurial/find_deleted_files.md)
 	* [git versus hg console output](/mercurial/git_versus_hg_console_output.md)
 	* [handshake failure](/mercurial/handshake_failure.md)
 	* [log template](/mercurial/log_template.md)
