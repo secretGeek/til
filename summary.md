@@ -152,6 +152,7 @@
 	* [ebooks and audiobooks](/library/ebooks_and_audiobooks.md)
 * [linqpad](/linqpad/01_summary.md)
 	* [clear results](/linqpad/clear_results.md)
+	* [connect to oracle](/linqpad/connect_to_oracle.md)
 	* [csv to array](/linqpad/csv_to_array.md)
 	* [group by](/linqpad/group_by.md)
 	* [inspect clipboard](/linqpad/inspect_clipboard.md)

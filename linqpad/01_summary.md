@@ -3,6 +3,7 @@
 ### chapter contents
  
 * [clear results](clear_results.md)
+* [connect to oracle](connect_to_oracle.md)
 * [csv to array](csv_to_array.md)
 * [group by](group_by.md)
 * [inspect clipboard](inspect_clipboard.md)
