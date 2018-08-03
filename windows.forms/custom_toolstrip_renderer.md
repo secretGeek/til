@@ -1,6 +1,6 @@
 # The one where I had to write my own ToolstripItemRenderer to get around a 'closed won't fix' bug in Windows Forms
 
-Breakdown of time spent adding a new feature in NimbleSET:
+Breakdown of time spent adding a new feature in [NimbleSET](http://nimbletext.com/SET/About/):
 
 * Time spent writing the feature (implementing natural join, absolute joins, and a hierarchy of possible column joins) 3 hours.
 * Time Spent getting Tooltips and tab order correct and consistent: 1 hour.
