@@ -18,3 +18,4 @@
 * [proxy connection attempt failure](proxy_connection_attempt_failure.md)
 * [push rainbow](push_rainbow.md)
 * [rebase](rebase.md)
+* [waiting for lock](waiting_for_lock.md)
