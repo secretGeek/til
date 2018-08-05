@@ -86,7 +86,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [minecraft](minecraft/01_summary.md) | 3 articles |
  | [music](music/01_summary.md) | 8 articles |
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
- | [node](node/01_summary.md) | 1 article |
+ | [node](node/01_summary.md) | 2 articles |
  | [notepad++](notepad++/01_summary.md) | 9 articles |
  | [npm](npm/01_summary.md) | 7 articles |
  | [nuget](nuget/01_summary.md) | 2 articles |
@@ -120,5 +120,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-409 articles
-89395 words
+410 articles
+180058 words

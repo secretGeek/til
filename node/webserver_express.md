@@ -7,16 +7,16 @@
 Then create a file, `server.js`, with contents much-like:
 
     
-    var express = require('express');
-    var app = express();
-    var path = require('path');
+	var express = require('express');
+	var app = express();
+	var path = require('path');
 
-    // __dirname will use the current path from where you run this file 
-    app.use(express.static(__dirname));
-    app.use(express.static(path.join(__dirname, 'C:\\SOME\\Path\\Here')));
+	// __dirname will use the current path from where you run this file 
+	app.use(express.static(__dirname));
+	app.use(express.static(path.join(__dirname, 'C:\\SOME\\Path\\Here')));
 
-    app.listen(8000);
-    console.log('Listening on port 8000');
+	app.listen(8000);
+	console.log('Listening on port 8000');
 
     
 (Replacing '`C:\\SOME\\Path\\Here`' with the path that will serve as the root of the 'site', noting double backslashies. In *nix land of course it's all forward slashies.)

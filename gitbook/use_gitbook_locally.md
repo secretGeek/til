@@ -6,8 +6,19 @@ First install gitbook (via [npm](../npm/01_summary.md)).
 
     npm install -g gitbook
 
+
+Wait... you now need the `cli` package:
+
+	npm install -g gitbook-cli
+
+
+Infact....
+
+	You need to install "gitbook-cli" to have access to the gitbook command anywhere on your system.
+	If you've installed this package globally, you need to uninstall it.
+	>> Run "npm uninstall -g gitbook" then "npm install -g gitbook-cli"
     
-Thereafter, from the root of the repo you're working on, you run...
+Once `gitbook-cli` is installed, thereafter, from the root of the repo you're working on, you run...
 
     gitbook build .
 

@@ -248,6 +248,7 @@
 * [nimbletext](/nimbletext/01_summary.md)
 	* [convert date uk to iso](/nimbletext/convert_date_uk_to_iso.md)
 * [node](/node/01_summary.md)
+	* [install node on ubuntu wsl](/node/install_node_on_ubuntu_wsl.md)
 	* [webserver express](/node/webserver_express.md)
 * [notepad++](/notepad++/01_summary.md)
 	* [disable automatic parens completion](/notepad++/disable_automatic_parens_completion.md)
