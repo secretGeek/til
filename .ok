@@ -2,4 +2,4 @@
 .\build.ps1 # complete build, after which you can see preview
 n _book\index.html # see preview
 .\wordcount.ps1 # custom word count script
-
+bash; # see C:\Users\Leon\AppData\Local\lxss\home\leon\til\_book

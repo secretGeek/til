@@ -382,6 +382,8 @@
 	* [shortcomings of smallbasic](/smallbasic/shortcomings_of_smallbasic.md)
 * [speech](/speech/01_summary.md)
 	* [copy voices](/speech/copy_voices.md)
+* [sqlite](/sqlite/01_summary.md)
+	* [dapper struggles with dynamic types of sqlite](/sqlite/dapper_struggles_with_dynamic_types_of_sqlite.md)
 * [sql server](/sql_server/01_summary.md)
 	* [backup restore script](/sql_server/backup_restore_script.md)
 	* [bulk comparison with hashbytes](/sql_server/bulk_comparison_with_hashbytes.md)

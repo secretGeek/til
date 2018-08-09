@@ -34,7 +34,7 @@ So for NimbleText.com where previously the email was managed by Arvixe, I will h
 
 Configuring SPF is easy -- but you also have to get Zoho to confirm it. And you can't confirm it from the wizard. Maybe because it takes times to propagate I don't know.
 
-After you've finished the setup wizad you need to go to the control panel: <https://mailadmin.zoho.com/cpanel/index.do#spf>
+After you've finished the setup wizard you need to go to the control panel: <https://mailadmin.zoho.com/cpanel/index.do#spf>
 
 	Control Panel > Mail Administration > Email authentication > SPF
 
