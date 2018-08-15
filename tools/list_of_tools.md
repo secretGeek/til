@@ -8,9 +8,9 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
 ## Types of files:
 
- * .exe (135 files)
+ * .exe (136 files)
  * .dll (27 files)
- * .txt (17 files)
+ * .txt (18 files)
  * .bat (13 files)
  * .vbs (6 files)
  * .config (6 files)
@@ -80,6 +80,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * EchoArgs.exe
  * efsinfo.exe
  * exctrlst.exe
+ * exercism.exe
  * extract.exe
  * filever.exe
  * ftonline.exe

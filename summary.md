@@ -237,6 +237,7 @@
 	* [mark jump in minecraft](/minecraft/mark_jump_in_minecraft.md)
 	* [useful](/minecraft/useful.md)
 * [music](/music/01_summary.md)
+	* [7th chords](/music/7th_chords.md)
 	* [background noise](/music/background_noise.md)
 	* [Bb Trumpet](/music/Bb_Trumpet.md)
 	* [drum beats](/music/drum_beats.md)

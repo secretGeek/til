@@ -2,6 +2,7 @@
 # music
 ### chapter contents
  
+* [7th chords](7th_chords.md)
 * [background noise](background_noise.md)
 * [Bb Trumpet](Bb_Trumpet.md)
 * [drum beats](drum_beats.md)
