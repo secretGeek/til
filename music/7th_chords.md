@@ -2,9 +2,11 @@
 
 7th chords are very common in blues.
 
-A7, D7 and E7 chords for example, are the staple diet of a blues rhythm guitarist. So much so that if they say "A" they probably mean "A7".
+A7, D7 and E7 chords for example, are the staple diet of a blues rhythm guitarist. So much so that if they say "A" they probably mean "A7". Jazz musicians do this too. 
 
-To make one of these, e.g. A7 - we replace the 8th note, the A, with a G... which is a *flattened* 7 in A major. So that's just another hint that musical theory was written by drunks.
+In practice when building one of these chords on guitar, e.g. A7, we replace the 8th note, the A, with a G... which is a *flattened* 7 in A major. So that's just another hint that musical theory was written by drunks. 
+
+(The 8th note, the A, still "belongs" in the chord, but we sacrifice it, omit it, because we need to use that string to play the G.)
 
 So I looked up "how to build a 7th chord"
 

@@ -237,6 +237,7 @@
 	* [mark jump in minecraft](/minecraft/mark_jump_in_minecraft.md)
 	* [useful](/minecraft/useful.md)
 * [music](/music/01_summary.md)
+	* [4 types of basslines](/music/4_types_of_basslines.md)
 	* [7th chords](/music/7th_chords.md)
 	* [background noise](/music/background_noise.md)
 	* [Bb Trumpet](/music/Bb_Trumpet.md)

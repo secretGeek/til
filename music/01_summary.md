@@ -2,6 +2,7 @@
 # music
 ### chapter contents
  
+* [4 types of basslines](4_types_of_basslines.md)
 * [7th chords](7th_chords.md)
 * [background noise](background_noise.md)
 * [Bb Trumpet](Bb_Trumpet.md)
