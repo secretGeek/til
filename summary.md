@@ -78,6 +78,7 @@
 	* [save to file](/electron/save_to_file.md)
 * [excel](/excel/01_summary.md)
 	* [extract year and month from date for grouping purposes](/excel/extract_year_and_month_from_date_for_grouping_purposes.md)
+	* [if error](/excel/if_error.md)
 	* [subtotal function num](/excel/subtotal_function_num.md)
 	* [VLOOKUP](/excel/VLOOKUP.md)
 * [git](/git/01_summary.md)
