@@ -39,6 +39,7 @@
 * [sp heltpext](sp_heltpext.md)
 * [start time](start_time.md)
 * [trailing cr lf](trailing_cr_lf.md)
+* [update millions of rows](update_millions_of_rows.md)
 * [Weibull Function](Weibull_Function.md)
 * [with common table expression](with_common_table_expression.md)
 * [xtype](xtype.md)

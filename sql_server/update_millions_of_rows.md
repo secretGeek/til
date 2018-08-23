@@ -1,21 +1,23 @@
-# Deleting millions of rows from SQL Server
+# Updating millions of rows from SQL Server
 
 
-So, you've [found large tables](.\find_large_tables.md) and now you want to trim them down to size... Not drop them them, just delete most of the rows, using some conditions.
+So, you have a [large table](.\find_large_tables.md) where you need to update every row, using some condition.
 
 If you run a:
 
-    DELETE FROM SOMETABLE
+    UPDATE SOMETABLE SET NAME = 'FRED'
     WHERE "SOME_CONDITION"
 
-...you'll be waiting a long time.
-
-As it alleges in the comments at the [source](http://stackoverflow.com/questions/24785439/deleting-1-millions-rows-in-sql-server):
-
-> Any delete operation will causing locking - on the row level. But once your transaction has more than 5000 row-level locks, SQL Server will do a lock escalation and lock the entire table in exclusive mode<br />&mdash;marc_s
+...you'll be waiting a long time. The table will be locked, the transaction space will grow and grow, and you won't know if it will ever finish until it does... or it doesn't.
 
 
-So this uses `Delete top(@batchsize) ... ` in a `while` loop to do the needful.
+One "trick" that people talk about is turning off indexes, so they don't have to be updated. But that’s only good for **inserts**, not updates because you end up having to do table scans to **find** the rows to update. So don't turn off indexes: double-down on indexes. **Make sure the query you’re using is able to efficiently find the records it wants to update.**
+
+Some people say select the table into a new, transformed table, then drop the old and rename the new. That can double your space requirements and I think it can eradicate your statistics so I don’t really go in for that.
+
+What I like is the little loopy methods with ‘update top(n)’, similar (almost identical, natch) to the technique I use for[Deleting millions of rows from SQL Server](delete_millions_of_rows.md).
+
+This example uses `Update top(@batchsize) ... ` in a `while` loop to do the needful, and you'll get a sense of how long it will take... If it gets interrupted it can resume.
 
     DECLARE
         @BATCHSIZE INT,
@@ -31,7 +33,7 @@ So this uses `Delete top(@batchsize) ... ` in a `while` loop to do the needful.
 
     SET DEADLOCK_PRIORITY LOW;
     SET @BATCHSIZE = 4000;
-    SET @WAITFORVAL = '00:00:10' -- Delay between deletes -- UPDATE THIS
+    SET @WAITFORVAL = '00:00:10' -- Delay between updates **** UPDATE THIS ****
     SET @MAXRUNTIME = '08:00:00' -- 8AM
     SET @BSTOPATMAXTIME = 1 -- ENFORCE 8AM STOP TIME
     SET @ITERATION = 0 -- LEAVE THIS
@@ -49,20 +51,21 @@ So this uses `Delete top(@batchsize) ... ` in a `while` loop to do the needful.
 
         SET @STARTBATCH = GetDate()
 
-        /* vv You need to update this!*/
-        DELETE TOP(@BATCHSIZE)
+        /* vv You need to update this! ***** */
+        UPDATE TOP(@BATCHSIZE)
+		SET Column1 = 'Value'
         FROM SOMETABLE
         WHERE SOMECONDITION
-        /* ^^ You need to update that */
+        /* ^^ You need to update that ***** */
 
         SET @BATCHSIZE=@@ROWCOUNT
         SET @ENDBATCH = GETDATE()
-
 
         SET @ITERATION=@ITERATION+1
         SET @TOTALROWS=@TOTALROWS+@BATCHSIZE
         SET @MSG = 'Iteration: ' + CAST(@ITERATION AS VARCHAR) + ' Total deletes:' + CAST(@TOTALROWS AS VARCHAR)
         RAISERROR (@MSG, 0, 1) WITH NOWAIT
+
         SET @MSG = 'Batch duration: ' +
                 Cast(DATEDIFF(s, @STARTBATCH, @ENDBATCH) as varchar) +
                 ' seconds. Batch Speed ' + CAST(CAST(@BATCHSIZE as float)/(DATEDIFF(s, @STARTBATCH, @ENDBATCH)) AS VARCHAR) +
@@ -71,7 +74,8 @@ So this uses `Delete top(@batchsize) ... ` in a `while` loop to do the needful.
                 ' seconds. Cumulative Speed ' + CAST(CAST(@TOTALROWS as float)/(DATEDIFF(s, @STARTALL, @ENDBATCH)) AS VARCHAR) +
                 ' rows per second'
         RAISERROR (@MSG, 0, 1) WITH NOWAIT
-        WAITFOR DELAY @WAITFORVAL
+
+        WAITFOR DELAY @WAITFORVAL  -- ** DECIDE IF YOU WANT THIS BREATHING-ROOM DELAY ON EACH LOOP....
     END
 
     SET @MSG = 'TOTAL elapsed: ' +
@@ -83,12 +87,11 @@ So this uses `Delete top(@batchsize) ... ` in a `while` loop to do the needful.
 
 
 
-## Source
 
- * [Deleting 1 millions rows in SQL Server](http://stackoverflow.com/questions/24785439/deleting-1-millions-rows-in-sql-server)
+
 
 ## See also
 
- * [Updating millions of rows from SQL Server](update_millions_of_rows.md)
+ * [Deleting millions of rows from SQL Server](delete_millions_of_rows.md)
  * [Find large tables](.\find_large_tables.md)
  * [Log Message Asynchronously](.\Log_Message_During_LongRunning_Proc.md)
