@@ -8,6 +8,7 @@
 	* [parse exact](/.net/parse_exact.md)
 	* [zipfile](/.net/zipfile.md)
 * [.net core MVC](/.net_core_MVC/01_summary.md)
+	* [bind post to action](/.net_core_MVC/bind_post_to_action.md)
 	* [custom port](/.net_core_MVC/custom_port.md)
 	* [documenting asp net core](/.net_core_MVC/documenting_asp_net_core.md)
 	* [form value count limit 1024 exceeded](/.net_core_MVC/form_value_count_limit_1024_exceeded.md)

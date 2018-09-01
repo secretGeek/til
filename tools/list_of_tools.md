@@ -8,16 +8,16 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
 ## Types of files:
 
- * .exe (136 files)
+ * .exe (137 files)
  * .dll (27 files)
  * .txt (18 files)
  * .bat (13 files)
- * .vbs (6 files)
- * .config (6 files)
+ * .config (7 files)
  * .chm (6 files)
- * .doc (5 files)
+ * .vbs (6 files)
  * .pdb (5 files)
  * .xml (5 files)
+ * .doc (5 files)
  * .hlp (4 files)
  * .ini (3 files)
  * .sys (3 files)
@@ -151,6 +151,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * snmputilg.exe
  * SpaceSniffer.exe
  * SPCAMLQueryHelper.exe
+ * SPCAMLQueryHelperOnline.exe
  * SPCheck.exe
  * SqlDump.exe
  * SqlRun.exe
