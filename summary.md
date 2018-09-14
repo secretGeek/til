@@ -466,6 +466,7 @@
 	* [tabs and spaces](/visual_studio/tabs_and_spaces.md)
 * [vs code](/vs_code/01_summary.md)
 	* [hiding noise](/vs_code/hiding_noise.md)
+	* [keystrokes expand collapse](/vs_code/keystrokes_expand_collapse.md)
 	* [launch vs code](/vs_code/launch_vs_code.md)
 	* [markdown preview](/vs_code/markdown_preview.md)
 	* [remove trailing whitespace](/vs_code/remove_trailing_whitespace.md)

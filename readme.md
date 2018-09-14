@@ -114,12 +114,12 @@ Though this site is published as a free digital-only book, I've also published a
  | [typescript](typescript/01_summary.md) | 1 article |
  | [virtual box](virtual_box/01_summary.md) | 2 articles |
  | [visual studio](visual_studio/01_summary.md) | 8 articles |
- | [vs code](vs_code/01_summary.md) | 4 articles |
+ | [vs code](vs_code/01_summary.md) | 5 articles |
  | [windows](windows/01_summary.md) | 14 articles |
  | [windows.forms](windows.forms/01_summary.md) | 4 articles |
  | [wordpress](wordpress/01_summary.md) | 1 article |
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-420 articles
-182182 words
+421 articles
+182291 words
