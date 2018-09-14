@@ -3,6 +3,7 @@
 ### chapter contents
  
 * [bind post to action](bind_post_to_action.md)
+* [call bash](call_bash.md)
 * [custom port](custom_port.md)
 * [documenting asp net core](documenting_asp_net_core.md)
 * [form value count limit 1024 exceeded](form_value_count_limit_1024_exceeded.md)

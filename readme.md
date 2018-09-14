@@ -18,7 +18,7 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 
 ## Inspired by
 
- * https://github.com/jbranchaud/til -- as seen on https://news.ycombinator.com/item?id=11068902
+ * https://github.com/jbranchaud/til &mdash; as seen on https://news.ycombinator.com/item?id=11068902
  * https://github.com/thoughtbot/til
  * https://github.com/jwworth/til
 
@@ -26,13 +26,13 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 
  * http://wiki.secretGeek.net (wiki for things I find fascinating)
  * http://www.secretGeek.net (blog)
- 
+
 ## Get this book...
 
 <p><a href='http://YourFirstProduct.com'><img src='yfp_book.png' title='Your First Product' alt='Your First Product' /></a></p>
 
 Though this site is published as a free digital-only book, I've also published a *real* book.
- 
+
 **[Choose Your First Product](https://YourFirstProduct.com)** helps creators find a suitable idea for their first digital product. If you want to build products, please learn more at [https://YourFirstProduct.com](https://YourFirstProduct.com). Thank you.
 
 
@@ -46,7 +46,7 @@ Though this site is published as a free digital-only book, I've also published a
 |Topic|# Articles|
 |-----|----------|
 | [.net](.net/01_summary.md) | 6 articles |
- | [.net core MVC](.net_core_MVC/01_summary.md) | 13 articles |
+ | [.net core MVC](.net_core_MVC/01_summary.md) | 14 articles |
  | [appharbor](appharbor/01_summary.md) | 1 article |
  | [asp.net mvc](asp.net_mvc/01_summary.md) | 10 articles |
  | [banking](banking/01_summary.md) | 1 article |
@@ -87,13 +87,13 @@ Though this site is published as a free digital-only book, I've also published a
  | [music](music/01_summary.md) | 10 articles |
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
  | [node](node/01_summary.md) | 2 articles |
- | [notepad++](notepad++/01_summary.md) | 9 articles |
+ | [notepad++](notepad++/01_summary.md) | 10 articles |
  | [npm](npm/01_summary.md) | 7 articles |
  | [nuget](nuget/01_summary.md) | 2 articles |
  | [office](office/01_summary.md) | 1 article |
  | [oracle](oracle/01_summary.md) | 5 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
- | [powershell](powershell/01_summary.md) | 66 articles |
+ | [powershell](powershell/01_summary.md) | 67 articles |
  | [productivity](productivity/01_summary.md) | 1 article |
  | [python](python/01_summary.md) | 8 articles |
  | [react](react/01_summary.md) | 2 articles |
@@ -105,7 +105,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [smallbasic](smallbasic/01_summary.md) | 1 article |
  | [speech](speech/01_summary.md) | 1 article |
  | [sqlite](sqlite/01_summary.md) | 1 article |
- | [sql server](sql_server/01_summary.md) | 41 articles |
+ | [sql server](sql_server/01_summary.md) | 42 articles |
  | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 2 articles |
  | [sql spatial](sql_spatial/01_summary.md) | 2 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
@@ -121,5 +121,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-416 articles
-181963 words
+420 articles
+182182 words

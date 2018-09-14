@@ -18,6 +18,7 @@
 * [elevate](elevate.md)
 * [emoji list](emoji_list.md)
 * [find all fonts](find_all_fonts.md)
+* [find headings in markdown](find_headings_in_markdown.md)
 * [find text](find_text.md)
 * [find todos](find_todos.md)
 * [format table with expressions](format_table_with_expressions.md)

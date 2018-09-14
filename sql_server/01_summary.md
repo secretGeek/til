@@ -7,6 +7,7 @@
 * [case sensitive string comparison](case_sensitive_string_comparison.md)
 * [collation find change compare](collation_find_change_compare.md)
 * [convert timestamp to varchar](convert_timestamp_to_varchar.md)
+* [Create Schema Authorization](Create_Schema_Authorization.md)
 * [create schema specific role](create_schema_specific_role.md)
 * [ctrl e execute](ctrl_e_execute.md)
 * [data dictionary](data_dictionary.md)

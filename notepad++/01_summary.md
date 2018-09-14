@@ -4,6 +4,7 @@
  
 * [disable automatic parens completion](disable_automatic_parens_completion.md)
 * [error downloading the plugin list](error_downloading_the_plugin_list.md)
+* [expand collapse](expand_collapse.md)
 * [install textfx plugin](install_textfx_plugin.md)
 * [navigate back](navigate_back.md)
 * [plugins](plugins.md)
