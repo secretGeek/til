@@ -84,7 +84,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [memorize](memorize/01_summary.md) | 2 articles |
  | [mercurial](mercurial/01_summary.md) | 17 articles |
  | [minecraft](minecraft/01_summary.md) | 3 articles |
- | [music](music/01_summary.md) | 10 articles |
+ | [music](music/01_summary.md) | 11 articles |
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
  | [node](node/01_summary.md) | 2 articles |
  | [notepad++](notepad++/01_summary.md) | 10 articles |
@@ -93,7 +93,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [office](office/01_summary.md) | 1 article |
  | [oracle](oracle/01_summary.md) | 5 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
- | [powershell](powershell/01_summary.md) | 67 articles |
+ | [powershell](powershell/01_summary.md) | 68 articles |
  | [productivity](productivity/01_summary.md) | 1 article |
  | [python](python/01_summary.md) | 8 articles |
  | [react](react/01_summary.md) | 2 articles |
@@ -121,5 +121,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-421 articles
-182291 words
+423 articles
+182361 words

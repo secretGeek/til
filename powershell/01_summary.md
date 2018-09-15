@@ -12,6 +12,7 @@
 * [count repositories](count_repositories.md)
 * [create profile](create_profile.md)
 * [custom objects](custom_objects.md)
+* [date format](date_format.md)
 * [diff between two dates](diff_between_two_dates.md)
 * [download webpage to file](download_webpage_to_file.md)
 * [dumb or fun ideas](dumb_or_fun_ideas.md)

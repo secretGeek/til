@@ -7,6 +7,7 @@
 * [background noise](background_noise.md)
 * [Bb Trumpet](Bb_Trumpet.md)
 * [drum beats](drum_beats.md)
+* [guitar dashboard](guitar_dashboard.md)
 * [guitar finger names](guitar_finger_names.md)
 * [guitar shapes](guitar_shapes.md)
 * [PC guitar effects](PC_guitar_effects.md)
