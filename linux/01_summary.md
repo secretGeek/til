@@ -17,6 +17,7 @@
 * [how much memory is free](how_much_memory_is_free.md)
 * [how to edit a file](how_to_edit_a_file.md)
 * [lets encrypt](lets_encrypt.md)
+* [mkdir recursive force](mkdir_recursive_force.md)
 * [nano](nano.md)
 * [nginx](nginx.md)
 * [profiles](profiles.md)
