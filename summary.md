@@ -221,6 +221,7 @@
 * [mercurial](/mercurial/01_summary.md)
 	* [branching](/mercurial/branching.md)
 	* [clone without cloning](/mercurial/clone_without_cloning.md)
+	* [convert hg to git](/mercurial/convert_hg_to_git.md)
 	* [current extensions](/mercurial/current_extensions.md)
 	* [diffmerge merge](/mercurial/diffmerge_merge.md)
 	* [ensure all files added](/mercurial/ensure_all_files_added.md)

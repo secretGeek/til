@@ -4,6 +4,7 @@
  
 * [branching](branching.md)
 * [clone without cloning](clone_without_cloning.md)
+* [convert hg to git](convert_hg_to_git.md)
 * [current extensions](current_extensions.md)
 * [diffmerge merge](diffmerge_merge.md)
 * [ensure all files added](ensure_all_files_added.md)
