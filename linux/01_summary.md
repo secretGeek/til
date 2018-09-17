@@ -4,6 +4,7 @@
  
 * [apt get](apt_get.md)
 * [awk](awk.md)
+* [backup multiple remote folders with rsync](backup_multiple_remote_folders_with_rsync.md)
 * [backup remote folders with rsync](backup_remote_folders_with_rsync.md)
 * [bash](bash.md)
 * [bg fg background and foreground](bg_fg_background_and_foreground.md)

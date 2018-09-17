@@ -166,6 +166,7 @@
 * [linux](/linux/01_summary.md)
 	* [apt get](/linux/apt_get.md)
 	* [awk](/linux/awk.md)
+	* [backup multiple remote folders with rsync](/linux/backup_multiple_remote_folders_with_rsync.md)
 	* [backup remote folders with rsync](/linux/backup_remote_folders_with_rsync.md)
 	* [bash](/linux/bash.md)
 	* [bg fg background and foreground](/linux/bg_fg_background_and_foreground.md)
