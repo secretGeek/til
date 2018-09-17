@@ -59,3 +59,6 @@ I remind myself to perform this regularly using devoir.
 
 That's sufficient for now.
 
+## See also
+
+* [Backup remote folders with rsync](backup_remote_folders_with_rsync.md)
