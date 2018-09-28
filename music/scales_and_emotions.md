@@ -16,6 +16,13 @@ A fast song in a minor scale is angry.
 
 That's pretty profound stuff!
 
+Here's a depiction of those four quadrants:
+
+![quadrants](quadrants.png)
+
+
+
+
 Here's my source, an excellent guide!
 
 ## Source
