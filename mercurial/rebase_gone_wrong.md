@@ -69,7 +69,7 @@ Here's what I get from `stat` at the moment....
 
 Looking in tortoise it's quite ugly.
 
-	see ![rebase gone wrong](rebase_gone_wrong.png)
+see ![rebase gone wrong](rebase_gone_wrong.png)
 
 The current working directory is disconnected from all before it and has a big red "not a head revision" tag.
 
