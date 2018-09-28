@@ -237,6 +237,7 @@
 	* [proxy connection attempt failure](/mercurial/proxy_connection_attempt_failure.md)
 	* [push rainbow](/mercurial/push_rainbow.md)
 	* [rebase](/mercurial/rebase.md)
+	* [rebase gone wrong](/mercurial/rebase_gone_wrong.md)
 	* [waiting for lock](/mercurial/waiting_for_lock.md)
 * [minecraft](/minecraft/01_summary.md)
 	* [commands](/minecraft/commands.md)
