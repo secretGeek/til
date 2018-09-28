@@ -11,14 +11,14 @@ If you get an error message such as:
 	transaction abort!
 	rollback completed
 
-I recommend tHe following steps...
+I recommend the following steps...
 
-	1. Make a local backup of your repo, in another folder.
-	2. Perform any `hg unbundle` commands that the error message recommends
-	3. Try `hg rebase --continue`
-	4. If that doesn't work, try `hg rebase --abort`
+1. Make a local backup of your repo, in another folder.
+2. Perform any `hg unbundle` commands that the error message recommends
+3. Try `hg rebase --continue`
+4. If that doesn't work, try `hg rebase --abort`
 
-I was worried that I would lose my commits when I did this, but I did not. The backup of the repo also meant I could try other things if this had failed.
+I was worried I would lose my commits when I did this, but I did not. The backup of the repo (step 1) also meant I could try other things if this had failed.
 
 Here's the complete story of what happened (may include error messages that you also experience)
 
@@ -73,7 +73,7 @@ see ![rebase gone wrong](rebase_gone_wrong.png)
 
 The current working directory is disconnected from all before it and has a big red "not a head revision" tag.
 
-The revision prior to that is from 8 days ago - it's my last push - i.e. the point the rebase would've had to "roll back" to.
+The revision prior to that is from 8 days ago - it's my last push - i.e. the point the rebase would've had to "roll back" to. Missing from this graph is everyone else's commits in those 8 days, and my local commits.
 
 I ran:
 
@@ -228,12 +228,10 @@ cat `undo.desc` tells me:
 and `rebasestate` is probably our culprit. Its content in full:
 
 	bc5366e987f2d3de6039d08ce5f124b013bc889f
-
 	0000000000000000000000000000000000000000
 	0
 	0
 	0
-
 	8c87dc84658a144f80526d50a48bfc382059c194:918fe6082c1416e890cd217f5ca7b57337319dfd:9dadf17bcf7ce1295bccef241d07b0adc316e872
 	54388b19545bc775818ddbae26ad6d0cac35127d:18827d00a088068c7e123c7049dddcbbcac43b9c:9dadf17bcf7ce1295bccef241d07b0adc316e872
 	ccb07e7d5eb2fedb8fe7801da0e7f5f442269ceb:220059d4d0319ae93b486c5b3982d81563d56048:9dadf17bcf7ce1295bccef241d07b0adc316e872
@@ -255,9 +253,11 @@ I run all my tests and then push.
 
 The push seemed to freeze for a while.... I received an email at the same time about a 'global network outage'... but eventually the push finished. The game is over. I have won.
 
-   pushing to \\Reposerver\MonoRepo
-   searching for changes
-   adding changesets
-   adding manifests
-   adding file changes
-   added 6 changesets with 311 changes to 290 files
+    pushing to \\Reposerver\MonoRepo
+    searching for changes
+    adding changesets
+    adding manifests
+    adding file changes
+    added 6 changesets with 311 changes to 290 files
+
+=====
