@@ -60,7 +60,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [design](design/01_summary.md) | 1 article |
  | [electron](electron/01_summary.md) | 2 articles |
  | [excel](excel/01_summary.md) | 4 articles |
- | [git](git/01_summary.md) | 11 articles |
+ | [git](git/01_summary.md) | 12 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
  | [gmail](gmail/01_summary.md) | 1 article |
  | [google](google/01_summary.md) | 10 articles |
@@ -121,5 +121,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-428 articles
-184455 words
+429 articles
+184748 words

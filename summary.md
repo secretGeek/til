@@ -91,6 +91,7 @@
 	* [get fork back up to date](/git/get_fork_back_up_to_date.md)
 	* [git bitbucket](/git/git_bitbucket.md)
 	* [git config](/git/git_config.md)
+	* [git for mercurial users](/git/git_for_mercurial_users.md)
 	* [merge pull request](/git/merge_pull_request.md)
 	* [remove from git but keep locally](/git/remove_from_git_but_keep_locally.md)
 	* [see git folder](/git/see_git_folder.md)

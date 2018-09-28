@@ -22,12 +22,22 @@ I've now got this image:
 
 First ignore the circles. Pretend they're completely not present. All that's left are some note names in small black letters. 
 
-The first diagram shows you the position of all the notes in Dorian, in this case in A. 
+The first diagram shows you the position of all the notes in Dorian, in this case in scales that have a tonal center of "A". (But with guitar it's easy to transpose to different scales by shifting up or down... A is just convenient)
 
 The author (mike hadlow) eschews the use of Roman numerals though, so instead of II and ii it says 2M and 2m.   
 
-The notes that are circled are the notes of minor pentatonic. It's clear that pentatonic minor is a subset of Dorian. And if you know your pentatonic minor (like most guitarists) you'll see what you can add to pentatonic minor to get Dorian. 
+Now consider the circles. The notes that are circled are the notes of minor pentatonic. The root note has a red circle. The next note (a minor 3rd) has a yellow circle. 
+
+Notice that the circled notes (pentatonic minor) are a subset of Dorian. And if you know your pentatonic minor (like many guitarists) you'll clearly see what you can add to pentatonic minor to get Dorian. 
 
 The next diagram does the same for natural minor. (I already had a variation of this diagram on my wall) and the third does the same for Phrygian. 
 
+Dorian, Natural Minor (Aeolian) and Phrygian are all subsets of minor. So they are minor modalities.
 
+
+
+
+## See also
+
+* [Scales and Emotions](scales_and_emotions.md)
+* [Guitar Shapes](guitar_shapes.md)
