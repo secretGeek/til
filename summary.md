@@ -253,6 +253,7 @@
 	* [guitar finger names](/music/guitar_finger_names.md)
 	* [guitar shapes](/music/guitar_shapes.md)
 	* [PC guitar effects](/music/PC_guitar_effects.md)
+	* [scales and emotions](/music/scales_and_emotions.md)
 	* [take it slow](/music/take_it_slow.md)
 	* [tension](/music/tension.md)
 * [nimbletext](/nimbletext/01_summary.md)
