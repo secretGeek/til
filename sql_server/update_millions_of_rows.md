@@ -11,11 +11,11 @@ If you run a:
 ...you'll be waiting a long time. The table will be locked, the transaction space will grow and grow, and you won't know if it will ever finish until it does... or it doesn't.
 
 
-One "trick" that people talk about is turning off indexes, so they don't have to be updated. But that’s only good for **inserts**, not updates because you end up having to do table scans to **find** the rows to update. So don't turn off indexes: double-down on indexes. **Make sure the query you’re using is able to efficiently find the records it wants to update.**
+One "trick" that people talk about is turning off indexes, so they don't have to be updated. But that's only good for **inserts**, not updates because you end up having to do table scans to **find** the rows to update. So don't turn off indexes: double-down on indexes. **Make sure the query you're using is able to efficiently find the records it wants to update.**
 
-Some people say select the table into a new, transformed table, then drop the old and rename the new. That can double your space requirements and I think it can eradicate your statistics so I don’t really go in for that.
+Some people say select the table into a new, transformed table, then drop the old and rename the new. That can double your space requirements and I think it can eradicate your statistics so I don't really go in for that.
 
-What I like is the little loopy methods with ‘update top(n)’, similar (almost identical, natch) to the technique I use for[Deleting millions of rows from SQL Server](delete_millions_of_rows.md).
+What I like is the little loopy methods with 'update top(n)', similar (almost identical, natch) to the technique I use for [Deleting millions of rows from SQL Server](delete_millions_of_rows.md).
 
 This example uses `Update top(@batchsize) ... ` in a `while` loop to do the needful, and you'll get a sense of how long it will take... If it gets interrupted it can resume.
 

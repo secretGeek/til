@@ -1,6 +1,6 @@
 # Find view guid
 
-It can be hard to find the guid of a list, if you don’t have many permissions (I have very little permissions in this list) 
+It can be hard to find the guid of a list, if you don't have many permissions (I have very little permissions in this list) 
 
 But if you export a list to Excel: 
 
