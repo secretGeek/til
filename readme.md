@@ -93,7 +93,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [office](office/01_summary.md) | 1 article |
  | [oracle](oracle/01_summary.md) | 5 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
- | [powershell](powershell/01_summary.md) | 68 articles |
+ | [powershell](powershell/01_summary.md) | 69 articles |
  | [productivity](productivity/01_summary.md) | 1 article |
  | [python](python/01_summary.md) | 8 articles |
  | [react](react/01_summary.md) | 2 articles |
@@ -105,7 +105,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [smallbasic](smallbasic/01_summary.md) | 1 article |
  | [speech](speech/01_summary.md) | 1 article |
  | [sqlite](sqlite/01_summary.md) | 1 article |
- | [sql server](sql_server/01_summary.md) | 42 articles |
+ | [sql server](sql_server/01_summary.md) | 43 articles |
  | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 2 articles |
  | [sql spatial](sql_spatial/01_summary.md) | 2 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
@@ -121,5 +121,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-429 articles
-184788 words
+431 articles
+185209 words

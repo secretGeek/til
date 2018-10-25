@@ -20,7 +20,7 @@ Or for the ever useful sortable reporting month: yyyy-MM
     2017-02
 
 
-To get milliseconds (and 24 hour time) 
+To get milliseconds (and 24 hour time) use format "121" -- it extends 120 by including the milliseconds.
 
     Select CONVERT(VARCHAR(23), GetDate(), 121)
     2017-02-02 11:52:33.980
