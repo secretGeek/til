@@ -35,3 +35,14 @@ Function:
 
 	XType in ('AF','FS','FT','IF','TF')
 
+
+Further research....
+	
+You can find the above table via:
+
+	
+	SELECT name 
+	FROM master..spt_values
+	WHERE type = 'O9T	
+	
+...[see stackoverflow](https://stackoverflow.com/a/16243935)

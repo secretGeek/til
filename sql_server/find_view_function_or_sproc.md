@@ -44,3 +44,31 @@ And here's commands to add them to `kv` &mdash;
     where so.xtype in ('U','V') AND Schema_Name(so.UID) + '.' + so.Name like
     '%%'
     --and sc.Name like '%%'"
+
+	
+	
+
+	
+Here's a command to list all objects that have definitions, along with their definition:
+
+
+	Select 
+		schema_name(so.uid) + '.' + so.[name]  AS [Schema.Object], 
+		so.xtype,
+		Definitions.Definition,
+		len(Definitions.Definition) as [Length of definition],
+		master.dbo.fn_varbintohexstr(hashbytes('MD5', Definitions.Definition)) as Hasho
+	from 
+	sysobjects so
+	outer apply (Select stuff(	(select ' ' + sc.text
+						from syscomments  sc
+					where sc.id = so.id
+					order by colid
+					for xml path , TYPE).value('.[1]','nvarchar(max)' 
+				), 1, 1, '') as Definition) as Definitions
+	where Definitions.Definition is not null
+
+
+	
+	
+Notice I've combined it with hashbytes for easy difference checking/comparison of objects.

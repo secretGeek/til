@@ -86,24 +86,23 @@ This one,
 3. Numbers each element
 
 
-CREATE FUNCTION [dbo].[SplitListChar](@list  nvarchar(MAX), @delim nchar) RETURNS TABLE AS
-RETURN
-	WITH csvtbl(start, stop, rownum) AS
-	(
-		SELECT start = convert(bigint, 1),
-			stop = charindex(@delim, @list + @delim),
-			rownum = convert(bigint, 0)
-		UNION ALL
-		SELECT start = stop + 1,
-			stop = charindex(@delim, @list + @delim, stop + 1),
-			rownum = rownum + 1
+	CREATE FUNCTION [dbo].[SplitListChar](@list  nvarchar(MAX), @delim nchar) RETURNS TABLE AS
+	RETURN
+		WITH csvtbl(start, stop, rownum) AS
+		(
+			SELECT start = convert(bigint, 1),
+				stop = charindex(@delim, @list + @delim),
+				rownum = convert(bigint, 0)
+			UNION ALL
+			SELECT start = stop + 1,
+				stop = charindex(@delim, @list + @delim, stop + 1),
+				rownum = rownum + 1
+			FROM   csvtbl
+			WHERE  stop > 0
+		)
+		SELECT substring(@list, start,
+						CASE WHEN stop > 0 THEN stop - start ELSE 0 END)
+				AS Value, stop, start, rownum
 		FROM   csvtbl
 		WHERE  stop > 0
-	)
-	SELECT substring(@list, start,
-					CASE WHEN stop > 0 THEN stop - start ELSE 0 END)
-			AS Value, stop, start, rownum
-	FROM   csvtbl
-	WHERE  stop > 0
-
 
