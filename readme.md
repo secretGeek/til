@@ -84,7 +84,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [memorize](memorize/01_summary.md) | 2 articles |
  | [mercurial](mercurial/01_summary.md) | 19 articles |
  | [minecraft](minecraft/01_summary.md) | 3 articles |
- | [music](music/01_summary.md) | 12 articles |
+ | [music](music/01_summary.md) | 13 articles |
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
  | [node](node/01_summary.md) | 2 articles |
  | [notepad++](notepad++/01_summary.md) | 10 articles |
@@ -106,7 +106,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [speech](speech/01_summary.md) | 1 article |
  | [sqlite](sqlite/01_summary.md) | 1 article |
  | [sql server](sql_server/01_summary.md) | 43 articles |
- | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 2 articles |
+ | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 3 articles |
  | [sql spatial](sql_spatial/01_summary.md) | 2 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
  | [tools](tools/01_summary.md) | 3 articles |
@@ -121,5 +121,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-431 articles
-185313 words
+433 articles
+185452 words

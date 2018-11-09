@@ -60,7 +60,7 @@ Here's a command to list all objects that have definitions, along with their def
 		master.dbo.fn_varbintohexstr(hashbytes('MD5', Definitions.Definition)) as Hasho
 	from 
 	sysobjects so
-	outer apply (Select stuff(	(select ' ' + sc.text
+	outer apply (Select stuff(	(select '' + sc.text
 						from syscomments  sc
 					where sc.id = so.id
 					order by colid
@@ -69,6 +69,6 @@ Here's a command to list all objects that have definitions, along with their def
 	where Definitions.Definition is not null
 
 
-	
-	
+
+
 Notice I've combined it with hashbytes for easy difference checking/comparison of objects.
