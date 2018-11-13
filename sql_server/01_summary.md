@@ -21,6 +21,7 @@
 * [first day of month](first_day_of_month.md)
 * [format datetime yyyy-MM-dd](format_datetime_yyyy-MM-dd.md)
 * [format your queries](format_your_queries.md)
+* [generate change script](generate_change_script.md)
 * [histogram](histogram.md)
 * [how much space does my db use](how_much_space_does_my_db_use.md)
 * [identity insert off](identity_insert_off.md)

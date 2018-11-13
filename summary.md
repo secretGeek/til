@@ -421,6 +421,7 @@
 	* [first day of month](/sql_server/first_day_of_month.md)
 	* [format datetime yyyy-MM-dd](/sql_server/format_datetime_yyyy-MM-dd.md)
 	* [format your queries](/sql_server/format_your_queries.md)
+	* [generate change script](/sql_server/generate_change_script.md)
 	* [histogram](/sql_server/histogram.md)
 	* [how much space does my db use](/sql_server/how_much_space_does_my_db_use.md)
 	* [identity insert off](/sql_server/identity_insert_off.md)
