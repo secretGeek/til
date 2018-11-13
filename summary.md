@@ -41,6 +41,7 @@
 	* [bower init](/bower/bower_init.md)
 	* [update bower](/bower/update_bower.md)
 * [chocolatey](/chocolatey/01_summary.md)
+	* [api key](/chocolatey/api_key.md)
 	* [commands](/chocolatey/commands.md)
 	* [install chocolatey](/chocolatey/install_chocolatey.md)
 	* [list localonly](/chocolatey/list_localonly.md)
