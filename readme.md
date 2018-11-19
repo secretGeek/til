@@ -63,6 +63,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [git](git/01_summary.md) | 12 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
  | [gmail](gmail/01_summary.md) | 1 article |
+ | [go](go/01_summary.md) | 1 article |
  | [google](google/01_summary.md) | 10 articles |
  | [graphics](graphics/01_summary.md) | 8 articles |
  | [gulp](gulp/01_summary.md) | 1 article |
@@ -93,7 +94,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [office](office/01_summary.md) | 1 article |
  | [oracle](oracle/01_summary.md) | 5 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
- | [powershell](powershell/01_summary.md) | 69 articles |
+ | [powershell](powershell/01_summary.md) | 70 articles |
  | [productivity](productivity/01_summary.md) | 1 article |
  | [python](python/01_summary.md) | 8 articles |
  | [react](react/01_summary.md) | 2 articles |
@@ -121,5 +122,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-435 articles
-192932 words
+437 articles
+193103 words

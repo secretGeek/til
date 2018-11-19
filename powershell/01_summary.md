@@ -66,6 +66,7 @@
 * [top ten files](top_ten_files.md)
 * [Transcript](Transcript.md)
 * [tree](tree.md)
+* [update password](update_password.md)
 * [Use Google Maps](Use_Google_Maps.md)
 * [version](version.md)
 * [where is script running from](where_is_script_running_from.md)
