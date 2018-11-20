@@ -410,6 +410,7 @@
 	* [bulk comparison with hashbytes](/sql_server/bulk_comparison_with_hashbytes.md)
 	* [case sensitive string comparison](/sql_server/case_sensitive_string_comparison.md)
 	* [collation find change compare](/sql_server/collation_find_change_compare.md)
+	* [convert hex varchar to bigint](/sql_server/convert_hex_varchar_to_bigint.md)
 	* [convert timestamp to varchar](/sql_server/convert_timestamp_to_varchar.md)
 	* [Create Schema Authorization](/sql_server/Create_Schema_Authorization.md)
 	* [create schema specific role](/sql_server/create_schema_specific_role.md)
