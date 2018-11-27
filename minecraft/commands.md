@@ -31,3 +31,8 @@ Make sure that if you die you don't lose your inventory with:
 	/tp x y z
 
 (Where x y and z are values) will take you somewhere.
+
+
+## External
+
+* <http://minecraftbedrock.wikia.com/wiki/Commands/List_of_Commands>

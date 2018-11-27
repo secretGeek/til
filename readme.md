@@ -52,7 +52,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [banking](banking/01_summary.md) | 1 article |
  | [bower](bower/01_summary.md) | 2 articles |
  | [chocolatey](chocolatey/01_summary.md) | 5 articles |
- | [concepts](concepts/01_summary.md) | 14 articles |
+ | [concepts](concepts/01_summary.md) | 15 articles |
  | [console](console/01_summary.md) | 5 articles |
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article |
  | [crypto](crypto/01_summary.md) | 1 article |
@@ -122,5 +122,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-438 articles
-193146 words
+439 articles
+193541 words

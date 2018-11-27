@@ -53,6 +53,7 @@
 	* [follow up and recurring emails](/concepts/follow_up_and_recurring_emails.md)
 	* [generals fight the last war](/concepts/generals_fight_the_last_war.md)
 	* [getting unblocked](/concepts/getting_unblocked.md)
+	* [greatest books in psychology](/concepts/greatest_books_in_psychology.md)
 	* [happy path](/concepts/happy_path.md)
 	* [list of potentially useful concepts](/concepts/list_of_potentially_useful_concepts.md)
 	* [mantras](/concepts/mantras.md)

@@ -8,6 +8,7 @@
 * [follow up and recurring emails](follow_up_and_recurring_emails.md)
 * [generals fight the last war](generals_fight_the_last_war.md)
 * [getting unblocked](getting_unblocked.md)
+* [greatest books in psychology](greatest_books_in_psychology.md)
 * [happy path](happy_path.md)
 * [list of potentially useful concepts](list_of_potentially_useful_concepts.md)
 * [mantras](mantras.md)
