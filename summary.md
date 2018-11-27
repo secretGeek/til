@@ -351,7 +351,6 @@
 	* [rename photos](/powershell/rename_photos.md)
 	* [Rename to lower case](/powershell/Rename_to_lower_case.md)
 	* [rename with force](/powershell/rename_with_force.md)
-	* [repeat-every-second](/powershell/repeat-every-second.md)
 	* [repeat every n seconds forever](/powershell/repeat_every_n_seconds_forever.md)
 	* [replace a line in a file](/powershell/replace_a_line_in_a_file.md)
 	* [runas](/powershell/runas.md)

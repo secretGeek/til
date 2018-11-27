@@ -53,7 +53,6 @@
 * [rename photos](rename_photos.md)
 * [Rename to lower case](Rename_to_lower_case.md)
 * [rename with force](rename_with_force.md)
-* [repeat-every-second](repeat-every-second.md)
 * [repeat every n seconds forever](repeat_every_n_seconds_forever.md)
 * [replace a line in a file](replace_a_line_in_a_file.md)
 * [runas](runas.md)
