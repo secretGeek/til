@@ -2,13 +2,13 @@
 
 Most online tutorials, most technical instructions, most documentation, most of the language that people use when describing technical subjects are **COIK**.
 
-Clearly Only If Known.
+**Clearly Only If Known**.
 
 You can only understand what is being said if you already understand what is being said.
 
 It could be because the writers are suffering from the so-called 'curse of knowledge' &mdash; that once you know something you can't imagine not having always known it.
 
-An excellent example/discussion of "the curse of knowledge" is presented in the book "Made to Stick" using the example of the "Tapping and Listening" psychological study.
+An excellent example/discussion of "the curse of knowledge" is presented in the book ["Made to Stick"](http://amazon.com/exec/obidos/ASIN/1400064287/secretGeek-20) by Chip and Dan Heath, using the example of the "Tapping and Listening" psychological study.
 
 It's [quoted here](https://www.bkwpartners.com/tappers-and-listeners-an-excerpt-from-one-of-my-favorite-communications-books-and-a-story-i-tell-clients-often/):
 

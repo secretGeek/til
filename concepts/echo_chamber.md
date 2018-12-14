@@ -2,7 +2,7 @@
 
 The greatest exposition of the echo chamber problem comes from this comic:
 
- <http://chainsawsuit.com/comic/2014/09/16/on-research/>
+<http://chainsawsuit.com/comic/2014/09/16/on-research/>
 
 ![jackpot](chainsawsuit_dot_com_20140916-research.png)
 
@@ -20,5 +20,9 @@ The common criticism of academia as existing within 'Ivory Towers' is about Echo
 Your echo-chamber, your ideological bubble, your personal RDF -- are all related to your [World View](https://en.wikipedia.org/wiki/World_view). The term 'World View' has been brought into English from the German philosophical concept: Weltanschauung.
 
 
-Reflections on trusting trust.
-https://www.schneier.com/blog/archives/2006/01/countering_trus.html
+
+
+## External references:
+
+* [wikipedia: confirmation bias](https://en.wikipedia.org/wiki/Confirmation_bias)
+* [Reflections on trusting trust](https://www.schneier.com/blog/archives/2006/01/countering_trus.html)

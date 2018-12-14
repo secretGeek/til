@@ -1,11 +1,11 @@
 # Generals Always Fight The Last War
 
-Have you had that experience where someone says a cutting remark to you, and it requires a witty response, and you do indeed think of the perfect witty response to make, but you only think of it, after ceaseless rumination, 10 years later?
+Have you had that experience where someone says a cutting remark to you, and it requires a witty response, and you do indeed think of the perfect witty response to make, a real zinger that will blast them into orbit, but you only think of it -- after ceaseless rumination -- 10 years too late?
 
 Have you ever seen a sign in the office kitchen which says "People named Jeffrey should not steal Helen's birthday cake which her daughter made for her, and if they do I hope they choke on it Jeffrey" ?
 
 
-Have you noticed that:
+In other words, have you noticed that:
 
 > Generals Always Fight The Last War
 
