@@ -40,20 +40,29 @@ See: <https://github.com/sympy/sympy/wiki/Git-hg-rosetta-stone#Rosetta_Stone>
 	[credential]
 		helper = manager
 	[alias]
-		outgoing = !git log --branches --not --remotes=origin
-		out = !"git outgoing"
-		incoming = !git fetch && git log ..origin/master
+		outgoing = log --branches --not --remotes=origin
+		out = !git outgoing
+		incoming = !git fetch ; git log ..origin/master
 		in = !"git incoming"
 		st = status
 		stat = status
-
+		paths = remote -v
+		path = !"git paths"
+		heads = show-ref
+		alias = config --get-regexp alias
+		
 
 ## set up your config
 
-git config --global user.name "Leon"
-git config --global user.email "Leon@example.com"
-git config --global http.proxy {your proxy if needed}
-git config --global https.proxy {your proxy if needed}
+
+	git config --global user.name "Leon"
+	git config --global user.email "Leon@example.com"
+	git config --global http.proxy {your proxy if needed}
+	git config --global https.proxy {your proxy if needed}
 
 
 
+## See also
+
+* [Phil Haack's aliases](http://haacked.com/archive/2014/07/28/github-flow-aliases/)
+* [Rosetta stone](https://github.com/sympy/sympy/wiki/Git-hg-rosetta-stone#Rosetta_Stone)

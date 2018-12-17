@@ -9,7 +9,7 @@ Aliases from my `~\.gitconfig` file:
 		outgoing = log --branches --not --remotes=origin
 		out = !git outgoing
 		incoming = !git fetch ; git log ..origin/master
-		in = !"git in"
+		in = !"git incoming"
 		st = status
 		stat = status
 		outy = !"git l4 --branches --not --remotes=origin"
@@ -25,6 +25,8 @@ Aliases from my `~\.gitconfig` file:
 		l6 = log --graph --decorate --pretty=oneline --abbrev-commit #LOL
 		lg = !"git l4" # points at my current favorite out of those
 	
+		cheat = !cat C:/Users/Leon/dropbox/secretGeek/util/powershell/scriptlets/git_cheat.txt
+	
 		# Phil Haack's aliases, see http://haacked.com/archive/2014/07/28/github-flow-aliases/
 		co = checkout
 		ec = config --global -e
@@ -38,9 +40,8 @@ Aliases from my `~\.gitconfig` file:
 		wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
 		bclean = "!f() { git branch --merged ${1-master} | grep -v " ${1-master}$" | xargs -r git branch -d; }; f"
 		bdone = "!f() { git checkout ${1-master} && git up && git bclean ${1-master}; }; f"
-		cheat = !cat C:/Users/Leon/dropbox/secretGeek/util/powershell/scriptlets/git_cheat.txt
 		#alias = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
-		aliasa = config --get-regexp alias
+		alias = config --get-regexp alias
 		ooutgoing = log --branches --not --remotes=origin
 		oout = ooutgoing	
 	[credential]
