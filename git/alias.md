@@ -25,7 +25,7 @@ Aliases from my `~\.gitconfig` file:
 		l6 = log --graph --decorate --pretty=oneline --abbrev-commit #LOL
 		lg = !"git l4" # points at my current favorite out of those
 	
-		cheat = !cat C:/Users/Leon/dropbox/secretGeek/util/powershell/scriptlets/git_cheat.txt
+		cheat = !cat 'C:/Users/Leon/dropbox/secretGeek/util/powershell/scriptlets/git_cheat.txt'
 	
 		# Phil Haack's aliases, see http://haacked.com/archive/2014/07/28/github-flow-aliases/
 		co = checkout
@@ -42,8 +42,8 @@ Aliases from my `~\.gitconfig` file:
 		bdone = "!f() { git checkout ${1-master} && git up && git bclean ${1-master}; }; f"
 		#alias = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
 		alias = config --get-regexp alias
-		ooutgoing = log --branches --not --remotes=origin
-		oout = ooutgoing	
+		#ooutgoing = log --branches --not --remotes=origin
+		#oout = ooutgoing
 	[credential]
 	[winUpdater]
 		recentlySeenVersion = 2.19.2.windows.1
