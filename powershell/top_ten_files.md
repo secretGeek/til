@@ -14,12 +14,11 @@ A longer version....
 
 As a one liner
 
-
-    gci -re -in * | ?{ -not $_.PSIsContainer } | sort Length -descending | select -first 100
+    gci -re -in * | ?{ -not $_.PSIsContainer } | sort Length -descending | select -first 10
 
 or if you want to exclude contents of `.hg` folder (as we do sometimes...)
 
-    dir -rec -in * | ?{ -not $_.PSIsContainer -and $_.DirectoryName -notmatch ".hg" } | sort Length -descending | select -first 100 | % { $_.FullName + ", " + $_.Length }
+    dir -rec -in * | ?{ -not $_.PSIsContainer -and $_.DirectoryName -notmatch ".hg" } | sort Length -descending | select -first 10 | % { $_.FullName + ", " + $_.Length }
 
 
 ## Source
