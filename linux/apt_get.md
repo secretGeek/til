@@ -133,7 +133,7 @@ And indeed
 
 Given this problem I thought I might have to increase the size of the memory.
 
-I found that by rebooting, and re-running the clean up tasks I was attempting I finally succeeded.
+I found that by [rebooting](reboot.md), and re-running the clean up tasks I was attempting I finally succeeded.
 
 First I had to `sudo dpkg --configure -a`
 

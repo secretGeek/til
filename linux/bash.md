@@ -63,8 +63,13 @@ To go to your home folder, use simply:
  * `shift-ctrl-C` -- copy to clipboard
  * `shift-ctrl-V` -- paste from clipboard
 
+ 
+## Cheat sheet
+
+* <https://devhints.io/bash> -- really nice cheat sheet
 
 ## Source
 
  * <https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file-on-ubuntu-and-centos>
  * <http://www.tldp.org/LDP/abs/html/io-redirection.html>
+ 
