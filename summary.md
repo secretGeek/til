@@ -222,6 +222,7 @@
 	* [eulers number](/math/eulers_number.md)
 	* [log](/math/log.md)
 * [memorize](/memorize/01_summary.md)
+	* [memory techniques](/memorize/memory_techniques.md)
 	* [phonetic alphabet](/memorize/phonetic_alphabet.md)
 	* [spaced repetition](/memorize/spaced_repetition.md)
 * [mercurial](/mercurial/01_summary.md)

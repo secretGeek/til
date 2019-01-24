@@ -1,4 +1,4 @@
-#Survivorship Bias.
+# Survivorship Bias.
 
 >"Just because nobody complains doesn't mean all parachutes are perfect."
 > &mdash;Benny Hill
@@ -30,8 +30,11 @@ Journalists dutifully reported that most planets in the universe are gigantic, m
 > &mdash;Upton Sinclair
 
 
+<img alt="They say you can't argue with results, but what kind of defeatist attitude is that? If you stick with it, you can argue with ANYTHING." src="survivorship_bias.png" width="317" height="473">
+
 ## See Also
 
  * Darius Kazemi ["How I made it"](https://www.youtube.com/watch?v=l_F9jxsfGCw)  explains his technique for picking winning lottery numbers. (A satirical example of Survivorship Bias) 
- 
+ * [XKCD: Survivorship Bias](https://www.xkcd.com/1827/) and [Explain XKCD: Survivorship Bias](https://www.explainxkcd.com/wiki/index.php/1827:_Survivorship_Bias)  
+
  

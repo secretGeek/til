@@ -12,6 +12,9 @@ These background sounds are also helpful for tuning out the inane chatter and bu
 
 There is also a specialty background-sounds site for role playing games: [Tabletop audio](https://tabletopaudio.com/), as described here: [Role Playing Games for Kids](http://wiki.secretgeek.net/rpg-for-kids)
 
+Note also that spotify has a headspace playlist. This can be a good way to get into meditation.
+
+
 # Other music
 
 * [Carl Franklin: Music to Code by](http://mtcb.pwop.com/)
