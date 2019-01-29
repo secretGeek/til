@@ -179,7 +179,7 @@ after this line:
 ## Source
 
  * [How to Install and Use the Linux Bash Shell on Windows 10](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
-  * [Warning! Do not change Linux files using Windows apps and tools](https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/)
+ * [Warning! Do not change Linux files using Windows apps and tools](https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/)
  * [A Quick Intro to Linux Command Line for Windows Users](http://blog.robertelder.org/intro-to-linux-command-line-for-windows-users/)
  * [A Quick Intro to Linux Shell Scripting for Windows Developers](http://blog.robertelder.org/intro-to-linux-shell-scripting-for-windows-developers/)
 

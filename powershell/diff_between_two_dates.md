@@ -23,3 +23,7 @@
 ## Source
 
  * [Get Time Difference between Dates with PowerShell](https://blogs.technet.microsoft.com/heyscriptingguy/2013/12/28/powertip-get-time-difference-between-dates-with-powershell/)
+ 
+## Keywords
+
+* DateDiff

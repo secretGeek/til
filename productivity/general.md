@@ -41,7 +41,7 @@ I currently use a mix of things:
 * "util" repo for keeping scripts/tools/profile, & TIL itself, synced across machines
 * dropbox 
 * Things I find interesting are written in wiki.secretgeek.net
-* contacts
+* contacts (scattered)
 
 The most fundamental concepts of productivity are
 

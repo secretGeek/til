@@ -50,3 +50,6 @@ Then the command worked:
 
 (meanwhile i have a similar blocking issue with wkhtmltopdf on windows... it hangs the process... but do not yet have a solution.)
 
+
+
+
