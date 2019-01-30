@@ -16,6 +16,6 @@ Exactly how to make that a part of your windows install seems to vary from one m
 
 
 
+## See also
 
-
-
+* [How to determine password complexity rules (from powershell)](password_complexity.md)

@@ -347,6 +347,7 @@
 	* [parse comment block](/powershell/parse_comment_block.md)
 	* [parts of a fileInfo object](/powershell/parts_of_a_fileInfo_object.md)
 	* [parts of a fileSystemInfo object](/powershell/parts_of_a_fileSystemInfo_object.md)
+	* [password complexity](/powershell/password_complexity.md)
 	* [pass argument to script](/powershell/pass_argument_to_script.md)
 	* [PATH](/powershell/PATH.md)
 	* [profile 4 different ones](/powershell/profile_4_different_ones.md)

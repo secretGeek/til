@@ -43,6 +43,7 @@
 * [parse comment block](parse_comment_block.md)
 * [parts of a fileInfo object](parts_of_a_fileInfo_object.md)
 * [parts of a fileSystemInfo object](parts_of_a_fileSystemInfo_object.md)
+* [password complexity](password_complexity.md)
 * [pass argument to script](pass_argument_to_script.md)
 * [PATH](PATH.md)
 * [profile 4 different ones](profile_4_different_ones.md)
