@@ -23,3 +23,10 @@ Exclude directories (but include their files)
 	dir -rec | ?{ $_.PSIsContainer -ne $true } | group-object -property { ($_.extension) } | sort
 	
 	
+...for looking at all markdown files in TIL...
+	
+	dir . *.md -rec | ?{ $_.PSIsContainer -ne $true } |
+         group-object -property { [int]($_.length / 300) } | sort @{e={$_.Name -as [int]}} |
+             format-table @{Expression={[string]([int]($_.Name) * 300) + "-" + [string](-1+([int]($_.Name)+1) * 300)};Label="Bucket";width=10},
+                 @{Expression={$_.Count};Label="Count";width=10},
+                 @{Expression={$_.Group};Label="Members";width=50} -autosize

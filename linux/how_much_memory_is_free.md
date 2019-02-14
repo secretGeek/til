@@ -15,10 +15,6 @@ Also
 The figure under "available" is how much is "Free and available"
 
 i.e. what humans usually mean when they say "free"
-
-
-    
-    
     
     
 To watch it as it changes...    

@@ -464,6 +464,7 @@
 	* [view report data](/sql_server_reporting_services/view_report_data.md)
 * [sql spatial](/sql_spatial/01_summary.md)
 	* [construct line geo from two points](/sql_spatial/construct_line_geo_from_two_points.md)
+	* [getfieldtype returned null](/sql_spatial/getfieldtype_returned_null.md)
 	* [spatial index temp table trick](/sql_spatial/spatial_index_temp_table_trick.md)
 * [stackexchange](/stackexchange/01_summary.md)
 	* [back off](/stackexchange/back_off.md)
