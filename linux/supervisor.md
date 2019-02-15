@@ -8,7 +8,7 @@ Config goes in...
 
     /etc/supervisor/conf.d/ directory
 
-To create a new service for supervisor to supervise, add a file, e.g. `helloworld.conf` in the directory mentioned above, wit content such as
+To create a new service for supervisor to supervise, add a file, e.g. `helloworld.conf` in the directory mentioned above, with content such as
 
     $ cat helloworld.conf
     [program:helloworld]

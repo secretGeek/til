@@ -28,31 +28,16 @@ When the package is added, it displays a helper piece of html like this:
 
 
 
-<style>
-        .body {
-            background: #fff;
-            color: #505050;
-            margin: 20px;
-        }
+> Action required to load native assemblies
+> 
+> To deploy an application that uses spatial data types to a machine that does not have 'System CLR Types for SQL Server' installed you also need to deploy the native assembly SqlServerSpatial140.dll. Both x86 (32 bit) and x64 (64 bit) versions of this assembly have been added to your project under the SqlServerTypes\x86 and SqlServerTypes\x64 subdirectories. The native assembly msvcr120.dll is also included in case the C++ runtime is not installed.
+> 
+> You need to add code to load the correct one of these assemblies at runtime (depending on the current architecture).
+>
+> ASP.NET Web Sites
+>
+> For ASP.NET Web Sites, add the following block of code to the code behind file of the Web Form where you have added Report Viewer Control:
 
-        .body > #main {
-            background: #efefef;
-            padding: 5px 30px;
-        }
-    </style>
-<div class='body'>	
-    <div id="main">
-        <h1>Action required to load native assemblies</h1>
-        <p>
-            To deploy an application that uses spatial data types to a machine that does not have 'System CLR Types for SQL Server' installed you also need to deploy the native assembly SqlServerSpatial140.dll. Both x86 (32 bit) and x64 (64 bit) versions of this assembly have been added to your project under the SqlServerTypes\x86 and SqlServerTypes\x64 subdirectories. The native assembly msvcr120.dll is also included in case the C++ runtime is not installed.
-        </p>
-        <p>
-            You need to add code to load the correct one of these assemblies at runtime (depending on the current architecture).
-        </p>
-        <h2>ASP.NET Web Sites</h2>
-        <p>
-            For ASP.NET Web Sites, add the following block of code to the code behind file of the Web Form where you have added Report Viewer Control:
-            <pre>
     Default.aspx.cs:
         
     public partial class _Default : System.Web.UI.Page
@@ -69,21 +54,20 @@ When the package is added, it displays a helper piece of html like this:
             
         }
     }
-</pre>
-        </p>
-        <h2>ASP.NET Web Applications</h2>
-        <p>
-            For ASP.NET Web Applications, add the following line of code to the Application_Start method in Global.asax.cs:
-            <pre>    SqlServerTypes.Utilities.LoadNativeAssemblies(Server.MapPath("~/bin"));</pre>
-        </p>
-        <h2>Desktop Applications</h2>
-        <p>
-            For desktop applications, add the following line of code to run before any spatial operations are performed:
-            <pre>    SqlServerTypes.Utilities.LoadNativeAssemblies(AppDomain.CurrentDomain.BaseDirectory);</pre>
-        </p>
-    </div>
-</div>
 
+> ASP.NET Web Applications
+> 
+> For ASP.NET Web Applications, add the following line of code to the Application_Start method in Global.asax.cs:
+
+    SqlServerTypes.Utilities.LoadNativeAssemblies(Server.MapPath("~/bin"));
+
+> Desktop Applications
+>
+> For desktop applications, add the following line of code to run before any spatial operations are performed:
+
+    SqlServerTypes.Utilities.LoadNativeAssemblies(AppDomain.CurrentDomain.BaseDirectory);
+
+	
 	
 As instructed I added:
 
