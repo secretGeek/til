@@ -45,10 +45,12 @@ If your machine says something like:
 
 Then you can see which packages need to be upgraded, with:
 
+    sudo apt-get update
 	sudo apt-get -u upgrade --assume-no
 
 If you want to upgrade them (hint: you *do*) then go with:
 
+    sudo apt-get update
 	sudo apt-get upgrade
 
 After performing an upgrade, you may have messages like this:
@@ -72,16 +74,20 @@ There are (briefly) three commands you can use to release these "kept back" pack
 
 The winner is:
 
+
+    sudo apt-get update
 	sudo apt full-upgrade
 
 ...less letters. ;)
 
 To update just a single package, and only if it is already installed....
 
+    sudo apt-get update
 	apt-get install --only-upgrade <packagename>
 
 e.g.
 
+    sudo apt-get update
 	sudo apt-get install --only-upgrade python-certbot-nginx
 
 
