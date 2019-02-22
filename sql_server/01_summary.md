@@ -45,5 +45,6 @@
 * [trailing cr lf](trailing_cr_lf.md)
 * [update millions of rows](update_millions_of_rows.md)
 * [Weibull Function](Weibull_Function.md)
+* [windowed functions](windowed_functions.md)
 * [with common table expression](with_common_table_expression.md)
 * [xtype](xtype.md)

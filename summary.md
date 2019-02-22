@@ -456,6 +456,7 @@
 	* [trailing cr lf](/sql_server/trailing_cr_lf.md)
 	* [update millions of rows](/sql_server/update_millions_of_rows.md)
 	* [Weibull Function](/sql_server/Weibull_Function.md)
+	* [windowed functions](/sql_server/windowed_functions.md)
 	* [with common table expression](/sql_server/with_common_table_expression.md)
 	* [xtype](/sql_server/xtype.md)
 * [sql server reporting services](/sql_server_reporting_services/01_summary.md)

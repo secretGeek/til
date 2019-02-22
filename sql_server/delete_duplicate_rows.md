@@ -51,3 +51,8 @@ Boya!
 ## Source
 
  * [stack overflow: how can i remove duplicate rows](https://stackoverflow.com/questions/18932/how-can-i-remove-duplicate-rows)
+ 
+ 
+## See also
+
+ * [Window Functions in SQL Server](window_functions.md) 
