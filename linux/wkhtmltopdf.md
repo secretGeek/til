@@ -37,7 +37,7 @@ i.e., just put xvfb-run before any wkhtmltopdf command.)
 
 Okay so I ran:
 
-	sudo apt-get update
+    sudo apt-get update
     sudo apt-get install xvfb
 
 

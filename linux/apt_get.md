@@ -18,6 +18,7 @@ To update apt-get...
 
 To install a package, for example a package called "unzip"...
 
+    sudo apt-get update
     sudo apt-get install unzip
 
 To check if any packages need to be updated....
@@ -150,4 +151,3 @@ First I had to `sudo dpkg --configure -a`
 * [E: dpkg was interrupted… run 'sudo dpkg --configure -a'](https://askubuntu.com/questions/163200/e-dpkg-was-interrupted-run-sudo-dpkg-configure-a)
 
 I haven't accurately captured all of the sources for this.
-

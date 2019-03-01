@@ -2,6 +2,7 @@
 
 supervisor is a nice thing. It supervises your app to keep it running.
 
+    sudo apt-get update
     sudo apt-get install supervisor
 
 Config goes in...
