@@ -176,6 +176,40 @@ after this line:
     127.0.0.1 localhost
 
 
+## Another error...
+
+If you see this...
+
+
+	Windows Subsystem for Linux has no installed distributions.
+	Distributions can be installed by visiting the Microsoft Store:
+	https://aka.ms/wslstore
+
+You go there and it takes to the windows store (on your machine) where you get a choice of Linux distros. Wow.
+
+I picked ubuntu. It's about 200 MB.
+
+When it was "ready" I launched it. THis opened a console, and the console said:
+
+    Installing, this may take a few minutes...
+
+The home folder is now stored at:
+
+    C:\Users\leonb\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\leon
+
+...which is an ad for using markjump.
+
+Note you can install all the different distributions side by side. 
+
+* Ubuntu
+* openSUSE Leap 42
+* SUSE Linux Enterprise Server 12
+* Debian 
+* Kali Linux 
+
+And they have star ratings in the windows store. Ubuntu and Kali are popular. Others not so much.
+
+
 ## Source
 
  * [How to Install and Use the Linux Bash Shell on Windows 10](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)

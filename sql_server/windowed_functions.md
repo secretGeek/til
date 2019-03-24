@@ -52,9 +52,44 @@
 
 <ROW or RANGE clause> -- get a load of thise quirkiness....
 
+	:= [ROWS | RANGE] BETWEEN <Start expr> AND <End expr>
+	
+	ROWS BETWEEN ....
+	or
+	RANGE BETWEEN ...
+	
+	ROWS means we consider the start and end expression relative to the current row.
+	
+	RANGE means we consider the start and end expression relative to NOT JUST the current row but the rows that "tie" with the current row.
+	
+	
+...examples....
+
+	ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW   <--- The default
+
 
 	ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING
-
+	
+	
+	ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING
+	
+	
+	ROWS BETWEEN 1 PRECEDING AND CURRENT ROW
+	
+	
+	ROWS BETWEEN 2 FOLLOWING AND UNBOUNDED FOLLOWING
+	
+	ROWS BETWEEN 2 FOLLOWING AND UNBOUNDED FOLLOWING
+	
+	
+	
+	ROWS BETWEEN UNBOUNDED PRECEDING AND 23 PRECEDING
+	
+	
+	
+	
+	
+	
 
 	
 	
@@ -95,9 +130,9 @@ So we add the over clause, in which we specify the ORDER...
 
 
 	VehicleCode	ROW_NUMBER
-	ABD_MW011	1
-	ABD_MW012	2
-	ABD_MW013	3
+	ABD_VW011	1
+	ABD_VW012	2
+	ABD_VW013	3
 
 What do you think will happen if we specify the ORDER BY descending...	
 
@@ -109,9 +144,9 @@ Will the row_number got up or down...
 	from Reporting.VehiclesCache
 
 	VehicleCode	ROW_NUMBER
-	YAR_WH001	1
-	WYU_WH001	2
-	WNC_WH001	3
+	YAR_VH001	1
+	WYU_VH001	2
+	WNC_VH001	3
 
 	
 ^^ Since there was no sort on the rows themselves, its sorted the outer set by VehicleCode desc, and apply rownumbers starting at 1. That might cause you to re-consider your mental model of how this works.
@@ -126,9 +161,9 @@ If we apply an order by to the outer query... we'll see different rows, and diff
 	order by VehicleCode asc	
 	
 	VehicleCode	ROW_NUMBER
-	ABD_MW011	8199
-	ABD_MW012	8198
-	ABD_MW013	8197	
+	ABD_VW011	8199
+	ABD_VW012	8198
+	ABD_VW013	8197	
 	
 
 Can you use integers for the sorting...
@@ -157,9 +192,9 @@ But we can use integers to sort by the ROW_NUMBER column
 
 
 	VehicleCode	ROW_NUMBER
-	ABD_MW011	1
-	ABD_MW012	2
-	ABD_MW013	3	
+	ABD_VW011	1
+	ABD_VW012	2
+	ABD_VW013	3	
 	
 And can put Windowed functions into the ORDER BY clause explicitly....
 
@@ -171,9 +206,9 @@ And can put Windowed functions into the ORDER BY clause explicitly....
 	order by ROW_NUMBER() OVER(ORDER BY VehicleCode asc) asc
 
 	VehicleCode	ROW_NUMBER
-	ABD_MW011	1
-	ABD_MW012	2
-	ABD_MW013	3	
+	ABD_VW011	1
+	ABD_VW012	2
+	ABD_VW013	3	
 	
 BUT---- 
 
@@ -204,10 +239,10 @@ BUT----
 	where ROW_NUMBER > 4
 
 
-	WellCode	ROW_NUMBER
-	ABD_WH001	5
-	ABD_WH002	6
-	ABD_WH002R	7
+	VehicleCode	ROW_NUMBER
+	ABD_VH001	5
+	ABD_VH002	6
+	ABD_VH002R	7
 	
 
 And the act of putting it into a CTE and then working on the CTE is a common pattern to get the most out of Windowed Functions.	
@@ -220,20 +255,20 @@ Before we introduce the 'Partition' keyword, let's run through the other functio
 ## RANK
 
 	Select top 5
-		WellCode,
-		ExpectedGas_TJ,
-		RANK() OVER(ORDER BY ExpectedGas_TJ desc) as RANK_ExpectedGas_TJ
-	from Reporting.WellsCache
-	where ExpectedGas_TJ is not null and ExpectedGas_TJ < 3.59
+		VehicleCode,
+		ExpectedGas_MPG,
+		RANK() OVER(ORDER BY ExpectedGas_MPG desc) as RANK_ExpectedGas_MPG
+	from Reporting.VehiclesCache
+	where ExpectedGas_MPG is not null and ExpectedGas_MPG < 3.59
 
 
 	
-	WellCode	ExpectedGas_TJ	RANK_ExpectedGas_TJ
-	ARG_WH129	3.5	1
-	MJN_WH166	3.5	1
-	IBL_WH167	3.43525004386902	3
-	JMT_WH149	3.40000009536743	4
-	MJN_WH174	3.40000009536743	4
+	VehicleCode	ExpectedGas_MPG	RANK_ExpectedGas_MPG
+	ARG_VH129	3.5	1
+	MJN_VH166	3.5	1
+	IBL_VH167	3.43525004386902	3
+	JMT_VH149	3.40000009536743	4
+	MJN_VH174	3.40000009536743	4
 
 	
 ROW_NUMBER() is similar to RANK... "Who is first? Who is second? Who is third?"
@@ -246,21 +281,21 @@ With RANK, if two rows are tied, then they get the same 'RANK'. The next row the
 
 
 Select top 5
-	WellCode,
-	ExpectedGas_TJ,
-	RANK() OVER(ORDER BY ExpectedGas_TJ desc) as RANK_ExpectedGas_TJ,
-    DENSE_RANK() OVER(ORDER BY ExpectedGas_TJ desc) as DENSE_RANK_ExpectedGas_TJ,
-	ROW_NUMBER() OVER(ORDER BY ExpectedGas_TJ desc) as ROW_NUMBER_ExpectedGas_TJ
-from Reporting.WellsCache
-where ExpectedGas_TJ is not null and ExpectedGas_TJ < 3.59
+	VehicleCode,
+	ExpectedGas_MPG,
+	RANK() OVER(ORDER BY ExpectedGas_MPG desc) as RANK_ExpectedGas_MPG,
+    DENSE_RANK() OVER(ORDER BY ExpectedGas_MPG desc) as DENSE_RANK_ExpectedGas_MPG,
+	ROW_NUMBER() OVER(ORDER BY ExpectedGas_MPG desc) as ROW_NUMBER_ExpectedGas_MPG
+from Reporting.VehiclesCache
+where ExpectedGas_MPG is not null and ExpectedGas_MPG < 3.59
 
 
-	WellCode	ExpectedGas_TJ	RANK_ExpectedGas_TJ	DENSE_RANK_ExpectedGas_TJ	ROW_NUMBER_ExpectedGas_TJ
-	ARG_WH129	3.5	1	1	1
-	MJN_WH166	3.5	1	1	2
-	IBL_WH167	3.43525004386902	3	2	3
-	JMT_WH149	3.40000009536743	4	3	4
-	MJN_WH174	3.40000009536743	4	3	5
+	VehicleCode	ExpectedGas_MPG	RANK_ExpectedGas_MPG	DENSE_RANK_ExpectedGas_MPG	ROW_NUMBER_ExpectedGas_MPG
+	ARG_VH129	3.5	1	1	1
+	MJN_VH166	3.5	1	1	2
+	IBL_VH167	3.43525004386902	3	2	3
+	JMT_VH149	3.40000009536743	4	3	4
+	MJN_VH174	3.40000009536743	4	3	5
 
 
 ROW_NUMBER, RANK, and DENSE_RANK have different guarantees.
@@ -280,39 +315,39 @@ Other functions that might seem pretty obvious to use are MAX(), MIN() and AVG()
 MAX might look simple here... 
 
 	Select top 5
-		WellCode,
-		ExpectedGas_TJ,
-		MAX(ExpectedGas_TJ) OVER(ORDER BY ExpectedGas_TJ desc) as MAX_TJ
-	from Reporting.WellsCache
-	where ExpectedGas_TJ is not null and ExpectedGas_TJ < 3.59
+		VehicleCode,
+		ExpectedGas_MPG,
+		MAX(ExpectedGas_MPG) OVER(ORDER BY ExpectedGas_MPG desc) as MAX_MPG
+	from Reporting.VehiclesCache
+	where ExpectedGas_MPG is not null and ExpectedGas_MPG < 3.59
 
 
 
-	WellCode	ExpectedGas_TJ	MAX_TJ
-	ARG_WH129	3.50	3.50
-	MJN_WH166	3.50	3.50
-	IBL_WH167	3.43	3.50
-	JMT_WH149	3.40	3.50
-	MJN_WH174	3.40	3.50
+	VehicleCode	ExpectedGas_MPG	MAX_MPG
+	ARG_VH129	3.50	3.50
+	MJN_VH166	3.50	3.50
+	IBL_VH167	3.43	3.50
+	JMT_VH149	3.40	3.50
+	MJN_VH174	3.40	3.50
 
-...but when you see what MIN(ExpectedGas_TJ) looks like for the same query, you'll start to understand some deeper things that are going on....
+...but when you see what MIN(ExpectedGas_MPG) looks like for the same query, you'll start to understand some deeper things that are going on....
 
 
 	Select top 5
-		WellCode,
-		ExpectedGas_TJ,
-		MAX(ExpectedGas_TJ) OVER(ORDER BY ExpectedGas_TJ desc) as MAX_TJ,
-		MIN(ExpectedGas_TJ) OVER(ORDER BY ExpectedGas_TJ desc) as MIN_TJ
-	from Reporting.WellsCache
-	where ExpectedGas_TJ is not null and ExpectedGas_TJ < 3.59
+		VehicleCode,
+		ExpectedGas_MPG,
+		MAX(ExpectedGas_MPG) OVER(ORDER BY ExpectedGas_MPG desc) as MAX_MPG,
+		MIN(ExpectedGas_MPG) OVER(ORDER BY ExpectedGas_MPG desc) as MIN_MPG
+	from Reporting.VehiclesCache
+	where ExpectedGas_MPG is not null and ExpectedGas_MPG < 3.59
 
 	
-	WellCode	ExpectedGas_TJ	MAX_TJ	MIN_TJ
-	ARG_WH129	3.50	3.50	3.5
-	MJN_WH166	3.50	3.50	3.5
-	IBL_WH167	3.43	3.50	3.43
-	JMT_WH149	3.40	3.50	3.40
-	MJN_WH174	3.40	3.50	3.40
+	VehicleCode	ExpectedGas_MPG	MAX_MPG	MIN_MPG
+	ARG_VH129	3.50	3.50	3.5
+	MJN_VH166	3.50	3.50	3.5
+	IBL_VH167	3.43	3.50	3.43
+	JMT_VH149	3.40	3.50	3.40
+	MJN_VH174	3.40	3.50	3.40
 
 	
 	

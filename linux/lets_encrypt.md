@@ -6,13 +6,14 @@ Pre-requisite: Nginx is installed and websites are already configured and runnin
 
 Let's Encrypt provide a tool called `certbot` which you need to get.
 
-(Some older instructions call this the letsencrypt tool, and other even older instructions sayyou need to get the source code of the tool)
+(Some older instructions call this the letsencrypt tool, and other even older instructions say you need to get the source code of the tool)
 
 	sudo add-apt-repository ppa:certbot/certbot
 	sudo apt-get update
 	sudo apt-get install python-certbot-nginx
 
 The `certbot` client is now ready to use.
+
 
 ## Step 2: Let HTTPs through your ufw
 
@@ -24,6 +25,13 @@ Let https through, using the 'Nginx Full' profile
 
 ## Step 3: Install certificates
 
+--before doing this you must ensure nginx is correctly configured for your domain. For example:
+
+* there is a file  /etc/nginx/sites-available/example.com
+* it has a line like this: `server_name example.com www.example.com;`
+* and you've used `sudo nginx -t` to check your config, and have reloaded nginx config if necessary.
+
+NOW we're ready to create and install certificates...
 
 If you have a domain called 'example.com' then run:
 
@@ -244,6 +252,7 @@ Should now score an "A".
 ## Source
 
  * [How To Secure Nginx with Let's Encrypt on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04)
+ * [How To Secure Nginx with Let's Encrypt on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-18-04)
 
 ## See also
 

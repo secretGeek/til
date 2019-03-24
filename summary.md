@@ -1,5 +1,6 @@
 ﻿# Summary
 
+* [.git](/.git/01_summary.md)
 * [.net](/.net/01_summary.md)
 	* [config external source](/.net/config_external_source.md)
 	* [detect text encoding](/.net/detect_text_encoding.md)
@@ -50,6 +51,7 @@
 	* [art of the data email](/concepts/art_of_the_data_email.md)
 	* [coik](/concepts/coik.md)
 	* [echo chamber](/concepts/echo_chamber.md)
+	* [expected value](/concepts/expected_value.md)
 	* [follow up and recurring emails](/concepts/follow_up_and_recurring_emails.md)
 	* [generals fight the last war](/concepts/generals_fight_the_last_war.md)
 	* [getting unblocked](/concepts/getting_unblocked.md)
@@ -72,6 +74,11 @@
 	* [getting started](/cpu_analyzer/getting_started.md)
 * [crypto](/crypto/01_summary.md)
 	* [spy codes](/crypto/spy_codes.md)
+* [csharp](/csharp/01_summary.md)
+	* [version4](/csharp/version4.md)
+	* [version5](/csharp/version5.md)
+	* [version6](/csharp/version6.md)
+	* [version7](/csharp/version7.md)
 * [css](/css/01_summary.md)
 	* [center](/css/center.md)
 	* [maintainable css](/css/maintainable_css.md)

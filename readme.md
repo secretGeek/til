@@ -45,17 +45,19 @@ Though this site is published as a free digital-only book, I've also published a
 
 |Topic|# Articles|
 |-----|----------|
-| [.net](.net/01_summary.md) | 6 articles |
+| [.git](.git/01_summary.md) | 0 articles |
+ | [.net](.net/01_summary.md) | 6 articles |
  | [.net core MVC](.net_core_MVC/01_summary.md) | 14 articles |
  | [appharbor](appharbor/01_summary.md) | 1 article |
  | [asp.net mvc](asp.net_mvc/01_summary.md) | 10 articles |
  | [banking](banking/01_summary.md) | 1 article |
  | [bower](bower/01_summary.md) | 2 articles |
  | [chocolatey](chocolatey/01_summary.md) | 5 articles |
- | [concepts](concepts/01_summary.md) | 15 articles |
+ | [concepts](concepts/01_summary.md) | 16 articles |
  | [console](console/01_summary.md) | 5 articles |
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article |
  | [crypto](crypto/01_summary.md) | 1 article |
+ | [csharp](csharp/01_summary.md) | 4 articles |
  | [css](css/01_summary.md) | 2 articles |
  | [design](design/01_summary.md) | 1 article |
  | [electron](electron/01_summary.md) | 2 articles |
@@ -123,5 +125,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-446 articles
-197416 words
+451 articles
+198217 words

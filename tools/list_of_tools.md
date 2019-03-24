@@ -10,7 +10,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
  * .exe (138 files)
  * .dll (27 files)
- * .txt (19 files)
+ * .txt (22 files)
  * .bat (13 files)
  * .config (7 files)
  * .vbs (6 files)
@@ -19,20 +19,21 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * .xml (5 files)
  * .doc (5 files)
  * .hlp (4 files)
- * .ini (3 files)
  * .cnt (3 files)
+ * .ini (3 files)
  * .sys (3 files)
- * .msc (2 files)
+ * .htm (2 files)
  * .html (2 files)
  * .ocx (2 files)
- * .htm (2 files)
- * .md (1 files)
+ * .msc (2 files)
+ * .chk (1 files)
  * .exe-e01130bf (1 files)
  * .cfg (1 files)
- * .chk (1 files)
+ * .md (1 files)
+ * .gitconfig (1 files)
  * .ok (1 files)
- * .pdf (1 files)
  * .com (1 files)
+ * .pdf (1 files)
 
 ## Executables
 
@@ -118,7 +119,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * NimbleTextAlpha.exe
  * nltest.exe
  * ntfrsutl.exe
- * NuGet.exe
+ * nuget.exe
  * paste.exe
  * pfmon.exe
  * pmon.exe

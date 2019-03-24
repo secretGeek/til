@@ -3,22 +3,22 @@
 
 Go onto SourceForge and tracked down the latest TextFX file to import manually:
 
-	https://sourceforge.net/projects/npp-plugins/files/TextFX/TextFX%20v0.26/	
+	https://sourceforge.net/projects/npp-plugins/files/TextFX/TextFX%20v0.26/
 
-It's from 
+It's from
 
 	2009-08-02
 
 So, how much longer will it work?
-	
-I download and unzip 
+
+I download and unzip
 
 	C:\Users\USERNAME\Downloads\TextFX.v0.26.unicode.bin
 
 
 Stop notepad++, and **Run Notepad++ as admin**
 
-	
+
 within NotePad++ choose "Settings" | "Import" | "Import plugin(s)..." and import the .DLL from that location.
 
 Immediately I see a "TextFX" menu item.
@@ -32,7 +32,7 @@ When I restart Notepad++ as non admin I still have the "TextFX" menu, so the plu
 
 Use the technique above, as the following leads nowhere:
 
-Trying to install TextFX through the plugin manager (Plugins | PLugin Manager | Find available... select TextFX, press Install)	
+Trying to install TextFX through the plugin manager (Plugins | PLugin Manager | Find available... select TextFX, press Install)
 
 A dialog appears showing download progress from a url starting with: "http://downloads.sourceforge.net/project/npp-plugins/TextFX/TextFX%20v"
 
@@ -43,16 +43,16 @@ But then it errors with:
 	---------------------------
 	Installation of TextFX Characters failed.
 	---------------------------
-	OK   
+	OK
 	---------------------------
 
 On the "Plugin Manager" dialog when I press "Settings" I see this message:
 
-	
+
 	Plugin Config path is:
 	C:\Users\USERNAME\AppData\Roaming\Notepad++\plugins\Config
 	Plugins in user's AppData directory are disabled - to enable in Notepad++ version 5.9.7 onwards place an empty file called allowAppDataPlugins.xml in the Notepad++ directory.
-	
+
 
 Anyway, to get around the error above, I used the technique above instead.
 
