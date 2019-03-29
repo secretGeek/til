@@ -5,6 +5,7 @@
 * [alias](alias.md)
 * [cheatsheet](cheatsheet.md)
 * [diff](diff.md)
+* [discard uncommitted changes](discard_uncommitted_changes.md)
 * [equivalent of outgoing](equivalent_of_outgoing.md)
 * [get fork back up to date](get_fork_back_up_to_date.md)
 * [git bitbucket](git_bitbucket.md)

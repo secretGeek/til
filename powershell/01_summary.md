@@ -59,6 +59,7 @@
 * [runas](runas.md)
 * [Script Analyzer](Script_Analyzer.md)
 * [see function definition](see_function_definition.md)
+* [sleep milliseconds](sleep_milliseconds.md)
 * [sort](sort.md)
 * [split file into named files](split_file_into_named_files.md)
 * [store and use password via securestring](store_and_use_password_via_securestring.md)
