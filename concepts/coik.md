@@ -28,4 +28,36 @@ It's [quoted here](https://www.bkwpartners.com/tappers-and-listeners-an-excerpt-
 
 
 
+A few other observations I want to make about the "curse of knowledge".
+
+When studying a topic that is new to you, the jargon is not just a problem: it is a whole set of problems.
+
+The first problem is that you don't understand the jargon, and the jargon is assumed. That's a challenge already.
+
+When you look up the definition of the jargon, you may have trouble finding any definition at all. That is a big problem. However...
+
+If you do find a definition for the jargon, it is always defined *with more jargon*. The jargon is defined in terms of other jargon.
+
+If you succesfully find a definition for that other jargon, it can in turn be defined in more jargon: there may be many many layers of jargon. However it gets worse. (You may have already guessed where this is going.)
+
+The definition of the jargon is cyclic. Term A is defined with term B, and term B is defined with term A. The length of the chain involved in completing the circle may be longer that just A and B... but ultimately the circle is complete.
+
+There are other more pernicious problems:
+
+The definitions may differ from usage. The definitions may not be agreed upon. (A classic example is "bi-monthly" which is just as likely to mean "twice a month" as "every two months").
+
+The definitions probably do not include examples, but if they do, they examples may also be cyclic. 
+
+Here's an example of the use of examples leading to cyclic definitions:
+
+ * Orange: a type of citrus fruit
+ * Lemon: a type of Citrus fruit
+ * Citrus fruit: see for example Lemon and Orange.
+ 
+Generally examples are very helpful things to include, but they are not sufficient in themselves.
+
+But worse than all of these is the situation where the field you're trying to understand uses normal words in a special way. You do not even recognise that these words are jargon: they look like normal words. 
+
+When a mechanic is trying to fix your motorbike and she says "Ok, kick it over now," they do not expect you to kick your bike over and will be surprised when you do. You will need to go and pick up your bike and then attempt to kick-start the bike. This is an example of jargon hiding inside every day words.
+
 
