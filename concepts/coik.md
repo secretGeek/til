@@ -2,7 +2,7 @@
 
 Most online tutorials, most technical instructions, most documentation, most of the language that people use when describing technical subjects are **COIK**.
 
-**Clearly Only If Known**.
+**Clear Only If Known**.
 
 You can only understand what is being said if you already understand what is being said.
 
@@ -27,6 +27,8 @@ It's [quoted here](https://www.bkwpartners.com/tappers-and-listeners-an-excerpt-
 > The tapper/listener experiment is reenacted every day across the world. The tappers and listeners are CEOs and frontline employees, teachers and students, politicians and voters, marketers and customers, writers and readers. All of these Groups rely on ongoing communication, but, like the tappers and listeners, they suffer from enormous information imbalances. When a CEO discusses "unlocking shareholder value," there is a tune playing in her head that the employees can't hear.
 
 
+
+## The Curse of Jargon
 
 A few other observations I want to make about the "curse of knowledge".
 
