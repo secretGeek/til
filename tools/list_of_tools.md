@@ -8,7 +8,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
 
 ## Types of files:
 
- * .exe (138 files)
+ * .exe (140 files)
  * .dll (27 files)
  * .txt (22 files)
  * .bat (13 files)
@@ -86,6 +86,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * exercism.exe
  * extract.exe
  * filever.exe
+ * focus.exe
  * ftonline.exe
  * getsid.exe
  * gflags.exe
@@ -114,6 +115,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * netdom.exe
  * netset.exe
  * NextAction.exe
+ * NextActionBERZERKER.exe
  * NimbleGeo.exe
  * NimbleSet.exe
  * NimbleText.exe

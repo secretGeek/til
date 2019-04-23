@@ -248,7 +248,37 @@ The document.ready is just a call to beCool, like this:
 Where 'beCool' starts like this and defines everything else about any element that is ready.
 
     function beCool(here) {
-        here = here || document;
-        here = $(here);
+        here = $(here || document);
         ...
     }
+
+If you previously would've written code like this to apply a particular behavior to a selector across the document:
+
+
+    $(document).ready(function () {
+        $('.bunnies').click(function (e) {
+          alert('Hopping!');
+        });
+    });
+
+...this would have the downside that when new parts of the document are loaded in later, they won't have that behavior.
+
+Instead write code like this:
+
+
+    $(document).ready(function () {
+        beCool();
+    });
+
+    function beCool(here) {
+        here = $(here || document);
+        here.find('.bunnies').click(function (e) {
+          alert('Hopping!');
+        });
+    }
+
+The page will get the same behavior on load, and when new parts of the page are loaded, call "beCool($('#newPart'));" on the newly loaded part (assuming the newly loaded part has an id of 'newPart') and:
+
+1. All of the page's behavior will then be applied to the newPart. And:
+2. Behavior will not be *reapplied* to any other part of the page.
+

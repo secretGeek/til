@@ -69,4 +69,8 @@ We can use naming to specify the arguments in whatever order we feel like specif
 
 See <https://stackoverflow.com/questions/2662369/covariance-and-contravariance-real-world-example>
 
+...my favored answer there is a lengthy one, but it provides a rationale as well: https://stackoverflow.com/a/42660356
+
+
 ## Embedded interop types
+

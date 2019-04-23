@@ -53,7 +53,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [banking](banking/01_summary.md) | 1 article |
  | [bower](bower/01_summary.md) | 2 articles |
  | [chocolatey](chocolatey/01_summary.md) | 5 articles |
- | [concepts](concepts/01_summary.md) | 16 articles |
+ | [concepts](concepts/01_summary.md) | 17 articles |
  | [console](console/01_summary.md) | 5 articles |
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article |
  | [crypto](crypto/01_summary.md) | 1 article |
@@ -109,7 +109,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [smallbasic](smallbasic/01_summary.md) | 1 article |
  | [speech](speech/01_summary.md) | 1 article |
  | [sqlite](sqlite/01_summary.md) | 1 article |
- | [sql server](sql_server/01_summary.md) | 46 articles |
+ | [sql server](sql_server/01_summary.md) | 47 articles |
  | [sql server reporting services](sql_server_reporting_services/01_summary.md) | 3 articles |
  | [sql spatial](sql_spatial/01_summary.md) | 3 articles |
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
@@ -125,5 +125,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-453 articles
-201241 words
+455 articles
+201863 words

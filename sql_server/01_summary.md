@@ -10,6 +10,7 @@
 * [convert timestamp to varchar](convert_timestamp_to_varchar.md)
 * [Create Schema Authorization](Create_Schema_Authorization.md)
 * [create schema specific role](create_schema_specific_role.md)
+* [CsvToHtml Function in SQL](CsvToHtml_Function_in_SQL.md)
 * [ctrl e execute](ctrl_e_execute.md)
 * [data dictionary](data_dictionary.md)
 * [datetime trim hours milliseconds](datetime_trim_hours_milliseconds.md)

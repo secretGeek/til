@@ -38,6 +38,7 @@ Many of these are "Mental Models" taken from Gabriel Weinberg's list, or from Fa
  * Bandwagon
  * Barriers to Entry (moat/draw bridge)
  * Base Rate
+ * Basic Strategy (Blackjack)
  * Batch size optimum shifts over time
  * BATNA (best alternative to negotiated agreement)
  * Baye's Theorem and background risk (base case)
@@ -158,6 +159,7 @@ Many of these are "Mental Models" taken from Gabriel Weinberg's list, or from Fa
  * Entropy
  * Envy and jealousy
  * Eponymous laws in general
+ * Ergodicity
  * Error correction (signal processing)
  * Eventualities
  * "Everybody has a plan til they get punched in the mouth"
@@ -453,6 +455,7 @@ Many of these are "Mental Models" taken from Gabriel Weinberg's list, or from Fa
  * Tool Making Tools
  * Top down design/bottom up design
  * Total Cost of Investment
+ * Track Record (using the past to predict the future instead of using *nothing*)
  * Trademark/patent/copyright
  * Trade-offs
  * Tragedy of the Commons
@@ -477,6 +480,34 @@ Many of these are "Mental Models" taken from Gabriel Weinberg's list, or from Fa
  * Zawinski's law/Greenspuns law (expand to read email, contain lisp)
  * Zero sum (situation), v Win-Win or non-zero sum, "grow the pie"
  * Zero Tolerance
+
+ * Senescence 
+ * Transformation
+ * Death
+ * Birth
+ * Discovery
+ * Perception
+ * War
+ * Induction
+ * Extrapolation
+ * Interpolation
+ * Inference
+ * Discrete/continuous
+ * Fractional dimensions
+ * Self similarity
+ * Iterations
+ * Wavelet
+ * Functional 
+ * Extremes
+ * 0,1,infinity
+ * Perturbation 
+ * Aperiodic tiling
+ * Honeycomb
+ * Problem solving
+ * Creativity
+ * Personal productivity
+ * Filter/sort/group/select/join
+ * Set logic
 
  
 ![use a formula](use_a_formula.png 'use a formula')
