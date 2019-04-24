@@ -5,6 +5,7 @@
 * [backup restore script](backup_restore_script.md)
 * [bulk comparison with hashbytes](bulk_comparison_with_hashbytes.md)
 * [case sensitive string comparison](case_sensitive_string_comparison.md)
+* [check if column constraint index exists](check_if_column_constraint_index_exists.md)
 * [collation find change compare](collation_find_change_compare.md)
 * [convert hex varchar to bigint](convert_hex_varchar_to_bigint.md)
 * [convert timestamp to varchar](convert_timestamp_to_varchar.md)
