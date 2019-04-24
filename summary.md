@@ -305,6 +305,7 @@
 * [oracle](/oracle/01_summary.md)
 	* [connection strings](/oracle/connection_strings.md)
 	* [date literal](/oracle/date_literal.md)
+	* [get text of view](/oracle/get_text_of_view.md)
 	* [instant client](/oracle/instant_client.md)
 	* [top 10](/oracle/top_10.md)
 	* [what version of oracle](/oracle/what_version_of_oracle.md)

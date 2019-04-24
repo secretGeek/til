@@ -94,7 +94,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [npm](npm/01_summary.md) | 7 articles |
  | [nuget](nuget/01_summary.md) | 2 articles |
  | [office](office/01_summary.md) | 1 article |
- | [oracle](oracle/01_summary.md) | 5 articles |
+ | [oracle](oracle/01_summary.md) | 6 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 3 articles |
  | [powershell](powershell/01_summary.md) | 71 articles |
@@ -125,5 +125,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-456 articles
-202182 words
+457 articles
+202228 words
