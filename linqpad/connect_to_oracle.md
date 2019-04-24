@@ -60,3 +60,27 @@ Optionallly, you can set a default schema, if you know a schema that you're most
 Hit `test` to test. And Bob's your Uncle.
 
 
+# Upgrading the "IQ Driver"
+
+
+Although this worked perfectly well at first, one day the Oracle DBA's upgraded something on the servers and suddenly my linqpad queries returned this error:
+
+> Connection Error: ORA-28040: No matching authentication protocol
+
+The solution was to update my copy of the IQ Driver. To do this I had to remove it, and add it again.
+
+To remove it:
+
+Click "Add connection" as shown above, select the "IQ (Support Oracle, MySQL, SQLite)" data context, and click "Delete Driver"
+
+
+![Delete Driver](delete_iq_driver.png)
+
+	
+Then add the driver back in, as explained above. i.e. click "View more drivers..." and select the one you're interested in.
+
+It will now be upgraded, and your problem may be resolved.
+
+Or it may not.
+
+What do I know? I'm just some guy in the internet.	
