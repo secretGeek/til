@@ -171,6 +171,7 @@
 	* [clear results](/linqpad/clear_results.md)
 	* [connect to oracle](/linqpad/connect_to_oracle.md)
 	* [csv to array](/linqpad/csv_to_array.md)
+	* [datatable to csv](/linqpad/datatable_to_csv.md)
 	* [group by](/linqpad/group_by.md)
 	* [inspect clipboard](/linqpad/inspect_clipboard.md)
 	* [invoke linqpad commandlet](/linqpad/invoke_linqpad_commandlet.md)

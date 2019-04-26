@@ -5,6 +5,7 @@
 * [clear results](clear_results.md)
 * [connect to oracle](connect_to_oracle.md)
 * [csv to array](csv_to_array.md)
+* [datatable to csv](datatable_to_csv.md)
 * [group by](group_by.md)
 * [inspect clipboard](inspect_clipboard.md)
 * [invoke linqpad commandlet](invoke_linqpad_commandlet.md)
