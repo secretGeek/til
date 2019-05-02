@@ -15,7 +15,7 @@ Given a CSV (of crime data) with header row like this:
 
     Offence Description,Start Date,End Date,Suburb,Postcode
 
-... and for which I've manually created a similar looking POCO/DTO.
+...and for which I've manually created a similar looking POCO/DTO.
 
     public class Crime
     {

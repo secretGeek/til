@@ -511,3 +511,9 @@ Many of these are "Mental Models" taken from Gabriel Weinberg's list, or from Fa
 
  
 ![use a formula](use_a_formula.png 'use a formula')
+
+## References
+
+* [Gabriel Weinberg: Mental Models I Find Repeatedly Useful](https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d) - now in the book [Super Thinking](https://superthinking.com/)
+* [Farnam Street: Mental Models: The Best Way to Make Intelligent Decisions (109 Models Explained) via Charlie Munger](https://fs.blog/mental-models/) - now in the book [The Great Mental Models Project, vol 1: The Quality of your thinking depends on the models in your head](https://fs.blog/tgmm/)
+
