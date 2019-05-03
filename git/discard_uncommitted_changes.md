@@ -15,7 +15,7 @@ You just realized the  path you've been going down was not right and you want to
 
 ^^ This will let you see the untracked files that would be deleted (including directories)
 
-If you're happy to lose the changes it list then run:
+If you're happy to lose the changes it lists then run:
 
 	git clean -fd
 

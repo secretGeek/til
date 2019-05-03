@@ -71,6 +71,25 @@ See <https://stackoverflow.com/questions/2662369/covariance-and-contravariance-r
 
 ...my favored answer there is a lengthy one, but it provides a rationale as well: https://stackoverflow.com/a/42660356
 
+Examples:
+
+* `IList<T>` is invariant.
+
+This means a method that accepts a parameter `IList<Feline>` will only accept exactly that. It won't accept `IList<Tiger>` (more derived) and it won't accept `IList<Object>` less derived.
+
+Meanwhile:
+
+* `IEnumerable<T>` is covariant because it is defined as `IEnumerable<out T>`
+	
+This means a method that expects `IEnumerable<Feline>` will accept `IEnumerable<Feline>` or `IEnumerable<Tiger>` or `IEnumerable<HouseCat>` because these are more derived. It won't accept `IEnumerable<Object>` (less derived)
+
+And conversely....
+
+* `Action<T>` is contravariant because it is defined as `Action<in T>`
+
+This means a method with a parameter that is `Action<Feline>` will accept `Action<Feline>` or `Action<Mammal>` (assuming Felines inherits from Mammal, inherits from Animal, inherits from Object) -- and will ALSO accept `Action<Animal>` and even `Action<Object>` but it will not accept a parameters of type `Action<HouseCat>` or a parameter of type `Action<Tiger>` because these are MORE derived.
+
+
 
 ## Embedded interop types
 
