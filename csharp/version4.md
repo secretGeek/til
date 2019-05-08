@@ -80,7 +80,7 @@ This means a method that accepts a parameter `IList<Feline>` will only accept ex
 Meanwhile:
 
 * `IEnumerable<T>` is covariant because it is defined as `IEnumerable<out T>`
-	
+
 This means a method that expects `IEnumerable<Feline>` will accept `IEnumerable<Feline>` or `IEnumerable<Tiger>` or `IEnumerable<HouseCat>` because these are more derived. It won't accept `IEnumerable<Object>` (less derived)
 
 And conversely....
