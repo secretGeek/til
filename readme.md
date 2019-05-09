@@ -107,6 +107,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [sharepoint](sharepoint/01_summary.md) | 1 article |
  | [sleep](sleep/01_summary.md) | 4 articles |
  | [smallbasic](smallbasic/01_summary.md) | 1 article |
+ | [sparql](sparql/01_summary.md) | 1 article |
  | [speech](speech/01_summary.md) | 1 article |
  | [sqlite](sqlite/01_summary.md) | 1 article |
  | [sql server](sql_server/01_summary.md) | 48 articles |
@@ -125,5 +126,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-459 articles
-203101 words
+460 articles
+203159 words

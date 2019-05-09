@@ -421,6 +421,8 @@
 	* [why sleep](/sleep/why_sleep.md)
 * [smallbasic](/smallbasic/01_summary.md)
 	* [shortcomings of smallbasic](/smallbasic/shortcomings_of_smallbasic.md)
+* [sparql](/sparql/01_summary.md)
+	* [basics](/sparql/basics.md)
 * [speech](/speech/01_summary.md)
 	* [copy voices](/speech/copy_voices.md)
 * [sqlite](/sqlite/01_summary.md)
