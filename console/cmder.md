@@ -19,6 +19,9 @@ Can also use `Ctrl V` or Right Click, though they give slightly different behavi
 
 ![cmder paste settings](CmdEr_Paste_Settings.png)
 
+Also turn on "Automatically remove newline when pasting single line." That looks good.
+
+
 ## Using Powershell with Cmder...
 
 Set cmder to load powershell by default, via:
@@ -98,6 +101,14 @@ It's under `Settings > Features > Transparency` -- to wit:
 ![turn off transparency](cmder_rdp_speed.png)
 
 Cmder will no longer be slow to paint over remote connections.
+
+## Tabs on bottom
+
+
+    General > Tab bar > Tabs on Bottom <-- check it on!
+	
+![tabs on bottom](cmder_tabs_on_bottom.png)
+
     
 ## Source
 

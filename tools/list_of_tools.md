@@ -122,7 +122,7 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * NimbleTextAlpha.exe
  * nltest.exe
  * ntfrsutl.exe
- * nuget.exe
+ * NuGet.exe
  * paste.exe
  * pfmon.exe
  * pmon.exe
@@ -178,7 +178,6 @@ When looking for new tools, obviously the first place to look is [Scott Hanselma
  * wsremote.exe
  * xcacls.exe
  * zoomit.exe
- * zoomit.exe-e01130bf
 
 ## Batch Files
 

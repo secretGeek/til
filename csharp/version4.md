@@ -93,3 +93,9 @@ This means a method with a parameter that is `Action<Feline>` will accept `Actio
 
 ## Embedded interop types
 
+[Type equivalence and embedded interop types](https://docs.microsoft.com/en-us/dotnet/framework/interop/type-equivalence-and-embedded-interop-types)
+
+If you publish a COM component, you no longer need to publish a primary interop assembly to be accessible from .net (unless you want it to be accessed from earlier versions)
+
+Hard to summarise, and unless your publishing or using a lot of COM components, the nuances here are likely to escape you. I'm gonna skip going in great depth on this one.
+
