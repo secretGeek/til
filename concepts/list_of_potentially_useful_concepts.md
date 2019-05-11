@@ -473,6 +473,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * The Map is not the territory
  * The Red Queen Effect
  * Theory of constraints
+ * Theory X and Y (of management) [see](https://www.mindtools.com/pages/article/newLDR_74.htm)
  * Third Place (after work/home)
  * Third Rail
  * Third story (two sides to argument... or more?)

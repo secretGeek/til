@@ -18,7 +18,7 @@ Currently something like.... (this is dynamically loaded from util)
 	    }
 	    #TODO: ability to override included file types, override recurse
 	
-	    [string[]] $fileTypes = "*.md","*.fmw","*.txt","*.cs","*.cshtml","*.css","*.ps1","*.js","*.bat","*.vbs","*.vb","*.xml","*.config","*.htm","*.html","*.pre","*.ini","*.sql","*.linq","*.json","*.spark","*.ts","*.psm1","*.psd1","*.aspx","*.ascx","*.asp","*.asmx","*.pubxml","*.dgml","*.sln","*.*proj","*.spark","*.rdl","*.py","*.log","*.las","*.ascx", "*.inc", "*.xaml","*.sh"
+	    [string[]] $fileTypes = "*.md","*.fmw","*.txt","*.cs","*.cshtml","*.css","*.ps1","*.js","*.bat","*.vbs","*.vb","*.xml","*.config","*.htm","*.html","*.pre","*.ini","*.sql","*.linq","*.json","*.spark","*.ts","*.psm1","*.psd1","*.aspx","*.ascx","*.asp","*.asmx","*.pubxml","*.dgml","*.sln","*.*proj","*.spark","*.rdl","*.py","*.log","*.las","*.ascx", "*.inc", "*.xaml","*.sh","*.csv","*.tsv"
 	
 	    #Consider: asa asax ascx ashx asmx asp aspq aspx cfg cfm class config cs cshtm cshtml css csv dbml htaccess htm html ini inc install js log master module mxml php phps pl py readme restext resx script settings sitemap skin sql svc text txt vb vbhtm vbhtml vbs xaml xml xoml xsd xsl xslt
 	
@@ -56,7 +56,7 @@ Currently something like.... (this is dynamically loaded from util)
 	    }
 	    #TODO: ability to override included file types, override recurse
 	
-	    [string[]] $fileTypes = "*.md","*.fmw","*.txt","*.cs","*.cshtml","*.css","*.ps1","*.js","*.bat","*.vbs","*.vb","*.xml","*.config","*.htm","*.html","*.pre","*.ini","*.sql","*.linq","*.json","*.spark","*.ts","*.psm1","*.psd1","*.aspx","*.ascx","*.asp","*.asmx","*.pubxml","*.dgml","*.sln","*.*proj","*.spark","*.rdl","*.py","*.log","*.las","*.ascx", "*.inc", "*.xaml","*.sh"
+	    [string[]] $fileTypes = "*.md","*.fmw","*.txt","*.cs","*.cshtml","*.css","*.ps1","*.js","*.bat","*.vbs","*.vb","*.xml","*.config","*.htm","*.html","*.pre","*.ini","*.sql","*.linq","*.json","*.spark","*.ts","*.psm1","*.psd1","*.aspx","*.ascx","*.asp","*.asmx","*.pubxml","*.dgml","*.sln","*.*proj","*.spark","*.rdl","*.py","*.log","*.las","*.ascx", "*.inc", "*.xaml","*.sh","*.csv","*.tsv"
 	
 	    #Consider: asa asax ascx ashx asmx asp aspq aspx cfg cfm class config cs cshtm cshtml css csv dbml htaccess htm html ini inc install js log master module mxml php phps pl py readme restext resx script settings sitemap skin sql svc text txt vb vbhtm vbhtml vbs xaml xml xoml xsd xsl xslt
 	
@@ -82,7 +82,7 @@ Currently something like.... (this is dynamically loaded from util)
 	
 	    #[string[]] $fileTypes = "*.md","*.fmw","*.txt","*.cs","*.cshtml","*.css","*.ps1","*.js","*.bat","*.vbs","*.vb","*.xml","*.config","*.htm","*.html","*.pre","*.ini","*.sql","*.linq","*.json","*.spark","*.ts","*.psm1","*.psd1","*.aspx","*.ascx","*.asp","*.asmx","*.pubxml","*.dgml","*.sln","*.*proj","*.spark"
 	    #[string[]] $fileTypes = "*.svg","*.eot","*.map","*.xml","*.rsp","*.gif","*.png","*.jpg","*.InfoDocument","*.DataPattern","*.AutomateOrNot","*.SDKVersion","*.IncrementalCache","*.Usage","*.md","*.woff2","*.woff","*.UserId_NormalizedUserName","*.NormalizedEmail_UserId","*.ApplicationUser","*.html","*.cs","*.config","*.user","*.bowerrc","*.ok","*.xproj","*.json","*.txt","*.css","*.js","*.ico","*.tmp","*.OLD","*.cshtml","*.ascx"
-	    [string[]] $fileTypes = "*.*proj","*.ApplicationUser","*.ascx","*.asmx","*.asp","*.aspx","*.AutomateOrNot","*.bat","*.bowerrc","*.config","*.cs","*.cshtml","*.css","*.DataPattern","*.dgml","*.eot","*.fmw","*.gif","*.htm","*.html","*.ico","*.IncrementalCache","*.InfoDocument","*.ini","*.js","*.json","*.linq","*.map","*.md","*.ok","*.OLD","*.png","*.pre","*.ps1","*.psd1","*.psm1","*.pubxml","*.rsp","*.SDKVersion","*.sln","*.spark","*.sql","*.svg","*.tmp","*.ts","*.txt","*.Usage","*.user","*.vb","*.vbs","*.woff","*.woff2","*.xml","*.xproj","*.sh"
+	    [string[]] $fileTypes = "*.*proj","*.ApplicationUser","*.ascx","*.asmx","*.asp","*.aspx","*.AutomateOrNot","*.bat","*.bowerrc","*.config","*.cs","*.cshtml","*.css","*.DataPattern","*.dgml","*.eot","*.fmw","*.gif","*.htm","*.html","*.ico","*.IncrementalCache","*.InfoDocument","*.ini","*.js","*.json","*.linq","*.map","*.md","*.ok","*.OLD","*.png","*.pre","*.ps1","*.psd1","*.psm1","*.pubxml","*.rsp","*.SDKVersion","*.sln","*.spark","*.sql","*.svg","*.tmp","*.ts","*.txt","*.Usage","*.user","*.vb","*.vbs","*.woff","*.woff2","*.xml","*.xproj","*.sh","*.csv","*.tsv"
 	
 	    #Consider: asa asax ascx ashx asmx asp aspq aspx cfg cfm class config cs cshtm cshtml css csv dbml htaccess htm html ini inc install js log master module mxml php phps pl py readme restext resx script settings sitemap skin sql svc text txt vb vbhtm vbhtml vbs xaml xml xoml xsd xsl xslt
 	
