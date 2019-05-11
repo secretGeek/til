@@ -123,8 +123,9 @@ Though this site is published as a free digital-only book, I've also published a
  | [windows](windows/01_summary.md) | 14 articles |
  | [windows.forms](windows.forms/01_summary.md) | 4 articles |
  | [wordpress](wordpress/01_summary.md) | 1 article |
+ | [writing](writing/01_summary.md) | 1 article |
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-460 articles
-203180 words
+461 articles
+203367 words

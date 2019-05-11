@@ -536,6 +536,8 @@
 	* [select all](/windows.forms/select_all.md)
 * [wordpress](/wordpress/01_summary.md)
 	* [wp on digital ocean](/wordpress/wp_on_digital_ocean.md)
+* [writing](/writing/01_summary.md)
+	* [amateur mistakes](/writing/amateur_mistakes.md)
 * [zoho](/zoho/01_summary.md)
 	* [catch all](/zoho/catch_all.md)
 	* [domain](/zoho/domain.md)
