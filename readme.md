@@ -72,6 +72,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [habits](habits/01_summary.md) | 1 article |
  | [html](html/01_summary.md) | 1 article |
  | [iis](iis/01_summary.md) | 3 articles |
+ | [inkscape](inkscape/01_summary.md) | 1 article |
  | [itunes](itunes/01_summary.md) | 1 article |
  | [javascript](javascript/01_summary.md) | 7 articles |
  | [jekyll](jekyll/01_summary.md) | 1 article |
@@ -127,5 +128,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-461 articles
-203367 words
+462 articles
+203526 words

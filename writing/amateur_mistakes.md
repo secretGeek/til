@@ -5,9 +5,16 @@ To make a self-published book look like an amateur book, you don't have to break
 
 ## Page Layout
 
-* gutter: odd-numbered pages, gutter on left; even-numbered pages, gutter on right
+* gutter: odd-numbered pages, gutter on left; even-numbered pages, gutter on right.
+* margin: top,left,right,bottom TODO:
+* 
 
-## Table of Content
+<!-- TODO: Gutter picture -->
+
+
+## Table of Contents
+
+
 
 ## Chapters
 
@@ -21,16 +28,37 @@ To make a self-published book look like an amateur book, you don't have to break
 ## Content
 
 * no spelling errors
-* consistent capitalization
-* consistent punctuation
+* consistent capitalization -- see [Title Case Converter](https://titlecaseconverter.com/)
+* consistent punctuation -- see [the punctuation guide](https://www.thepunctuationguide.com/)
+
+
+
+
+* fonts for body content should be Serif fonts
+
+> The most widely used typefaces for book body text include Baskerville, Bembo, Garamond, Janson, Palatino, and Times Roman (although this more of a newspaper font). Sans serif fonts may be difficult to read for an entire book.
+>
+> If using a serif font for body text (Berkeley, Palatino, Garamond, etc.), do not use smaller than 10pt. size
+>
+> &mdash;[Amit Agarwal: Which Fonts Should You Use for Writing a Book](https://www.labnol.org/internet/blogging/which-fonts-should-you-use-for-writing-a-book/3141/)
+
+
+
+
+## Separators
+
+
 
 ## Images
 
 * images at high DPI, e.g. 300.
 
-## Cover
+## Exterior (cover)
 
-* cover image has spine at correct width (spine-width depends on the number of interior-pages, thickness of paper, etc.); an amateur book might end up with a cover design where the spine is ill-fitted.
+
+<!-- TODO: picture: interior file, exterior file -->
+
+* exterior image has spine at correct width (spine-width depends on the number of interior-pages, thickness of paper, etc.); an amateur book might end up with a cover design where the spine is ill-fitted.
 * spine: direction of text is consistent with the majority of books on your shelf
 
 

@@ -150,6 +150,8 @@
 	* [where to find the logs for a site](/iis/where_to_find_the_logs_for_a_site.md)
 	* [which version](/iis/which_version.md)
 	* [which w3wp process is which](/iis/which_w3wp_process_is_which.md)
+* [inkscape](/inkscape/01_summary.md)
+	* [font not showing](/inkscape/font_not_showing.md)
 * [itunes](/itunes/01_summary.md)
 	* [setup as new ipad](/itunes/setup_as_new_ipad.md)
 * [javascript](/javascript/01_summary.md)
