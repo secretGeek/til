@@ -6,13 +6,20 @@ To make a self-published book look like an amateur book, you don't have to break
 ## Page Layout
 
 * gutter: odd-numbered pages, gutter on left; even-numbered pages, gutter on right.
-* margins: the usual thing in an amateur book is to have these too cramped.
+* margins: the usual thing in an amateur book is to have these *too cramped*. (Similarly for leading in body content, see below)
 
 <!-- TODO: Gutter picture -->
 
 
-## Table of Contents
+## Table of Contents (ToC)
 
+ * when writing/revising you may need to refer to an outline of the book that has every possible level of heading (e.g. heading 1-6) but the needs of your reader are not the same as the needs of a writer/editor, in particular:
+   * Fiction: usually no TOC
+   * Non-Fiction: Ideally a single page, only chapter headings. If it must be more than one page then you have "contents at a glance" and the more detailed contents. Review similar professional books as a grounding device.   
+ * Don't use a line of dots to link chapter title and page number (this is the default in word) - increase leading (line-height) instead.
+ * If SMALL-CAPS styles are used, ensure it is a font that include a SMALL-CAPS variant and it is not simply a squished-down caps.
+ * No Header text on the TOC page
+ 
 
 ## Chapters
 
@@ -25,10 +32,20 @@ To make a self-published book look like an amateur book, you don't have to break
  * pay attention to kerning of headings
  * orphan lines, orphan words
 
+## Header
+
+ * first page of each chatper: no header
+ * TOC: no header
+ * header text: lighter weight than body, or smaller font size
+ 
+ 
+
 ## Content
 
+ * page numbering starts at 1 when the content itself starts
  * no spelling errors
  * consistent punctuation -- see [the punctuation guide](https://www.thepunctuationguide.com/)
+   * in particular, apostrophes, single-quotes and double-quotes: smart not straight.
  * consistent use of terminology
  * ensure typographic characters other than regular English letters are printed correctly. e.g. &eacute; (So many different ways these can fail)
  * fonts for body content should be Serif fonts
@@ -39,15 +56,17 @@ To make a self-published book look like an amateur book, you don't have to break
 >
 > &mdash;[Amit Agarwal: Which Fonts Should You Use for Writing a Book](https://www.labnol.org/internet/blogging/which-fonts-should-you-use-for-writing-a-book/3141/)
 
- * paragraph style: line-height (leading) is not too cramped and not too spacious
+ * paragraph style: line-height (leading) is not too cramped and not too spacious. (The standard amateur ploy is to have them too cramped)
  * alignment: justified.
+ * font-weight: does your book have more ink on the page than a professional book plucked from your shelf?
+ * layout of quotes: consistent, pleasing.
  
  
 
 
 ## Separators
 
-
+ * Stylish and consistent. Centered. Most amateur look here would be: three literal asterisks left aligned. 
 
 ## Images
 
@@ -60,5 +79,5 @@ To make a self-published book look like an amateur book, you don't have to break
 
  * exterior image has spine at correct width (spine-width depends on the number of interior-pages, thickness of paper, etc.); an amateur book might end up with a cover design where the spine is ill-fitted.
  * spine: direction of text is consistent with the majority of books on your shelf, i.e. text flows top to bottom. When looking at the book on the shelf you lower your right ear to your shoulder to read the spines.
-
+ * exterior image, high DPI, all text-crisp.
 
