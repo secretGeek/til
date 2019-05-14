@@ -8,19 +8,25 @@ Another child has a copy of clever deck she used for finally solidifying her kno
 
 With clever deck you can quickly add your own cards.
 
+A single fact may be best represented by more than 3 cards:
 
+ - word &#x21B7; definition
+ - definition &#x21B7; word
+ - example with word missing &#x21B7; example with word filled in. (note: this is called cloze deletion)
 
 ## Topics to gather
 
 * Basic strategy for 21
 * Birthdays of people I know
-* Children's names of friends
+* Children's (and pet's) names of friends
 * Bash commands
 * Ubuntu paths
 * Guitar chords
 * Guitar scales
 * git commands
 * interesting words
+* words I commonly misspell
+* Mental Models"
 
 (See cheatsheets)
 

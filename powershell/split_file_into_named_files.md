@@ -3,11 +3,11 @@
 Given an input file like this:
 
 	FILE:Hello.txt
-	content
-	content
+	content (this will end up in Hello.txt)
+	content (this will end up in Hello.txt)
 	FILE:Hello2.txt
-	content3
-	content4
+	content3 (this will end up in Hello2.txt)
+	content4 (this will end up in Hello2.txt)
 
 You can split it into two files, named `Hello.txt` and `Hello2.txt` by using the following line of powershell....
 

@@ -23,6 +23,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Adaptation
  * Addiction
  * ADR (Alternative dispute resolution)
+ * Averse Selection (e.g. the tendency of those likely to experience a loss to seek coverage.)
  * Age-related Personality Changes
  * Agency Problem
  * Aleotropic
