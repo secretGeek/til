@@ -159,6 +159,7 @@
 	* [eval](/javascript/eval.md)
 	* [generate guid](/javascript/generate_guid.md)
 	* [iife](/javascript/iife.md)
+	* [in 2019](/javascript/in_2019.md)
 	* [poor mans jquery](/javascript/poor_mans_jquery.md)
 	* [quickstart](/javascript/quickstart.md)
 	* [random item](/javascript/random_item.md)

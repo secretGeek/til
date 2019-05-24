@@ -6,9 +6,25 @@ The software Gnuitar is good for this.
 
 It works on all platforms and is opensource.
 
+## Device
+
+Planning to get an `iRig HD 2` which connects to iPhone, iPad and PC.
+
+On iPhone you can use it with many apps including Garage band and ToneBridge.
+
 ## Related
 
-[Trysmudford guitar pedal board](https://twitter.com/trysmudford/status/1125677232746311680?s=21) -- see <https://pedalboard.netlify.com/> or [video](https://www.youtube.com/watch?v=OJVmZ7hbVPQ) or [source](https://github.com/trys/pedalboard)
+[Trysmudford guitar pedal board](https://twitter.com/trysmudford/status/1125677232746311680?s=21) -- 
+see <https://pedalboard.netlify.com/>
+ or [video](https://www.youtube.com/watch?v=OJVmZ7hbVPQ) 
+ or [source](https://github.com/trys/pedalboard)
+
+
+## Try Sound SLice
+
+Sound Slice is an interesting music practice site:
+
+<https://www.soundslice.com/>
 
 ## Reference
 

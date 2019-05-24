@@ -10,24 +10,30 @@
 
 Currently something like.... (this is dynamically loaded from util)
 
-	function findtext($pattern)
+	[string[]] $fileTypes = "*.md","*.fmw","*.txt","*.cs","*.cshtml","*.css","*.ps1","*.js","*.bat","*.vbs","*.vb","*.xml","*.config","*.htm","*.html","*.pre","*.ini","*.sql","*.linq","*.json","*.spark","*.ts","*.psm1","*.psd1","*.aspx","*.ascx","*.asp","*.asmx","*.pubxml","*.dgml","*.sln","*.*proj","*.spark","*.rdl","*.py","*.log","*.las","*.ascx", "*.inc", "*.xaml","*.sh","*.csv","*.tsv"
+	
+	#Consider: asa asax ascx ashx asmx asp aspq aspx cfg cfm class config cs cshtm cshtml css csv dbml htaccess htm html ini inc install js log master module mxml php phps pl py readme restext resx script settings sitemap skin sql svc text txt vb vbhtm vbhtml vbs xaml xml xoml xsd xsl xslt
+	
+	function findtext($pattern, $recursive)
 	{
 	    if ($pattern -eq $null) {
 	        write-host "Please provide a pattern you wish to find. (all text files will be searched)" -foregroundcolor  "red"
 	        return
 	    }
-	    #TODO: ability to override included file types, override recurse
-	
-	    [string[]] $fileTypes = "*.md","*.fmw","*.txt","*.cs","*.cshtml","*.css","*.ps1","*.js","*.bat","*.vbs","*.vb","*.xml","*.config","*.htm","*.html","*.pre","*.ini","*.sql","*.linq","*.json","*.spark","*.ts","*.psm1","*.psd1","*.aspx","*.ascx","*.asp","*.asmx","*.pubxml","*.dgml","*.sln","*.*proj","*.spark","*.rdl","*.py","*.log","*.las","*.ascx", "*.inc", "*.xaml","*.sh","*.csv","*.tsv"
-	
-	    #Consider: asa asax ascx ashx asmx asp aspq aspx cfg cfm class config cs cshtm cshtml css csv dbml htaccess htm html ini inc install js log master module mxml php phps pl py readme restext resx script settings sitemap skin sql svc text txt vb vbhtm vbhtml vbs xaml xml xoml xsd xsl xslt
+		
+		if ($recursive -eq $null) {
+			#"SETTING RECURSIVE"
+		    $recursive = $true
+		} else {
+		    #"recursive was not null it was $recursive"
+		}
 	
 	    # $path = get-location
 	    $path = (get-location | % { $_.ProviderPath })
 	
 	    $ErrorActionPreference = "SilentlyContinue"
-	    #TODO: improve the way the error handling is performed, so we ONLY jump to the trap if the regex was invalid
-	    get-childitem -Path * -Include $fileTypes -Exclude .hg,*jquery*,modernizr* -Recurse |
+	
+	    get-childitem -Path * -Include $fileTypes -Exclude .hg,*jquery*,modernizr* -Recurse:$recursive |
 	        ? { $_.DirectoryName -notmatch "_book" } |
 	        select-string -pattern $pattern |
 	        format-table -property @{Expression={$_.Path.SubString($path.Length+1)};Label="Location"},
@@ -48,19 +54,22 @@ Currently something like.... (this is dynamically loaded from util)
 	    }
 	}
 	
-	function findrawtext($pattern)
+	# same as findtext but does not use recursive
+	function findtext_norecurse($pattern)
+	{
+	    findtext $pattern $false
+	}
+	
+	
+	
+	# Pattern is not treated as regular expression -- it's a "simplematch" instead
+	function findtext_raw($pattern)
 	{
 	    if ($pattern -eq $null) {
 	        write-host "Please provide a pattern you wish to find. (all text files will be searched)" -foregroundcolor  "red"
 	        return
 	    }
-	    #TODO: ability to override included file types, override recurse
 	
-	    [string[]] $fileTypes = "*.md","*.fmw","*.txt","*.cs","*.cshtml","*.css","*.ps1","*.js","*.bat","*.vbs","*.vb","*.xml","*.config","*.htm","*.html","*.pre","*.ini","*.sql","*.linq","*.json","*.spark","*.ts","*.psm1","*.psd1","*.aspx","*.ascx","*.asp","*.asmx","*.pubxml","*.dgml","*.sln","*.*proj","*.spark","*.rdl","*.py","*.log","*.las","*.ascx", "*.inc", "*.xaml","*.sh","*.csv","*.tsv"
-	
-	    #Consider: asa asax ascx ashx asmx asp aspq aspx cfg cfm class config cs cshtm cshtml css csv dbml htaccess htm html ini inc install js log master module mxml php phps pl py readme restext resx script settings sitemap skin sql svc text txt vb vbhtm vbhtml vbs xaml xml xoml xsd xsl xslt
-	
-	    # $path = get-location
 		$path = (get-location | % { $_.ProviderPath })
 		
 		get-childitem -Path * -Include $fileTypes -Exclude .hg,*jquery*,modernizr* -Recurse |
@@ -72,21 +81,13 @@ Currently something like.... (this is dynamically loaded from util)
 	
 	}
 	
-	function findrawtext_casesensitive($pattern)
+	function findtext_raw_casesensitive($pattern)
 	{
 	    if ($pattern -eq $null) {
 	        write-host "Please provide a pattern you wish to find. (all text files will be searched)" -foregroundcolor  "red"
 	        return
 	    }
-	    #TODO: ability to override included file types, override recurse
 	
-	    #[string[]] $fileTypes = "*.md","*.fmw","*.txt","*.cs","*.cshtml","*.css","*.ps1","*.js","*.bat","*.vbs","*.vb","*.xml","*.config","*.htm","*.html","*.pre","*.ini","*.sql","*.linq","*.json","*.spark","*.ts","*.psm1","*.psd1","*.aspx","*.ascx","*.asp","*.asmx","*.pubxml","*.dgml","*.sln","*.*proj","*.spark"
-	    #[string[]] $fileTypes = "*.svg","*.eot","*.map","*.xml","*.rsp","*.gif","*.png","*.jpg","*.InfoDocument","*.DataPattern","*.AutomateOrNot","*.SDKVersion","*.IncrementalCache","*.Usage","*.md","*.woff2","*.woff","*.UserId_NormalizedUserName","*.NormalizedEmail_UserId","*.ApplicationUser","*.html","*.cs","*.config","*.user","*.bowerrc","*.ok","*.xproj","*.json","*.txt","*.css","*.js","*.ico","*.tmp","*.OLD","*.cshtml","*.ascx"
-	    [string[]] $fileTypes = "*.*proj","*.ApplicationUser","*.ascx","*.asmx","*.asp","*.aspx","*.AutomateOrNot","*.bat","*.bowerrc","*.config","*.cs","*.cshtml","*.css","*.DataPattern","*.dgml","*.eot","*.fmw","*.gif","*.htm","*.html","*.ico","*.IncrementalCache","*.InfoDocument","*.ini","*.js","*.json","*.linq","*.map","*.md","*.ok","*.OLD","*.png","*.pre","*.ps1","*.psd1","*.psm1","*.pubxml","*.rsp","*.SDKVersion","*.sln","*.spark","*.sql","*.svg","*.tmp","*.ts","*.txt","*.Usage","*.user","*.vb","*.vbs","*.woff","*.woff2","*.xml","*.xproj","*.sh","*.csv","*.tsv"
-	
-	    #Consider: asa asax ascx ashx asmx asp aspq aspx cfg cfm class config cs cshtm cshtml css csv dbml htaccess htm html ini inc install js log master module mxml php phps pl py readme restext resx script settings sitemap skin sql svc text txt vb vbhtm vbhtml vbs xaml xml xoml xsd xsl xslt
-	
-	    # $path = get-location
 		$path = (get-location | % { $_.ProviderPath })
 		
 		get-childitem -Path * -Include $fileTypes -Exclude .hg,*jquery*,modernizr* -Recurse |
@@ -95,7 +96,6 @@ Currently something like.... (this is dynamically loaded from util)
 			ft -property @{Expression={$_.Path.SubString($path.Length+1)};Label="Location"},
 				@{Expression={$_.LineNumber};Label="Line"},
 				@{Expression={$_.Line};Label="Match"} -auto
-	
 	}
 	
 	

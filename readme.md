@@ -74,7 +74,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [iis](iis/01_summary.md) | 3 articles |
  | [inkscape](inkscape/01_summary.md) | 1 article |
  | [itunes](itunes/01_summary.md) | 1 article |
- | [javascript](javascript/01_summary.md) | 7 articles |
+ | [javascript](javascript/01_summary.md) | 8 articles |
  | [jekyll](jekyll/01_summary.md) | 1 article |
  | [jquery](jquery/01_summary.md) | 3 articles |
  | [library](library/01_summary.md) | 1 article |
@@ -129,5 +129,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-491 articles
-209462 words
+492 articles
+210156 words
