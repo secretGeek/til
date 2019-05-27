@@ -1,5 +1,10 @@
 # COIK
 
+> "A four year old child could understand this! Run out and find me a four year old child, I can't make head or tail out of it."
+>
+>&mdash;Groucho Marx in Duck Soup
+
+
 Most online tutorials, most technical instructions, most documentation, most of the language that people use when describing technical subjects are **COIK**.
 
 **Clear Only If Known**.
@@ -21,7 +26,7 @@ It's [quoted here](https://www.bkwpartners.com/tappers-and-listeners-an-excerpt-
 > When a tapper taps, she is hearing the song in her head. Go ahead and try it for yourself -- tap out "The Star-Spangled Banner." It's impossible to avoid hearing the tune in your head. Meanwhile, the listeners can't hear that tune -- all they can hear is a bunch of disconnected taps, like a kind of bizarre Morse Code.
 > 
 > In the experiment, tappers are flabbergasted at how hard the listeners seem to be working to pick up the tune. Isn't the song obvious? The tappers' expressions, when a listener guesses "Happy Birthday to You" for "The Star-Spangled Banner," are priceless: How could you be so stupid?
-
+>
 > It's hard to be a tapper. The problem is that tappers have been given knowledge (the song title) that makes it impossible for them to imagine what it's like to lack that knowledge. When they're tapping, they can't imagine what it's like for the listeners to hear isolated taps rather than a song. This is the Curse of Knowledge. Once we know something, we find it hard to imagine what it was like not to know it. Our knowledge has "cursed" us. And it becomes difficult for us to share our knowledge with others, because we can't readily re-create our listeners' state of mind.
 > 
 > The tapper/listener experiment is reenacted every day across the world. The tappers and listeners are CEOs and frontline employees, teachers and students, politicians and voters, marketers and customers, writers and readers. All of these Groups rely on ongoing communication, but, like the tappers and listeners, they suffer from enormous information imbalances. When a CEO discusses "unlocking shareholder value," there is a tune playing in her head that the employees can't hear.
@@ -34,29 +39,41 @@ A few other observations I want to make about the "curse of knowledge".
 
 When studying a topic that is new to you, the jargon is not just a problem: it is a whole set of problems.
 
+### Assumed
+
 The first problem is that you don't understand the jargon, and the jargon is assumed. That's a challenge already.
 
 When you look up the definition of the jargon, you may have trouble finding any definition at all. That is a big problem. However...
+
+## Multi-layered
 
 If you do find a definition for the jargon, it is always defined *with more jargon*. The jargon is defined in terms of other jargon.
 
 If you succesfully find a definition for that other jargon, it can in turn be defined in more jargon: there may be many many layers of jargon. However it gets worse. (You may have already guessed where this is going.)
 
+## Cyclic-Nonsense
+
 The definition of the jargon is cyclic. Term A is defined with term B, and term B is defined with term A. The length of the chain involved in completing the circle may be longer that just A and B... but ultimately the circle is complete.
 
 There are other more pernicious problems:
 
+## Conflicting Definitions
+
 The definitions may differ from usage. The definitions may not be agreed upon. (A classic example is "bi-monthly" which is just as likely to mean "twice a month" as "every two months").
 
-The definitions probably do not include examples, but if they do, they examples may also be cyclic. 
+## Lack of Examples, or Nothing But Examples
+
+Generally examples are very helpful things to include, but they are not sufficient in themselves.
 
 Here's an example of the use of examples leading to cyclic definitions:
 
  * Orange: a type of citrus fruit
- * Lemon: a type of Citrus fruit
+ * Lemon: a type of citrus fruit
  * Citrus fruit: see for example Lemon and Orange.
- 
-Generally examples are very helpful things to include, but they are not sufficient in themselves.
+
+
+## Hiding in plain sight
+
 
 But worse than all of these is the situation where the field you're trying to understand uses normal words in a special way. You do not even recognise that these words are jargon: they look like normal words. 
 

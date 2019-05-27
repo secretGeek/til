@@ -255,6 +255,8 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Implementation Intentions when-then
  * Imposter Syndrome
  * Incentives
+ * Induced Demand (e.g. https://www.citylab.com/transportation/2018/09/citylab-university-induced-demand/569455/)
+
  * Induction
  * Inertia
  * Inference
