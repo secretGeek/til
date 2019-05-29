@@ -256,7 +256,6 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Imposter Syndrome
  * Incentives
  * Induced Demand (e.g. https://www.citylab.com/transportation/2018/09/citylab-university-induced-demand/569455/)
-
  * Induction
  * Inertia
  * Inference
@@ -291,7 +290,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Law of Leaky Abstractions
  * Law of Triviality
  * Laws of Thermodynamics
- * Le Chatelier's PrincipleL A system at equilibrium when changed moves to a new equilibrium which tend to partly counteract the change (The system always kicks back)
+ * Le Chatelier's Principle: A system at equilibrium when changed moves to a new equilibrium will tend to partly counteract the change (The system always kicks back)
  * Leverage
  * Local/Global maxima/minima, hill climbing
  * Logarithmic

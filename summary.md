@@ -96,6 +96,7 @@
 * [git](/git/01_summary.md)
 	* [alias](/git/alias.md)
 	* [cheatsheet](/git/cheatsheet.md)
+	* [delete old branches](/git/delete_old_branches.md)
 	* [diff](/git/diff.md)
 	* [discard uncommitted changes](/git/discard_uncommitted_changes.md)
 	* [equivalent of outgoing](/git/equivalent_of_outgoing.md)

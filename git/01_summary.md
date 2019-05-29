@@ -4,6 +4,7 @@
  
 * [alias](alias.md)
 * [cheatsheet](cheatsheet.md)
+* [delete old branches](delete_old_branches.md)
 * [diff](diff.md)
 * [discard uncommitted changes](discard_uncommitted_changes.md)
 * [equivalent of outgoing](equivalent_of_outgoing.md)
