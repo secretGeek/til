@@ -47,18 +47,18 @@ Lists all branches and has `: gone]` if their remote component has been removed.
 
 	> git branch -vv
 
-	FrogTracking										2583eea0 [origin/FrogTracking: behind 49] monkey-magnet fixed attributes on user columns
-	Gespacio											e05bafd8 [origin/Gespacio: gone] Added .gitignore file to exclude .hg folder
-	bug/5928-cat-chaser-ignores-2-user-columns			2583eea0 [origin/bug/5928-cat-chaser-ignores-2-user-columns: gone] monkey-magnet fixed attributes on user columns
-	env-test											73e5707d [origin/env-test] remove merge markers
-	feature/5784-moon-tooth								b1ec5764 [origin/feature/5784-moon-tooth: gone] 5784: moon-truth is more testable
-	feature/5784-sheep-dip-re-encoder					2b60c485 [origin/feature/5784-sheep-dip-re-encoder: gone] remove commented out code
-	feature/5792-cloud-taser-convert-UserTask			88019a36 [origin/feature/5792-cloud-taser-convert-UserTask: gone] Merge branch 'FrogTracking' into feature/5792-cloud-taser-convert-UserTask
-	feature/5829-Convert-hops-in-shops					3816b859 [origin/feature/5829-Convert-hops-in-shops: gone] hops-ify Sync moon-boot-fighter.
-	feature/5884-Funtegra-import-yard					d55774bc [origin/feature/5884-Funtegra-import-yard: gone] Funtegra: import users from yard
-	feature/5959-oops-counter-Color						a111c73b [origin/feature/5959-oops-counter-Color: gone] Build pipelines: removed file moon-web-build.yml
-	feature/5992-monkey-magnet-current-archive			d2f88379 [origin/feature/5992-monkey-magnet-current-archive] Sync monkey-magnet default table renamed
-	* master											d16af51f [origin/master] Merge master into this branch
-	refactor/cloud-taser-utc-datetime-handling			5da44411 [origin/refactor/cloud-taser-utc-datetime-handling: gone] moon: 5888 cloud-taser Online.
+	FrogTracking								2583eea0 [origin/FrogTracking: behind 49] monkey-magnet fixed attributes on user columns
+	Gespacio									e05bafd8 [origin/Gespacio: gone] Added .gitignore file to exclude .hg folder
+	bug/5928-cat-chaser-ignores-2-user-columns	2583eea0 [origin/bug/5928-cat-chaser-ignores-2-user-columns: gone] monkey-magnet fixed attributes on user columns
+	env-test									73e5707d [origin/env-test] remove merge markers
+	feature/5784-moon-tooth						b1ec5764 [origin/feature/5784-moon-tooth: gone] 5784: moon-truth is more testable
+	feature/5784-sheep-dip-re-encoder			2b60c485 [origin/feature/5784-sheep-dip-re-encoder: gone] remove commented out code
+	feature/5792-cloud-taser-convert			88019a36 [origin/feature/5792-cloud-taser-convert: gone] Merge branch 'FrogTracking' into feature/5792-cloud-taser-convert
+	feature/5829-convert-hops-in-shops			3816b859 [origin/feature/5829-convert-hops-in-shops: gone] hops-ify Sync moon-boot-fighter.
+	feature/5884-funtegra-import-yard			d55774bc [origin/feature/5884-funtegra-import-yard: gone] funtegra: import users from yard
+	feature/5959-oops-counter-Color				a111c73b [origin/feature/5959-oops-counter-Color: gone] Build pipelines: removed file moon-web-build.yml
+	feature/5992-monkey-magnet-current-archive	d2f88379 [origin/feature/5992-monkey-magnet-current-archive] Sync monkey-magnet default table renamed
+	* master									d16af51f [origin/master] Merge master into this branch
+	refactor/cloud-taser-utc-datetime-handling	5da44411 [origin/refactor/cloud-taser-utc-datetime-handling: gone] moon: 5888 cloud-taser Online.
 
 So the real point here is `: gone]` substring referring to the missing origin.

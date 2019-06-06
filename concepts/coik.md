@@ -49,6 +49,8 @@ When you look up the definition of the jargon, you may have trouble finding any 
 
 If you do find a definition for the jargon, it is always defined *with more jargon*. The jargon is defined in terms of other jargon.
 
+The authors of the definition are unaware that they have created this problem: they suffer the curse of knowledge and cannot see the mistake they have made.
+
 If you succesfully find a definition for that other jargon, it can in turn be defined in more jargon: there may be many many layers of jargon. However it gets worse. (You may have already guessed where this is going.)
 
 ## Cyclic-Nonsense
