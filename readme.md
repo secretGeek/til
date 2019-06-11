@@ -122,12 +122,12 @@ Though this site is published as a free digital-only book, I've also published a
  | [virtual box](virtual_box/01_summary.md) | 2 articles |
  | [visual studio](visual_studio/01_summary.md) | 8 articles |
  | [vs code](vs_code/01_summary.md) | 5 articles |
- | [windows](windows/01_summary.md) | 14 articles |
+ | [windows](windows/01_summary.md) | 15 articles |
  | [windows.forms](windows.forms/01_summary.md) | 4 articles |
  | [wordpress](wordpress/01_summary.md) | 1 article |
  | [writing](writing/01_summary.md) | 1 article |
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-494 articles
-210636 words
+495 articles
+210842 words

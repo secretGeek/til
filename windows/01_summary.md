@@ -13,6 +13,7 @@
 * [remove unreachable recyclebin crap](remove_unreachable_recyclebin_crap.md)
 * [screenshot with mouse cursor](screenshot_with_mouse_cursor.md)
 * [shutdown](shutdown.md)
+* [Turn off bing search results from Start Menu](Turn_off_bing_search_results_from_Start_Menu.md)
 * [when does password expire](when_does_password_expire.md)
 * [which version](which_version.md)
 * [windows store apps update](windows_store_apps_update.md)
