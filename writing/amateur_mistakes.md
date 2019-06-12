@@ -3,12 +3,15 @@
 To make a self-published book look like an amateur book, you don't have to break *all* these guidelines, any *one* will do.
 
 
+
+
 ## Page Layout
 
 * gutter: odd-numbered pages, gutter on left; even-numbered pages, gutter on right.
 * margins: the usual thing in an amateur book is to have these *too cramped*. (Similarly for leading in body content, see below)
 
-<!-- TODO: Gutter picture -->
+
+![image showing the gutter as the part of the page that disappeares into the middle of the book](margin_gutter.png)
 
 
 ## Table of Contents (ToC)
@@ -34,15 +37,22 @@ To make a self-published book look like an amateur book, you don't have to break
 
 ## Header
 
- * first page of each chatper: no header
+ * first page of each chapter: no header
  * TOC: no header
  * header text: lighter weight than body, or smaller font size
  
+## page numbering:
+
+ * page numbering starts at 1 when the content itself starts
+ * page 1 is on the right hand side. (An odd numbered page of the interior file.)
+ * Page numbers are listed at the header or foot of the page (not both!)
+   * near the corner, aligned with the edge of the "block" of the body text.
+   * odd numbers are aligned to the right of the block
+   * even numbers are aligned to the left of the block
  
 
 ## Content
 
- * page numbering starts at 1 when the content itself starts
  * no spelling errors
  * consistent punctuation -- see [the punctuation guide](https://www.thepunctuationguide.com/)
    * in particular, apostrophes, single-quotes and double-quotes: smart not straight.
