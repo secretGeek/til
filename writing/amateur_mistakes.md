@@ -41,15 +41,16 @@ To make a self-published book look like an amateur book, you don't have to break
  * TOC: no header
  * header text: lighter weight than body, or smaller font size
  
-## page numbering:
+## Page numbering
 
  * page numbering starts at 1 when the content itself starts
  * page 1 is on the right hand side. (An odd numbered page of the interior file.)
- * Page numbers are listed at the header or foot of the page (not both!)
+ * page numbers are listed at the header or foot of the page (not both!)
    * near the corner, aligned with the edge of the "block" of the body text.
    * odd numbers are aligned to the right of the block
    * even numbers are aligned to the left of the block
- 
+
+
 
 ## Content
 

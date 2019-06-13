@@ -573,6 +573,7 @@
 * [wordpress](/wordpress/01_summary.md)
 	* [wp on digital ocean](/wordpress/wp_on_digital_ocean.md)
 * [writing](/writing/01_summary.md)
+	* [50 writing tools](/writing/50_writing_tools.md)
 	* [amateur mistakes](/writing/amateur_mistakes.md)
 * [zoho](/zoho/01_summary.md)
 	* [catch all](/zoho/catch_all.md)
