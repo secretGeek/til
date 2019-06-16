@@ -213,6 +213,7 @@
 	* [supervisor](/linux/supervisor.md)
 	* [systemd](/linux/systemd.md)
 	* [uncomplicated firewall](/linux/uncomplicated_firewall.md)
+	* [version](/linux/version.md)
 	* [what my ip address](/linux/what_my_ip_address.md)
 	* [wkhtmltopdf](/linux/wkhtmltopdf.md)
 	* [xlsx to csv](/linux/xlsx_to_csv.md)
