@@ -50,6 +50,7 @@
 * [prompt](prompt.md)
 * [psget conflicts with PowerShellGet](psget_conflicts_with_PowerShellGet.md)
 * [publish module](publish_module.md)
+* [Random](Random.md)
 * [remove package provider](remove_package_provider.md)
 * [rename photos](rename_photos.md)
 * [Rename to lower case](Rename_to_lower_case.md)

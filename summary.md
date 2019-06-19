@@ -372,6 +372,7 @@
 	* [prompt](/powershell/prompt.md)
 	* [psget conflicts with PowerShellGet](/powershell/psget_conflicts_with_PowerShellGet.md)
 	* [publish module](/powershell/publish_module.md)
+	* [Random](/powershell/Random.md)
 	* [remove package provider](/powershell/remove_package_provider.md)
 	* [rename photos](/powershell/rename_photos.md)
 	* [Rename to lower case](/powershell/Rename_to_lower_case.md)
