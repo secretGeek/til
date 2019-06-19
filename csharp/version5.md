@@ -65,7 +65,9 @@ This is an example designed for linqPad
 
 ## I/O Bound code
 
-Instead of doing something on our local CPU, perhaps we need to do something on someone else's machine (e.g. "in the cloud" or in a database. 
+Instead of doing something on our local CPU, perhaps we need to do something on someone else's machine (e.g. "in the cloud") or in a database, or on a disk, or by giving a printer some instructions to ignore.
+
+In such cases we are no longer CPU bound but I/O bound.
 
 How would that be done?
 
@@ -87,7 +89,8 @@ How would that be done?
 			((Control)o).Enabled = true;
 		};
 		
-		using(var f = new Form()) {
+		using(var f = new Form())
+		{
 			f.Controls.Add(downloadButton);
 			f.ShowDialog();
 		}
