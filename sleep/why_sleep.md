@@ -18,7 +18,7 @@ By lack of sleep, I mean < 8 hours.
 ## Mind
 
 > Going short of sleep is like forgetting to save a document you've worked on all day.
-> <br />&mdash;Caroline Webb (Ho to have a good day)
+> <br />&mdash;Caroline Webb (How to have a good day)
 
 
 * Poor memory
