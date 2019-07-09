@@ -98,7 +98,35 @@ How would that be done?
 
 If the 'Do something with our data' was going to be a CPU-intensive operation... then we'd use the technique in the first example to handle it.
 
-## Caller info attributes https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/caller-information
+## Caller info attributes 
 
+
+Well look at this!
+
+By applying these attributes to some members you can have them magically populated with some info from the compiler....
+
+This is a strange magic!
+
+	void Main()
+	{
+		DoThing("Thing");
+	}
+
+	void DoThing(string message,
+			[System.Runtime.CompilerServices.CallerMemberName] string memberName = "",
+			[System.Runtime.CompilerServices.CallerFilePath] string sourceFilePath = "",
+			[System.Runtime.CompilerServices.CallerLineNumber] int sourceLineNumber = 0)
+	{
+		message.Dump("Message");
+		memberName.Dump("MemberName");
+		sourceFilePath.Dump("SourceFilePath");
+		sourceLineNumber.Dump("SourceLineNumber");
+	}
+
+([Shared online with linqpad query sharing....](http://share.linqpad.net/dul59u.linq))
+
+This would've avoided a few NT1 errors back in T-S days.
+
+* [Further Reading](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/caller-information)
 
 
