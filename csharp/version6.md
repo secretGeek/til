@@ -51,8 +51,60 @@ Then you receive this compiler error:
 I've shared a [fuller version of example above at share.linqpad](http://share.linqpad.net/npxbjk.linq)
 
 
-## auto prop initializers
+## auto-property initializers
 
+These are very cool.
+
+The examples above show how readonly properties can be initialized in a constructor.
+
+But some properties don't need to be initialized from a parameter, you just want to set them to a sensible default (example to follow).
+
+And if you have many such properties, or if you have many constructors, it is cumbersome to ensure that every variables was correctly initialized via every constructor.
+
+Enter auto-property initializers.
+
+You can initialize the properties underlying value right where the property is defined....
+
+	public class Person
+	{
+		public IEnumerable<Problem> Problems { get; } = new List<Problem>();
+
+^ In the above class, even if there were fifty constructors, none of them would need to think about initializing that property.
+
+
+And you can mix this with using constructors to perform initialization, from parameters even, if you wish. Constrast these three techniques being used in one class....
+
+
+	public class Person
+	{
+		public IEnumerable<Problem> Problems { get; } = new List<Problem>();
+
+		public Person()
+		{
+		}
+
+		public Person(string firstName)
+		{
+			FirstName = firstName;
+			Problems = new List<Problem>() { new Problem() };
+		}
+
+		public Person(IEnumerable<Problem> problems)
+		{
+			Problems = problems;
+		}
+
+
+If the class above is instantiated in three different ways, there will be a different number of problems each time:
+
+	(new Person()).Problems.Count().Dump();
+	// 0 Problems
+	(new Person("Jack")).Problems.Count().Dump();
+	// 1 Problem
+	(new Person(new List<Problem> { new Problem(), new Problem()})).Problems.Count().Dump();
+	// 2 Problems
+
+As before, I've put a [more complete example of Auto Property Initializers](http://share.linqpad.net/j2u6jm.linq) online via Linqpad Sharing.
 
 
 ## expression bodied function members

@@ -33,9 +33,9 @@ Imagine we have a very expensive CPU-bound calculation, such as:
 
 (Ideally it would be doing something intensely cool and mathematical instead of just sleeping. This is just a tribute to such code...)
 
-How can we keep out code responsibe while we do such code?
+How can we ensure our code stays responsive, even while we do such am *instense* calculation?
 
-This is an example designed for linqPad
+This is an example designed for linqPad...
 
 
 	void Main()
