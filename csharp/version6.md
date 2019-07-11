@@ -109,6 +109,38 @@ As before, I've put a [more complete example of Auto Property Initializers](http
 
 ## expression bodied function members
 
+Did you like those last two features? Well the language-feature-fairies did not stop giving us gifts at that point. They took it even further.
+
+Imagine you have a simple method, that can be written as one expression. Here's an example:
+
+	public string FriendlyName() 
+	{
+		return FirstName + " " + LastName;
+	}
+
+(And of course with Linq... we can have extremely complex pieces of code that are still just one expression.)
+
+This single-expression method can be expressed (pun-intended) as an expression bodied function.
+
+	public string FriendlyName() => FirstName + " " + LastName;
+
+... the syntax should be recognisable from expression lambdas, and from javascript arrow functions.
+
+(You can add parameters as well...)
+
+	public string FriendlyName(string title) => title + " " FirstName + " " + LastName;
+
+
+If you have *no* parameters, you may as well write a property instead of a method....
+
+
+	public string FriendlyName => FirstName + " " + LastName;
+
+Two characters saved! (They `()`.)
+
+These remove a lot of 'ceremony'. Nice.
+
+
 ## using static
 
 ## null conditional operators
