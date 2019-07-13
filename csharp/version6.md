@@ -6,7 +6,6 @@ See [what's new in C#6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new
 
 You can have properties that can be gotten but cannot be set:
 
-
 		public string FirstName { get; }
 		public string LastName { get; }
 
@@ -37,9 +36,7 @@ Answer: They can only be set in the constructor....
 
 (Note this example from [microsoft documentation](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6#read-only-auto-properties) commits one or more of the [Falsehoods Programmers Believe About Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/))
 
-
 You may be wondering... what if the constructor *doesn't* set those properties? For example, what if there's two or more constructors and some of them just forget to set the property. Do you get an exception? Nope. In that case the property just remains null.
-
 
 What if a different method tries to set the property? 
 
@@ -47,9 +44,7 @@ Then you receive this compiler error:
 
 	Property or indexer 'Person.FirstName' cannot be assigned to -- it is read only
 
-
 I've shared a [fuller version of example above at share.linqpad](http://share.linqpad.net/npxbjk.linq)
-
 
 ## auto-property initializers
 
@@ -71,9 +66,7 @@ You can initialize the properties underlying value right where the property is d
 
 ^ In the above class, even if there were fifty constructors, none of them would need to think about initializing that property.
 
-
 And you can mix this with using constructors to perform initialization, from parameters even, if you wish. Constrast these three techniques being used in one class....
-
 
 	public class Person
 	{
@@ -94,7 +87,6 @@ And you can mix this with using constructors to perform initialization, from par
 			Problems = problems;
 		}
 
-
 If the class above is instantiated in three different ways, there will be a different number of problems each time:
 
 	(new Person()).Problems.Count().Dump();
@@ -106,8 +98,7 @@ If the class above is instantiated in three different ways, there will be a diff
 
 As before, I've put a [more complete example of Auto Property Initializers](http://share.linqpad.net/j2u6jm.linq) online via Linqpad Sharing.
 
-
-## expression bodied function members
+## expression-bodied function members
 
 Did you like those last two features? Well the language-feature-fairies did not stop giving us gifts at that point. They took it even further.
 
@@ -133,15 +124,74 @@ This single-expression method can be expressed (pun-intended) as an expression b
 
 If you have *no* parameters, you may as well write a property instead of a method....
 
-
 	public string FriendlyName => FirstName + " " + LastName;
 
 Two characters saved! (They `()`.)
 
 These remove a lot of 'ceremony'. Nice.
 
-
 ## using static
+
+This is nifty too.
+
+Instead of peppering your code like this....
+
+	Console.BackgroundColor = ConsoleColor.Red;
+	Console.ForegroundColor = ConsoleColor.Blue;
+	Console.WriteLine("Console console console");
+
+You can remove all those excess `Console`s by importing the static class, by adding:
+
+	using static System.Console;
+
+...amongst the namespace imports.
+
+Then your code is more simply:
+
+	BackgroundColor = ConsoleColor.Red;
+	ForegroundColor = ConsoleColor.Blue;
+	WriteLine("Press F4 and see 'static System.Console'...");
+
+...and the members of System.Console are first class.
+
+While Console is one of the most fun static classes, you can also do this for any class with static members, including your own static or non static classes, if they have static members.
+
+And there are many members on `string` that are worth using, but note that this doesn't work:
+
+    using static string;
+
+You need to use the real name:
+
+    using static System.String;
+
+...and you get firstclass access to `Join`, `IsEmptyOrWhiteSpace` and all your other friends.
+
+**But what if** there are two WriteLine methods.... a local one, and one you've imported?
+
+The code will compile, there will be no warning, and the local method will be used.
+
+**But what if** there are two WriteLine methods.... both imported via two different `using static` declarations?
+
+Then there will be a compiler error, something like:
+
+	The call is ambiguous between the following methods or properties: 'System.Console.WriteLine(string)' and 'UserQuery.MyOwnClass.WriteLine(string)'
+
+**How do you do it in LinqPad?
+
+"using static" in Linqpad is a bit different because namespaces are imported via the Query properties (`F4`).
+
+To do this in Linqpad, press F4 and enter
+
+	static System.Console
+
+...for example.
+
+(Source: [LinqPad forum](https://forum.linqpad.net/discussion/1754/using-static-support))
+
+And if it's a local static class, you need to give its fully qualified name, which starts with `UserQuery`, e.g. `static UserQuery.MyOwnClass`
+
+
+
 
 ## null conditional operators
 
