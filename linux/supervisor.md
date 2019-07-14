@@ -27,7 +27,7 @@ To create a new service for supervisor to supervise, add a file, e.g. `helloworl
 
 
 ## View supervisor logs...
-	
+
 Here's how to view the last 20 lines of the supervisor log, using `tail`
 
     $ sudo tail -n 20 -f /var/log/supervisor/supervisord.log
@@ -42,8 +42,8 @@ Or the last 20 lines of your app's standard (non error) output...
 
     $ sudo tail -n 20 -f /var/log/helloworld.out.log
 
-## Restart supervisor 
-	
+## Restart supervisor
+
 To restart supervisor after you've given it some new configuration:
 
         service supervisor stop
@@ -60,9 +60,9 @@ First though, I checked the status with `service supervisor status`, and saw:
        Loaded: loaded (/lib/systemd/system/supervisor.service; disabled; vendor preset: enabled)
        Active: inactive (dead)
          Docs: http://supervisord.org
-         
+
 Starting it went like this...
-         
+
     user1@machine1:~$ service supervisor start
     ==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
     Authentication is required to start 'supervisor.service'.
@@ -70,8 +70,8 @@ Starting it went like this...
     Password:
     ==== AUTHENTICATION COMPLETE ===
 
-## Check status of supervisor	
-	
+## Check status of supervisor
+
 And now I get this result from `status` --
 
     user1@machine1:~$ service supervisor status
@@ -108,17 +108,17 @@ Exactly same output as `service supervisor status`...e.g.:
 			   +-6659 /usr/bin/dotnet /opt/webapps/yourfirstproduct.com/app/YourFirstProduct.dll
 			   +-6660 /usr/bin/dotnet /opt/webapps/codesmackdown.com/codesmackdown.com.dll
 			   +-6661 /usr/bin/dotnet /opt/webapps/joy.nimbletext.com/app/Joy.dll
-			   
+
 ## Make supervisor restart automatically
-			   
-To restart supervisor on reboot, add something like this to your [crontab](cron.md): 
+
+To restart supervisor on reboot, add something like this to your [crontab](cron.md):
 
 
     @reboot	/my/path/to/supervisord -c /my/path/to/supervisord.conf 2>&1
 i.e.
 
     @reboot /usr/bin/supervisord -n -c /etc/supervisor/supervisord.conf 2>&1
-    
+
 
 Add that to your cron jobs using crontab (described in [cron](cron.md)).
 
