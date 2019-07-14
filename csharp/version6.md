@@ -195,6 +195,40 @@ And if it's a local static class, you need to give its fully qualified name, whi
 
 ## null conditional operators
 
+I've said previously that statements like this are basically `NullReferenceException` generators:
+
+    return Person.Manager.Manager.Employees[3].Manager.Name;
+
+And you'd be better of cutting this down to just:
+
+    throw new NullReferenceException();
+
+
+...because somewhere in that chain of reasoning, some assumption will fail and it will all blow up.
+
+The remedy has previously been to write many lines of guarded clauses, asking effectively:
+
+    if person has a manager and that person's manager has a managers, and that person's manager's manager has employees and that person's manager's manager's manager's number of employees is at least 4, and that perons' manager's manager's 4th employee has a manager then return that perons' manager's manager's 4th employee's manager's name.
+
+(Or put it in a try catch nullref... and that gets ugly too)
+
+The mechanical nature of all these kinds of checks implies that a "sufficiently advanced" compiler could do all the work for us.
+
+Well check out this ugly looking but wonderfully powerful construct... the null conditional operator!
+
+    return Person?.Manager?.Manager?.Employees[3]?.Manager.Name;
+
+This will return *either* the result you're after, *or* `null`.
+
+My inner grammarian hates the "question dot" ... i start twitching just seeing it... and I have trouble remembering whether it's the question mark or the dot that comes first... but I love what it does, so I'm conflicted.
+
+Commonly it is combined with a coalescing operator, like this:
+
+    return Person?.Manager?.Manager?.Employees[3]?.Manager.Name ?? "Unknown";
+
+Know it. Use it. Love it.
+
+
 ## string interpolations
 
 ## exception filters
