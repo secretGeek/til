@@ -1,4 +1,4 @@
-# C# version 6 
+	# C# version 6 
 
 See [what's new in C#6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6)
 
@@ -226,20 +226,20 @@ The remedy has previously been to write many lines of guarded clauses, asking ef
 
     if person has a manager 
 	and that person's manager has a manager, 
-	and that person's manager's manager has employees 
-	and that person's manager's manager's 
+	and that person's manager's manager has employees,
+	and that person's manager's manager's
 	number of employees is at least 4, 
-	and that perons' manager's manager's 
-	4th employee has a manager 
+	and that persons' manager's manager's 
+	4th employee has a manager
 	then 
 	return that person's manager's 
 	manager's 4th employee's manager's name.
 
-(Or put it in a try catch nullref... and that gets ugly too)
+(Or put it in a `try...catch (NullReferenceException...` and that gets ugly too)
 
 The mechanical nature of all these kinds of checks implies that a "sufficiently advanced" compiler could do all the work for us.
 
-Well check out this ugly looking but wonderfully powerful construct... the null conditional operator!
+Well check out this ugly looking but wonderfully powerful construct, added in C#6... the null conditional operator!
 
     return Person?.Manager?.Manager?.Employees[3]?.Manager.Name;
 
@@ -255,6 +255,62 @@ Know it. Use it. Love it.
 
 
 ## string interpolations
+
+The old way:
+
+	var thing = "World";
+	Console.WriteLine(string.Format("Hello {0}", thing));
+
+The modern way:
+
+	var thing = "World";
+	Console.WriteLine($"Hello {thing}");
+
+To include a format specifier, the old way:
+
+	var stars = 1.3f;
+	Console.WriteLine(string.Format("I give it {0:F2} stars", stars));
+
+Same as the new way really:
+
+	var stars = 1.3f;
+	Console.WriteLine($"I give it {stars:F2} stars");
+
+Need to deal with different cultures? Implicitly convert formatted string to `FormattableString`, then specify the culture when performing a `.ToString(culture)` on that.
+
+	//using System.Globalization
+	FormattableString str = $"Today is {DateTime.Today}";
+
+	Console.WriteLine(str.ToString(new CultureInfo("en-US")));
+	//Today is 7/16/2019 12:00:00 AM
+
+	Console.WriteLine(str.ToString(new CultureInfo("de-DE")));
+	//Today is 16.07.2019 00:00:00
+
+	Console.WriteLine(str.ToString(new CultureInfo("en-UK")));
+	//Today is 7/16/2019 12:00:00 AM
+
+Escaping is pretty important in strings... we know about "@" strings.... how do thye combine with "$" strings? The dollars come first. That's easy to remember.
+
+	var path = $@"C:\Users\{userName}\Documents";
+
+TO output literal squiggly brackets... double them...
+
+	$"I like squiggles {{}}".Dump();
+	//I like squiggles {}
+
+Otherwise you'll get "Expected expression", or a self-explanatory message like "A '}' character must be escaped (by doubling) in an interpolated string."
+
+
+Because this format can already contain ':' chars, e.g. {name:F2} -- it presents a challenge when you want to use a ternary expression ( e.g "a >  b ? a : b") -- and the solution is to put the expression inside parentheses:
+
+	Console.WriteLine($"The winner is: {(a > b ? PersonA : PersonB)}");
+
+
+Many more details at [this tutorial](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/string-interpolation)
+
+C# has needed this for a long time, I use it every chance I get. Here's ancient articles wishing for it: [previously](http://www.secretgeek.net/string_templating) and [phil haack 10years earlier](https://haacked.com/archive/2009/01/04/fun-with-named-formats-string-parsing-and-edge-cases.aspx/)
+
 
 ## exception filters
 
