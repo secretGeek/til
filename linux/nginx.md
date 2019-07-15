@@ -29,9 +29,9 @@ But we're not going to do things the easy way: we're going to host multiple site
 Make a copy of the file, 'default' and in that file tell us how nginx should pass requests onto your account.
 e.g.
 
-    cp default yourdomain.com
+    sudo cp default yourdomain.com
 
-then edit the file, via sudo, ...
+then edit the file, via `sudo`, ...
 
     sudo nano yourdomain.com
 
@@ -44,7 +44,7 @@ And update it to something like...
         server_name blog.yourdomain.com; # this is the incoming path that it will recognise...
         location / {
             proxy_pass http://localhost:3000; # this is the local path it will defer to...
-            # the port number there is the one we're using for it
+            # the port number there is the one we're using for it (see hosting.config)
             proxy_http_version 1.1;
             proxy_set_header Upgrade $http_upgrade;
             proxy_set_header X-Real-IP $remote_addr;
@@ -58,7 +58,6 @@ And update it to something like...
 Now -- we need to create a symbolic link from your newly added file in the sites-available directory to the sites-enabled directory
 
     sudo ln -s /etc/nginx/sites-available/yourdomain.com /etc/nginx/sites-enabled/
-	sudo ln -s /etc/nginx/sites-available/nimbletext.com /etc/nginx/sites-enabled/
 
 to test if your changes are valid...
 
