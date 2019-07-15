@@ -6,17 +6,17 @@ See [what's new in C#6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new
 
 * [readonly auto props](#readonly-auto-props)
 * [auto-property initializers](#auto-property-initializers)
-* [expression-bodied function members](#expression-bodied-function members)
+* [expression-bodied function members](#expression-bodied-function-members)
 * [using static](#using-static)
-* [null conditional operators](#null-conditional operators)
+* [null conditional operators](#null-conditional-operators)
 * [string interpolations](#string-interpolations)
 * [exception filters](#exception-filters)
-* [the nameof expression](#the-nameof expression)
-* [await in catch and finally blocks](#await-in catch and finally blocks)
+* [the nameof expression](#the-nameof-expression)
+* [await in catch and finally blocks](#await-in catch-and-finally-blocks)
 * [index initializers](#index-initializers)
-* [extension methods for collection initializers](#extension-methods for collection initializers)
-* [improved overload resolution](#improved-overload resolution)
-* [deterministic compiler option](#deterministic-compiler option)
+* [extension methods for collection initializers](#extension-methods-for-collection-initializers)
+* [improved overload resolution](#improved-overload-resolution)
+* [deterministic compiler option](#deterministic-compiler-option)
 
 
 ## readonly auto props
@@ -216,16 +216,24 @@ I've said previously that statements like this are basically `NullReferenceExcep
 
     return Person.Manager.Manager.Employees[3].Manager.Name;
 
-And you'd be better of cutting this down to just:
+And you'd be better off cutting this down to just:
 
     throw new NullReferenceException();
-
 
 ...because somewhere in that chain of reasoning, some assumption will fail and it will all blow up.
 
 The remedy has previously been to write many lines of guarded clauses, asking effectively:
 
-    if person has a manager and that person's manager has a managers, and that person's manager's manager has employees and that person's manager's manager's manager's number of employees is at least 4, and that perons' manager's manager's 4th employee has a manager then return that perons' manager's manager's 4th employee's manager's name.
+    if person has a manager 
+	and that person's manager has a manager, 
+	and that person's manager's manager has employees 
+	and that person's manager's manager's 
+	number of employees is at least 4, 
+	and that perons' manager's manager's 
+	4th employee has a manager 
+	then 
+	return that person's manager's 
+	manager's 4th employee's manager's name.
 
 (Or put it in a try catch nullref... and that gets ugly too)
 
