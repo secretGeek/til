@@ -44,6 +44,7 @@
 * [sp heltpext](sp_heltpext.md)
 * [start time](start_time.md)
 * [table re creation](table_re_creation.md)
+* [temporal tables](temporal_tables.md)
 * [trailing cr lf](trailing_cr_lf.md)
 * [update millions of rows](update_millions_of_rows.md)
 * [Weibull Function](Weibull_Function.md)

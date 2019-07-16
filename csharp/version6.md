@@ -212,7 +212,7 @@ And if it's a local static class, you need to give its fully qualified name, whi
 
 ## null conditional operators
 
-I've said previously that statements like this are basically `NullReferenceException` generators:
+I've said [previously](http://www.secretgeek.net/cruel_compiler) that statements like this are basically `NullReferenceException` generators:
 
     return Person.Manager.Manager.Employees[3].Manager.Name;
 
