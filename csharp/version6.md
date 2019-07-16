@@ -314,6 +314,38 @@ C# has needed this for a long time, I use it every chance I get. Here's ancient 
 
 ## exception filters
 
+This is a special new piece of syntax... a 'when' statement that can follow a catch -- 
+
+Instead of catching *every* exception of the given type, you can add a "when filter" so the exception handler will only catch exceptions that are:
+
+1. of the expected type (or derivation of.)
+2. match the "when filter" condition.
+
+Show don't tell --
+
+	catch (Exception ex) when (ex.Message.ToLowerInvariant().Contains("idea"))
+	{
+		Console.WriteLine("Something about ideas...");
+	}
+	catch (Exception ex)
+	{
+		Console.WriteLine("Something else");
+	}
+
+
+Note that the when filter:
+
+1. can refer to the exception variable (`ex` above)
+2. can also refer to any other stuff it wants to...
+
+e.g.
+
+	catch (Exception) when (DateTime.Now.Hour < 12)
+	{
+		Console.WriteLine("I love the smell of freshly caught exceptions in the morning.");
+	}
+
+
 ## the nameof expression
 
 ## await in catch and finally blocks
