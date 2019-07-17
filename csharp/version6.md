@@ -412,6 +412,17 @@ But the controller is the real issue. The challenge is that 'Purchase' indicates
 
 ## await in catch and finally blocks
 
+Previously, you couldn't stick an [`await`](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/await) just anywhere... one particular example is that you could not place an `await` in a catch or finally expression.
+
+If this ruined your life, then I have some amazing news (from a year or two back). As of C# version 6, you can also place `await` in catch and finally blocks.
+
+The example given in documentation is about logging. You may still want your return to happen "now". But you may fire off some log messages asynchronously.
+
+As always, writing code in catch and finally blocks is something you need to do sparingly and thoughtfully, particularly as regards code that risks throwing its own exceptions, as any current exception will be lost and/or any cleanup activities may not be completed.
+
+
+
+
 ## index initializers
 
 ## extension methods for collection initializers
