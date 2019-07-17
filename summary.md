@@ -534,6 +534,8 @@
 	* [utils repo](/tools/utils_repo.md)
 * [tutorials](/tutorials/01_summary.md)
 	* [four in a row](/tutorials/four_in_a_row.md)
+* [twitter](/twitter/01_summary.md)
+	* [Stop Automatic Conversion To URLs](/twitter/Stop_Automatic_Conversion_To_URLs.md)
 * [typescript](/typescript/01_summary.md)
 	* [getting started](/typescript/getting_started.md)
 * [virtual box](/virtual_box/01_summary.md)

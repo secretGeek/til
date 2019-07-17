@@ -118,6 +118,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [stackexchange](stackexchange/01_summary.md) | 3 articles |
  | [tools](tools/01_summary.md) | 3 articles |
  | [tutorials](tutorials/01_summary.md) | 1 article |
+ | [twitter](twitter/01_summary.md) | 1 article |
  | [typescript](typescript/01_summary.md) | 1 article |
  | [virtual box](virtual_box/01_summary.md) | 2 articles |
  | [visual studio](visual_studio/01_summary.md) | 8 articles |
@@ -129,5 +130,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-501 articles
-214082 words
+502 articles
+214372 words

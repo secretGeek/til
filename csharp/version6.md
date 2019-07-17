@@ -1,4 +1,4 @@
-	# C# version 6 
+# C# version 6 
 
 See [what's new in C#6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6)
 
@@ -347,6 +347,68 @@ e.g.
 
 
 ## the nameof expression
+
+Don't do this (anymore)....
+
+
+	public void KillPerson(string name) {
+		if (string.IsNullOrWhiteSpace(name)) {
+			throw new ArgumentNullException("name");
+		}
+
+...If you change the 'name' parameter or misspell the "name" string, the compiler wouldn't notice the inconsistency.
+
+Instead, with the awesome power of `nameof`
+
+
+	public void KillPerson(string name) {
+		if (string.IsNullOrWhiteSpace(name)) {
+			throw new ArgumentNullException(nameof(name));
+		}
+
+No more margin for error!
+
+Ideally you'd use this in any place where you currently hard code the name of any symbol as a string.
+
+
+Consider:
+
+* all the other Argument Exceptions Types
+  * ArgumentException
+  * ArgumentOutOfRangeException
+* Logging the current method, a variable etc.
+* Code in MVC Views that mention:
+  * Action Name
+  * Controller Name (this is a questionable, see below)
+  
+ 
+### Logging example with `nameof`
+
+    Console.WriteLine($"{nameof(i)} == {i}");
+
+...and the "Caller info attributes" introduced in version 5 can be used for more context.
+
+
+### ActionName and ControllerName examples with `nameof`
+
+How can we remove the hard coding from this example?
+
+    @Html.ActionLink("Add sale", "Create", "Purchase") 
+
+
+Instead of "Create" we can use 
+
+    `nameof(PurchaseController.Create)`
+
+(We may need to add using statement or specify the controller's namespace in a `_ViewImports.cshtml`)
+
+But the controller is the real issue. The challenge is that 'Purchase' indicates the type `PurchaseController`. Instead of "Purchase" we're forced to use something like....
+
+
+	nameof(PurchaseController).Substring(0, nameof(PurchaseController).LastIndexOf("Controller"))
+
+...and you could hide a lot of that work behind a helper method, but nah, I can't see it being worthwhile at all, it's just bad. It introduces more code and more room for mistakes.
+
 
 ## await in catch and finally blocks
 
