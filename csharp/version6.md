@@ -12,7 +12,7 @@ See [what's new in C#6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new
 * [string interpolations](#string-interpolations)
 * [exception filters](#exception-filters)
 * [the nameof expression](#the-nameof-expression)
-* [await in catch and finally blocks](#await-in catch-and-finally-blocks)
+* [await in catch and finally blocks](#await-in-catch-and-finally-blocks)
 * [index initializers](#index-initializers)
 * [extension methods for collection initializers](#extension-methods-for-collection-initializers)
 * [improved overload resolution](#improved-overload-resolution)
