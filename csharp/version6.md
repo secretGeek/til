@@ -425,6 +425,63 @@ As always, writing code in catch and finally blocks is something you need to do 
 
 ## index initializers
 
+Here's my nutshell of what's happening here....
+
+Look at this ugly old ridiculous syntax for ancient C# versions prior to 6...
+
+	var messages = new Dictionary<int, string>
+	{
+		{ 404, "Page not Found"},
+		{ 302, "Page moved, but left a forwarding address."},
+		{ 500, "The web server can't come out to play today."}
+	};
+
+What's happening here is that items are being added to the dictionary and one must know that the first param is the key and subsequent params are the value. It's cumbersome.
+
+Try this amazing new syntax on for size...
+
+
+    var webErrors = new Dictionary<int, string>
+	{
+		[404] = "Page not Found",
+		[302] = "Page moved, but left a forwarding address.",
+		[500] = "The web server can't come out to play today."
+	};
+
+
+Now initializing the items is consistent with the way the items are accessed.
+
+I tried to make a more interesting example, that shows a little more versatility and how the index initialization can be used (or misused?)
+
+Given classes like this....
+
+	class Population
+	{
+		public Dictionary<string, Person> Citizens { get; } = new Dictionary<string, Person>();
+		public Person this[string name] { set => Citizens.Add(name, value); }
+		public string this[string name, int age] { set => Citizens.Add(name, new Person(name, age)); }
+	}
+
+	class Person
+	{
+		public string Name { get; }
+		public int Age { get; }
+		public Person(string name, int age)
+		{
+			Name = name;
+			Age = age;
+		}
+	}
+
+We can initialize a new population like so:
+
+	var pop = new Population {
+		["fred"] = new Person("fred", 100),
+		["jack", 12] = "fred"
+	};
+
+
+
 ## extension methods for collection initializers
 
 ## improved overload resolution

@@ -1,37 +1,25 @@
 # Why? Mario Livio
 
-Epistemic curiosity is the type Einstein had in abundance
+
+* Epistemic curiosity is the type Einstein had in abundance
+* Specific curiosity - when u want to know what film that actress was in
+* Diversive curiosity - restless desire to explore.   Seeking of novel stimulation to avoid boredom. Checking for new email. Impatient etc.
+* Empathic curiosity - trying to understand a person as in citizen Kane plot
+* Morbid curiosity - can't look away
 
 
 
-Specific curiosity - when u want to know what film that actress was in
-
-
-
-Diversive curiosity - restless desire to explore.   Seeking of novel stimulation to avoid boredom. Checking for new email. Impatient etc.
-
-
-
-Empathic curiosity - trying to understand a person as in citizen Kane plot
-
-
-
-Morbid curiosity - can't look away
-
-
-
-Details about Leonardo
+## Details about Leonardo
 
 He started many more projects than he finished
 
-He was not well read (thankfully! As his experiments were not this hampered by too many wrong ideas.) He started by using science to improve his art but finally used art to improve his science.
+He was not well read (thankfully! As his experiments were not thus hampered by too many wrong ideas.) 
+
+He started by using science to improve his art but finally used art to improve his science.
 
 
 
 "Cyberchondria" "a diagnosis based on apparent symptoms that is induced by an internet search"
-
-
-
 
 
 Novelty can be mapped on these axes:
@@ -40,19 +28,17 @@ Novelty can be mapped on these axes:
 
 Specific <---> diversive
 
-    A specific thing that once found will satisfy the seeking, or diversive: the ceaseless seeking to ward off boredom
-
-
+> A specific thing that once found will satisfy the seeking, or 
+>
+> Diversive: the ceaseless seeking to ward off boredom
 
 
 
 Perceptual <---> epistemic
 
-   Perceptual is aroused by surprising novel or ambiguous
-
-    Epistemic is the genuine yearning for new knowledge
-
-
+> Perceptual is aroused by surprising novel or ambiguous
+>
+> Epistemic is the genuine yearning for new knowledge
 
 
 
@@ -64,15 +50,10 @@ Four factors that lead to things being worthy of curiosity:
 
 
 
-Novelty
-
-complexity
-
-uncertainty and
-
-conflict
-
-
+* Novelty
+* Complexity
+* Uncertainty and
+* Conflict
 
 
 
@@ -95,48 +76,6 @@ Having filled it a new gap is thus made smaller and within reach - or we believe
 
 
 
-
-
-
 "Everywhere there is a source of food there's some form of life that finds it." Told to Feynman by his dad in relation to lice on birds whose excretions caused bacteria to blossom
-
-
-
-
-
-Robert Cialdini Influence
-
-
-
-Reciprocity
-
-
-
-
-
-Rejection then retreat
-
-
-
-
-
-
-
-There is no expedient to which a man will not resort to avoid the real labor of thinking.
-
---Sir Joshua Reynolds
-
-
-
-
-
-Commitments should be active public and effortful.
-
-
-
-Jigsaw teaching techniques for racial integration of classroom or for getting groups that were formerly enemies combative to work together increase harmony. A first step. Deserves more attention. I love that it integrates social encoding advantage and student as teacher and social skill development as well. Super useful.
-
-(But which book was this covered in??)
-
 
 
