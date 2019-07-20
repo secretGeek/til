@@ -14,7 +14,7 @@ See [what's new in C#6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new
 * [the nameof expression](#the-nameof-expression)
 * [await in catch and finally blocks](#await-in-catch-and-finally-blocks)
 * [index initializers](#index-initializers)
-* [extension methods for collection initializers](#extension-methods-for-collection-initializers)
+* [extension `add` methods for collection initializers](#extension-add-methods-for-collection-initializers)
 * [improved overload resolution](#improved-overload-resolution)
 * [deterministic compiler option](#deterministic-compiler-option)
 
@@ -482,7 +482,95 @@ We can initialize a new population like so:
 
 
 
-## extension methods for collection initializers
+## extension `Add` methods for collection initializers
+
+
+Collection initializers are the syntax that let's you declare the starting members of a collection, such as:
+
+	var population = new List<Person> {
+		new Person { Name = "Sally" },
+		new Person { Name = "Vera" },
+		new Person("Jenny")
+	};
+
+
+
+...and here's another existing (pre C#6) feature, that you need to understand before you understand this new feature....
+
+
+If your collection type has an add method, it will be magically wired up for you. Let me demonstrate, using a custom collection type.
+
+
+	public class Population : IEnumerable<Person>
+	{
+		private List<Person> innerPop { get; } = new List<Person>();
+		public IEnumerator<Person> GetEnumerator() => innerPop.GetEnumerator();
+		IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
+
+		// Three different 'Adds' we'll use in our initializer syntax...
+		public void Add(Person p) => innerPop.Add(p);
+		public void Add(string name) => innerPop.Add(new Person(name));
+		public void Add(string firstName, string lastName) => innerPop.Add(new Person($"{firstName} {lastName}"));
+	}
+
+
+Notice that the class above is a kind of wrapper over a `List<Person>` and it has three different `Add` methods.
+
+(And the class is quite short thanks to expression-bodied members, and auto-property initializers)
+
+ We can get the initializer syntax to "hook up" with those Add methods... Add is *special* you see, as far as the compiler is concerned.
+
+	var pop = new Population {
+		new Person("Fred"),
+		"Jack",
+		{"Jimbo","Jones"}
+	};
+
+
+The code above uses the 3 different Add methods (in turn).
+
+With c#6 you can also use extension methods to extend existing collection types with *new* "Add" methods, which will be "hooked up" by initializers, if needed.
+
+For example, let's extend dictionary...
+
+
+	public static class DicExtensions
+    {
+        public static void Add(this Dictionary<int, string> dic, int i)
+        {
+            dic.Add(i, "Number " + i.ToString());
+        }
+
+        public static void Add(this Dictionary<int, string> dic, int i, string separator, params string[] strings)
+        {
+            dic.Add(i, string.Join(separator, strings));
+        }
+    }
+
+	var dic = new Dictionary<int, string> { 3, 4, 5 };
+
+
+| Key | Value |
+|-----|-------|
+| 3   | Number 3 |
+| 4   | Number 4 |
+| 5   | Number 5 |
+
+
+	var d2 = new Dictionary<int, string> {
+		{1," sweet ","Hello","World","!"},
+		{2," cruel ","Goodbye","World","Goodbye"},
+	};
+
+
+| Key | Value |
+|-----|-------|
+| 1   | Hello sweet World sweet ! |
+| 2   | Goodbye cruel World cruel Goodbye |
+
+
+...and hence you can do the same with `Add` methods whether they are extension methods or not.
+
 
 ## improved overload resolution
 
