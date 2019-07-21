@@ -23,6 +23,7 @@
 * [nginx](nginx.md)
 * [profiles](profiles.md)
 * [reboot](reboot.md)
+* [redirect www https](redirect_www_https.md)
 * [rename files with mv](rename_files_with_mv.md)
 * [scp](scp.md)
 * [SSH](SSH.md)

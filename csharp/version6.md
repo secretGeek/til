@@ -138,14 +138,36 @@ This single-expression method can be expressed (pun-intended) as an expression b
 
 	public string FriendlyName(string title) => title + " " FirstName + " " + LastName;
 
+This is very useful. For example you might reduce a simple controller to a bunch of one liners...
 
-If you have *no* parameters, you may as well write a property instead of a method....
+    public class HomeController : Controller
+    {
+        protected readonly IDAL DAL;
+        public HomeController(IDAL dal) => this.DAL = dal;
+        public IActionResult Index() => View(DAL.GetNews());
+        public IActionResult About() => View();
+        public IActionResult Error() => View();
+    }
+
+Much less ceremonial typing than:
+
+	//
+	// POST: /Home/About
+	public IActionResult About()
+	{
+		return View();
+	}
+
+...for each of these anemic methods.
+
+
+
+Also, in somes case if you have *no* parameters, you may as well write a property instead of a method....
 
 	public string FriendlyName => FirstName + " " + LastName;
 
-Two characters saved! (They `()`.)
+Two characters saved! (The `()`.)
 
-These remove a lot of 'ceremony'. Nice.
 
 ## using static
 
@@ -485,7 +507,7 @@ We can initialize a new population like so:
 ## extension `Add` methods for collection initializers
 
 
-Collection initializers are the syntax that let's you declare the starting members of a collection, such as:
+Collection initializers are the syntax that lets you declare the starting members of a collection, such as:
 
 	var population = new List<Person> {
 		new Person { Name = "Sally" },
@@ -573,5 +595,62 @@ For example, let's extend dictionary...
 
 
 ## improved overload resolution
+
+
+Previously:
+
+> some method calls involving lambda expressions
+
+
+...were not implicitly resolved, and you'd need to be more explicit to avoid ambiguity.
+
+
+But now... times have changed and:
+
+> some method calls involving lambda expressions
+
+*are* implicitly resolved.
+
+
+I for one will be sleeping soundly tonight.
+
+I've dug into the specific scenario here, and will reproduce it verbatim...
+
+
+In C# < 6, calling a method such as this method:
+
+	static Task DoThings()
+	{
+		 return Task.FromResult(0);
+	}
+
+...via syntax like this:
+
+
+	Task.Run(DoThings);
+
+...which relies on what's called the "Method Group" syntax (introduced in c# 2 to simplify using delegates, i think)
+
+...would not work. And you'd need to use this more ceremonial approach...
+
+
+	Task.Run(() => DoThings());
+
+...i.e. a "Full Lambda" with more parens than a lisp professor.
+
+But now times have changed and you can simply say:
+
+
+	Task.Run(DoThings);
+
+...confident in the knowledge that the compiler will be happy, you will be happy, everyone will be happy, and the things to be done will be done.
+
+
+
+
+
+
+
+
 
 ## deterministic compiler option

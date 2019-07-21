@@ -208,6 +208,7 @@
 	* [nginx](/linux/nginx.md)
 	* [profiles](/linux/profiles.md)
 	* [reboot](/linux/reboot.md)
+	* [redirect www https](/linux/redirect_www_https.md)
 	* [rename files with mv](/linux/rename_files_with_mv.md)
 	* [scp](/linux/scp.md)
 	* [SSH](/linux/SSH.md)

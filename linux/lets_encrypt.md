@@ -15,6 +15,35 @@ Let's Encrypt provide a tool called `certbot` which you need to get.
 The `certbot` client is now ready to use.
 
 
+## Step 1: See if you need to update certbot
+
+If you're returning to a server that already has certbot you need to check the version and maybe update certbot.
+
+
+Check version, e.g.
+
+	$ certbot --version
+	certbot 0.31.0
+
+These commands apparently...
+
+	sudo apt update
+	sudo apt install software-properties-common
+	sudo add-apt-repository universe
+	sudo add-apt-repository ppa:certbot/certbot
+	# sudo apt install certbot
+
+Okay... i didn't run that last command I used this one instead (results below)
+
+	sudo apt-get install --only-upgrade certbot
+	Reading package lists... Done
+	Building dependency tree
+	Reading state information... Done
+	certbot is already the newest version (0.31.0-1+ubuntu18.10.1+certbot+1).
+	0 upgraded, 0 newly installed, 0 to remove and 39 not upgraded.
+
+
+
 ## Step 2: Let HTTPs through your ufw
 
 Assume you're using [ufw](uncomplicated_firewall.md)
@@ -43,7 +72,14 @@ Or for a subdomain:
 
 To do a dry run (i.e. to see what would happen without making any changes) you can use the `dry-run` parameter like so:
 
+(for the domain)
+
 	sudo certbot --dry-run --nginx -d example.com -d www.example.com
+
+(for the subdomain)
+
+	sudo certbot --dry-run --nginx -d blog.example.com
+
 
 (Hmmm, Actually -- that returns:
 
