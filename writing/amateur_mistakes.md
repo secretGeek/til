@@ -31,6 +31,7 @@ To make a self-published book look like an amateur book, you don't have to break
  * first page of chapter does not have a header
  * first page of chapter has consistent spacing from top
  * body text is serif font
+ * headings may be sans serif (note the typographic term 'gothic' is a synonym for 'sans serif')
  * consistent style of chapter headings, including capitalization rules, see [Title Case Converter](https://titlecaseconverter.com/)
  * pay attention to kerning of headings
  * orphan lines, orphan words

@@ -97,5 +97,10 @@ I see:
 
 So I expect if i do `sudo ufw allow 'OpenSSH'` then i would be able to delete 22/tcp and still use ssh.
 
+## Source
 
  * <https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-14-04>
+
+ ## See also
+
+ * [nginx](nginx.md)

@@ -7,6 +7,7 @@
 * [Carroll Bujo](Carroll_Bujo.md)
 * [Carter SweetSpot](Carter_SweetSpot.md)
 * [Cialdini influence](Cialdini_influence.md)
+* [Clear AtomicHabits](Clear_AtomicHabits.md)
 * [Debono child](Debono_child.md)
 * [Debono think](Debono_think.md)
 * [Diamond GGS](Diamond_GGS.md)

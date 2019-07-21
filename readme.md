@@ -102,7 +102,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [productivity](productivity/01_summary.md) | 1 article |
  | [python](python/01_summary.md) | 8 articles |
  | [react](react/01_summary.md) | 2 articles |
- | [reading notes](reading_notes/01_summary.md) | 29 articles |
+ | [reading notes](reading_notes/01_summary.md) | 30 articles |
  | [redis](redis/01_summary.md) | 2 articles |
  | [saltwater swimming pool](saltwater_swimming_pool/01_summary.md) | 2 articles |
  | [security virus spam etc](security_virus_spam_etc/01_summary.md) | 2 articles |
@@ -130,5 +130,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-503 articles
-215691 words
+504 articles
+216024 words

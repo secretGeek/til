@@ -419,6 +419,7 @@
 	* [Carroll Bujo](/reading_notes/Carroll_Bujo.md)
 	* [Carter SweetSpot](/reading_notes/Carter_SweetSpot.md)
 	* [Cialdini influence](/reading_notes/Cialdini_influence.md)
+	* [Clear AtomicHabits](/reading_notes/Clear_AtomicHabits.md)
 	* [Debono child](/reading_notes/Debono_child.md)
 	* [Debono think](/reading_notes/Debono_think.md)
 	* [Diamond GGS](/reading_notes/Diamond_GGS.md)

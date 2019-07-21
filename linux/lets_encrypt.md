@@ -194,11 +194,14 @@ It adds this *AFTER* everything else INSIDE the server block....
 	ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.pem; # managed by Certbot
 	include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
 
-If you want to allow redirect of non-https to https, just add this next (still inside the server block)
+If you want to allow redirect of non-https to https, just add this next (still inside the server block) *no... see [better nginx config ideas here](redirect_www_https.md)*
 
 	if ($scheme != "https") {
 	   return 301 https://$host$request_uri;
 	} # managed by Certbot
+
+(*See [Use nginx to redirect www and non https to bare https](redirect_www_https.md) for a better final example of nginx config with https and redirecting www to bare url)*)
+
 
 After changing nginx config -- test it is ok with:
 

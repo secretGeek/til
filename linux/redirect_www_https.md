@@ -23,7 +23,7 @@ First, though: Why do this at all?
 
 
 
-
+## nginx config
 
 Here's an nginx config file that does it... 
 
@@ -64,3 +64,26 @@ Here's an nginx config file that does it...
 		ssl_dhparam /etc/ssl/certs/dhparam.pem;
 	}
 
+
+
+After changing nginx config -- test it is ok with:
+
+	sudo nginx -t
+
+And reload it with:
+
+	sudo nginx -s reload
+
+See [more nginx basics here](nginx.md)
+
+
+
+## sources
+
+* [serverfault: Remove "www" and redirect to "https" with nginx](https://serverfault.com/questions/258378/remove-www-and-redirect-to-https-with-nginx)
+
+
+## see also
+
+* [nginx](nginx.md)
+* [lets encrypt and certbot](lets_encrypt.md)

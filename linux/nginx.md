@@ -54,6 +54,8 @@ And update it to something like...
         }
     }
 
+*See [Use nginx to redirect www and non https to bare https](redirect_www_https.md) for a better final example of nginx config with https and redirecting www to bare url)*
+
 
 Now -- we need to create a symbolic link from your newly added file in the sites-available directory to the sites-enabled directory
 
