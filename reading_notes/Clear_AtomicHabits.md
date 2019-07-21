@@ -46,3 +46,9 @@ The craving is what motivates us.
 
 
 
+## Book Summary
+
+This summary is very accurate -- brings back all the main points:
+
+* [Atomic Habits Summary](https://www.samuelthomasdavies.com/book-summaries/self-help/atomic-habits/)
+
