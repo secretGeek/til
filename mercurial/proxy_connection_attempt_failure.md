@@ -9,7 +9,7 @@ Stackoverflow said I needed to configure a proxy.
 
 Proxy settings are found here:
 
-	Internet explorer > Internet options > Connections > LAN Settings 
+	Internet explorer > Internet options > Connections > LAN Settings
 
 In the `Local Area Network (LAN) Settings` dialog... but proxy server was not specified, instead a `Use automatic configuration script` was specified.
 
@@ -36,11 +36,11 @@ Near the end it told you the general proxy settings to use....
 	}
 	else
 	{
-		return "PROXY machinename1.adomain:8080; PROXY machinename2.adomain:8080;";	
+		return "PROXY machinename1.adomain:8080; PROXY machinename2.adomain:8080;";
 	}
 
-(Names have been changed to protect the LAN)	
-	
+(Names have been changed to protect the LAN)
+
 So I took one of the addresses from there and put it into my [mercurial.ini](mercurial_ini.md) file like this:
 
 
@@ -51,12 +51,12 @@ Tried `hg in` again, and it now worked!
 
 I am good at computers today.
 
-	
+
 
 ## Source
 
  * [Configuration for using Mercurial with Bitbucket from behind a certificate rewriting proxy?](http://stackoverflow.com/questions/8991608/configuration-for-using-mercurial-with-bitbucket-from-behind-a-certificate-rewri)
- 
+
 ## See also
 
- * []() 
+ * []()

@@ -49,7 +49,8 @@ Though this site is published as a free digital-only book, I've also published a
  | [.net](.net/01_summary.md) | 6 articles |
  | [.net core MVC](.net_core_MVC/01_summary.md) | 14 articles |
  | [appharbor](appharbor/01_summary.md) | 1 article |
- | [asp.net mvc](asp.net_mvc/01_summary.md) | 12 articles |
+ | [asp.net mvc](asp.net_mvc/01_summary.md) | 13 articles |
+ | [azure devops](azure_devops/01_summary.md) | 1 article |
  | [banking](banking/01_summary.md) | 1 article |
  | [bower](bower/01_summary.md) | 2 articles |
  | [chocolatey](chocolatey/01_summary.md) | 5 articles |
@@ -62,7 +63,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [design](design/01_summary.md) | 1 article |
  | [electron](electron/01_summary.md) | 2 articles |
  | [excel](excel/01_summary.md) | 4 articles |
- | [git](git/01_summary.md) | 15 articles |
+ | [git](git/01_summary.md) | 16 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
  | [gmail](gmail/01_summary.md) | 1 article |
  | [go](go/01_summary.md) | 1 article |
@@ -130,5 +131,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-504 articles
-216043 words
+507 articles
+216722 words

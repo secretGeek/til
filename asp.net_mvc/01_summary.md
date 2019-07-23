@@ -4,6 +4,7 @@
  
 * [asp net mvc 3 patch](asp_net_mvc_3_patch.md)
 * [clear caches](clear_caches.md)
+* [custom errors](custom_errors.md)
 * [elmah](elmah.md)
 * [from memory](from_memory.md)
 * [helpful error page](helpful_error_page.md)
