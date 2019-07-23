@@ -11,15 +11,12 @@
 		&lt;error statusCode="407" redirect="~/Error/Security" /&gt;
 	&lt;/customErrors&gt;
 
-
 2. In FilterConfig ensure you are *not* adding a `HandleErrorAttribute`
-
 
 	public static void RegisterGlobalFilters(GlobalFilterCollection filters)
 	{
 		//filters.Add(new HandleErrorAttribute()); //Ensure this is commented out or deleted.
 	}
-
 
 3. Create an Error controller.
 
