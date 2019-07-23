@@ -2,6 +2,7 @@
 # git
 ### chapter contents
  
+* [access github behind corporate proxy](access_github_behind_corporate_proxy.md)
 * [alias](alias.md)
 * [cheatsheet](cheatsheet.md)
 * [delete old branches](delete_old_branches.md)

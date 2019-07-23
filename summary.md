@@ -99,6 +99,7 @@
 	* [subtotal function num](/excel/subtotal_function_num.md)
 	* [VLOOKUP](/excel/VLOOKUP.md)
 * [git](/git/01_summary.md)
+	* [access github behind corporate proxy](/git/access_github_behind_corporate_proxy.md)
 	* [alias](/git/alias.md)
 	* [cheatsheet](/git/cheatsheet.md)
 	* [delete old branches](/git/delete_old_branches.md)
