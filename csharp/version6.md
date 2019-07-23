@@ -654,3 +654,8 @@ But now times have changed and you can simply say:
 
 
 ## deterministic compiler option
+
+
+The compiler now has a `-deterministic` option to make sure that successive builds reuse the same guids and timestamp from one compilation to the next, so you can perform byte-for-byte comparison with more consistency, and less risk of helping humanity race toward the guid-apocalypose.
+
+I'm not likely to need this option, so I am not committing this to memory.
