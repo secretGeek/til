@@ -29,6 +29,52 @@ It's still a bit awkward, being different from every other variable declaration,
 
 ## Tuples
 
+You can give names to the member of a Tuple, and are no longer stuck with the ghastly `Item1` etc.
+
+Previously:
+
+	(string, string) myTuple = ("a", "b");
+	Console.WriteLine(myTuple.Item1); //a
+	Console.WriteLine(myTuple.Item2); //b
+
+Now:
+
+	(string a, string b) myTuple2 = ("a", "b");
+	Console.WriteLine(myTuple2.a); //a
+	Console.WriteLine(myTuple2.b); //b
+
+And it's optional... you can name just some, or name them all, or name none....
+
+	(string, string b) myTuple3 = ("a", "b");
+	Console.WriteLine(myTuple2.Item1); //a
+	Console.WriteLine(myTuple2.b); //b
+
+
+Note that the names used in place of `Item1`, `Item2` etc, only exist at compile time. They are not preserved... if you use reflection to inspect them at runtime they will have turned back into Item1 etc.
+
+In LinqPad if you dump a Tuple you'll see its members are named `Item1` etc.
+
+	(string a, string b) myTuple2 = ("a", "b");
+	myTuple2.Dump();
+
+| Name   | Value |
+|--------|-------|
+| Item 1 | a |
+| Item 2 | b |
+
+
+...but if you use 'nameOf' -- because it runs at compile time, it will return the names you used.
+
+
+	(string a, string b) myTuple2 = ("a", "b");
+	nameof(myTuple2.a).Dump(); //returns a, *not* Item1.
+
+What type is this thing??
+
+	myTuple2.GetType().ToString().Dump();
+	System.ValueTuple`2[System.String,System.String]
+
+
 ## Discards
 
 ## Pattern matching
