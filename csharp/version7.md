@@ -29,15 +29,25 @@ It's still a bit awkward, being different from every other variable declaration,
 
 ## Tuples
 
-You can give names to the member of a Tuple, and are no longer stuck with the ghastly `Item1` etc.
 
-Previously:
+There's a new type of Tuple. And we are no longer stuck with the ghastly `Item1` etc.
+
+
+You can declare the new type like so:
+
+    var myTuple = ("a","b");
+	Console.WriteLine(myTuple.Item1); //a
+	Console.WriteLine(myTuple.Item2); //b
+
+
+Or if you want to be more explicit about the types...
 
 	(string, string) myTuple = ("a", "b");
 	Console.WriteLine(myTuple.Item1); //a
 	Console.WriteLine(myTuple.Item2); //b
 
-Now:
+And here's the nice thing... if you want to name the members (`a` and `b` in this example)...
+
 
 	(string a, string b) myTuple2 = ("a", "b");
 	Console.WriteLine(myTuple2.a); //a
@@ -49,10 +59,18 @@ And it's optional... you can name just some, or name them all, or name none....
 	Console.WriteLine(myTuple2.Item1); //a
 	Console.WriteLine(myTuple2.b); //b
 
+Or, if you prefer `var`....
 
-Note that the names used in place of `Item1`, `Item2` etc, only exist at compile time. They are not preserved... if you use reflection to inspect them at runtime they will have turned back into Item1 etc.
 
-In LinqPad if you dump a Tuple you'll see its members are named `Item1` etc.
+	var t = (a: "a", b: "b");
+	Console.WriteLine(t.a); //a
+	Console.WriteLine(t.b); //b
+
+
+
+Note that the member names (used in place of `Item1`, `Item2` etc) **only exist at compile time**. They are not preserved... if you use reflection to inspect them at runtime they will have turned back into Item1 etc.
+
+e.g. in LinqPad if you dump a Tuple you'll see its members are named `Item1` etc.
 
 	(string a, string b) myTuple2 = ("a", "b");
 	myTuple2.Dump();
@@ -73,6 +91,13 @@ What type is this thing??
 
 	myTuple2.GetType().ToString().Dump();
 	System.ValueTuple`2[System.String,System.String]
+
+Ah, see that? `ValueTuple`... this is a completely new type. The old tuples, `System.Tuple`, were *reference* types (objects, that needed to be allocated... the sort of thing that makes hardcore performance engineers spit "Keep your damn allocations off my hotpath!")
+
+
+
+
+Further reading on [tuples in c#7](https://docs.microsoft.com/en-us/dotnet/csharp/tuples)
 
 
 ## Discards
