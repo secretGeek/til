@@ -1,6 +1,17 @@
 # C# version 7 
 
-See [what's new in C#7](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7)
+
+ * [out variables](#out-variables)
+ * [Tuples](#tuples)
+ * [Discards](#discards)
+ * [Pattern matching](#pattern-matching)
+ * [ref local and return](#ref-local-and-return)
+ * [Local functions](#local-functions)
+ * [more expression-bodied members](#more-expression-bodied-members)
+ * [throw expressions](#throw-expressions)
+ * [Generalized async return types](#generalized-async-return-types)
+ * [Numeric literal syntax improvements](#numeric-literal-syntax-improvements)
+
 
 ## out variables
 
@@ -115,3 +126,8 @@ Further reading on [tuples in c#7](https://docs.microsoft.com/en-us/dotnet/cshar
 ## Generalized async return types
 
 ## Numeric literal syntax improvements
+
+
+## Source
+
+* [what's new in C#7](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7)
