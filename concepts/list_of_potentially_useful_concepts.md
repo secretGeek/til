@@ -457,6 +457,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Structured procrastination
  * Sum/product/Power/Factorial
  * Sunk cost
+ * Supernormal Stimuli
  * Supply & Demand
  * Survivorship bias
  * Sustainability
@@ -514,6 +515,10 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Zero Tolerance
 
 ![use a formula](use_a_formula.png 'use a formula')
+
+>The more I learn, the less I know."
+>
+>&mdash;Tony Bennett
 
 ## References
 

@@ -90,3 +90,22 @@ Inside those error handling views, I have things like this:
 		<h2 class="error">Look not here. We cannot find that which you seek.</h2>
 	}
 
+
+The line `if (Authorized.Admin() || Authorized.Editor())` is specific to my situation.
+
+Others recommend:
+
+    @if(Model != null && HttpContext.Current.IsDebuggingEnabled)
+
+
+
+
+## Previously
+
+Previously I wrote this nasty article which showed a way to get very confused by custom errors in asp.net mvc (including deliberate typos) 
+
+[Custom Errors in ASP.Net MVC: It couldn't be simpler, right?](http://www.secretgeek.net/custom_errors_mvc)
+
+One comment there was very helpful, but a particular stack overflow answer was most helpful
+
+[Pableo Romeo answer at 'How to make custom error pages work in ASP.NET MVC 4'](https://stackoverflow.com/a/13905859/49)
