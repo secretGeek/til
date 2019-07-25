@@ -105,13 +105,77 @@ What type is this thing??
 
 Ah, see that? `ValueTuple`... this is a completely new type. The old tuples, `System.Tuple`, were *reference* types (objects, that needed to be allocated... the sort of thing that makes hardcore performance engineers spit "Keep your damn allocations off my hotpath!")
 
-
+Tuples in F# are structs... so I'm guessing these play nicer with F# than `System.Tuple`... but i haven't looked.
 
 
 Further reading on [tuples in c#7](https://docs.microsoft.com/en-us/dotnet/csharp/tuples)
 
 
 ## Discards
+
+Sometimes when you call a function you don't care about the result. That's easy -- just don't assign it to anything.
+
+But sometimes there is an `out` parameter and you're forced to declare a variable you don't want or need.
+Or it might return a tuple and you only want some of the items. What to do, what to do! If you've seen F# any time in the past 10 years you know this is a common feature of functional programming. In F# (and I'm assuming in other ML variants?) they use _ as the name of a variable they intend to ignore. The compiler ensures you don't try to do anything with that variable, and you can have as many "_"'s as you like.
+
+Well C# has YOINKED this feature now too.
+
+
+Imagine there is a `Delete` method, like this:
+
+
+	void Delete(string fileName, out bool found) {
+		found = false;
+		if (File.Exists(fileName)) {
+			found = true;
+			File.Delete(fileName);
+		}	
+	}
+
+
+...it returns true or false in that `out` parameter, depending on if it found a file to delete or not. 
+ 
+But as a caller you don't care if it found a file. You can ignore that parameter like this:
+
+	Delete("MyFile.txt", out _);
+
+
+Say we call a method and it returns a Tuple<string,string,string> .... here's an example of declaring it....
+
+
+	(string,string,string) MedalWinners(string eventName) 
+	{
+		//It's not a very sophisticared method... 
+		return ("Jill","Sally","Jack");
+	}
+
+
+As the caller of this method, imagine that we only care about the second item. How do we discard the other two items? EASY.
+
+
+	var (_, silverMedalist,_) = MedalWinners("300 meter bunny hop while balancing an egg");
+	silverMedalist.Dump(); // result: "Sally"
+
+
+There's two other places you can use this. One is in pattern-matching which I'll describe in the next section.
+
+The other is like this... but I don't see the value, it's just *consistent*....
+
+
+	string WhosOnFirst() {
+		return "Who";
+	}
+
+Let's call that method but ignore the return value....
+
+
+	_ = WhosOnFirst();
+
+I guess it's more explicit than simply saying:
+
+	WhosOnFirst(); // ... not assigning it at all.
+
+
 
 ## Pattern matching
 
