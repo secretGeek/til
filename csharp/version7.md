@@ -116,7 +116,7 @@ Further reading on [tuples in c#7](https://docs.microsoft.com/en-us/dotnet/cshar
 Sometimes when you call a function you don't care about the result. That's easy -- just don't assign it to anything.
 
 But sometimes there is an `out` parameter and you're forced to declare a variable you don't want or need.
-Or it might return a tuple and you only want some of the items. What to do, what to do! If you've seen F# any time in the past 10 years you know this is a common feature of functional programming. In F# (and I'm assuming in other ML variants?) they use _ as the name of a variable they intend to ignore. The compiler ensures you don't try to do anything with that variable, and you can have as many "_"'s as you like.
+Or it might return a tuple and you only want some of the items. What to do, what to do! If you've seen F# any time in the past 10 years you know this is a common feature of functional programming. In F# (and I'm assuming in other ML variants?) they use `_` as the name of a variable they intend to ignore. The compiler ensures you don't try to do anything with that variable, and you can have as many `_`'s as you like.
 
 Well C# has YOINKED this feature now too.
 
@@ -124,9 +124,11 @@ Well C# has YOINKED this feature now too.
 Imagine there is a `Delete` method, like this:
 
 
-	void Delete(string fileName, out bool found) {
+	void Delete(string fileName, out bool found)
+	{
 		found = false;
-		if (File.Exists(fileName)) {
+		if (File.Exists(fileName))
+		{
 			found = true;
 			File.Delete(fileName);
 		}	
@@ -139,34 +141,42 @@ But as a caller you don't care if it found a file. You can ignore that parameter
 
 	Delete("MyFile.txt", out _);
 
+I guess they used `_` because it is less typing than the semantically equivalent `¯\_(ツ)_/¯`
 
-Say we call a method and it returns a Tuple<string,string,string> .... here's an example of declaring it....
+
+Say we call a method and it returns a `ValueTuple<string,string,string>` .... here's an example of declaring it....
 
 
 	(string,string,string) MedalWinners(string eventName) 
 	{
-		//It's not a very sophisticared method... 
+		// It's not a very sophisticared method... 
+		// returning the same value for every event...
+
 		return ("Jill","Sally","Jack");
 	}
 
 
-As the caller of this method, imagine that we only care about the second item. How do we discard the other two items? EASY.
+As the caller of this method, imagine that we only care about the second item. How do we discard the other two items? **EASY.**
 
 
 	var (_, silverMedalist,_) = MedalWinners("300 meter bunny hop while balancing an egg");
 	silverMedalist.Dump(); // result: "Sally"
 
+Sorry Jack and Jill.
 
-There's two other places you can use this. One is in pattern-matching which I'll describe in the next section.
+There are two other places you can use this. One is in [pattern matching](#pattern-matching) which I'll describe in the next section.
 
-The other is like this... but I don't see the value, it's just *consistent*....
+The other is like this... but I don't see it as a big win, it's just *consistent*....
 
 
-	string WhosOnFirst() {
+Imagine some method that returns a value:
+
+	string WhosOnFirst()
+	{
 		return "Who";
 	}
 
-Let's call that method but ignore the return value....
+Let's call that method but *ignore* the return value....
 
 
 	_ = WhosOnFirst();
