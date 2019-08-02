@@ -3,6 +3,7 @@
 ### chapter contents
  
 * [console error](console_error.md)
+* [copy element to clipboard](copy_element_to_clipboard.md)
 * [eval](eval.md)
 * [generate guid](generate_guid.md)
 * [iife](iife.md)

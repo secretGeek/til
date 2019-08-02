@@ -99,4 +99,4 @@ Currently something like.... (this is dynamically loaded from util)
 	}
 	
 	
-	#set-alias ft FindText -- can't use this: it's format-table already
+	set-alias fi FindText # can't use ft: it's format-table already

@@ -1,4 +1,4 @@
-# C# version 6 
+# C# version 6
 
 See [what's new in C#6](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6)
 
@@ -26,7 +26,7 @@ You can have properties that can be gotten but cannot be set:
 		public string FirstName { get; }
 		public string LastName { get; }
 
-Wait! What? Then how do they ever get set!? Are they like a one way street out of a deadend ? 
+Wait! What? Then how do they ever get set!? Are they like a one way street out of a deadend ?
 
 Answer: They can only be set in the constructor....
 
@@ -55,7 +55,7 @@ Answer: They can only be set in the constructor....
 
 You may be wondering... what if the constructor *doesn't* set those properties? For example, what if there's two or more constructors and some of them just forget to set the property. Do you get an exception? Nope. In that case the property just remains null.
 
-What if a different method tries to set the property? 
+What if a different method tries to set the property?
 
 Then you receive this compiler error:
 
@@ -121,7 +121,7 @@ Did you like those last two features? Well the language-feature-fairies did not 
 
 Imagine you have a simple method, that can be written as one expression. Here's an example:
 
-	public string FriendlyName() 
+	public string FriendlyName()
 	{
 		return FirstName + " " + LastName;
 	}
@@ -246,15 +246,15 @@ And you'd be better off cutting this down to just:
 
 The remedy has previously been to write many lines of guarded clauses, asking effectively:
 
-    if person has a manager 
-	and that person's manager has a manager, 
+    if person has a manager
+	and that person's manager has a manager,
 	and that person's manager's manager has employees,
 	and that person's manager's manager's
-	number of employees is at least 4, 
-	and that persons' manager's manager's 
+	number of employees is at least 4,
+	and that persons' manager's manager's
 	4th employee has a manager
-	then 
-	return that person's manager's 
+	then
+	return that person's manager's
 	manager's 4th employee's manager's name.
 
 (Or put it in a `try...catch (NullReferenceException...` and that gets ugly too)
@@ -274,6 +274,40 @@ Commonly it is combined with a coalescing operator, like this:
     return Person?.Manager?.Manager?.Employees[3]?.Manager.Name ?? "Unknown";
 
 Know it. Use it. Love it.
+
+
+Wait... there's an bug in the above. I don't want to rewrite it... just to say:
+
+The null conditional won't help with `ArgumentOutOfRangeException` or with `KeyNotFoundException` -- as kind of implied by the description above.
+
+The part where I say
+
+> number of employees is at least 4
+
+...is talking about an `ArgumentOutOfRangeException`.... that would still occur!
+
+This is not protected from at all by the null conditional operator. They'd need to invent an "index conditional operator".. and this ain't one.
+
+If you write:
+
+	var x = manager?.Employees?[3]?.Name ?? "Unknown";
+
+That means:
+
+	If the manager is not null
+	and the manager's employees is not null,
+	take the 4th employee (this could throw)
+	and if they have a name, take the name...
+	...in any other case return null.
+
+Similarly for a dictionary...
+
+	var x = manager?.Employees?["Sue"]?.Name ?? "Unknown";
+
+...if employees is null, you're safe.. but if employees are not null, and there is *no* employee named "Sue", you'll get a `KeyNotFoundException` and need to instead use some kind of safety-first extension method on `IDictionary<K,V>` ... 
+
+So it's easily avoided by creating an extension method but it is not avoided by syntax sugar baked into the language as I inadvertently implied.
+
 
 
 ## string interpolations
@@ -336,7 +370,7 @@ C# has needed this for a long time, I use it every chance I get. Here's ancient 
 
 ## exception filters
 
-This is a special new piece of syntax... a 'when' statement that can follow a catch -- 
+This is a special new piece of syntax... a 'when' statement that can follow a catch --
 
 Instead of catching *every* exception of the given type, you can add a "when filter" so the exception handler will only catch exceptions that are:
 
@@ -402,8 +436,8 @@ Consider:
 * Code in MVC Views that mention:
   * Action Name
   * Controller Name (this is a questionable, see below)
-  
- 
+
+
 ### Logging example with `nameof`
 
     Console.WriteLine($"{nameof(i)} == {i}");
@@ -415,10 +449,10 @@ Consider:
 
 How can we remove the hard coding from this example?
 
-    @Html.ActionLink("Add sale", "Create", "Purchase") 
+    @Html.ActionLink("Add sale", "Create", "Purchase")
 
 
-Instead of "Create" we can use 
+Instead of "Create" we can use
 
     `nameof(PurchaseController.Create)`
 

@@ -1,4 +1,4 @@
-# C# version 7 
+# C# version 7
 
 
  * [out variables](#out-variables)
@@ -20,13 +20,13 @@ There is a tiny change that you will use every time you need an `out` variable i
 Previously, to use an `out` variable (when calling a method you used an `out` parameter) you would end up writing code like this:
 
 	int result; //variable name and type are declared here, but not initialized...
-	
+
 	if (int.TryParse(input, out result)) // "result" is initialized here...
 		Console.WriteLine(result);
 	else
 		Console.WriteLine("Could not parse input");
 
-Which is ugly and terrible. Generally you want to have the habit of initializing a variable when it is set, but not so for `out` variables (in the old world...). And generally I declare local variables with `var` -- but not so here. 
+Which is ugly and terrible. Generally you want to have the habit of initializing a variable when it is set, but not so for `out` variables (in the old world...). And generally I declare local variables with `var` -- but not so here.
 
 Hence, they've come up with this syntax...
 
@@ -131,12 +131,12 @@ Imagine there is a `Delete` method, like this:
 		{
 			found = true;
 			File.Delete(fileName);
-		}	
+		}
 	}
 
 
-...it returns true or false in that `out` parameter, depending on if it found a file to delete or not. 
- 
+...it returns true or false in that `out` parameter, depending on if it found a file to delete or not.
+
 But as a caller you don't care if it found a file. You can ignore that parameter like this:
 
 	Delete("MyFile.txt", out _);
@@ -147,9 +147,9 @@ I guess they used `_` because it is less typing than the semantically equivalent
 Say we call a method and it returns a `ValueTuple<string,string,string>` .... here's an example of declaring it....
 
 
-	(string,string,string) MedalWinners(string eventName) 
+	(string,string,string) MedalWinners(string eventName)
 	{
-		// It's not a very sophisticared method... 
+		// It's not a very sophisticared method...
 		// returning the same value for every event...
 
 		return ("Jill","Sally","Jack");
@@ -188,6 +188,67 @@ I guess it's more explicit than simply saying:
 
 
 ## Pattern matching
+
+
+Here is a common pattern that is crying out for some pattern matching....
+
+The old "is/as"
+
+	if (foo is string)
+	{
+		var bar = foo as string;
+		bar.Dump("here is the value");
+	}
+	else
+	{
+		foo.Dump("it's not a string");
+	}
+
+The sort of place where you commonly see this is when parsing, or traversing tokens in a directed graph.
+
+
+	if (token is Comment)
+	{
+		var comment = token as comment;
+		EmitComment(comment);
+	}
+	else if (token is Terminator)
+	{
+		var term = token as Terminator;
+		EmitTerminator(term);
+	} ... etc...
+
+And the first thing to see with pattern matching is that the "is-as" pattern is greatly simplified....
+
+
+THIS:
+
+	if (foo is string)
+	{
+		var bar = foo as string;
+		bar.Dump("here is the value");
+	}
+
+...BECOMETH:
+
+	if (foo is string bar)
+	{
+		bar.Dump("here is the value");
+	}
+	...
+
+...note the syntax here is as we saw in `out` variables -- straight after the type, give it a name, and hey presto, the thing being discussed of the type being considered is assigned to the name provided. Pow!
+
+
+Having cleaned up that little pattern, the syntax gets a lot niftier, and really earns the name pattern matching.
+
+The type of code discussed above is a chain of "if" statements that resembles a switch statement, only you're switching on logic and types instead of simple values.
+
+So switches "switch it up" a little and allow you to perform a whole slew of possibilities...
+
+
+
+
 
 ## ref local and return
 
