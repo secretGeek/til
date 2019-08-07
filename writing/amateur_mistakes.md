@@ -35,6 +35,7 @@ To make a self-published book look like an amateur book, you don't have to break
  * consistent style of chapter headings, including capitalization rules, see [Title Case Converter](https://titlecaseconverter.com/)
  * pay attention to kerning of headings
  * orphan lines, orphan words
+ * Instead of chapters called "chapter 1" — use Roman numerals and omit the word chapter.
 
 ## Header
 
@@ -93,3 +94,7 @@ To make a self-published book look like an amateur book, you don't have to break
  * spine: direction of text is consistent with the majority of books on your shelf, i.e. text flows top to bottom. When looking at the book on the shelf you lower your right ear to your shoulder to read the spines.
  * exterior image, high DPI, all text-crisp.
 
+
+## External sources
+
+* [Standard Ebooks: Typography Manual](https://standardebooks.org/contribute/typography)

@@ -45,8 +45,7 @@ Though this site is published as a free digital-only book, I've also published a
 
 |Topic|# Articles|
 |-----|----------|
-| [.git](.git/01_summary.md) | 0 articles |
- | [.net](.net/01_summary.md) | 6 articles |
+| [.net](.net/01_summary.md) | 6 articles |
  | [.net core MVC](.net_core_MVC/01_summary.md) | 14 articles |
  | [appharbor](appharbor/01_summary.md) | 1 article |
  | [asp.net mvc](asp.net_mvc/01_summary.md) | 13 articles |
@@ -132,4 +131,4 @@ Though this site is published as a free digital-only book, I've also published a
 
 
 510 articles
-218614 words
+218663 words
