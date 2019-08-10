@@ -89,6 +89,7 @@
 	* [center](/css/center.md)
 	* [glyph after blank anchors](/css/glyph_after_blank_anchors.md)
 	* [maintainable css](/css/maintainable_css.md)
+	* [refactoring ui tools](/css/refactoring_ui_tools.md)
 * [design](/design/01_summary.md)
 	* [designs i love](/design/designs_i_love.md)
 * [electron](/electron/01_summary.md)
