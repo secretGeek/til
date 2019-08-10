@@ -35,6 +35,7 @@
 * [is current user admin](is_current_user_admin.md)
 * [is this 64 or 32 bit powershell today](is_this_64_or_32_bit_powershell_today.md)
 * [literal array](literal_array.md)
+* [max of two values](max_of_two_values.md)
 * [Message of the day](Message_of_the_day.md)
 * [module commands](module_commands.md)
 * [module what is it](module_what_is_it.md)
@@ -73,4 +74,5 @@
 * [version](version.md)
 * [where is script running from](where_is_script_running_from.md)
 * [who is using each port](who_is_using_each_port.md)
+* [Width of the Console](Width_of_the_Console.md)
 * [write-host alternatives](write-host_alternatives.md)

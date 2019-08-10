@@ -40,10 +40,27 @@ Or you can look at *ALL* the available commands by typing simply:
     Get-Command
 
 
-Get-Member
+## What can I do with this object?
+
+To find out what you can *do* with an object, any object, use `Get-Member`
+
+	dir | Get-Member
+
+This shows you all the members (properties and methods) of the objects return by `dir`.
+
+You can then look at the different members, and see which ones you are interested in.
+
+e.g. I look at the output of the command above and decide I want to see the "FullName" -- so I run:
+
+	dir | % FullName
+
+This means: run the `dir` command, send the output to a foreach (%) and return the `FullName` property for each object.
+
+So `Get-Member` is one of the fundamental ways you teach yourself about powershell.
 
 
-About_Signing
+
+## About_Signing
 
 set-executionpolicy 
 
