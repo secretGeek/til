@@ -5,9 +5,9 @@ Steve Schoger  "Refactoring UI" at CSS day 2019 -- see [Youtube: Steve Schoger  
 
 Excellent talk, helps show the thinking process a professional designer uses when improving a site. 
 
-I learned a lot from it and hoep you will too.
+I learned a lot from it and hope you will too.
 
-Here are all the links or tools mentioned. Watch the talk though.
+Here are all the links or tools mentioned. Watch the talk though!
 
 * Online image editing - [Figma](https://www.figma.com/)
 * Colorize a background based on a pair of colors - [Duotone by Shapefactory](https://duotone.shapefactory.co/)
@@ -30,3 +30,6 @@ One particular tip that is a real standout:
 
 Thanks to Richard Mason of [Aussie Bushwalking](https://www.aussiebushwalking.com) for forwarding me this talk and his own notes on which those above are based.
 
+# See also
+
+* [215+ Super-Duper Resources to Help Build Your First Product](https://yourfirstproduct.com/Info/Resources)
