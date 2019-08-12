@@ -312,6 +312,7 @@
 	* [amd](/npm/amd.md)
 	* [getting started](/npm/getting_started.md)
 	* [install npm](/npm/install_npm.md)
+	* [List Globally Installed npm Packages](/npm/List_Globally_Installed_npm_Packages.md)
 	* [nodejs on ubuntu linux](/npm/nodejs_on_ubuntu_linux.md)
 	* [node gyp dependencies](/npm/node_gyp_dependencies.md)
 	* [npm run scripts](/npm/npm_run_scripts.md)

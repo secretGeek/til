@@ -75,6 +75,11 @@ To make a self-published book look like an amateur book, you don't have to break
  * layout of quotes: consistent, pleasing.
  
  
+## Paragraphs
+
+ *  indented first line of paragraph, no line space between paragraphs.
+
+^ Worth mentioning because on the internet we tend to leave a line of space between paragraphs.
 
 
 ## Separators

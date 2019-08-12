@@ -92,7 +92,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [nimbletext](nimbletext/01_summary.md) | 1 article |
  | [node](node/01_summary.md) | 2 articles |
  | [notepad++](notepad++/01_summary.md) | 10 articles |
- | [npm](npm/01_summary.md) | 7 articles |
+ | [npm](npm/01_summary.md) | 8 articles |
  | [nuget](nuget/01_summary.md) | 2 articles |
  | [office](office/01_summary.md) | 1 article |
  | [oracle](oracle/01_summary.md) | 6 articles |
@@ -130,5 +130,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-513 articles
-219071 words
+514 articles
+219153 words
