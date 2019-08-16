@@ -47,6 +47,16 @@ To see a specific item in the stack use:
 ...where {3} is the item you're looking at.
 
 
+# Avoiding the "Too many revisions specified" error
+
+Note that with powershell, if you leave out the double-quotes, i.e.
+
+	git stash show -p stash@{0}
+
+...you'll receive the error:
+
+	Too many revisions specified: 'stash@' 'MAA=' 'xml' 'text'
+BRIGST-L-96559 master C:\Apps\repo\MonoRepo\QAPortal\Sps.QAPortal.WebUI\Helpers>
 
 
 # Further reading
