@@ -2,7 +2,7 @@
 
 To make a self-published book look like an amateur book, you don't have to break *all* these guidelines, any *one* will do.
 
-
+A book is composed of two files: the interior file (which includes the book itself) and the exterior file (which contains the front cover, spine and back cover)
 
 
 ## Page Layout
@@ -16,7 +16,7 @@ To make a self-published book look like an amateur book, you don't have to break
 
 ## Table of Contents (ToC)
 
- * when writing/revising you may need to refer to an outline of the book that has every possible level of heading (e.g. heading 1-6) but the needs of your reader are not the same as the needs of a writer/editor, in particular:
+ * when writing/revising you may need to refer to a detailed outline of the book that has every possible level of heading (e.g. heading 1-6) but the needs of your reader are not the same as the needs of a writer/editor, in particular:
    * Fiction: usually no TOC
    * Non-Fiction: Ideally a single page, only chapter headings. If it must be more than one page then you have "contents at a glance" and the more detailed contents. Review similar professional books as a grounding device.   
  * Don't use a line of dots to link chapter title and page number (this is the default in word) - increase leading (line-height) instead.
@@ -81,12 +81,12 @@ It's a fine detail, but part of avoiding that amateur feel.
    * even numbers are aligned to the left of the block
 
 
-
 ## Content
 
  * no spelling errors
  * consistent punctuation -- see [the punctuation guide](https://www.thepunctuationguide.com/)
    * in particular, apostrophes, single-quotes and double-quotes: smart not straight.
+   * consistent use of dash, En dash and Em dash.
  * consistent use of terminology
  * ensure typographic characters other than regular English letters are printed correctly. e.g. &eacute; (So many different ways these can fail)
  * fonts for body content should be Serif fonts
@@ -109,6 +109,7 @@ It's a fine detail, but part of avoiding that amateur feel.
 
 ^ Worth mentioning because on the internet we tend to leave a line of space between paragraphs.
 
+ * First line after a heading, or sub heading, is not indented.
 
 ## Separators
 
@@ -116,7 +117,12 @@ It's a fine detail, but part of avoiding that amateur feel.
 
 ## Images
 
- * images at high DPI, e.g. 300.
+ * images at high DPI, e.g. at least 300.
+ 
+Images shown on a Windows PC are traditionally 96 DPI -- dots per inch, and on an Apple Mac, 72 DPI. A newer "high DPI" screen on either system will be a higher DPI than this. Printed material is generally 300 DPI or higher. You need to look a lot closer at a printed page to see how it is put together, compared to a computer monitor.
+
+ 
+ 
 
 ## Exterior (cover)
 
@@ -130,4 +136,6 @@ It's a fine detail, but part of avoiding that amateur feel.
 
 ## External sources
 
-* [Standard Ebooks: Typography Manual](https://standardebooks.org/contribute/typography)
+ * [Standard Ebooks: Typography Manual](https://standardebooks.org/contribute/typography)
+ * [Michele DeFilippo: Book Layout Basics](https://www.ingramspark.com/blog/book-layout-basics)
+ * [Amit Agarwal: Which Fonts Should You Use for Writing a Book](https://www.labnol.org/internet/blogging/which-fonts-should-you-use-for-writing-a-book/3141/)
