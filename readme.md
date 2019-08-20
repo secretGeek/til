@@ -60,6 +60,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [csharp](csharp/01_summary.md) | 4 articles |
  | [css](css/01_summary.md) | 4 articles |
  | [design](design/01_summary.md) | 1 article |
+ | [education](education/01_summary.md) | 1 article |
  | [electron](electron/01_summary.md) | 2 articles |
  | [excel](excel/01_summary.md) | 4 articles |
  | [git](git/01_summary.md) | 17 articles |
@@ -130,5 +131,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-514 articles
-219584 words
+515 articles
+219623 words

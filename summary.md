@@ -92,6 +92,8 @@
 	* [refactoring ui tools](/css/refactoring_ui_tools.md)
 * [design](/design/01_summary.md)
 	* [designs i love](/design/designs_i_love.md)
+* [education](/education/01_summary.md)
+	* [links](/education/links.md)
 * [electron](/electron/01_summary.md)
 	* [getting started](/electron/getting_started.md)
 	* [save to file](/electron/save_to_file.md)

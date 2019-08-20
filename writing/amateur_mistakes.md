@@ -21,7 +21,7 @@ A book is composed of two files: the interior file (which includes the book itse
    * Non-Fiction: Ideally a single page, only chapter headings. If it must be more than one page then you have "contents at a glance" and the more detailed contents. Review similar professional books as a grounding device.   
  * Don't use a line of dots to link chapter title and page number (this is the default in word) - increase leading (line-height) instead.
  * If SMALL-CAPS styles are used, ensure it is a font that include a SMALL-CAPS variant and it is not simply a squished-down caps.
- * No Header text on the TOC page
+ * No header text on the TOC page
  
 
 ## Chapters
@@ -35,7 +35,7 @@ A book is composed of two files: the interior file (which includes the book itse
  * consistent style of chapter headings, including capitalization rules, see [Title Case Converter](https://titlecaseconverter.com/)
  * pay attention to kerning of headings
  * orphan lines, orphan words
- * Instead of chapters called "chapter 1" — use Roman numerals and omit the word chapter.
+ * Instead of chapters called "chapter 1" — use Roman numerals and omit the word chapter
 
 ## Header
 
@@ -48,9 +48,9 @@ A book is composed of two files: the interior file (which includes the book itse
 
 ![the block](the_block.png)
 
- * The block is the part of the page where the body text goes. It's the page minus the gutter, the margins, the headers and the footers. That's THE BLOCK.
- * The block shouldn't move up or down or in or out on each page.
- * Now, imagine this. Imagine the page is thin, so thin as to be almost completely translucent. Each line of text will have a line of text behind it. The lines of text on each side of the paper should be on top of each other. And the space between the lines should be completely clear on both sides.
+ * The block is the part of the page where the body text goes. It's the page minus the gutter, the margins, the headers and the footers. That's THE BLOCK
+ * The block shouldn't move up or down or in or out on each page
+ * Now, imagine this. Imagine the page is thin, so thin as to be almost completely translucent. Each line of text will have a line of text behind it. The lines of text on each side of the paper should be on top of each other. And the space between the lines should be completely clear on both sides
  
  
  * Here is the tricky thing about getting "the block" right....
