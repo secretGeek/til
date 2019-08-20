@@ -42,6 +42,34 @@ To make a self-published book look like an amateur book, you don't have to break
  * first page of each chapter: no header
  * TOC: no header
  * header text: lighter weight than body, or smaller font size
+
+## THE BLOCK
+
+
+![the block](the_block.png)
+
+ * The block is the part of the page where the body text goes. It's the page minus the gutter, the margins, the headers and the footers. That's THE BLOCK.
+ * The block shouldn't move up or down or in or out on each page.
+ * Now, imagine this. Imagine the page is thin, so thin as to be almost completely translucent. Each line of text will have a line of text behind it. The lines of text on each side of the paper should be on top of each other. And the space between the lines should be completely clear on both sides.
+ 
+ 
+ * Here is the tricky thing about getting "the block" right....
+ 
+![block alignment](block_align.png)
+ 
+ * If there is a heading or break part way down a page, this property of alignment between the two sides of the page should still be maintained perfectly. The spaces still align with the spaces. The lines of text still align with the lines of text.
+ * THUS, the start of a new chapter may be a few lines down the page, but the distance to the top of the page should be equivalent to a whole number of lines of text.
+
+ * If you get this wrong at the top of the page, you will see it at the bottom of the page....
+ 
+
+![block misalign](block_misalign.png)
+
+
+...and you will see it if you hold the page up to the light.
+
+It's a fine detail, but part of avoiding that amateur feel.
+
  
 ## Page numbering
 
