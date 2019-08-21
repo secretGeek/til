@@ -62,3 +62,20 @@ Lists all branches and has `: gone]` if their remote component has been removed.
 	refactor/cloud-taser-utc-datetime-handling	5da44411 [origin/refactor/cloud-taser-utc-datetime-handling: gone] moon: 5888 cloud-taser Online.
 
 So the real point here is `: gone]` substring referring to the missing origin.
+
+
+## To delete the origin 
+
+(for example, if you forgot to delete it when merging your pull request)
+
+Delete it on the origin....
+
+	git push --delete origin feature/5992-monkey-magnet-current-archive
+
+Then delete it locally (may need to switch out of it first with `git co master`, for example)
+
+	git branch -d feature/5992-monkey-magnet-current-archive
+
+May need to use `-D` to force the delete if there's some discard-worthy change in there.
+
+
