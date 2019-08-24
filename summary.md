@@ -93,6 +93,7 @@
 	* [maintainable css](/css/maintainable_css.md)
 	* [refactoring ui tools](/css/refactoring_ui_tools.md)
 * [design](/design/01_summary.md)
+	* [color resources](/design/color_resources.md)
 	* [designs i love](/design/designs_i_love.md)
 * [education](/education/01_summary.md)
 	* [links](/education/links.md)

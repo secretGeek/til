@@ -17,10 +17,12 @@ Here are all the links or tools mentioned. Watch the talk though!
 * Also [dribbble](https://dribbble.com/)
    - use dribbble's colour search to find sites using colours you like, and its palette for a picture
 * Colour palettes from Tailwind - [Tailwind css palette](https://tailwindcss.com/docs/customizing-colors/#default-color-palette)
-* Check text contrast is consistent with Web Content Accessibility Guidelines - [contraste app](https://contrasteapp.com)(MacOS only... otheriwse use: [webaim contrast checker](https://webaim.org/resources/contrastchecker/))
+* Check text contrast is consistent with [Web Content Accessibility Guidelines](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html)
+   - [contraste app](https://contrasteapp.com) &mdash; MacOS only... otherwise use: 
+   - [webaim contrast checker](https://webaim.org/resources/contrastchecker/)
 * SVG background patterns - [hero patterns](http://www.heropatterns.com/)  also, it advertises [Heroicons](http://www.heroicons.com/) (see also <https://github.com/sschoger/heroicons-ui>) for icons
 * Fonts - [typography.com](https://www.typography.com), [commercialtype.com](https://commercialtype.com), [klim.co.nz](https://klim.co.nz), [hanken.co](https://hanken.co)
-* Bootstrap themes - [themese.bootstrap](https://themes.getbootstrap.com/) , [bootstrap.build](https://bootstrap.build/)
+* Bootstrap themes - [themes.bootstrap](https://themes.getbootstrap.com/) , [bootstrap.build](https://bootstrap.build/)
 
 One particular tip that is a real standout:
 
