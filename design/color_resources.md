@@ -1,6 +1,15 @@
 # Color Resources
 
-# Articles
+Color is wild! 
+
+You, a baby: just a bit of red, a bit of green and bit of blue, stand back, I've got this.
+
+Me, an intellectual: hold on a moment kiddo. There's a lot more to it. Perception is not uniform, in that color space you're navigating. And different cultures perceive cultures differently, our brain maps are grown individually, in a context of their own, and it all makes a heck of a difference. Color is out of this world! And even if our brains were all aligned, the retina does a lot of work, with color cones of three different kinds, and sometimes less and sometimes more... 
+
+Even if you understand a single color (which I doubt you ever can)... these things are deployed in teams, called "palettes" and the way the palettes are combined, the theories thereof, can themselves fill if not a book certainly a pamphlett.
+
+
+## Articles
 
 * How the retina works (including, why does violet look a little bit red??)
 	* [The difference between violet and purple](https://jakubmarian.com/difference-between-violet-and-purple/)
@@ -20,12 +29,19 @@
 
 ![color cones](color-cones.png)
 
-# Tools/techniques for making visual elements color-blind friendly
+
+![MacAdam diagram](CIExy1931_MacAdam.png)
+
+> &uarr; "A MacAdam diagram in the CIE 1931 color space. The ellipses are shown ten times their actual size."
+>
+> [from Wikipedia: Color Difference](https://en.wikipedia.org/wiki/Color_difference#Tolerance)
+
+## Tools/techniques for making visual elements color-blind friendly
 
  * [3 Free Tools to Ensure Color Blind-Friendly Designs](https://medium.com/everyone-is-a-product-expert/3-free-tool-to-ensure-color-blind-friendly-designs-28d93cf238d)
  * [How to Design for Color Blindness](https://usabilla.com/blog/how-to-design-for-color-blindness/)
 
-# Palette Tools
+## Palette Tools
 
 * Google for "Color picker" and you'll find google includes a proficient color picker tool, including conversion between hex/rgb/cmyk/hsv/hsl
 * [Color Brewer](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) &mdash; for gradients to use on maps
@@ -35,3 +51,6 @@
 * [Dribbble](https://dribbble.com) &mdash; with dribbble you can search by color and can see the palette used in an image
 * [Hue Test](https://www.colormunki.com/game/huetest_kiosk) Drag and drop the colors in each row to arrange them by hue order.
 
+## And finally
+
+* [Wikipedia: List of Fictional Colors](https://en.wikipedia.org/wiki/List_of_fictional_colors) ... sure to make your designs Pop!
