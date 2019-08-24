@@ -18,7 +18,6 @@
 	* [Poynter: Why rainbow colors aren’t the best option for data visualizations](https://www.poynter.org/archive/2013/why-rainbow-colors-arent-always-the-best-options-for-data-visualizations/)
 	* [Turbo, An Improved Rainbow Colormap for Visualization](https://ai.googleblog.com/2019/08/turbo-improved-rainbow-colormap-for.html)
 
-
 ![color cones](color-cones.png)
 
 # Tools/techniques for making visual elements color-blind friendly
@@ -26,18 +25,13 @@
  * [3 Free Tools to Ensure Color Blind-Friendly Designs](https://medium.com/everyone-is-a-product-expert/3-free-tool-to-ensure-color-blind-friendly-designs-28d93cf238d)
  * [How to Design for Color Blindness](https://usabilla.com/blog/how-to-design-for-color-blindness/)
 
-
 # Palette Tools
 
 * Google for "Color picker" and you'll find google includes a proficient color picker tool, including conversion between hex/rgb/cmyk/hsv/hsl
+* [Color Brewer](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) &mdash; for gradients to use on maps
 * [Paletton](https://paletton.com/) &mdash; good for picking monochromatic, complementary, adjacent, triadic, tetradic and free-style palettes.
 * [Adobe color wheel](https://color.adobe.com/create/color-wheel/) &mdash; previously "kuler", redesigned and improved
 * [Duotone](https://duotone.shapefactory.co/) &mdash; Colorize a background
 * [Dribbble](https://dribbble.com) &mdash; with dribbble you can search by color and can see the palette used in an image
-* [Color Brewer](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) &mdash; for gradients to use on maps
 * [Hue Test](https://www.colormunki.com/game/huetest_kiosk) Drag and drop the colors in each row to arrange them by hue order.
-
-
-
-
 
