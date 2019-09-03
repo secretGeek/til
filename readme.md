@@ -59,6 +59,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [crypto](crypto/01_summary.md) | 1 article |
  | [csharp](csharp/01_summary.md) | 5 articles |
  | [css](css/01_summary.md) | 5 articles |
+ | [csv](csv/01_summary.md) | 1 article |
  | [design](design/01_summary.md) | 2 articles |
  | [education](education/01_summary.md) | 1 article |
  | [electron](electron/01_summary.md) | 2 articles |
@@ -79,7 +80,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [javascript](javascript/01_summary.md) | 9 articles |
  | [jekyll](jekyll/01_summary.md) | 1 article |
  | [jquery](jquery/01_summary.md) | 3 articles |
- | [library](library/01_summary.md) | 1 article |
+ | [library](library/01_summary.md) | 2 articles |
  | [linqpad](linqpad/01_summary.md) | 10 articles |
  | [linux](linux/01_summary.md) | 33 articles |
  | [macbook air](macbook_air/01_summary.md) | 4 articles |
@@ -125,6 +126,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [virtual box](virtual_box/01_summary.md) | 2 articles |
  | [visual studio](visual_studio/01_summary.md) | 8 articles |
  | [vs code](vs_code/01_summary.md) | 5 articles |
+ | [web](web/01_summary.md) | 1 article |
  | [windows](windows/01_summary.md) | 15 articles |
  | [windows.forms](windows.forms/01_summary.md) | 4 articles |
  | [wordpress](wordpress/01_summary.md) | 1 article |
@@ -132,5 +134,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-519 articles
-123850 words
+522 articles
+124195 words
