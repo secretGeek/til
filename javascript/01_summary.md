@@ -2,6 +2,7 @@
 # javascript
 ### chapter contents
  
+* [add remove class](add_remove_class.md)
 * [console error](console_error.md)
 * [copy element to clipboard](copy_element_to_clipboard.md)
 * [eval](eval.md)

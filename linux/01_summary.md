@@ -13,6 +13,7 @@
 * [colored output with bash](colored_output_with_bash.md)
 * [count files recursively](count_files_recursively.md)
 * [cron](cron.md)
+* [delete files older than 90 days](delete_files_older_than_90_days.md)
 * [digital ocean](digital_ocean.md)
 * [get processes list processes](get_processes_list_processes.md)
 * [how much memory is free](how_much_memory_is_free.md)

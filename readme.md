@@ -77,12 +77,12 @@ Though this site is published as a free digital-only book, I've also published a
  | [iis](iis/01_summary.md) | 3 articles |
  | [inkscape](inkscape/01_summary.md) | 1 article |
  | [itunes](itunes/01_summary.md) | 1 article |
- | [javascript](javascript/01_summary.md) | 9 articles |
+ | [javascript](javascript/01_summary.md) | 10 articles |
  | [jekyll](jekyll/01_summary.md) | 1 article |
  | [jquery](jquery/01_summary.md) | 3 articles |
  | [library](library/01_summary.md) | 2 articles |
  | [linqpad](linqpad/01_summary.md) | 10 articles |
- | [linux](linux/01_summary.md) | 33 articles |
+ | [linux](linux/01_summary.md) | 34 articles |
  | [macbook air](macbook_air/01_summary.md) | 4 articles |
  | [mailgun](mailgun/01_summary.md) | 1 article |
  | [markdown](markdown/01_summary.md) | 3 articles |
@@ -134,5 +134,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-522 articles
-124195 words
+524 articles
+124317 words
