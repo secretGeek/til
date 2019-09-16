@@ -12,3 +12,19 @@ Everything you need to do with a class. Pretty much.
 		}
 	}
 
+
+
+(I just noticed that this example uses a little helper function I keep handy...)
+
+
+	function $(selector) {
+		return document.querySelectorAll(selector);
+	}
+
+...and similarly I use:
+
+	function $id(id) {
+		return document.getElementById(id);
+	}
+
+)
