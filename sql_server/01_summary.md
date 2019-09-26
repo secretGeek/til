@@ -37,6 +37,7 @@
 * [pivot](pivot.md)
 * [run a command against each table](run_a_command_against_each_table.md)
 * [scalar function AfterChar](scalar_function_AfterChar.md)
+* [see wait times](see_wait_times.md)
 * [select top with dynamic limit](select_top_with_dynamic_limit.md)
 * [simple recovery model](simple_recovery_model.md)
 * [slow and long running queries](slow_and_long_running_queries.md)

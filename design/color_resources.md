@@ -11,6 +11,9 @@ And if you understood a single color (which I doubt you ever can)... these thing
 
 ## Articles
 
+* [How to Master Colour Theory](https://www.creativebloq.com/colour/colour-theory-11121290) Color Theory 101
+* [Marketers Guide to Colour](https://themarketingindex.com/the-marketers-guide-to-psychology-of-colour/)
+* [Color and psychological functioning: a review of theoretical and empirical work](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4383146/)
 * How the retina works (including, why does violet look a little bit red??)
 	* [The difference between violet and purple](https://jakubmarian.com/difference-between-violet-and-purple/)
 * [Why Monet Never Used Black](https://designforhackers.com/blog/impressionist-color-theory/), notes:

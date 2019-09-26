@@ -356,7 +356,6 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Permutations and Combinations
  * Personal productivity
  * Persuasion
- * Perturbation
  * Perturbations
  * Perverse incentive
  * Peter Principle (promote into incompetence)
@@ -491,6 +490,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Tragedy of the Commons
  * Transformation
  * Transparency
+ * Treatment Direction Test
  * Triage
  * Trimtab turns
  * Trust

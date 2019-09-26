@@ -27,10 +27,11 @@ There are two apps you will want:
 2. Libby (from Overdrive)
 
 
-Overdrive is a famous app, but the same company has released a much nicer app called Libby.
+Overdrive is a famous app, but the same company has released a much nicer app called **Libby**.
 
 The two apps, BorrowBox and Libby, each give you access to different audiobooks (and ebooks) from the library.
 
 
 Also, it is theoretically possible to sign up at other libraries, whose area you do not live within, and receive access to their audiobooks as well. I haven't explored this sufficiently as I am already swamped with thousands of things to read.
+
 

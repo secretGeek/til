@@ -27,4 +27,15 @@ Query to show which queries are the worst performers.
     
 You may want to change the Order by...
 
-You may lacks permissions to run this. Grrr. 
+You may lacks permissions to run this. Specifically:
+
+	VIEW SERVER STATE permission was denied on object 'server', database 'master'.
+
+Which requires this to be executed:
+
+
+	use master
+	go
+	GRANT VIEW SERVER STATE TO <user_name>
+
+...if possible.
