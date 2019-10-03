@@ -17,7 +17,7 @@ TODO: try these csv tools
  * https://github.com/dkogan/vnlog
  * https://github.com/johnkerl/miller
  * https://github.com/eBay/tsv-utils
- * http://harelba.github.io/q/
+ * http://harelba.github.io/q/ - Run SQL Directly on CSV Files
  * https://github.com/BatchLabs/charlatan
  * https://github.com/dinedal/textql
  * https://github.com/BurntSushi/xsv
@@ -29,3 +29,4 @@ TODO: try these csv tools
  * http://www.helicalinsight.com/technical-guide/connecting-csvexcel-via-dremio/
  * https://drill.apache.org
  * https://github.com/eBay/tsv-utils/blob/master/docs/Performance.md
+

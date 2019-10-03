@@ -59,7 +59,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [crypto](crypto/01_summary.md) | 1 article |
  | [csharp](csharp/01_summary.md) | 5 articles |
  | [css](css/01_summary.md) | 5 articles |
- | [csv](csv/01_summary.md) | 1 article |
+ | [csv](csv/01_summary.md) | 2 articles |
  | [design](design/01_summary.md) | 2 articles |
  | [education](education/01_summary.md) | 1 article |
  | [electron](electron/01_summary.md) | 2 articles |
@@ -134,5 +134,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-525 articles
-124915 words
+526 articles
+125249 words

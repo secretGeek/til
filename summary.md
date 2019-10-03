@@ -93,6 +93,7 @@
 	* [maintainable css](/css/maintainable_css.md)
 	* [refactoring ui tools](/css/refactoring_ui_tools.md)
 * [csv](/csv/01_summary.md)
+	* [import csv to db](/csv/import_csv_to_db.md)
 	* [tools](/csv/tools.md)
 * [design](/design/01_summary.md)
 	* [color resources](/design/color_resources.md)
