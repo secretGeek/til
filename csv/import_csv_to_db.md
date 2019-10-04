@@ -53,6 +53,14 @@ Via [Scott Stanfield:](https://twitter.com/seesharp/status/1179569651119874048?s
 
 * BCP (Bulk Copy Program)
 
+* TSQL: [BULK INSERT](https://docs.microsoft.com/en-us/sql/relational-databases/import-export/import-bulk-data-by-using-bulk-insert-or-openrowset-bulk-sql-server?view=sql-server-2017)
+
+		BULK INSERT Sales.Orders
+		FROM '\\SystemX\DiskZ\Sales\data\orders.csv'
+		WITH ( FIRSTROW = 2, FORMAT='CSV');
+
+
+
 * [Four Easy Ways to Import CSV Files to SQL Server with PowerShell](https://devblogs.microsoft.com/scripting/four-easy-ways-to-import-csv-files-to-sql-server-with-powershell/)
 
 * [SQL Down under tools](https://sqldownunder.com/pages/sdu-tools) -- see [ReadCSV demo movie](https://www.youtube.com/watch?v=ypuHanV2c6E&feature=youtu.be)
