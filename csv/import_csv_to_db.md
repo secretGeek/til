@@ -23,9 +23,14 @@ Below are many different solutions to this common problem, for a variety of data
 
 	> Load in R with data.table fread() method. It'll impute the data types...gets you 80% of the way there. 
 	![R data.table fread()](R_datatable_fread.jpg)
-* [csv2db](https://github.com/csv2db/csv2db) &mdash; "The CSV command line loader."
+- [csv2db](https://github.com/csv2db/csv2db) &mdash; "The CSV command line loader."
+- [csvsql from csvkit](https://csvkit.readthedocs.io/en/1.0.2/scripts/csvsql.html)	
+
+       csvsql --db postgresql:///test --tables dogideas --insert data/pets/dogideas.csv
 - [Generate SQL Insert Statements with NimbleText (web version)](https://nimbletext.com/HowTo/GenerateInsert)
+
 - [Datagrip: import/export](https://www.jetbrains.com/datagrip/features/importexport.html) &mdash; "There is a dedicated UI for importing DSV (CSV and TSV) files to the database."
+- [Navicat](https://www.navicat.com/en/)($$$)
 
 #### Some brute force approaches (common!)
 - Sublime (editor), use Multiple line edit to turn the data into SQL
@@ -56,32 +61,30 @@ Below are many different solutions to this common problem, for a variety of data
 
 ## MS SQL Server Specific
 
-* Sql Server Management Studio (SSMS) &mdash; right click on Database, Tasks, "Import Flat File..."
-* BCP (Bulk Copy Program)
-* TSQL: [BULK INSERT](https://docs.microsoft.com/en-us/sql/relational-databases/import-export/import-bulk-data-by-using-bulk-insert-or-openrowset-bulk-sql-server?view=sql-server-2017)
+- Sql Server Management Studio (SSMS) &mdash; right click on Database, Tasks, "Import Flat File..."
+- BCP (Bulk Copy Program)
+- TSQL: [BULK INSERT](https://docs.microsoft.com/en-us/sql/relational-databases/import-export/import-bulk-data-by-using-bulk-insert-or-openrowset-bulk-sql-server?view=sql-server-2017)
 
 		BULK INSERT Sales.Orders
 		FROM '\\SystemX\DiskZ\Sales\data\orders.csv'
 		WITH ( FIRSTROW = 2, FORMAT='CSV');
 
+- Powershell: [Four Easy Ways to Import CSV Files to SQL Server with PowerShell](https://devblogs.microsoft.com/scripting/four-easy-ways-to-import-csv-files-to-sql-server-with-powershell/)
 
-
-* Powershell: [Four Easy Ways to Import CSV Files to SQL Server with PowerShell](https://devblogs.microsoft.com/scripting/four-easy-ways-to-import-csv-files-to-sql-server-with-powershell/)
-
-* [SQL Down under tools](https://sqldownunder.com/pages/sdu-tools) &mdash; see [ReadCSV demo movie](https://www.youtube.com/watch?v=ypuHanV2c6E&feature=youtu.be)
+- [SQL Down under tools](https://sqldownunder.com/pages/sdu-tools) &mdash; see [ReadCSV demo movie](https://www.youtube.com/watch?v=ypuHanV2c6E&feature=youtu.be)
 
 ## SQLite specific
 
 - [Tutorial: Import a CSV File Into an SQLite Table](https://www.sqlitetutorial.net/sqlite-import-csv/)
 
-If there are no header names in the csv, then find the column names and run:
+	If there are no header names in the csv, then find the column names and run:
 
-	create table mytable (header_a, header_b, header_c) 
+		create table mytable (header_a, header_b, header_c) 
 
-Next step (do this whether you needed the previous step or not)
+	Next step (do this whether you needed the previous step or not)
 
-	.mode csv
-	.import data.csv mytable
+		.mode csv
+		.import data.csv mytable
 
 ## MySQL specific
 
@@ -143,4 +146,3 @@ Two techniques: `Copy` command in sql itself, and `\copy` command in `psql` (int
 - [TextQL](http://dinedal.github.io/textql/) &mdash; Execute SQL against CSV or TSV.
 - [q](https://harelba.github.io/q/) &mdash; Run SQL directly on CSV Files
 - [RBQL](https://rbql.org) &mdash; Rainbow Query Language, a SQL-like language with JavaScript or Python backend.
-
