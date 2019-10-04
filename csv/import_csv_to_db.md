@@ -11,7 +11,15 @@
 
 - Python - Pandas
 
-- R:
+    import pandas
+    from sqlalchemy import create_engine
+    engine = create_engine('connection string')
+    df = pandas.read_csv("path/to.csv")
+    df.to_sql("table_name", engine)
+
+
+
+- "R"
 
 Via [Scott Stanfield:](https://twitter.com/seesharp/status/1179569651119874048?s=20)
 
@@ -23,6 +31,11 @@ Via [Scott Stanfield:](https://twitter.com/seesharp/status/1179569651119874048?s
 - [Generate SQL Insert Statements with NimbleText (web version)](https://nimbletext.com/HowTo/GenerateInsert)
 
 
+- Sublime (editor), use Multiple line edit to turn the data into SQL
+
+- (Any editor), use search/replace (perhaps with regular expressions) to turn the data into SQL
+
+- (Any spreadsheet), write formulae that combine the data together to turn the data into SQL
 
 
 
@@ -35,7 +48,12 @@ Via [Scott Stanfield:](https://twitter.com/seesharp/status/1179569651119874048?s
 - Microsoft Log Parser
 	Logparser -o sql -server 127.0.0.1 -database -createtable on "select * into newtable from blah" user... pass
 
-- Alteryx
+- [Alteryx](https://www.alteryx.com)
+
+  - drag in an `Input data` -- point it at the csv.
+  - (optional) drag in a `Select` - use it to configure the column types
+  - drag in an `Output data` -- point it at the database (and set the table name)
+  - Run!
 
 
 - [Generate SQL Insert Statements with NimbleText (downloaded version)](https://nimbletext.com/HowTo/GenerateInsert)
@@ -66,9 +84,11 @@ Via [Scott Stanfield:](https://twitter.com/seesharp/status/1179569651119874048?s
 * [SQL Down under tools](https://sqldownunder.com/pages/sdu-tools) -- see [ReadCSV demo movie](https://www.youtube.com/watch?v=ypuHanV2c6E&feature=youtu.be)
 
 
+
+
 ## SQLite
 
-* [Tutorial: Import a CSV File Into an SQLite Table](https://www.sqlitetutorial.net/sqlite-import-csv/)
+- [Tutorial: Import a CSV File Into an SQLite Table](https://www.sqlitetutorial.net/sqlite-import-csv/)
 
 If there are no header names in the csv, then find the header names and run:
 
@@ -82,8 +102,6 @@ Next step (do this whether you needed the previous step or not)
 ## MySQL
 
 
-
-
 - [Load Data Infile](http://www.mysqltutorial.org/import-csv-file-mysql-table/)
 
 		LOAD DATA INFILE 'c:/tmp/discounts.csv' 
@@ -95,9 +113,29 @@ Next step (do this whether you needed the previous step or not)
 
 - PhpMyAdmin
 
-## Postresql
+## Postgresql
 
-- [Sql-copy](https://www.postgresql.org/docs/current/sql-copy.html)
+Two techniques: `Copy` command in sql itself, and `\copy` command in `psql` (interactive commandline).
+
+
+ - [Sql-copy](https://www.postgresql.org/docs/current/sql-copy.html) - requires root access
+
+    COPY dog_habits FROM '/home/user521/pets/dog_habits.csv' DELIMITER ',' CSV HEADER;
+
+
+ - [psql \copy](https://www.postgresql.org/docs/current/app-psql.html) - use interactive psql commandline where file permissions are an issue 
+
+        psql -c "\copy sample FROM '/home/user521/pets/dog_habits.csv' WITH (FORMAT CSV)"
+
+
+## Oracle
+
+- [Oracle APEX](https://apex.oracle.com/en/)
+
+   > "a couple of clicks and we're done"
+   >
+   > [@APEX/JeffreyKemp.sql](https://twitter.com/jeffreykemp/status/1179990364259663872)
+
 
 ## Hadoop
 
@@ -121,8 +159,3 @@ Next step (do this whether you needed the previous step or not)
 - [TextQL](http://dinedal.github.io/textql/) - Execute SQL against CSV or TSV.
 - [q](https://harelba.github.io/q/) - Run SQL Directly on CSV Files
 - [RBQL](https://rbql.org) - Rainbow Query Language, a SQL-like language with JavaScript or Python backend.
-
-
-## Uncategorised
-
-- Alteryx
