@@ -9,18 +9,18 @@
 
 ## Multiple Database Platforms (and any OS)
 
-* Python - Pandas
+- Python - Pandas
 
-* R:
+- R:
 
 Via [Scott Stanfield:](https://twitter.com/seesharp/status/1179569651119874048?s=20)
 
-> Load in R with data.table fread() method. It'll impute the data types..gets you 80% of the way there. 
+> Load in R with data.table fread() method. It'll impute the data types...gets you 80% of the way there. 
 
 ![R data.table fread()](R_datatable_fread.jpg)
 
 
-* [Generate SQL Insert Statements with NimbleText (web version)](https://nimbletext.com/HowTo/GenerateInsert)
+- [Generate SQL Insert Statements with NimbleText (web version)](https://nimbletext.com/HowTo/GenerateInsert)
 
 
 
@@ -29,11 +29,17 @@ Via [Scott Stanfield:](https://twitter.com/seesharp/status/1179569651119874048?s
 ## Multiple Database Platforms (but Windows only)
 
 
-* [CSV to IEnumerable (or Array) in Linqpad](/linqpad/csv_to_array.md)
+- LinqPad [CSV to IEnumerable (or Array) in Linqpad](/linqpad/csv_to_array.md)
 
-* [Generate SQL Insert Statements with NimbleText (downloaded version)](https://nimbletext.com/HowTo/GenerateInsert)
 
-* Microsoft Log Parser
+- Microsoft Log Parser
+	Logparser -o sql -server 127.0.0.1 -database -createtable on "select * into newtable from blah" user... pass
+
+- Alteryx
+
+
+- [Generate SQL Insert Statements with NimbleText (downloaded version)](https://nimbletext.com/HowTo/GenerateInsert)
+   The Windows version is better if you want to use a "real" CSV parser that can handle embedded delimiters and line breaks. Just switch on the 'use qualifier' option under tools | options.
 
 
 # Multiple Database Platforms (but MacOS Only)
@@ -67,8 +73,19 @@ Next step (do this whether you needed the previous step or not)
 
 ## MySQL
 
-- PhpMyAdmin
 
+
+
+- [Load Data Infile](http://www.mysqltutorial.org/import-csv-file-mysql-table/)
+
+		LOAD DATA INFILE 'c:/tmp/discounts.csv' 
+		INTO TABLE discounts 
+		FIELDS TERMINATED BY ',' 
+		ENCLOSED BY '"'
+		LINES TERMINATED BY '\n'
+		IGNORE 1 ROWS;
+
+- PhpMyAdmin
 
 ## Postresql
 
