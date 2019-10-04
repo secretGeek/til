@@ -27,10 +27,12 @@ Below are many different solutions to this common problem, for a variety of data
 - [csvsql from csvkit](https://csvkit.readthedocs.io/en/1.0.2/scripts/csvsql.html)	
 
        csvsql --db postgresql:///test --tables dogideas --insert data/pets/dogideas.csv
-- [Generate SQL Insert Statements with NimbleText (web version)](https://nimbletext.com/HowTo/GenerateInsert)
-
+- [NimbleText](https://nimbletext.com) &mdash; [Generate SQL Insert Statements with NimbleText (web version)](https://nimbletext.com/HowTo/GenerateInsert)
+- [DBeaver](https://dbeaver.io/) &mdash; [Importing a CSV into a database using DBeaver](https://justnumbersandthings.com/post/2018-06-12-dbeaver-import-csv/)
 - [Datagrip: import/export](https://www.jetbrains.com/datagrip/features/importexport.html) &mdash; "There is a dedicated UI for importing DSV (CSV and TSV) files to the database."
 - [Navicat](https://www.navicat.com/en/)($$$)
+
+
 
 #### Some brute force approaches (common!)
 - Sublime (editor), use Multiple line edit to turn the data into SQL
@@ -70,7 +72,9 @@ Below are many different solutions to this common problem, for a variety of data
 		WITH ( FIRSTROW = 2, FORMAT='CSV');
 
 - Powershell: [Four Easy Ways to Import CSV Files to SQL Server with PowerShell](https://devblogs.microsoft.com/scripting/four-easy-ways-to-import-csv-files-to-sql-server-with-powershell/)
+- Powershell: [Import-DbaCsv](https://docs.dbatools.io/#Import-DbaCsv) from [(]Chrissy LeMaire](https://twitter.com/cl)
 
+        Import-DbaCsv -Path .\housing.csv -SqlInstance sql001 -Database markets -Table housing -Delimiter "`t" -NoHeaderRow
 - [SQL Down under tools](https://sqldownunder.com/pages/sdu-tools) &mdash; see [ReadCSV demo movie](https://www.youtube.com/watch?v=ypuHanV2c6E&feature=youtu.be)
 
 ## SQLite specific
@@ -146,3 +150,4 @@ Two techniques: `Copy` command in sql itself, and `\copy` command in `psql` (int
 - [TextQL](http://dinedal.github.io/textql/) &mdash; Execute SQL against CSV or TSV.
 - [q](https://harelba.github.io/q/) &mdash; Run SQL directly on CSV Files
 - [RBQL](https://rbql.org) &mdash; Rainbow Query Language, a SQL-like language with JavaScript or Python backend.
+- [PSKit Query](https://github.com/dfinke/PSKit#sql-query) &mdash; Powershell module lets you run simple queries over objects, including imported with csv.
