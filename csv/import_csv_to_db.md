@@ -8,6 +8,21 @@
 
 Below are many different solutions to this common problem, for a variety of databases and operating systems.
 
+
+## Table of contents:
+
+* [Any database with any OS](#any-database-with-any-os)
+* [Any database with Windows](#any-database-with-windows)
+* [Any Database with MacOS](#any-database-with-macos)
+* [MS SQL Server Specific](#ms-sql-server-specific)
+* [SQLite specific](#sqlite-specific)
+* [MySQL specific](#mysql-specific)
+* [Postgresql specific](#postgresql-specific)
+* [Oracle specific](#oracle-specific)
+* [Hadoop specific](#hadoop-specific)
+* [Alternative: Just treat the CSV as SQL](#alternative-just-treat-the-csv-as-sql)
+
+
 ## Any database with any OS
 
 - Python with Pandas
@@ -30,8 +45,7 @@ Below are many different solutions to this common problem, for a variety of data
 - [NimbleText](https://nimbletext.com) &mdash; [Generate SQL Insert Statements with NimbleText (web version)](https://nimbletext.com/HowTo/GenerateInsert)
 - [DBeaver](https://dbeaver.io/) &mdash; [Importing a CSV into a database using DBeaver](https://justnumbersandthings.com/post/2018-06-12-dbeaver-import-csv/)
 - [Datagrip: import/export](https://www.jetbrains.com/datagrip/features/importexport.html) &mdash; "There is a dedicated UI for importing DSV (CSV and TSV) files to the database."
-- [Navicat](https://www.navicat.com/en/)($$$)
-
+- [Navicat](https://www.navicat.com/en/) ($$$)
 
 
 #### Some brute force approaches (common!)
@@ -39,7 +53,7 @@ Below are many different solutions to this common problem, for a variety of data
 - (Any editor), use search/replace (perhaps with regular expressions) to turn the data into SQL
 - (Any spreadsheet), write formulae that combine the data together to turn the data into SQL
 
-## Any database with Windows tools
+## Any database with Windows
 
  - [LinqPad](https://www.linqpad.net/) &mdash; [CSV to IEnumerable (or Array) in Linqpad](/linqpad/csv_to_array.md)
  - Microsoft Log Parser
@@ -58,7 +72,7 @@ Below are many different solutions to this common problem, for a variety of data
 
 ## Any Database with MacOS
 
-(No examples available)
+(No examples available, so use solutions for "[Any database with any OS](#any-database-with-any-os)")
 
 
 ## MS SQL Server Specific
@@ -72,7 +86,7 @@ Below are many different solutions to this common problem, for a variety of data
 		WITH ( FIRSTROW = 2, FORMAT='CSV');
 
 - Powershell: [Four Easy Ways to Import CSV Files to SQL Server with PowerShell](https://devblogs.microsoft.com/scripting/four-easy-ways-to-import-csv-files-to-sql-server-with-powershell/)
-- Powershell: [Import-DbaCsv](https://docs.dbatools.io/#Import-DbaCsv) from [(]Chrissy LeMaire](https://twitter.com/cl)
+- Powershell: [Import-DbaCsv](https://docs.dbatools.io/#Import-DbaCsv) from [Chrissy LeMaire](https://twitter.com/cl)
 
         Import-DbaCsv -Path .\housing.csv -SqlInstance sql001 -Database markets -Table housing -Delimiter "`t" -NoHeaderRow
 - [SQL Down under tools](https://sqldownunder.com/pages/sdu-tools) &mdash; see [ReadCSV demo movie](https://www.youtube.com/watch?v=ypuHanV2c6E&feature=youtu.be)
