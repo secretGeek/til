@@ -49,9 +49,26 @@ Below are many different solutions to this common problem, for a variety of data
 
 
 #### Some brute force approaches (common!)
+
 - Sublime (editor), use Multiple line edit to turn the data into SQL
+- vim, "A combination of macros, regex, and standard commands that change each line to an insert statement." (via [OJ](https://twitter.com/TheColonial/status/1180595464535601155?s=20))
 - (Any editor), use search/replace (perhaps with regular expressions) to turn the data into SQL
-- (Any spreadsheet), write formulae that combine the data together to turn the data into SQL
+- (Any spreadsheet), write formulae that combine the data together to turn the data into SQL, "`="('" + A1 + "','" + A2...`" etc.`
+- [Automate the search/replace approach with NimbleText](https://nimbletext.com/Live/-63852033/) 
+
+		$ONCE
+		CREATE TABLE Contacts
+		("<% $row.replace(/[ ]*,[ ]*/g,'" varchar(50) NULL,\n"') %>" varchar(50) NULL)
+		GO
+
+		Insert into Contacts
+		('<% $row.replace(/[ ]*,[ ]*/g,"','") %>')
+		Values
+		$EACH+
+		(<% ("'" + $row + "'").replace(/[ ]*,[ ]*/g,"','").replace(/'NULL'/g,'NULL') %>)<% if ($rowNumOne != $numrows) { ',' } %>
+		$ONCE
+		GO
+
 
 ## Any database with Windows
 

@@ -566,6 +566,8 @@
 	* [Stop Automatic Conversion To URLs](/twitter/Stop_Automatic_Conversion_To_URLs.md)
 * [typescript](/typescript/01_summary.md)
 	* [getting started](/typescript/getting_started.md)
+* [usql](/usql/01_summary.md)
+	* [basics](/usql/basics.md)
 * [virtual box](/virtual_box/01_summary.md)
 	* [virtual box requires hyper v disabled](/virtual_box/virtual_box_requires_hyper_v_disabled.md)
 	* [virtual box warning](/virtual_box/virtual_box_warning.md)

@@ -123,6 +123,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [tutorials](tutorials/01_summary.md) | 1 article |
  | [twitter](twitter/01_summary.md) | 1 article |
  | [typescript](typescript/01_summary.md) | 1 article |
+ | [usql](usql/01_summary.md) | 1 article |
  | [virtual box](virtual_box/01_summary.md) | 2 articles |
  | [visual studio](visual_studio/01_summary.md) | 8 articles |
  | [vs code](vs_code/01_summary.md) | 5 articles |
@@ -134,5 +135,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-527 articles
-125698 words
+528 articles
+126277 words
