@@ -82,9 +82,10 @@ Below are many different solutions to this common problem, for a variety of data
     - (optional) drag in a `Select`, use it to configure the column types
     - drag in an `Output data`, point it at the database (and set the table name)
     - Run!
-- [Generate SQL Insert Statements with NimbleText (downloaded version)](https://nimbletext.com/HowTo/GenerateInsert)
+	
+ - [Generate SQL Insert Statements with NimbleText (desktop version)](https://nimbletext.com/HowTo/GenerateInsert)
    
-	> The desktop version lets you a "real" CSV parser that handles embedded delimiters/line breaks etc. Just switch on the `use qualifier` option under `tools` | `options`.
+	> The desktop version lets you use a "real" CSV parser that handles embedded delimiters/line breaks etc. Just switch on the `use qualifier` option under `tools` | `options`.
 
 
 ## Any Database with MacOS

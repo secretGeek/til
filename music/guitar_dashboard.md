@@ -24,7 +24,7 @@ First ignore the circles. Pretend they're completely not present. All that's lef
 
 The first diagram shows you the position of all the notes in Dorian, in this case in scales that have a tonal center of "A". (But with guitar it's easy to transpose to different scales by shifting up or down... A is just convenient)
 
-The author (Mike Hadlow) eschews the use of Roman numerals though, so instead of `II` and `ii` it says `2M` and `2m` (`2 Major` and `2 minor`).   
+The author (Mike Hadlow) eschews the use of Roman numerals though, so instead of `II` and `ii` it says `2M` and `2m` (`2 Major` and `2 minor`).
 
 Now consider the circles. The notes that are circled are the notes of "pentatonic minor". The root note has a red circle. The next note (a minor 3rd) has a yellow circle.
 
@@ -35,7 +35,9 @@ The next diagram does the same for natural minor. (I already had a variation of 
 Dorian, Natural Minor (Aeolian) and Phrygian are all subsets of minor. So they are minor modalities.
 
 
+## other tools
 
+* [Scale Heaven(https://scale-heaven.com)
 
 ## See also
 
