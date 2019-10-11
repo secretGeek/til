@@ -13,6 +13,7 @@
 	* [call bash](/.net_core_MVC/call_bash.md)
 	* [custom port](/.net_core_MVC/custom_port.md)
 	* [documenting asp net core](/.net_core_MVC/documenting_asp_net_core.md)
+	* [error in g cs](/.net_core_MVC/error_in_g_cs.md)
 	* [form value count limit 1024 exceeded](/.net_core_MVC/form_value_count_limit_1024_exceeded.md)
 	* [ip address](/.net_core_MVC/ip_address.md)
 	* [no authentication handler](/.net_core_MVC/no_authentication_handler.md)

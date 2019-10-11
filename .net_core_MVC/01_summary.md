@@ -6,6 +6,7 @@
 * [call bash](call_bash.md)
 * [custom port](custom_port.md)
 * [documenting asp net core](documenting_asp_net_core.md)
+* [error in g cs](error_in_g_cs.md)
 * [form value count limit 1024 exceeded](form_value_count_limit_1024_exceeded.md)
 * [ip address](ip_address.md)
 * [no authentication handler](no_authentication_handler.md)
