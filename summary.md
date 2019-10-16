@@ -24,6 +24,8 @@
 	* [UrlEncode](/.net_core_MVC/UrlEncode.md)
 	* [UrlParameter-Optional](/.net_core_MVC/UrlParameter-Optional.md)
 	* [view imports](/.net_core_MVC/view_imports.md)
+* [7z](/7z/01_summary.md)
+	* [Create Password Protected Zip File with 7z](/7z/Create_Password_Protected_Zip_File_with_7z.md)
 * [appharbor](/appharbor/01_summary.md)
 	* [keep alive](/appharbor/keep_alive.md)
 * [asp.net mvc](/asp.net_mvc/01_summary.md)

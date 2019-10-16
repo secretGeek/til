@@ -55,7 +55,7 @@ The code to load and convert to List<Crime> code is....
                     continue;
                 }
 
-                crimes.Add(new {
+                crimes.Add(new crime {
                   Offence = fields[0],
                   Start 	 = fields[1] == "" ? (DateTime?)null : DateTime.ParseExact(fields[1], "yyyy-MM-dd HH:mm", au),
                   End 	 = fields[2] == "" ? (DateTime?)null : DateTime.ParseExact(fields[2], "yyyy-MM-dd HH:mm", au),
