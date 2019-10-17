@@ -4,6 +4,7 @@
  
 * [chrome before flight](chrome_before_flight.md)
 * [chrome design mode](chrome_design_mode.md)
+* [chrome on startup](chrome_on_startup.md)
 * [chrome reader mode](chrome_reader_mode.md)
 * [chrome reopen closed tabs](chrome_reopen_closed_tabs.md)
 * [customsearch api](customsearch_api.md)
