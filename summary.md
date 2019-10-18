@@ -532,6 +532,7 @@
 	* [parse varchar into datetime](/sql_server/parse_varchar_into_datetime.md)
 	* [pivot](/sql_server/pivot.md)
 	* [run a command against each table](/sql_server/run_a_command_against_each_table.md)
+	* [R Services and Regex](/sql_server/R_Services_and_Regex.md)
 	* [scalar function AfterChar](/sql_server/scalar_function_AfterChar.md)
 	* [see wait times](/sql_server/see_wait_times.md)
 	* [select top with dynamic limit](/sql_server/select_top_with_dynamic_limit.md)

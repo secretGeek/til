@@ -37,6 +37,7 @@
 * [parse varchar into datetime](parse_varchar_into_datetime.md)
 * [pivot](pivot.md)
 * [run a command against each table](run_a_command_against_each_table.md)
+* [R Services and Regex](R_Services_and_Regex.md)
 * [scalar function AfterChar](scalar_function_AfterChar.md)
 * [see wait times](see_wait_times.md)
 * [select top with dynamic limit](select_top_with_dynamic_limit.md)
