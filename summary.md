@@ -11,6 +11,7 @@
 * [.net core MVC](/.net_core_MVC/01_summary.md)
 	* [bind post to action](/.net_core_MVC/bind_post_to_action.md)
 	* [call bash](/.net_core_MVC/call_bash.md)
+	* [CodeAnalysis CSharp Analyzers dll could not be found](/.net_core_MVC/CodeAnalysis_CSharp_Analyzers_dll_could_not_be_found.md)
 	* [custom port](/.net_core_MVC/custom_port.md)
 	* [documenting asp net core](/.net_core_MVC/documenting_asp_net_core.md)
 	* [error in g cs](/.net_core_MVC/error_in_g_cs.md)

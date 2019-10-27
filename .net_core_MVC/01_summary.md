@@ -4,6 +4,7 @@
  
 * [bind post to action](bind_post_to_action.md)
 * [call bash](call_bash.md)
+* [CodeAnalysis CSharp Analyzers dll could not be found](CodeAnalysis_CSharp_Analyzers_dll_could_not_be_found.md)
 * [custom port](custom_port.md)
 * [documenting asp net core](documenting_asp_net_core.md)
 * [error in g cs](error_in_g_cs.md)
