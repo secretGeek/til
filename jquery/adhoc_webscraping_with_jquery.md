@@ -50,8 +50,7 @@ Look for classes or element hierarchies that can be exploited to isolate the con
 
 Run ad-hoc jQuery commands, with various different selectors until you've pinpointed your target. e.g.
 
-    $(".list-item").children()
-
+    $(".list-item").children();
 
 	
 ## Step 4: Put it all together
@@ -65,9 +64,6 @@ So -- I create an array, `s`.
 I iterate through all items that match the selector, and push info from each items into my array. 
 
 And then I use the intrinsic console-only command, `copy` to put the result onto the clipboard.
-
-
-
 
 
 ## References

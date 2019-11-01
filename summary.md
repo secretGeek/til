@@ -138,6 +138,8 @@
 	* [host on custom subdomain](/gitbook/host_on_custom_subdomain.md)
 	* [use gitbook locally](/gitbook/use_gitbook_locally.md)
 	* [web hooks](/gitbook/web_hooks.md)
+* [github](/github/01_summary.md)
+	* [github pages nojekyll](/github/github_pages_nojekyll.md)
 * [gmail](/gmail/01_summary.md)
 	* [keyboard shortcuts](/gmail/keyboard_shortcuts.md)
 * [go](/go/01_summary.md)
