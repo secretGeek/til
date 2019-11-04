@@ -82,7 +82,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [javascript](javascript/01_summary.md) | 10 articles |
  | [jekyll](jekyll/01_summary.md) | 1 article |
  | [jquery](jquery/01_summary.md) | 3 articles |
- | [library](library/01_summary.md) | 2 articles |
+ | [library](library/01_summary.md) | 3 articles |
  | [linqpad](linqpad/01_summary.md) | 10 articles |
  | [linux](linux/01_summary.md) | 34 articles |
  | [macbook air](macbook_air/01_summary.md) | 4 articles |
@@ -128,7 +128,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [usql](usql/01_summary.md) | 1 article |
  | [virtual box](virtual_box/01_summary.md) | 2 articles |
  | [visual studio](visual_studio/01_summary.md) | 8 articles |
- | [vs code](vs_code/01_summary.md) | 5 articles |
+ | [vs code](vs_code/01_summary.md) | 6 articles |
  | [web](web/01_summary.md) | 1 article |
  | [windows](windows/01_summary.md) | 15 articles |
  | [windows.forms](windows.forms/01_summary.md) | 4 articles |
@@ -137,5 +137,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-534 articles
-126974 words
+536 articles
+127272 words

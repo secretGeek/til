@@ -1,6 +1,6 @@
 # How to navigate back in Notepad++
 
-In visual studio I use "Ctrl -" to move back to my previous location. And in Powershell I use "popd".
+In visual studio I use `Ctrl Minus` to move back to my previous location. And in Powershell I use `popd`.
 
 I wish there was an equivalent in Notepad++.
 
@@ -22,3 +22,8 @@ Once installed I had to turn off the "Mark changed line" option (Under "Plugins"
 And make sure "Auto Record" is on. 
 
 And then voil&aacute;!
+
+
+## See also
+
+* [VS Code: Navigate back](..\vs_code\navigate_back.md)
