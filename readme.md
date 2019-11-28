@@ -63,7 +63,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [csv](csv/01_summary.md) | 2 articles |
  | [design](design/01_summary.md) | 2 articles |
  | [education](education/01_summary.md) | 1 article |
- | [electron](electron/01_summary.md) | 2 articles |
+ | [electron](electron/01_summary.md) | 3 articles |
  | [excel](excel/01_summary.md) | 4 articles |
  | [git](git/01_summary.md) | 17 articles |
  | [gitbook](gitbook/01_summary.md) | 7 articles |
@@ -74,7 +74,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [graphics](graphics/01_summary.md) | 9 articles |
  | [gulp](gulp/01_summary.md) | 1 article |
  | [habits](habits/01_summary.md) | 1 article |
- | [html](html/01_summary.md) | 1 article |
+ | [html](html/01_summary.md) | 2 articles |
  | [http](http/01_summary.md) | 1 article |
  | [iis](iis/01_summary.md) | 3 articles |
  | [inkscape](inkscape/01_summary.md) | 1 article |
@@ -137,5 +137,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-536 articles
-127272 words
+538 articles
+127446 words

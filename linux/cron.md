@@ -68,8 +68,30 @@ e.g.
 
 ## check cron logs....
 
-
 	sudo grep CRON /var/log/syslog
+
+
+If you see this in your cron logs:
+
+
+	(CRON) info (No MTA installed, discarding output)
+
+It's because one of the cron commands is producing output, and cron thinks it should email you, but it can't find a Mail-Transfer-Agent.
+
+You can just pipe the output to nowhere by adding this to the command:
+
+    >/dev/null 2>&1
+
+e.g.
+
+	*/10 * * * * curl http://example.com >/dev/null 2>&1
+
+
+
+## /et/cron.hourly etc
+
+
+On Ubuntu, you can put a shell script in one of these folders: /etc/cron.daily, /etc/cron.hourly, /etc/cron.monthly or /etc/cron.weekly.
 
 
 ## references
@@ -79,4 +101,3 @@ e.g.
 ## see also
 
  * [How To Secure Nginx with Let's Encrypt on Ubuntu 16.04](lets_encrypt.md)
- 
