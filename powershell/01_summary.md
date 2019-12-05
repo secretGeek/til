@@ -25,6 +25,7 @@
 * [format table with expressions](format_table_with_expressions.md)
 * [get-member](get-member.md)
 * [getting started](getting_started.md)
+* [get aduser](get_aduser.md)
 * [Get All Available Modules](Get_All_Available_Modules.md)
 * [get filehash](get_filehash.md)
 * [here strings](here_strings.md)

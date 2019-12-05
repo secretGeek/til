@@ -382,6 +382,7 @@
 	* [format table with expressions](/powershell/format_table_with_expressions.md)
 	* [get-member](/powershell/get-member.md)
 	* [getting started](/powershell/getting_started.md)
+	* [get aduser](/powershell/get_aduser.md)
 	* [Get All Available Modules](/powershell/Get_All_Available_Modules.md)
 	* [get filehash](/powershell/get_filehash.md)
 	* [here strings](/powershell/here_strings.md)
