@@ -63,3 +63,18 @@ So I run this:
 
 After that it seems to work okay.
 
+
+
+====
+
+
+On a "more recent" machine with (hopefully) .net core 2.2 I see:
+
+
+$ dpkg --get-selections | grep -v deinstall | grep dot
+dotnet-host                                     install
+dotnet-hostfxr-2.2                              install
+dotnet-runtime-2.2                              install
+dotnet-runtime-deps-2.2                         install
+dotnet-sdk-2.2                                  install
+

@@ -33,6 +33,10 @@ Make sure that if you die you don't lose your inventory with:
 (Where x y and z are values) will take you somewhere.
 
 
+# give yourself a command block
+
+	/give @s command_block
+
 ## External
 
 * <http://minecraftbedrock.wikia.com/wiki/Commands/List_of_Commands>

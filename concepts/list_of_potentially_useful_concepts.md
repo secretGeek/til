@@ -47,6 +47,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Availability heuristic
  * Back of the envelope
  * Bandwagon
+ * Bansho (Japanese learning system focused on problem solving)
  * Barriers to Entry (moat/draw bridge)
  * Base Rate
  * Basic Strategy (Blackjack)
@@ -255,7 +256,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Implementation Intentions when-then
  * Imposter Syndrome
  * Incentives
- * Induced Demand (e.g. https://www.citylab.com/transportation/2018/09/citylab-university-induced-demand/569455/)
+ * Induced Demand (e.g. https://www.citylab.com/transportation/2018/09/citylab-university-induced-demand/569455/ see also Jevon's paradox)
  * Induction
  * Inertia
  * Inference
@@ -279,6 +280,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Investing v Speculating
  * Irreducibility
  * Iterations
+ * Jevon's Paradox 
  * Jobs to be done
  * Ladder of abstraction -- and leakiness of abstractions
  * Ladder of Inference
@@ -337,6 +339,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Nucleation/Crystallization
  * Occam's Razor (Least assumptions)
  * One Way Valve
+ * Optionality (presevering = making choices that keep options open; generally = making choices that allow new options)
  * Orbiting Escape Velocity
  * Order of magnitude
  * Organizational/technical debt
@@ -372,7 +375,6 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Premature optimization
  * Prescriptive v Descriptive (in dictionaries, standards, documentation, ideas)
  * Presented without evidence can be dismissed without evidence (hitchen's razor)
- * Preverving optionality (making choices that keep options open)
  * Price Elasticity
  * Price Sensitivity
  * Pricing Models (freemium, toner+cartridge, etc)
@@ -490,6 +492,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Tragedy of the Commons
  * Transformation
  * Transparency
+ * Transtheoretical Model, aka Pochaskas Six Stage Model of Behavior Change ([see](https://en.wikipedia.org/wiki/Transtheoretical_model)
  * Treatment Direction Test
  * Triage
  * Trimtab turns
@@ -506,6 +509,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Via Negativa (first, do no harm)
  * War
  * Wavelet
+ * Wicked Learning Environment (contrast with Kind Learning environment)
  * Winner Takes All
  * Winning Hearts and Minds
  * Wisdom of the crowd, collective intellience, crowd sourcing, stone soup
