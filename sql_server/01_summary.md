@@ -21,6 +21,7 @@
 * [drive sizes](drive_sizes.md)
 * [find large tables](find_large_tables.md)
 * [find view function or sproc](find_view_function_or_sproc.md)
+* [find whitespace](find_whitespace.md)
 * [first day of month](first_day_of_month.md)
 * [format datetime yyyy-MM-dd](format_datetime_yyyy-MM-dd.md)
 * [format your queries](format_your_queries.md)

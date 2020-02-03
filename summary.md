@@ -523,6 +523,7 @@
 	* [drive sizes](/sql_server/drive_sizes.md)
 	* [find large tables](/sql_server/find_large_tables.md)
 	* [find view function or sproc](/sql_server/find_view_function_or_sproc.md)
+	* [find whitespace](/sql_server/find_whitespace.md)
 	* [first day of month](/sql_server/first_day_of_month.md)
 	* [format datetime yyyy-MM-dd](/sql_server/format_datetime_yyyy-MM-dd.md)
 	* [format your queries](/sql_server/format_your_queries.md)
