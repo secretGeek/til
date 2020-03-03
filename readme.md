@@ -6,7 +6,7 @@
 This is a place where I store short descriptions of things I learn each day.
 <br />&mdash;Leon Bambrick.
 
-Available as an online gitbook: http://TIL.secretGeek.net/ and as [pdf](https://www.gitbook.com/download/pdf/book/secretgeek/til), [epub](https://www.gitbook.com/download/epub/book/secretgeek/til) and [mobi](https://www.gitbook.com/download/mobi/book/secretgeek/til)
+Available as an online gitbook: https://TIL.secretGeek.net/ and as [pdf](https://www.gitbook.com/download/pdf/book/secretgeek/til), [epub](https://www.gitbook.com/download/epub/book/secretgeek/til) and [mobi](https://www.gitbook.com/download/mobi/book/secretgeek/til)
 
 Repository here: https://github.com/secretGeek/til
 
