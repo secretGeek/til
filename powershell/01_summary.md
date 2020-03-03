@@ -19,6 +19,7 @@
 * [elevate](elevate.md)
 * [emoji list](emoji_list.md)
 * [find all fonts](find_all_fonts.md)
+* [find files older than x days](find_files_older_than_x_days.md)
 * [find headings in markdown](find_headings_in_markdown.md)
 * [find text](find_text.md)
 * [find todos](find_todos.md)

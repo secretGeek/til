@@ -29,7 +29,8 @@ The folder structure means things are categorised by ONE main topic, not tagged 
 
 ## Get this book...
 
-<p><a href='http://YourFirstProduct.com'><img src='yfp_book.png' title='Your First Product' alt='Your First Product' /></a></p>
+<p><a href='https://YourFirstProduct.com'><img src='yfp_book.png' title='Your First Product' alt='Your First Product' /></a></p>
+
 
 Though this site is published as a free digital-only book, I've also published a *real* book.
 
@@ -54,7 +55,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [banking](banking/01_summary.md) | 1 article |
  | [bower](bower/01_summary.md) | 2 articles |
  | [chocolatey](chocolatey/01_summary.md) | 5 articles |
- | [concepts](concepts/01_summary.md) | 17 articles |
+ | [concepts](concepts/01_summary.md) | 18 articles |
  | [console](console/01_summary.md) | 5 articles |
  | [cpu analyzer](cpu_analyzer/01_summary.md) | 1 article |
  | [crypto](crypto/01_summary.md) | 1 article |
@@ -82,7 +83,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [javascript](javascript/01_summary.md) | 10 articles |
  | [jekyll](jekyll/01_summary.md) | 1 article |
  | [jquery](jquery/01_summary.md) | 3 articles |
- | [library](library/01_summary.md) | 3 articles |
+ | [library](library/01_summary.md) | 4 articles |
  | [linqpad](linqpad/01_summary.md) | 10 articles |
  | [linux](linux/01_summary.md) | 34 articles |
  | [macbook air](macbook_air/01_summary.md) | 4 articles |
@@ -103,7 +104,7 @@ Though this site is published as a free digital-only book, I've also published a
  | [oracle](oracle/01_summary.md) | 6 articles |
  | [paypal](paypal/01_summary.md) | 1 article |
  | [pdf](pdf/01_summary.md) | 3 articles |
- | [powershell](powershell/01_summary.md) | 75 articles |
+ | [powershell](powershell/01_summary.md) | 76 articles |
  | [productivity](productivity/01_summary.md) | 1 article |
  | [python](python/01_summary.md) | 8 articles |
  | [react](react/01_summary.md) | 2 articles |
@@ -137,5 +138,5 @@ Though this site is published as a free digital-only book, I've also published a
  | [zoho](zoho/01_summary.md) | 2 articles |
 
 
-542 articles
-128203 words
+545 articles
+128591 words

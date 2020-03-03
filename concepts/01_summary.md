@@ -11,6 +11,7 @@
 * [getting unblocked](getting_unblocked.md)
 * [greatest books in psychology](greatest_books_in_psychology.md)
 * [happy path](happy_path.md)
+* [idea transmission](idea_transmission.md)
 * [list of potentially useful concepts](list_of_potentially_useful_concepts.md)
 * [mantras](mantras.md)
 * [mere exposure](mere_exposure.md)

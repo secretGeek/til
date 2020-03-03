@@ -15,9 +15,10 @@ And for a financial year you'll want, for example: 1/07/2016 - 30/06/2017
 
 If the transaction history is big enough then they email you when it's ready and it's available from:
 
-    https://business.paypal.com/merchantdata/reportHome?reportType=DLOG
+https://business.paypal.com/merchantdata/reportHome?reportType=DLOG
 
 Previously it was: 
 
-    https://www.paypal.com/au/HISTORY-DOWNLOAD
+https://www.paypal.com/au/HISTORY-DOWNLOAD
 
+(Further notes in db/sg/tax)

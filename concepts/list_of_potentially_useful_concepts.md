@@ -93,6 +93,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Clique
  * Cognitive Biases
  * Cognitive Dissonance
+ * Combinatorial Explosion
  * Commandos/Infnatry/Police
  * Commitment and consistency bias
  * Comparative advantage (and "unique value proposition")
@@ -529,3 +530,5 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
 * [Gabriel Weinberg: Mental Models I Find Repeatedly Useful](https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d) - now in the book [Super Thinking](https://superthinking.com/)
 * [Farnam Street: Mental Models: The Best Way to Make Intelligent Decisions (109 Models Explained) via Charlie Munger](https://fs.blog/mental-models/) - now in the book [The Great Mental Models Project, vol 1: The Quality of your thinking depends on the models in your head](https://fs.blog/tgmm/)
 
+
+(see j bbb; cd mm)
