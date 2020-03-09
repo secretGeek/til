@@ -1,5 +1,7 @@
 Summary of "Why We Sleep" by Matthew Walker
-TABLE OF CONTENTS:
+
+#TABLE OF CONTENTS:
+
 ## Part 1 This Thing Called Sleep
 ### Chapter 1 To Sleep
 ### Chapter 2 Caffeine, Jet Lag, and Melatonin: Losing and Gaining Control of Your Sleep Rhythm
@@ -24,3 +26,33 @@ This chapter concerns neurological benefits of sleeping (and issues arising from
 ### Chapter 16 A New Vision for Sleep in the Twenty-First Century
 ## Conclusion: To Sleep or Not to Sleep
 ## Appendix: Twelve Tips for Healthy Sleep
+
+
+For me, this was the book I got the most out of in 2018.
+
+## Criticisms of "Why We Sleep"
+
+There was a rather hard-hitting criticism of the book, by Alexey Guzey: 
+
+* [Matthew Walker's "Why We Sleep" Is Riddled with Scientific and Factual Errors](https://guzey.com/books/why-we-sleep/) 
+
+
+...and a later response to criticisms from Dr Walker here: 
+
+* [Why We Sleep: Responses to questions from readers](https://sleepdiplomat.wordpress.com/2019/12/19/why-we-sleep-responses-to-questions-from-readers/)
+
+
+Personally I don't think those initial criticisms do nearly as much as Alexey thinks they do to destroy the entire validity of the work. They're more like editor's notes, fixing a bug here and there. I'll continue to take the work of a professional sleep researcher over an amateur like Alexey who writes:
+
+> I've been experimenting with sleep for the last month and I converged on a formula of sleeping 4-5 hours per night and then doing as many 20-30 minute naps as I need during the day (1-2 usually).
+
+
+
+...and:
+
+> I hope to write the synthesis of everything I know about healthy and efficient sleep habits in the future.
+
+I'll be looking forward to *that.*
+
+
+It is important to know that "Why We Sleep" is not a guide to helping you get better sleep. It gives you so much information about sleep that it can create or exacerbate anxiety, particularly for people who already have sleep-related problems. This is a major issue and thankfully Dr Walker will be putting a note to that effect on the next edition. 

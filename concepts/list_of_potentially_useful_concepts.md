@@ -499,6 +499,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * Trimtab turns
  * Trust
  * Try versus Do (Bernard Roth)
+ * Two-Factor Theory
  * Two-front war
  * Two-Sided Market
  * Unintended Consequences
@@ -511,6 +512,7 @@ Ray Dalio in his book "Principles" talks about how with experience you begin to 
  * War
  * Wavelet
  * Wicked Learning Environment (contrast with Kind Learning environment)
+ * Wicked Problem
  * Winner Takes All
  * Winning Hearts and Minds
  * Wisdom of the crowd, collective intellience, crowd sourcing, stone soup
