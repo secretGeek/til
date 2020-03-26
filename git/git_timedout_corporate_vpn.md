@@ -23,7 +23,7 @@ Disconnecting from vpn avoided the issue... but was not a solution.
 
 Add this to "~\.gitconfig"
 
-[http]
+	[http]
 	proxy = http://myusername:mypassword@myproxy.domain.com:8080
 
 ...and because there is an '@' in myusername, i encoded that as %40
@@ -77,7 +77,7 @@ In visual studio .com you can create a token, called a private access token -- t
 
 
 
-[http]
+	[http]
 	proxy = http://anything:PAT@myproxy.domain.com:8080
 
 Where PAT is the private access token, and the proxy is found as described above.

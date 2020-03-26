@@ -83,6 +83,10 @@ And another example:
 
 In which case you need to edit the file and fix it. Then `sudo nginx -t` again to see if the changes are now valid.
 
+Another thing is that you might be replacing an old site, served from an old folder/app and old config file with a new site, served from a new folder/app/config file.
+
+In that case you may also have to remove the symbolic link of the old file from the `site-enabled` folder.
+
 Once everything is tickety-boo you'll see:
 
     $ sudo nginx -t
