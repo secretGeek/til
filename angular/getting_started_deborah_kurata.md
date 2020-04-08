@@ -22,17 +22,17 @@ The main demo app is "APM" which stands for "Acme Product Management"
 
 Under the APM-Start folder, here's the initial structure
 
-  ├───e2e
-  │   └───src
-  └───src
-      ├───api
-      │   └───products
-      ├───app
-      │   ├───home
-      │   └───shared
-      ├───assets
-      │   └───images
-      └───environments
+    ├───e2e
+    │   └───src
+    └───src
+        ├───api
+        │   └───products
+        ├───app
+        │   ├───home
+        │   └───shared
+        ├───assets
+        │   └───images
+        └───environments
 
 Can download the exercise files from:
 
@@ -60,7 +60,8 @@ https://app.pluralsight.com/library/courses/angular-2-getting-started-update/exe
 
 
 
-- setup environment:
+setup environment:
+
 - need npm
 - use npm to get angular
 - get npm from https://nodejs.org/en/download

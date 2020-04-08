@@ -57,32 +57,3 @@ And you can add a username as a parameter, for example:
 	sp_who 'TheDomain\TheUsername'
 	  
 		
-3:32 PM Wednesday, 1 April 2020
-
-Contact donegal
-
-	  1800 290 685
-		
-		
-		call 133 667
-		
-		Policy: 1001963600
-		
-		
-		1,275.53 deducted each year
-		
-		userid 401313
-		welcome1
-		
-		
-Participants in the medical mask arm were supplied with two masks daily for each 8 h shift, while 
-
-participants in the cloth mask arm were provided with five masks in total for the study duration, 
-which they were asked to wash and rotate over the study period. 	
-
-They were asked to wash cloth masks with soap and water every day after finishing the shifts. 
-Participants were supplied with written instructions on how to clean their cloth masks. Masks used in the study were locally manufactured medical (three layer, made of non-woven material) or cloth masks (two layer, made of cotton) commonly used in Vietnamese hospitals.
-
-Two layer -- made of cotton.
-
-
