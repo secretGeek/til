@@ -19,6 +19,7 @@
 * [delete duplicate rows](delete_duplicate_rows.md)
 * [delete millions of rows](delete_millions_of_rows.md)
 * [drive sizes](drive_sizes.md)
+* [find current sessions](find_current_sessions.md)
 * [find large tables](find_large_tables.md)
 * [find view function or sproc](find_view_function_or_sproc.md)
 * [find whitespace](find_whitespace.md)
