@@ -29,6 +29,21 @@
     }
 
 
+typing:
+
+
+	npm build-js
+
+...in that project would be the same as typing:
+
+
+	npm run browserify browser/main.js | uglifyjs -mc > static/bundle.js
+
+(because of the line under scripts that says: `"build-js": "browserify browser/main.js | uglifyjs -mc > static/bundle.js",`)
+
+
+
+
 ## Source
 
  * http://substack.net/task_automation_with_npm_run

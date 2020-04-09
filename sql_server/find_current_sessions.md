@@ -47,7 +47,7 @@ And to see transaction locks on a particular object
 	  
 	  
 	  
-And to see all of who is using this server	we have the old classic:
+And to see all of who is using this server we have the old classic:
 
 
 	sp_who
@@ -55,5 +55,4 @@ And to see all of who is using this server	we have the old classic:
 And you can add a username as a parameter, for example:
 
 	sp_who 'TheDomain\TheUsername'
-	  
-		
+

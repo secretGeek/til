@@ -17,6 +17,9 @@ and then spits out these warnings:
 
 They are just warnings -- so it did go ahead and install the package.
 
+`ENOENT`, by the way, means "Error No Entry"
+
+
 Here's what's been created, in terms of folders...
 
     hello1
