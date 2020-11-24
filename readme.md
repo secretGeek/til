@@ -3,12 +3,16 @@
 
 # Today I Learned
 
-This is a place where I store short descriptions of things I learn each day.
+This was formerly a place where I store short descriptions of things I learn each day. This repo is no longer used, instead see [TIL.secretGeek.net](https://TIL.secretGeek.net/)
+
 <br />&mdash;Leon Bambrick.
 
-Available as an online gitbook: https://TIL.secretGeek.net/ and as [pdf](https://www.gitbook.com/download/pdf/book/secretgeek/til), [epub](https://www.gitbook.com/download/epub/book/secretgeek/til) and [mobi](https://www.gitbook.com/download/mobi/book/secretgeek/til)
+Available online:
 
-Repository here: https://github.com/secretGeek/til
+- [TIL.secretGeek.net](https://TIL.secretGeek.net/)
+- [HTML Source repo](https://github.com/secretGeek/today-i-learned)
+- [Markdown Source repo](https://github.com/secretGeek/today-i-learned-staging)
+- Generated with [clowncar🤡🚗](https://github.com/secretGeek/clowncar), markdown conversion by [markdig](https://github.com/lunet-io/markdig)
 
 ## Guidelines
 
